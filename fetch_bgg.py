@@ -4,9 +4,14 @@ import json
 
 USERNAME = "zakibg"
 
-URL = f"https://api.betterbggcollection.com/xmlapi2/collection?own=1&stats=1&username={USERNAME}"
+URL = f"https://api.betterbggcollection.com/xmlapi2/collection?own=1&stats=1&excludesubtype=boardgameexpansion&username={USERNAME}"
 
-resp = requests.get(URL, timeout=60)
+headers = {
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/xml",
+}
+
+resp = requests.get(URL, headers=headers, timeout=60)
 resp.raise_for_status()
 
 root = ET.fromstring(resp.content)
