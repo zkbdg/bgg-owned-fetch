@@ -1,18 +1,35 @@
 import requests
 import xml.etree.ElementTree as ET
 import json
+import time
 
 USERNAME = "zakibg"
 
-URL = f"https://api.betterbggcollection.com/xmlapi2/collection?own=1&stats=1&excludesubtype=boardgameexpansion&username={USERNAME}"
+URL = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&own=1&stats=1&excludesubtype=boardgameexpansion"
 
-headers = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/xml",
-}
+MAX_RETRIES = 30
 
-resp = requests.get(URL, headers=headers, timeout=60)
-resp.raise_for_status()
+for attempt in range(MAX_RETRIES):
+    print(f"[{attempt+1}/{MAX_RETRIES}] Fetching...")
+
+    resp = requests.get(URL, timeout=60)
+
+    # 202 = まだ生成中
+    if resp.status_code == 202:
+        print("BGG preparing data... waiting 5 seconds")
+        time.sleep(5)
+        continue
+
+    resp.raise_for_status()
+
+    if not resp.content.strip():
+        print("Empty response, waiting 5 seconds")
+        time.sleep(5)
+        continue
+
+    break
+else:
+    raise Exception("BGG API did not respond after retries.")
 
 root = ET.fromstring(resp.content)
 
@@ -29,4 +46,4 @@ for item in root.findall("item"):
 with open("owned_list.json", "w", encoding="utf-8") as f:
     json.dump(games, f, ensure_ascii=False, indent=2)
 
-print(f"{len(games)} games fetched.")
+print(f"{len(games)} games fetched successfully.")
