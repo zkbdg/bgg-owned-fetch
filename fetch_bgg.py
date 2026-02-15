@@ -8,30 +8,7 @@ USERNAME = "zakibg"
 BGG_COOKIE = os.environ["BGG_COOKIE"]
 
 # ====================================
-# XML → dict 再帰変換
-# ====================================
-def xml_to_dict(element):
-    d = {}
-    if element.attrib:
-        d.update(element.attrib)
-    children = list(element)
-    if children:
-        for child in children:
-            child_dict = xml_to_dict(child)
-            if child.tag in d:
-                if not isinstance(d[child.tag], list):
-                    d[child.tag] = [d[child.tag]]
-                d[child.tag].append(child_dict)
-            else:
-                d[child.tag] = child_dict
-    else:
-        text = element.text.strip() if element.text else None
-        if text:
-            d["value"] = text
-    return d
-
-# ====================================
-# BGG コレクション取得
+# BGG コレクション取得（必要フィールドのみ）
 # ====================================
 def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=False):
     if owned:
@@ -45,7 +22,7 @@ def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=Fa
         status_label = "preordered"
     elif prevowned:
         url = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&prevowned=1&stats=1"
-        status_label = "previouslyowned"  # ←ここだけ変更
+        status_label = "previouslyowned"
     else:
         return []
 
@@ -67,10 +44,22 @@ def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=Fa
     else:
         raise Exception(f"BGG timeout fetching {status_label}")
 
-    games = [xml_to_dict(item) for item in root.findall("item")]
+    games = []
+    for item in root.findall("item"):
+        # stats フィールドをそのまま dict に抽出
+        stats_elem = item.find("stats")
+        stats = {}
+        if stats_elem is not None:
+            for stat_child in stats_elem:
+                stats[stat_child.tag] = stat_child.attrib
 
-    for game in games:
-        game["status"] = status_label
+        game = {
+            "name": item.find("name").attrib.get("value") if item.find("name") is not None else None,
+            "yearpublished": item.find("yearpublished").attrib.get("value") if item.find("yearpublished") is not None else None,
+            "stats": stats,
+            "status": status_label
+        }
+        games.append(game)
 
     return games
 
