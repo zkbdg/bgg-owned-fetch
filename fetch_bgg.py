@@ -3,7 +3,7 @@ import json
 
 USERNAME = "zakibg"
 
-URL = f"https://boardgamegeek.com/collection/user/{USERNAME}?own=1&ajax=1"
+URL = f"https://bgg-proxy.chemzigzagcashmere.workers.dev/"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
