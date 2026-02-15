@@ -9,9 +9,7 @@ USERNAME = "zakibg"
 URL = (
     f"https://boardgamegeek.com/xmlapi2/collection"
     f"?username={USERNAME}"
-    f"&own=1"
     f"&stats=1"
-    f"&excludesubtype=boardgameexpansion"
 )
 
 headers = {
