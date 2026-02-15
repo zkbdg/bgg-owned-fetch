@@ -1,17 +1,25 @@
+import os
 import requests
 import xml.etree.ElementTree as ET
 import json
 import time
 
-USERNAME = "ZAKIbg"  # ここを自分のユーザー名に変更
+# ====================================
+# 設定
+# ====================================
+USERNAME = "ZAKIbg"             # BGGユーザー名
 OUTPUT_FILE = "bgg_collection.json"
 
-MAX_RETRIES = 20
+MAX_RETRIES = 30
 WAIT_TIME = 5  # 秒
 
+# ====================================
+# コレクション取得
+# ====================================
 def fetch_collection(owned=True, wishlist=False):
     """
-    BGG XML APIからコレクションを取得（拡張も含む）
+    BGG XML APIからコレクションを取得
+    Cookie認証対応、Accepted (202) 待機ロジックあり
     """
     params = []
     if owned:
@@ -23,15 +31,30 @@ def fetch_collection(owned=True, wishlist=False):
     if params:
         url += "&" + "&".join(params)
 
+    # GitHub Secrets から Cookie を取得
+    headers = {}
+    bgg_cookie = os.environ.get("BGG_COOKIE")
+    if bgg_cookie:
+        headers["Cookie"] = f"bggsessionid={bgg_cookie}"
+
     for i in range(MAX_RETRIES):
         print(f"[{i+1}/{MAX_RETRIES}] Fetching...")
-        resp = requests.get(url)
+        resp = requests.get(url, headers=headers)
+
         if resp.status_code == 200 and resp.content.strip():
             return resp.content
+        elif resp.status_code == 202:
+            print("Request accepted, waiting before retry...")
+        else:
+            print(f"Status {resp.status_code}, retrying...")
+
         time.sleep(WAIT_TIME)
 
     raise Exception("BGG API が応答しませんでした。")
 
+# ====================================
+# XML パース
+# ====================================
 def parse_collection(xml_bytes):
     """
     XML をパースして JSON 用リストに変換
@@ -48,6 +71,9 @@ def parse_collection(xml_bytes):
         games.append(game)
     return games
 
+# ====================================
+# メイン
+# ====================================
 def main():
     print("Fetching owned games...")
     owned_xml = fetch_collection(owned=True)
@@ -57,7 +83,7 @@ def main():
     wishlist_xml = fetch_collection(wishlist=True)
     wishlist_list = parse_collection(wishlist_xml)
 
-    # 名前順でソート（None は空文字として扱う）
+    # 名前順でソート（None は空文字扱い）
     collection = {
         "owned": sorted(owned_list, key=lambda x: x["name"] or ""),
         "wishlist": sorted(wishlist_list, key=lambda x: x["name"] or "")
