@@ -8,7 +8,30 @@ USERNAME = "zakibg"
 BGG_COOKIE = os.environ["BGG_COOKIE"]
 
 # ====================================
-# BGG コレクション取得（必要フィールドのみ）
+# XML → dict（再帰的に stats を丸ごと残す）
+# ====================================
+def xml_to_dict(element):
+    d = {}
+    if element.attrib:
+        d.update(element.attrib)
+    children = list(element)
+    if children:
+        for child in children:
+            child_dict = xml_to_dict(child)
+            if child.tag in d:
+                if not isinstance(d[child.tag], list):
+                    d[child.tag] = [d[child.tag]]
+                d[child.tag].append(child_dict)
+            else:
+                d[child.tag] = child_dict
+    else:
+        text = element.text.strip() if element.text else None
+        if text:
+            d["value"] = text
+    return d
+
+# ====================================
+# BGG コレクション取得
 # ====================================
 def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=False):
     if owned:
@@ -46,19 +69,8 @@ def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=Fa
 
     games = []
     for item in root.findall("item"):
-        # stats フィールドをそのまま dict に抽出
-        stats_elem = item.find("stats")
-        stats = {}
-        if stats_elem is not None:
-            for stat_child in stats_elem:
-                stats[stat_child.tag] = stat_child.attrib
-
-        game = {
-            "name": item.find("name").attrib.get("value") if item.find("name") is not None else None,
-            "yearpublished": item.find("yearpublished").attrib.get("value") if item.find("yearpublished") is not None else None,
-            "stats": stats,
-            "status": status_label
-        }
+        game = xml_to_dict(item)  # stats や name も丸ごと dict 化
+        game["status"] = status_label
         games.append(game)
 
     return games
