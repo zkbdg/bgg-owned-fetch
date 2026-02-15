@@ -5,8 +5,7 @@ import xml.etree.ElementTree as ET
 import json
 
 USERNAME = "zakibg"
-
-URL = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&own=1&stats=1&excludesubtype=boardgameexpansion"
+URL = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&own=1&stats=1"
 
 headers = {
     "User-Agent": "Mozilla/5.0",
@@ -34,9 +33,9 @@ games = []
 for item in root.findall("item"):
     games.append({
         "id": item.attrib.get("objectid"),
-        "name": item.find("name").attrib.get("value") if item.find("name") is not None else None,
-        "year": item.find("yearpublished").attrib.get("value") if item.find("yearpublished") is not None else None,
-        "numplays": item.find("numplays").attrib.get("value") if item.find("numplays") is not None else "0",
+        "name": item.findtext("name"),           # <-- attrib.get("value") ではなく text を取得
+        "year": item.findtext("yearpublished"),
+        "numplays": item.findtext("numplays") or "0",
     })
 
 with open("owned.json", "w", encoding="utf-8") as f:
