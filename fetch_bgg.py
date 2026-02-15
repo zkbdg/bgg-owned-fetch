@@ -83,10 +83,11 @@ def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=Fa
         for key in ["minplaytime", "maxplaytime", "numowned"]:
             stats.pop(key, None)
 
-        # rating 内の不要フィールド削除 & value → myrating に変更
+        # rating 内の不要フィールド削除 & value → myrating
         rating = stats.get("rating", {})
-        for key in ["stddev", "median"]:
-            rating.pop(key, None)
+        rating.pop("stddev", None)
+        rating.pop("median", None)
+        rating.pop("usersrated", None)  # ← 追加
         if "value" in rating:
             rating["myrating"] = rating.pop("value")
         stats["rating"] = rating
