@@ -1,30 +1,25 @@
 import requests
+import xml.etree.ElementTree as ET
 import json
 
-USERNAME = "zakibg"
+URL = "https://bgg-proxy.xxxxx.workers.dev"  # ←あなたのURL
 
-URL = f"https://bgg-proxy.chemzigzagcashmere.workers.dev/"
-
-headers = {
-    "User-Agent": "Mozilla/5.0"
-}
-
-resp = requests.get(URL, headers=headers, timeout=60)
+resp = requests.get(URL, timeout=60)
 resp.raise_for_status()
 
-data = resp.json()
+root = ET.fromstring(resp.content)
 
 games = []
 
-for item in data["items"]:
+for item in root.findall("item"):
     games.append({
-        "id": item.get("objectid"),
-        "name": item.get("name"),
-        "year": item.get("yearpublished"),
-        "numplays": item.get("numplays"),
+        "id": item.attrib.get("objectid"),
+        "name": item.find("name").attrib.get("value") if item.find("name") is not None else None,
+        "year": item.find("yearpublished").attrib.get("value") if item.find("yearpublished") is not None else None,
+        "numplays": item.find("numplays").attrib.get("value") if item.find("numplays") is not None else "0",
     })
 
 with open("owned_list.json", "w", encoding="utf-8") as f:
     json.dump(games, f, ensure_ascii=False, indent=2)
 
-print(f"{len(games)} games fetched.")
+print(f"{len(games)} games fetched successfully.")
