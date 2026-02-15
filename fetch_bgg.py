@@ -1,13 +1,16 @@
+import os
 import requests
 import time
 import xml.etree.ElementTree as ET
 import json
 
 USERNAME = "zakibg"
-URL = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&own=1&stats=1"
+
+URL = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&own=1&stats=1&excludesubtype=boardgameexpansion"
 
 headers = {
-    "User-Agent": "Mozilla/5.0"
+    "User-Agent": "Mozilla/5.0",
+    "Cookie": os.environ["BGG_COOKIE"]
 }
 
 print("Fetching BGG collection...")
@@ -16,7 +19,7 @@ for i in range(15):
     resp = requests.get(URL, headers=headers, timeout=60)
 
     if resp.status_code == 202 or not resp.text.strip():
-        print(f"[{i+1}/15] Waiting for BGG to prepare data...")
+        print(f"[{i+1}/15] Waiting...")
         time.sleep(5)
         continue
 
@@ -24,20 +27,16 @@ for i in range(15):
     root = ET.fromstring(resp.content)
     break
 else:
-    raise Exception("BGG did not return data in time.")
+    raise Exception("BGG timeout")
 
 games = []
 
 for item in root.findall("item"):
-    name_tag = item.find("name")
-    year_tag = item.find("yearpublished")
-    plays_tag = item.find("numplays")
-
     games.append({
         "id": item.attrib.get("objectid"),
-        "name": name_tag.attrib.get("value") if name_tag is not None else None,
-        "year": year_tag.attrib.get("value") if year_tag is not None else None,
-        "numplays": plays_tag.attrib.get("value") if plays_tag is not None else "0",
+        "name": item.find("name").attrib.get("value") if item.find("name") is not None else None,
+        "year": item.find("yearpublished").attrib.get("value") if item.find("yearpublished") is not None else None,
+        "numplays": item.find("numplays").attrib.get("value") if item.find("numplays") is not None else "0",
     })
 
 with open("owned.json", "w", encoding="utf-8") as f:
