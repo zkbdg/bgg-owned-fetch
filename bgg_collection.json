@@ -4937,6 +4937,58 @@
     "status": "owned"
   },
   {
+    "objectid": "256952",
+    "name": {
+      "value": "Zombie Kidz Evolution"
+    },
+    "yearpublished": {
+      "value": "2018"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "playingtime": "15",
+      "rating": {
+        "average": {
+          "value": "7.57118"
+        },
+        "bayesaverage": {
+          "value": "6.93958"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "572",
+              "bayesaverage": "6.93958"
+            },
+            {
+              "type": "family",
+              "id": "4665",
+              "name": "childrensgames",
+              "friendlyname": "Children's Game Rank",
+              "value": "1",
+              "bayesaverage": "7.48558"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "118",
+              "bayesaverage": "7.05719"
+            }
+          ]
+        },
+        "myrating": "N/A"
+      }
+    },
+    "status": "owned"
+  },
+  {
     "objectid": "459308",
     "name": {
       "value": "スカイトーテム – 拡張 : 大亀の顕現 (Skytotems: Manifestation of the Great Turtle)"
