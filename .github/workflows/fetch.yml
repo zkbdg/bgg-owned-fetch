@@ -1,4 +1,4 @@
-name: Update BGG Owned List
+name: Update BGG Collection
 
 on:
   schedule:
@@ -13,26 +13,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # リポジトリをチェックアウト
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Python セットアップ
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 依存パッケージインストール
       - name: Install dependencies
         run: pip install requests
 
+      # BGGコレクション取得
       - name: Fetch BGG collection
         run: python fetch_bgg.py
         env:
           BGG_COOKIE: ${{ secrets.BGG_COOKIE }}
 
+      # JSON が更新されたら自動コミット
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add owned.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update owned list"
+          git add bgg_collection.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update BGG collection"
           git push
