@@ -2,7 +2,7 @@ name: Update BGG Collection
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 毎日 03:00 UTC（日本時間12時）
+    - cron: "0 15 * * *"   # 毎日 03:00 UTC（日本時間12時）
   workflow_dispatch:
 
 permissions:
