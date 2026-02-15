@@ -2,7 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 
-URL = "https://bgg-proxy.xxxxx.workers.dev"  # ←あなたのURL
+URL = "https://bgg-proxy.chemzigzagcashmere.workers.dev"  # ←あなたのURL
 
 resp = requests.get(URL, timeout=60)
 resp.raise_for_status()
