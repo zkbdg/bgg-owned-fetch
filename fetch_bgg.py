@@ -71,6 +71,26 @@ def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=Fa
     for item in root.findall("item"):
         game = xml_to_dict(item)  # stats や name も丸ごと dict 化
         game["status"] = status_label
+
+        # image と thumbnail を削除
+        game.pop("image", None)
+        game.pop("thumbnail", None)
+
+        # stats 内の不要フィールドを削除
+        stats = game.get("stats", {})
+        for key in ["minplaytime", "maxplaytime", "numowned"]:
+            stats.pop(key, None)
+
+        # stats の rating 内の不要フィールドも削除
+        rating = stats.get("rating", {})
+        for key in ["stddev", "median"]:
+            rating.pop(key, None)
+        stats["rating"] = rating
+        game["stats"] = stats
+
+        # numplays 削除
+        game.pop("numplays", None)
+
         games.append(game)
 
     return games
