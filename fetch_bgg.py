@@ -1,73 +1,72 @@
-import os
 import requests
-import time
 import xml.etree.ElementTree as ET
 import json
+import time
 
-USERNAME = "zakibg"
+USERNAME = "ZAKIbg"  # ここを自分のユーザー名に変更
+OUTPUT_FILE = "bgg_collection.json"
 
-URL = (
-    f"https://boardgamegeek.com/xmlapi2/collection"
-    f"?username={USERNAME}"
-    f"&stats=1"
-)
+MAX_RETRIES = 20
+WAIT_TIME = 5  # 秒
 
-headers = {
-    "User-Agent": "Mozilla/5.0",
-    "Cookie": os.environ.get("BGG_COOKIE", "")
-}
+def fetch_collection(owned=True, wishlist=False):
+    """
+    BGG XML APIからコレクションを取得（拡張も含む）
+    """
+    params = []
+    if owned:
+        params.append("own=1")
+    if wishlist:
+        params.append("wishlist=1")
 
-print("Fetching BGG collection...")
+    url = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&stats=1"
+    if params:
+        url += "&" + "&".join(params)
 
-# --- 202 Accepted 対応ポーリング ---
-for i in range(20):
-    resp = requests.get(URL, headers=headers, timeout=60)
+    for i in range(MAX_RETRIES):
+        print(f"[{i+1}/{MAX_RETRIES}] Fetching...")
+        resp = requests.get(url)
+        if resp.status_code == 200 and resp.content.strip():
+            return resp.content
+        time.sleep(WAIT_TIME)
 
-    if resp.status_code == 202 or not resp.text.strip():
-        print(f"[{i+1}/20] Waiting for BGG to prepare data...")
-        time.sleep(5)
-        continue
+    raise Exception("BGG API が応答しませんでした。")
 
-    resp.raise_for_status()
-    root = ET.fromstring(resp.content)
-    break
-else:
-    raise Exception("BGG timeout: data not ready.")
+def parse_collection(xml_bytes):
+    """
+    XML をパースして JSON 用リストに変換
+    """
+    root = ET.fromstring(xml_bytes)
+    games = []
+    for item in root.findall("item"):
+        game = {
+            "id": item.get("objectid"),
+            "name": item.findtext("name"),
+            "year": item.findtext("yearpublished"),
+            "numplays": item.findtext("numplays")
+        }
+        games.append(game)
+    return games
 
-print("Parsing XML...")
+def main():
+    print("Fetching owned games...")
+    owned_xml = fetch_collection(owned=True)
+    owned_list = parse_collection(owned_xml)
 
-games = []
+    print("Fetching wishlist games...")
+    wishlist_xml = fetch_collection(wishlist=True)
+    wishlist_list = parse_collection(wishlist_xml)
 
-for item in root.findall("item"):
-
-    name_tag = item.find("name")
-    year_tag = item.find("yearpublished")
-    plays_tag = item.find("numplays")
-    stats_tag = item.find("stats")
-
-    rating_value = None
-    if stats_tag is not None:
-        rating_tag = stats_tag.find("rating")
-        if rating_tag is not None:
-            rating_value = rating_tag.attrib.get("value")
-
-    game = {
-        "id": item.attrib.get("objectid"),
-        "name": name_tag.text if name_tag is not None else None,
-        "year": year_tag.text if year_tag is not None else None,
-        "numplays": int(plays_tag.text) if plays_tag is not None and plays_tag.text.isdigit() else 0,
-        "minplayers": stats_tag.attrib.get("minplayers") if stats_tag is not None else None,
-        "maxplayers": stats_tag.attrib.get("maxplayers") if stats_tag is not None else None,
-        "playingtime": stats_tag.attrib.get("playingtime") if stats_tag is not None else None,
-        "rating": rating_value,
+    # 名前順でソート（None は空文字として扱う）
+    collection = {
+        "owned": sorted(owned_list, key=lambda x: x["name"] or ""),
+        "wishlist": sorted(wishlist_list, key=lambda x: x["name"] or "")
     }
 
-    games.append(game)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(collection, f, indent=2, ensure_ascii=False)
 
-# --- ソート（プレイ回数降順） ---
-games.sort(key=lambda x: x["numplays"], reverse=True)
+    print(f"Saved collection to {OUTPUT_FILE}")
 
-with open("owned.json", "w", encoding="utf-8") as f:
-    json.dump(games, f, ensure_ascii=False, indent=2)
-
-print(f"{len(games)} games saved to owned.json")
+if __name__ == "__main__":
+    main()
