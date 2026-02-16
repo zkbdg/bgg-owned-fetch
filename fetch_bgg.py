@@ -94,7 +94,7 @@ def fetch_collection(owned=False, wishlist=False, preordered=False, prevowned=Fa
         game["stats"] = stats
 
         # numplays 削除
-        game.pop("numplays", None)
+        # game.pop("numplays", None)
 
         games.append(game)
 
