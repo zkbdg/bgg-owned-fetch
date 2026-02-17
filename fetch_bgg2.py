@@ -5,15 +5,10 @@ import xml.etree.ElementTree as ET
 import json
 
 USERNAME = "zakibg"
-BGG_API_TOKEN = os.environ["BGG_API_TOKEN"]  # 環境変数にトークンをセット
-
-HEADERS = {
-    "User-Agent": "BGGFetcher/1.0",
-    "Authorization": f"Bearer {BGG_API_TOKEN}"
-}
+BGG_COOKIE = os.environ["BGG_COOKIE"]
 
 # ====================================
-# XML → dict（再帰的に stats を丸ごと残す）
+# XML → dict（再帰）
 # ====================================
 def xml_to_dict(element):
     d = {}
@@ -40,12 +35,13 @@ def xml_to_dict(element):
 # ====================================
 def fetch_latest_plays():
     print("Fetching plays...")
+    headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
     latest = {}
     page = 1
 
     while True:
         url = f"https://boardgamegeek.com/xmlapi2/plays?username={USERNAME}&subtype=boardgame&page={page}"
-        resp = requests.get(url, headers=HEADERS, timeout=60)
+        resp = requests.get(url, headers=headers, timeout=60)
 
         if resp.status_code == 202:
             print("Waiting for plays...")
@@ -53,7 +49,6 @@ def fetch_latest_plays():
             continue
 
         resp.raise_for_status()
-
         if not resp.text.strip():
             break
 
@@ -82,41 +77,57 @@ def fetch_latest_plays():
     return latest
 
 # ====================================
-# thing APIで weight / designers 取得
+# thing APIで designer / weight を取得（複数IDバッチ可）
 # ====================================
-def fetch_thing_info(game_id):
-    url = f"https://boardgamegeek.com/xmlapi2/thing?id={game_id}&stats=1"
-    resp = requests.get(url, headers=HEADERS, timeout=60)
-
-    if resp.status_code == 202:
-        # XML生成に時間がかかる場合は少し待つ
-        time.sleep(5)
-        resp = requests.get(url, headers=HEADERS, timeout=60)
-
-    resp.raise_for_status()
-    root = ET.fromstring(resp.content)
-    item = root.find("item")
-    if item is None:
-        return {}
-
+def fetch_thing_info(game_ids):
+    headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
     info = {}
-    # weight
-    statistics = item.find("statistics")
-    if statistics is not None:
-        ratings = statistics.find("ratings")
-        if ratings is not None:
-            averageweight = ratings.find("averageweight")
-            if averageweight is not None and "value" in averageweight.attrib:
-                info["weight"] = averageweight.attrib["value"]
+    batch_size = 20
 
-    # designers
-    designers = [link.attrib["value"] for link in item.findall("link[@type='boardgamedesigner']")]
-    info["designers"] = designers
+    for i in range(0, len(game_ids), batch_size):
+        batch = game_ids[i:i+batch_size]
+        url = f"https://boardgamegeek.com/xmlapi2/thing?id={','.join(batch)}&stats=1"
+        while True:
+            resp = requests.get(url, headers=headers, timeout=60)
+            if resp.status_code == 202:
+                print("Thing processing, waiting 5 seconds...")
+                time.sleep(5)
+                continue
+            if resp.status_code == 429:
+                print("Rate limited, waiting 10 seconds...")
+                time.sleep(10)
+                continue
+            resp.raise_for_status()
+            break
+
+        root = ET.fromstring(resp.content)
+        for item in root.findall("item"):
+            g = xml_to_dict(item)
+            game_id = g.get("id") or g.get("objectid")
+            if not game_id:
+                continue
+
+            # designerリスト取得
+            designers = []
+            for link in item.findall("link"):
+                if link.get("type") == "designer":
+                    designers.append(link.get("value"))
+
+            # weight取得
+            weight = None
+            stats = g.get("stats", {})
+            rating = stats.get("rating", {})
+            if rating.get("averageweight"):
+                weight = float(rating["averageweight"]["value"])
+
+            info[game_id] = {"designer": designers, "weight": weight}
+
+        time.sleep(1)
 
     return info
 
 # ====================================
-# BGG コレクション取得
+# コレクション取得
 # ====================================
 def fetch_collection(latest_plays, owned=False, wishlist=False, preordered=False, prevowned=False):
     if owned:
@@ -134,9 +145,11 @@ def fetch_collection(latest_plays, owned=False, wishlist=False, preordered=False
     else:
         return []
 
+    headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
+
     print(f"Fetching {status_label} collection...")
     for i in range(15):
-        resp = requests.get(url, headers=HEADERS, timeout=60)
+        resp = requests.get(url, headers=headers, timeout=60)
         if resp.status_code == 202 or not resp.text.strip():
             print(f"[{i+1}/15] Waiting...")
             time.sleep(5)
@@ -148,17 +161,38 @@ def fetch_collection(latest_plays, owned=False, wishlist=False, preordered=False
         raise Exception(f"BGG timeout fetching {status_label}")
 
     games = []
+    # まず JSON に保存済みの情報を読み込む
+    existing_info = {}
+    if os.path.exists("bgg_collection.json"):
+        with open("bgg_collection.json", "r", encoding="utf-8") as f:
+            existing_list = json.load(f)
+            for g in existing_list:
+                existing_info[g["objectid"]] = g
+
+    # 未取得ゲームIDを抽出
+    ids_to_fetch = []
+    for item in root.findall("item"):
+        game_id = item.get("objectid")
+        if game_id not in existing_info or "designer" not in existing_info[game_id] or existing_info[game_id]["designer"] is None:
+            ids_to_fetch.append(game_id)
+
+    # thing APIで補完
+    thing_data = fetch_thing_info(ids_to_fetch) if ids_to_fetch else {}
+
+    # 各ゲーム情報作成
     for item in root.findall("item"):
         game = xml_to_dict(item)
         game["status"] = status_label
-
-        # 最終プレイ日
         game_id = game.get("objectid")
         game["lastplay"] = latest_plays.get(game_id)
 
-        # thing APIで weight / designers を追加
-        thing_info = fetch_thing_info(game_id)
-        game.update(thing_info)
+        # designer/weightを既存JSONまたはthingDataから取得
+        if game_id in existing_info and "designer" in existing_info[game_id]:
+            game["designer"] = existing_info[game_id]["designer"]
+            game["weight"] = existing_info[game_id].get("weight")
+        elif game_id in thing_data:
+            game["designer"] = thing_data[game_id]["designer"]
+            game["weight"] = thing_data[game_id]["weight"]
 
         # 不要フィールド削除
         for key in ["image", "thumbnail", "objecttype", "subtype", "collid"]:
