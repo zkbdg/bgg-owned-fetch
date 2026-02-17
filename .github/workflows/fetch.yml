@@ -29,7 +29,7 @@ jobs:
 
       # BGGコレクション取得
       - name: Fetch BGG collection
-        run: python fetch_bgg.py
+        run: python fetch_bgg2.py
         env:
           BGG_COOKIE: ${{ secrets.BGG_COOKIE }}
 
