@@ -1,27 +1,17 @@
+import os
 import requests
-import xml.etree.ElementTree as ET
-import time
 
-username = "ZAKIbg"
-url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame&page=1"
+USERNAME = "zakibg"
+BGG_COOKIE = os.environ.get("BGG_COOKIE")
 
-while True:
-    r = requests.get(url)
+headers = {
+    "User-Agent": "Mozilla/5.0",
+    "Cookie": BGG_COOKIE
+}
 
-    if r.status_code == 202:
-        print("BGG processing... waiting")
-        time.sleep(5)
-        continue
+url = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&own=1&stats=1"
 
-    if r.status_code != 200:
-        print("Error:", r.status_code)
-        exit(1)
+resp = requests.get(url, headers=headers, timeout=60)
+resp.raise_for_status()
 
-    if not r.content.strip():
-        print("Empty response")
-        time.sleep(5)
-        continue
-
-    break
-
-root = ET.fromstring(r.content)
+print(resp.status_code)
