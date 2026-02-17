@@ -1,13 +1,15 @@
+import os
 import requests
 import xml.etree.ElementTree as ET
 import time
 import json
-import os
 
 USERNAME = "zakibg"
+BGG_COOKIE = os.environ["BGG_COOKIE"]
 
 headers = {
-    "User-Agent": "Mozilla/5.0"
+    "User-Agent": "Mozilla/5.0",
+    "Cookie": BGG_COOKIE
 }
 
 latest_by_game = {}
@@ -15,7 +17,7 @@ page = 1
 
 while True:
     url = f"https://boardgamegeek.com/xmlapi2/plays?username={USERNAME}&subtype=boardgame&page={page}"
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, timeout=60)
 
     if r.status_code == 202:
         time.sleep(5)
@@ -49,4 +51,4 @@ os.makedirs("output", exist_ok=True)
 with open("output/plays_latest.json", "w", encoding="utf-8") as f:
     json.dump(latest_by_game, f, ensure_ascii=False, indent=2)
 
-print(f"{len(latest_by_game)} games written to output/plays_latest.json")
+print(f"{len(latest_by_game)} games saved.")
