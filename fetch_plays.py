@@ -9,7 +9,9 @@ BGG_COOKIE = os.environ["BGG_COOKIE"]
 
 headers = {
     "User-Agent": "Mozilla/5.0",
-    "Cookie": BGG_COOKIE
+    "Cookie": BGG_COOKIE,
+    "Accept": "application/xml",
+    "Accept-Language": "en-US,en;q=0.9"
 }
 
 latest_by_game = {}
@@ -22,7 +24,7 @@ while True:
     r = requests.get(url, headers=headers, timeout=60)
 
     if r.status_code == 202:
-        print("BGG processing, waiting...")
+        print("BGG processing, waiting 5 seconds...")
         time.sleep(5)
         continue
 
@@ -64,7 +66,7 @@ while True:
     page += 1
     time.sleep(1)
 
-# リポジトリ直下に保存
+# ===== リポジトリ直下に保存 =====
 with open("plays_latest.json", "w", encoding="utf-8") as f:
     json.dump(latest_by_game, f, ensure_ascii=False, indent=2)
 
