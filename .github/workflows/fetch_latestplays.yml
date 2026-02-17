@@ -3,10 +3,10 @@ name: Update BGG Plays
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"   # 毎日 UTC 03:00（日本時間 12:00）
+    - cron: "0 15 * * *"   # 毎日 UTC 15:00（日本時間 24:00）
 
 permissions:
-  contents: write   # ← pushに必要
+  contents: write
 
 jobs:
   update-plays:
@@ -27,6 +27,8 @@ jobs:
           pip install requests
 
       - name: Run plays fetch
+        env:
+          BGG_COOKIE: ${{ secrets.BGG_COOKIE }}
         run: |
           python fetch_plays.py
 
@@ -35,5 +37,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output/plays_latest.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update BGG plays"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update BGG plays"
+            git push
+          fi
