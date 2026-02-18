@@ -19,7 +19,7 @@ USERNAME = "zakibg"
 # ====================================
 # 設定
 # ====================================
-BATCH_SIZE = 20       # Thing 差分取得の件数
+BATCH_SIZE = 2       # Thing 差分取得の件数
 SLEEP_BETWEEN_CALLS = 1
 SLEEP_ON_429 = 60
 
