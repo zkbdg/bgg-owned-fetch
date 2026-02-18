@@ -1253,7 +1253,18 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Richard Borg"
+    ],
+    "weight": "1.0938",
+    "mechanics": [
+      "Dice Rolling",
+      "Player Elimination"
+    ],
+    "categories": [
+      "Bluffing"
+    ]
   },
   {
     "objecttype": "thing",
@@ -4518,7 +4529,21 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2025-11-28"
+    "lastplay": "2025-11-28",
+    "designers": [
+      "Jacques Zeimet"
+    ],
+    "weight": "1.131",
+    "mechanics": [
+      "Pattern Recognition",
+      "Speed Matching"
+    ],
+    "categories": [
+      "Action / Dexterity",
+      "Card Game",
+      "Children's Game",
+      "Real-time"
+    ]
   },
   {
     "objecttype": "thing",
@@ -4596,7 +4621,23 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2026-02-01"
+    "lastplay": "2026-02-01",
+    "designers": [
+      "Brian Yu"
+    ],
+    "weight": "1.626",
+    "mechanics": [
+      "Cooperative Game",
+      "Dice Rolling",
+      "Pick-up and Deliver",
+      "Roll / Spin and Move"
+    ],
+    "categories": [
+      "Adventure",
+      "Children's Game",
+      "Fantasy",
+      "Horror"
+    ]
   },
   {
     "objecttype": "thing",
@@ -4653,7 +4694,15 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2026-01-13"
+    "lastplay": "2026-01-13",
+    "designers": [
+      "Michael Schacht"
+    ],
+    "weight": "1",
+    "mechanics": [],
+    "categories": [
+      "Children's Game"
+    ]
   },
   {
     "objecttype": "thing",
@@ -4731,7 +4780,26 @@
     "numplays": {
       "value": "5"
     },
-    "lastplay": "2025-09-23"
+    "lastplay": "2025-09-23",
+    "designers": [
+      "Alex Randolph"
+    ],
+    "weight": "1.3191",
+    "mechanics": [
+      "Grid Movement",
+      "Player Elimination",
+      "Point to Point Movement",
+      "Secret Unit Deployment",
+      "Square Grid",
+      "Static Capture"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Bluffing",
+      "Children's Game",
+      "Deduction",
+      "Horror"
+    ]
   },
   {
     "objecttype": "thing",
@@ -4809,7 +4877,27 @@
     "numplays": {
       "value": "11"
     },
-    "lastplay": "2026-01-18"
+    "lastplay": "2026-01-18",
+    "designers": [
+      "Johan Benvenuto"
+    ],
+    "weight": "2.0162",
+    "mechanics": [
+      "Chaining",
+      "Hexagon Grid",
+      "Open Drafting",
+      "Pattern Building",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Tile Placement",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Animals",
+      "Environmental",
+      "Puzzle"
+    ]
   },
   {
     "objecttype": "thing",
@@ -4878,7 +4966,29 @@
     "status": "wishlist",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Asger Aleksandrov Granerud",
+      "Daniel Skjold Pedersen"
+    ],
+    "weight": "2.2007",
+    "mechanics": [
+      "Catch the Leader",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Programmed Movement",
+      "Push Your Luck",
+      "Race",
+      "Simulation",
+      "Simultaneous Action Selection",
+      "Solo / Solitaire Game",
+      "Track Movement",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Racing",
+      "Sports"
+    ]
   },
   {
     "objecttype": "thing",
@@ -4938,7 +5048,18 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2026-02-08"
+    "lastplay": "2026-02-08",
+    "designers": [
+      "Jacques Zeimet"
+    ],
+    "weight": "1.125",
+    "mechanics": [
+      "Hand Management"
+    ],
+    "categories": [
+      "Animals",
+      "Card Game"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5007,7 +5128,19 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Marcus Carleson"
+    ],
+    "weight": "1.0214",
+    "mechanics": [],
+    "categories": [
+      "Card Game",
+      "Music",
+      "Party Game",
+      "Print & Play",
+      "Trivia"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5085,7 +5218,21 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2025-12-30"
+    "lastplay": "2025-12-30",
+    "designers": [
+      "Brian Gomez"
+    ],
+    "weight": "1.057",
+    "mechanics": [
+      "Area Movement",
+      "Flicking",
+      "Take That"
+    ],
+    "categories": [
+      "Action / Dexterity",
+      "Animals",
+      "Children's Game"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5154,7 +5301,26 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "ｱｷﾋﾛｲﾄｵ (Akihiro Itoh)",
+      "Kwaji",
+      "Daichi Okano",
+      "Kito Shinma"
+    ],
+    "weight": "1.1111",
+    "mechanics": [
+      "Hidden Roles",
+      "Roles with Asymmetric Information",
+      "Team-Based Game",
+      "Voting"
+    ],
+    "categories": [
+      "Bluffing",
+      "Deduction",
+      "Party Game",
+      "Word Game"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5213,7 +5379,21 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [],
+    "weight": "1.1667",
+    "mechanics": [
+      "Hidden Roles",
+      "Roles with Asymmetric Information",
+      "Team-Based Game",
+      "Traitor Game",
+      "Voting"
+    ],
+    "categories": [
+      "Bluffing",
+      "Deduction",
+      "Party Game"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5290,7 +5470,27 @@
     "status": "wishlist",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Rüdiger Dorn"
+    ],
+    "weight": "2.5844",
+    "mechanics": [
+      "Contracts",
+      "Dice Rolling",
+      "Grid Movement",
+      "Mancala",
+      "Market",
+      "Modular Board",
+      "Network and Route Building",
+      "Pick-up and Deliver",
+      "Race",
+      "Variable Set-up",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Economic"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5360,7 +5560,22 @@
     "numplays": {
       "value": "5"
     },
-    "lastplay": "2026-01-18"
+    "lastplay": "2026-01-18",
+    "designers": [
+      "Bruno Cathala"
+    ],
+    "weight": "1.9041",
+    "mechanics": [
+      "Enclosure",
+      "Open Drafting",
+      "Tile Placement",
+      "Turn Order: Claim Action"
+    ],
+    "categories": [
+      "Prehistoric",
+      "Puzzle",
+      "Territory Building"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5438,7 +5653,16 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2025-11-29"
+    "lastplay": "2025-11-29",
+    "designers": [
+      "Kwang Hee Lee"
+    ],
+    "weight": "1.9167",
+    "mechanics": [
+      "Hand Management",
+      "Ladder Climbing"
+    ],
+    "categories": []
   },
   {
     "objecttype": "thing",
@@ -5508,7 +5732,25 @@
     "numplays": {
       "value": "7"
     },
-    "lastplay": "2026-02-14"
+    "lastplay": "2026-02-14",
+    "designers": [
+      "Jamie Bloom"
+    ],
+    "weight": "2.8284",
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "End Game Bonuses",
+      "Hexagon Grid",
+      "Pattern Building",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Tile Placement",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Animals",
+      "Puzzle"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5578,7 +5820,24 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2026-01-17"
+    "lastplay": "2026-01-17",
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "weight": "1.4753",
+    "mechanics": [
+      "Hand Management",
+      "Melding and Splaying",
+      "Ordering",
+      "Push Your Luck",
+      "Score-and-Reset Game",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "Exploration",
+      "Number"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5648,7 +5907,34 @@
     "numplays": {
       "value": "6"
     },
-    "lastplay": "2026-02-10"
+    "lastplay": "2026-02-10",
+    "designers": [
+      "Elwen",
+      "Mín"
+    ],
+    "weight": "2.9316",
+    "mechanics": [
+      "Area Movement",
+      "Contracts",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "End Game Bonuses",
+      "Hand Management",
+      "Multi-Use Cards",
+      "Once-Per-Game Abilities",
+      "Open Drafting",
+      "Resource to Move",
+      "Solo / Solitaire Game",
+      "Track Movement",
+      "Turn Order: Progressive",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Adventure",
+      "Card Game",
+      "Exploration",
+      "Fantasy"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5717,7 +6003,26 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Elwen",
+      "Mín"
+    ],
+    "weight": "3.1111",
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Open Drafting",
+      "Solo / Solitaire Game",
+      "Variable Player Powers",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Adventure",
+      "Ancient",
+      "Exploration",
+      "Travel"
+    ]
   },
   {
     "objecttype": "thing",
@@ -5786,7 +6091,28 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Elwen",
+      "Mín"
+    ],
+    "weight": "3.2353",
+    "mechanics": [
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Open Drafting",
+      "Scenario / Mission / Campaign Game",
+      "Solo / Solitaire Game",
+      "Variable Player Powers",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Adventure",
+      "Ancient",
+      "Exploration",
+      "Travel"
+    ]
   },
   {
     "objecttype": "thing",
