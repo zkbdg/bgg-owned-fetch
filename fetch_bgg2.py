@@ -1,21 +1,30 @@
 import os
-import time
-import json
 import requests
+import time
 import xml.etree.ElementTree as ET
-
-BGG_API_TOKEN = os.environ.get("BGG_API_TOKEN")
-BGG_COOKIE = os.environ.get("BGG_COOKIE")
-API_COLLECTION = "https://boardgamegeek.com/xmlapi2/collection"
-API_PLAYS = "https://boardgamegeek.com/xmlapi2/plays"
-API_THING = "https://boardgamegeek.com/xmlapi2/thing"
-
-BATCH_SIZE = 50          # 1回で叩く件数
-SLEEP_BETWEEN_CALLS = 1  # thing 間の間隔
-SLEEP_ON_429 = 60        # 429のときの待機時間
+import json
 
 # ====================================
-# XML → dict（再帰）
+# 必須: トークンと Cookie
+# ====================================
+BGG_API_TOKEN = os.environ["BGG_API_TOKEN"]
+BGG_COOKIE = os.environ["BGG_COOKIE"]
+API_THING = "https://boardgamegeek.com/xmlapi2/thing"
+
+# ====================================
+# 固定ユーザー名
+# ====================================
+USERNAME = "zakibg"
+
+# ====================================
+# 設定
+# ====================================
+BATCH_SIZE = 20       # Thing 差分取得の件数
+SLEEP_BETWEEN_CALLS = 1
+SLEEP_ON_429 = 60
+
+# ====================================
+# XML → dict 再帰
 # ====================================
 def xml_to_dict(element):
     d = {}
@@ -38,26 +47,30 @@ def xml_to_dict(element):
     return d
 
 # ====================================
-# Plays 取得
+# plays 全件取得
 # ====================================
 def fetch_latest_plays(username):
     print("Fetching plays...")
     headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
-    latest = {}
+    lastplays = {}
     page = 1
+
     while True:
-        url = f"{API_PLAYS}?username={username}&subtype=boardgame&page={page}"
+        url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame&page={page}"
         resp = requests.get(url, headers=headers, timeout=60)
         if resp.status_code == 202:
+            print("Waiting for plays...")
             time.sleep(5)
             continue
         resp.raise_for_status()
         if not resp.text.strip():
             break
+
         root = ET.fromstring(resp.content)
         plays = root.findall("play")
         if not plays:
             break
+
         for play in plays:
             date = play.get("date")
             item = play.find("item")
@@ -66,30 +79,49 @@ def fetch_latest_plays(username):
             game_id = item.get("objectid")
             if not game_id or not date:
                 continue
-            if game_id not in latest or date > latest[game_id]:
-                latest[game_id] = date
+            if game_id not in lastplays or date > lastplays[game_id]:
+                lastplays[game_id] = date
+
         page += 1
         time.sleep(1)
-    print(f"Collected lastplays for {len(latest)} games")
-    return latest
+
+    print(f"Collected last plays for {len(lastplays)} games")
+    return lastplays
 
 # ====================================
-# Collection 取得
+# collection 取得
 # ====================================
-def fetch_collection(username, owned=True):
+def fetch_collection(username, owned=False, wishlist=False, preordered=False, prevowned=False):
+    status = None
+    if owned:
+        url = f"https://boardgamegeek.com/xmlapi2/collection?username={username}&own=1&stats=1"
+        status = "owned"
+    elif wishlist:
+        url = f"https://boardgamegeek.com/xmlapi2/collection?username={username}&wishlist=1&stats=1"
+        status = "wishlist"
+    elif preordered:
+        url = f"https://boardgamegeek.com/xmlapi2/collection?username={username}&preordered=1&stats=1"
+        status = "preordered"
+    elif prevowned:
+        url = f"https://boardgamegeek.com/xmlapi2/collection?username={username}&prevowned=1&stats=1"
+        status = "previouslyowned"
+    else:
+        return []
+
     headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
-    status = "owned" if owned else "other"
-    url = f"{API_COLLECTION}?username={username}&own=1&stats=1" if owned else f"{API_COLLECTION}?username={username}&stats=1"
-    for _ in range(15):
+    print(f"Fetching {status} collection...")
+    for i in range(15):
         resp = requests.get(url, headers=headers, timeout=60)
         if resp.status_code == 202 or not resp.text.strip():
+            print(f"[{i+1}/15] Waiting...")
             time.sleep(5)
             continue
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
         break
     else:
-        raise Exception("BGG timeout fetching collection")
+        raise Exception(f"Timeout fetching {status}")
+
     games = []
     for item in root.findall("item"):
         game = xml_to_dict(item)
@@ -98,12 +130,13 @@ def fetch_collection(username, owned=True):
     return games
 
 # ====================================
-# Thing 取得
+# Thing API 差分取得
 # ====================================
 def fetch_thing_info(game_id):
-    headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"} if BGG_API_TOKEN else {}
-    cookies = {"bggsession": BGG_COOKIE} if BGG_COOKIE else {}
+    headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
+    cookies = {"bggsession": BGG_COOKIE}
     params = {"id": game_id, "stats": 1}
+
     while True:
         resp = requests.get(API_THING, params=params, headers=headers, cookies=cookies)
         if resp.status_code == 429:
@@ -116,60 +149,70 @@ def fetch_thing_info(game_id):
             continue
         resp.raise_for_status()
         break
+
     root = ET.fromstring(resp.text)
     item = root.find("item")
-    designers = [l.attrib["value"] for l in item.findall("link") if l.attrib.get("type") == "boardgamedesigner"]
-    mechanics = [l.attrib["value"] for l in item.findall("link") if l.attrib.get("type") == "boardgamemechanic"]
-    categories = [l.attrib["value"] for l in item.findall("link") if l.attrib.get("type") == "boardgamecategory"]
+
+    designers = [link.attrib["value"] for link in item.findall("link") if link.attrib.get("type") == "boardgamedesigner"]
+    mechanics = [link.attrib["value"] for link in item.findall("link") if link.attrib.get("type") == "boardgamemechanic"]
+    categories = [link.attrib["value"] for link in item.findall("link") if link.attrib.get("type") == "boardgamecategory"]
     weight_elem = item.find("statistics/ratings/averageweight")
     weight = weight_elem.attrib["value"] if weight_elem is not None else None
-    return designers, mechanics, categories, weight
+
+    return designers, weight, mechanics, categories
 
 # ====================================
-# メイン処理
+# 実行
 # ====================================
 def main():
-    username = os.environ.get("BGG_USERNAME")
-    # plays を先に取得
-    lastplays = fetch_latest_plays(username)
-    # collection
-    collection = fetch_collection(username, owned=True)
-    # ローカル JSON 読み込み
-    try:
-        with open("bgg_collection.json", "r", encoding="utf-8") as f:
-            local_data = {g["objectid"]: g for g in json.load(f)}
-    except FileNotFoundError:
-        local_data = {}
-    # collection を統合
-    for g in collection:
-        game_id = g["objectid"]
-        g["lastplay"] = lastplays.get(game_id)
-        if game_id in local_data:
-            local_data[game_id].update(g)
-        else:
-            local_data[game_id] = g
-    # Thing 差分更新
-    pending = [g for g in local_data.values()
-               if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g]
-    print(f"Pending thing updates: {len(pending)}")
-    for i in range(0, len(pending), BATCH_SIZE):
-        batch = pending[i:i+BATCH_SIZE]
-        for game in batch:
-            try:
-                designers, mechanics, categories, weight = fetch_thing_info(game["objectid"])
-                game["designers"] = designers
-                game["mechanics"] = mechanics
-                game["categories"] = categories
-                game["weight"] = weight
-                print(f"Updated {game['name']['value']} → weight:{weight}, designers:{len(designers)}")
-                time.sleep(SLEEP_BETWEEN_CALLS)
-            except Exception as e:
-                print(f"Error fetching {game['name']['value']} ({game['objectid']}): {e}")
-    # 保存
-    final_list = sorted(local_data.values(), key=lambda x: x["name"]["value"].lower())
+    # 1. plays
+    lastplays = fetch_latest_plays(USERNAME)
+
+    # 2. collection
+    owned = fetch_collection(USERNAME, owned=True)
+    wishlist = fetch_collection(USERNAME, wishlist=True)
+    preordered = fetch_collection(USERNAME, preordered=True)
+    prevowned = fetch_collection(USERNAME, prevowned=True)
+
+    all_games = owned + wishlist + preordered + prevowned
+    local_dict = {g["objectid"]: g for g in all_games}
+
+    # 3. Thing API 差分
+    pending = [
+        g for g in all_games
+        if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g
+    ]
+    print(f"Pending games to update via Thing API: {len(pending)}")
+
+    batch = pending[:BATCH_SIZE]
+    updated = 0
+
+    for game in batch:
+        try:
+            designers, weight, mechanics, categories = fetch_thing_info(game["objectid"])
+            game["designers"] = designers
+            game["weight"] = weight
+            game["mechanics"] = mechanics
+            game["categories"] = categories
+            updated += 1
+            print(f"Updated {game['name']['value']}")
+            time.sleep(SLEEP_BETWEEN_CALLS)
+        except Exception as e:
+            print(f"Error fetching {game['name']['value']} ({game['objectid']}): {e}")
+
+    print(f"Total Thing API updated: {updated}")
+
+    # 4. lastplay 追加
+    for game_id, date in lastplays.items():
+        if game_id in local_dict:
+            local_dict[game_id]["lastplay"] = date
+
+    # 5. 保存
+    final_list = sorted(local_dict.values(), key=lambda x: x["name"]["value"].lower())
     with open("bgg_collection.json", "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
-    print(f"Saved {len(final_list)} games")
+
+    print(f"{len(final_list)} games saved to bgg_collection.json")
 
 if __name__ == "__main__":
     main()
