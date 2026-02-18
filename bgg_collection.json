@@ -609,6 +609,92 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "285235",
+    "subtype": "boardgame",
+    "collid": "142720509",
+    "name": {
+      "sortindex": "1",
+      "value": "Architects of the West Kingdom: Age of Artisans"
+    },
+    "yearpublished": {
+      "value": "2020"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/lEO_nCKk3RMhXDDOGE3Rzg__original/img/6LH23xwvPHl47aJFGHnrR5NzalA=/0x0/filters:format(png)/pic4877589.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/lEO_nCKk3RMhXDDOGE3Rzg__small/img/-CtLT2uyRIbDjs993MQWGKJ75J4=/fit-in/200x150/filters:strip_icc()/pic4877589.png"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "6",
+      "minplaytime": "60",
+      "maxplaytime": "80",
+      "playingtime": "80",
+      "numowned": "12276",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "2783"
+        },
+        "average": {
+          "value": "8.05169"
+        },
+        "bayesaverage": {
+          "value": "6.85184"
+        },
+        "stddev": {
+          "value": "1.08606"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "6.85184"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.05624"
+            }
+          ]
+        }
+      }
+    },
+    "status": "preordered",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "S J Macdonald",
+      "Shem Phillips"
+    ],
+    "weight": "2.863",
+    "mechanics": [
+      "Open Drafting",
+      "Variable Player Powers",
+      "Worker Placement",
+      "Worker Placement, Different Worker Types"
+    ],
+    "categories": [
+      "City Building",
+      "Expansion for Base-game",
+      "Medieval"
+    ],
+    "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "327245",
     "subtype": "boardgame",
     "collid": "138517419",
