@@ -158,8 +158,9 @@ def fetch_thing_info(game_id):
     categories = [link.attrib["value"] for link in item.findall("link") if link.attrib.get("type") == "boardgamecategory"]
     weight_elem = item.find("statistics/ratings/averageweight")
     weight = weight_elem.attrib["value"] if weight_elem is not None else None
+    type_ = item.attrib.get("type")  # boardgame or boardgameexpansion
 
-    return designers, weight, mechanics, categories
+    return designers, weight, mechanics, categories, type_
 
 # ====================================
 # 実行
@@ -175,54 +176,42 @@ def main():
     prevowned = fetch_collection(USERNAME, prevowned=True)
 
     all_games = owned + wishlist + preordered + prevowned
-    current_ids = {g["objectid"] for g in all_games}
+    local_dict = {g["objectid"]: g for g in all_games}
 
-    # 3. local JSON 読込
-    if os.path.exists("bgg_collection.json"):
-        with open("bgg_collection.json", "r", encoding="utf-8") as f:
-            local_dict = {g["objectid"]: g for g in json.load(f)}
-    else:
-        local_dict = {}
-
-    # 4. XML にないゲームは削除
-    local_dict = {gid: g for gid, g in local_dict.items() if gid in current_ids}
-
-    # 5. 新規ゲーム追加
-    for g in all_games:
-        if g["objectid"] not in local_dict:
-            local_dict[g["objectid"]] = g
-
-    # 6. Thing API 差分取得（未取得フィールドのみ）
+    # 3. Thing API 差分
     pending = [
-        g for g in local_dict.values()
-        if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g
+        g for g in all_games
+        if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g or "type" not in g
     ]
     print(f"Pending games to update via Thing API: {len(pending)}")
 
-    batch = pending[:BATCH_SIZE]
-    updated = 0
-
-    for game in batch:
+    for game in pending:
         try:
-            designers, weight, mechanics, categories = fetch_thing_info(game["objectid"])
+            designers, weight, mechanics, categories, type_ = fetch_thing_info(game["objectid"])
             game["designers"] = designers
             game["weight"] = weight
             game["mechanics"] = mechanics
             game["categories"] = categories
-            updated += 1
+            game["type"] = type_
             print(f"Updated {game['name']['value']}")
             time.sleep(SLEEP_BETWEEN_CALLS)
         except Exception as e:
             print(f"Error fetching {game['name']['value']} ({game['objectid']}): {e}")
 
-    print(f"Total Thing API updated: {updated}")
-
-    # 7. lastplay 追加
+    # 4. lastplay 追加
     for game_id, date in lastplays.items():
         if game_id in local_dict:
             local_dict[game_id]["lastplay"] = date
 
-    # 8. 保存
+    # 5. XMLから消えたゲームは削除
+    xml_ids = set(g["objectid"] for g in all_games)
+    json_ids = set(local_dict.keys())
+    removed_ids = json_ids - xml_ids
+    for rid in removed_ids:
+        print(f"Removed {local_dict[rid]['name']['value']} (no longer in collection)")
+        del local_dict[rid]
+
+    # 6. 保存
     final_list = sorted(local_dict.values(), key=lambda x: x["name"]["value"].lower())
     with open("bgg_collection.json", "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
