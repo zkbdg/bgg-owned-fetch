@@ -3,6 +3,9 @@ import requests
 import time
 import xml.etree.ElementTree as ET
 import json
+import smtplib
+from email.mime.text import MIMEText
+from email.utils import formataddr
 
 # ====================================
 # 必須: トークンと Cookie
@@ -22,6 +25,14 @@ USERNAME = "zakibg"
 BATCH_SIZE = 20       # Thing 差分取得の件数
 SLEEP_BETWEEN_CALLS = 1
 SLEEP_ON_429 = 60
+
+# ====================================
+# Gmail通知設定
+# ====================================
+EMAIL_FROM = os.environ.get("EMAIL_FROM")
+EMAIL_TO = os.environ.get("EMAIL_TO")
+EMAIL_USER = os.environ.get("EMAIL_USER")  # Gmailアカウント
+EMAIL_PASS = os.environ.get("EMAIL_PASS")  # Gmailアプリパスワード
 
 # ====================================
 # XML → dict 再帰
@@ -163,9 +174,27 @@ def fetch_thing_info(game_id):
     return designers, weight, mechanics, categories, game_type
 
 # ====================================
+# メール送信
+# ====================================
+def send_email(subject, body):
+    if not all([EMAIL_USER, EMAIL_PASS, EMAIL_FROM, EMAIL_TO]):
+        print("Email not configured, skipping notification")
+        return
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = formataddr(("BGG Updater", EMAIL_FROM))
+    msg["To"] = EMAIL_TO
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(EMAIL_USER, EMAIL_PASS)
+        server.send_message(msg)
+
+# ====================================
 # 実行
 # ====================================
 def main():
+    thing_calls = 0
+
     # --- 前回保存データ読み込み ---
     try:
         with open("bgg_collection.json", "r", encoding="utf-8") as f:
@@ -220,6 +249,7 @@ def main():
             game["categories"] = categories
             game["type"] = game_type
             updated += 1
+            thing_calls += 1
             print(f"Updated {game['name']['value']}")
             time.sleep(SLEEP_BETWEEN_CALLS)
         except Exception as e:
@@ -238,6 +268,16 @@ def main():
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
     print(f"{len(final_list)} games saved to bgg_collection.json")
+
+    # --- メール通知 ---
+    subject = f"BGG Collection Update Finished – Thing API calls: {thing_calls}"
+    body = f"""
+BGG Collection workflow has finished.
+
+Total games saved: {len(final_list)}
+Thing API calls made: {thing_calls}
+"""
+    send_email(subject, body)
 
 if __name__ == "__main__":
     main()
