@@ -19,7 +19,7 @@ USERNAME = "zakibg"
 # ====================================
 # 設定
 # ====================================
-BATCH_SIZE = 20       # Thing API 差分取得件数
+BATCH_SIZE = 20       # Thing 差分取得の件数
 SLEEP_BETWEEN_CALLS = 1
 SLEEP_ON_429 = 60
 
@@ -165,35 +165,34 @@ def fetch_thing_info(game_id):
 # 実行
 # ====================================
 def main():
-    # 1. plays 全件
+    # 1. plays
     lastplays = fetch_latest_plays(USERNAME)
 
-    # 2. collection 全件
+    # 2. collection
     owned = fetch_collection(USERNAME, owned=True)
     wishlist = fetch_collection(USERNAME, wishlist=True)
     preordered = fetch_collection(USERNAME, preordered=True)
     prevowned = fetch_collection(USERNAME, prevowned=True)
 
-    new_games = owned + wishlist + preordered + prevowned
-    local_dict = {}
+    all_games = owned + wishlist + preordered + prevowned
+    current_ids = {g["objectid"] for g in all_games}
 
-    # 既存 JSON があれば読み込む
+    # 3. local JSON 読込
     if os.path.exists("bgg_collection.json"):
         with open("bgg_collection.json", "r", encoding="utf-8") as f:
-            for g in json.load(f):
-                local_dict[g["objectid"]] = g
+            local_dict = {g["objectid"]: g for g in json.load(f)}
+    else:
+        local_dict = {}
 
-    # 3. 新規ゲーム or status 更新をマージ
-    for g in new_games:
-        oid = g["objectid"]
-        if oid in local_dict:
-            # 既存 status 更新
-            if local_dict[oid].get("status") != g["status"]:
-                local_dict[oid]["status"] = g["status"]
-        else:
-            local_dict[oid] = g
+    # 4. XML にないゲームは削除
+    local_dict = {gid: g for gid, g in local_dict.items() if gid in current_ids}
 
-    # 4. Thing API 差分取得（未取得フィールドのみ）
+    # 5. 新規ゲーム追加
+    for g in all_games:
+        if g["objectid"] not in local_dict:
+            local_dict[g["objectid"]] = g
+
+    # 6. Thing API 差分取得（未取得フィールドのみ）
     pending = [
         g for g in local_dict.values()
         if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g
@@ -202,6 +201,7 @@ def main():
 
     batch = pending[:BATCH_SIZE]
     updated = 0
+
     for game in batch:
         try:
             designers, weight, mechanics, categories = fetch_thing_info(game["objectid"])
@@ -217,12 +217,12 @@ def main():
 
     print(f"Total Thing API updated: {updated}")
 
-    # 5. lastplay 追加
+    # 7. lastplay 追加
     for game_id, date in lastplays.items():
         if game_id in local_dict:
             local_dict[game_id]["lastplay"] = date
 
-    # 6. 保存
+    # 8. 保存
     final_list = sorted(local_dict.values(), key=lambda x: x["name"]["value"].lower())
     with open("bgg_collection.json", "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
