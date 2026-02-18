@@ -4,10 +4,9 @@ import requests
 import os
 import xml.etree.ElementTree as ET
 
-BGG_API_TOKEN = os.environ.get("BGG_API_TOKEN")
-BGG_COOKIE = os.environ.get("BGG_COOKIE")
-
 API_URL = "https://boardgamegeek.com/xmlapi2/thing"
+
+BGG_API_TOKEN = os.environ.get("BGG_API_TOKEN")
 
 BATCH_SIZE = 10
 SLEEP_BETWEEN_CALLS = 1
@@ -15,19 +14,21 @@ SLEEP_ON_429 = 60
 
 
 def fetch_thing_info(game_id):
-    headers = {}
-    cookies = {}
+    params = {
+        "id": game_id,
+        "stats": 1,
+    }
 
+    # ✅ トークンはクエリパラメータ
     if BGG_API_TOKEN:
-        headers["Authorization"] = f"Bearer {BGG_API_TOKEN}"
+        params["api_key"] = BGG_API_TOKEN
 
-    if BGG_COOKIE:
-        cookies["bggsession"] = BGG_COOKIE
-
-    params = {"id": game_id, "stats": 1}
+    headers = {
+        "User-Agent": "bgg-owned-fetch-script/1.0"
+    }
 
     while True:
-        resp = requests.get(API_URL, params=params, headers=headers, cookies=cookies)
+        resp = requests.get(API_URL, params=params, headers=headers)
 
         if resp.status_code == 429:
             print(f"[{game_id}] 429 Rate limited → wait {SLEEP_ON_429}s")
@@ -45,13 +46,11 @@ def fetch_thing_info(game_id):
     root = ET.fromstring(resp.text)
     item = root.find("item")
 
-    # 🔥 確実にdesignerを取る方法
     designers = []
     for link in item.findall("link"):
         if link.attrib.get("type") == "boardgamedesigner":
             designers.append(link.attrib.get("value"))
 
-    # weight取得
     weight_elem = item.find("statistics/ratings/averageweight")
     weight = weight_elem.attrib.get("value") if weight_elem is not None else None
 
@@ -64,7 +63,7 @@ def main():
 
     pending = [
         g for g in data
-        if "designers" not in g or not g.get("designers")
+        if not g.get("designers")
     ]
 
     print(f"Pending games to update: {len(pending)}")
