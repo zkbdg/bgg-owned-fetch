@@ -1042,6 +1042,98 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "251247",
+    "subtype": "boardgame",
+    "collid": "142704638",
+    "name": {
+      "sortindex": "1",
+      "value": "Barrage"
+    },
+    "yearpublished": {
+      "value": "2019"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/jEPmWvvYpqkWrKOzqIHFsg__original/img/rkHKwkUqpQC7PAGG7n2gbrcQiUY=/0x0/filters:format(png)/pic4336469.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/jEPmWvvYpqkWrKOzqIHFsg__small/img/kMLIpeqA6UcUvQg2AdMwwQoEIfU=/fit-in/200x150/filters:strip_icc()/pic4336469.png"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "4",
+      "minplaytime": "90",
+      "maxplaytime": "180",
+      "playingtime": "180",
+      "numowned": "25920",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "21239"
+        },
+        "average": {
+          "value": "8.13925"
+        },
+        "bayesaverage": {
+          "value": "7.83766"
+        },
+        "stddev": {
+          "value": "1.44258"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "39",
+              "bayesaverage": "7.83766"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "32",
+              "bayesaverage": "7.89429"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Tommaso Battista",
+      "Simone Luciani"
+    ],
+    "weight": "4.1147",
+    "mechanics": [
+      "Contracts",
+      "End Game Bonuses",
+      "Income",
+      "Network and Route Building",
+      "Ownership",
+      "Solo / Solitaire Game",
+      "Turn Order: Stat-Based",
+      "Variable Player Powers",
+      "Variable Set-up",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Economic",
+      "Environmental",
+      "Industry / Manufacturing"
+    ],
+    "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "760",
     "subtype": "boardgame",
     "collid": "130627469",
@@ -7827,6 +7919,94 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "3076",
+    "subtype": "boardgame",
+    "collid": "142704654",
+    "name": {
+      "sortindex": "1",
+      "value": "Puerto Rico"
+    },
+    "yearpublished": {
+      "value": "2002"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/QFiIRd2kimaMqTyWsX0aUg__original/img/DOgIp57F7tKZvxeITGAd3e_Q9as=/0x0/filters:format(jpeg)/pic158548.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/QFiIRd2kimaMqTyWsX0aUg__small/img/5fLo89ChZH6Wzukk36bhZ-EpBS0=/fit-in/200x150/filters:strip_icc()/pic158548.jpg"
+    },
+    "stats": {
+      "minplayers": "3",
+      "maxplayers": "5",
+      "minplaytime": "90",
+      "maxplaytime": "150",
+      "playingtime": "150",
+      "numowned": "84655",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "73849"
+        },
+        "average": {
+          "value": "7.89899"
+        },
+        "bayesaverage": {
+          "value": "7.75363"
+        },
+        "stddev": {
+          "value": "1.38964"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "54",
+              "bayesaverage": "7.75363"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "54",
+              "bayesaverage": "7.74254"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Andreas Seyfarth"
+    ],
+    "weight": "3.2672",
+    "mechanics": [
+      "Action Drafting",
+      "End Game Bonuses",
+      "Follow",
+      "Hidden Victory Points",
+      "Increase Value of Unchosen Resources",
+      "Turn Order: Progressive",
+      "Variable Phase Order"
+    ],
+    "categories": [
+      "City Building",
+      "Economic",
+      "Farming"
+    ],
+    "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "244521",
     "subtype": "boardgame",
     "collid": "130627281",
@@ -9944,6 +10124,94 @@
       "Dice",
       "Medieval",
       "Territory Building"
+    ],
+    "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "324856",
+    "subtype": "boardgame",
+    "collid": "142704645",
+    "name": {
+      "sortindex": "5",
+      "value": "The Crew: Mission Deep Sea"
+    },
+    "yearpublished": {
+      "value": "2021"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/VuBqZ1sMaDAVVHF_OEJP4g__original/img/jGWxczXC_VWZofeAmlO_DkB0hCI=/0x0/filters:format(jpeg)/pic5988903.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/VuBqZ1sMaDAVVHF_OEJP4g__small/img/EdacXlcFZ06YK0-ZKa0oKwL4VCw=/fit-in/200x150/filters:strip_icc()/pic5988903.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "5",
+      "minplaytime": "20",
+      "maxplaytime": "20",
+      "playingtime": "20",
+      "numowned": "49836",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "24736"
+        },
+        "average": {
+          "value": "8.05803"
+        },
+        "bayesaverage": {
+          "value": "7.81084"
+        },
+        "stddev": {
+          "value": "1.31739"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "43",
+              "bayesaverage": "7.81084"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "4",
+              "bayesaverage": "7.87036"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Thomas Sing"
+    ],
+    "weight": "2.0476",
+    "mechanics": [
+      "Communication Limits",
+      "Cooperative Game",
+      "Deduction",
+      "Hand Management",
+      "Scenario / Mission / Campaign Game",
+      "Trick-taking"
+    ],
+    "categories": [
+      "Adventure",
+      "Card Game",
+      "Mythology",
+      "Nautical"
     ],
     "type": "boardgame"
   },
