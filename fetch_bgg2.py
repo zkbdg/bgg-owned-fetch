@@ -19,7 +19,7 @@ USERNAME = "zakibg"
 # ====================================
 # 設定
 # ====================================
-BATCH_SIZE = 2       # Thing 差分取得の件数
+BATCH_SIZE = 20       # Thing 差分取得の件数
 SLEEP_BETWEEN_CALLS = 1
 SLEEP_ON_429 = 60
 
@@ -158,18 +158,27 @@ def fetch_thing_info(game_id):
     categories = [link.attrib["value"] for link in item.findall("link") if link.attrib.get("type") == "boardgamecategory"]
     weight_elem = item.find("statistics/ratings/averageweight")
     weight = weight_elem.attrib["value"] if weight_elem is not None else None
-    type_ = item.attrib.get("type")  # boardgame or boardgameexpansion
+    game_type = item.attrib.get("type", "boardgame")  # boardgame or boardgameexpansion
 
-    return designers, weight, mechanics, categories, type_
+    return designers, weight, mechanics, categories, game_type
 
 # ====================================
 # 実行
 # ====================================
 def main():
-    # 1. plays
+    # --- 前回保存データ読み込み ---
+    try:
+        with open("bgg_collection.json", "r", encoding="utf-8") as f:
+            old_data = json.load(f)
+    except FileNotFoundError:
+        old_data = []
+
+    old_dict = {g["objectid"]: g for g in old_data}
+
+    # --- 1. plays ---
     lastplays = fetch_latest_plays(USERNAME)
 
-    # 2. collection
+    # --- 2. collection ---
     owned = fetch_collection(USERNAME, owned=True)
     wishlist = fetch_collection(USERNAME, wishlist=True)
     preordered = fetch_collection(USERNAME, preordered=True)
@@ -178,41 +187,53 @@ def main():
     all_games = owned + wishlist + preordered + prevowned
     local_dict = {g["objectid"]: g for g in all_games}
 
-    # 3. Thing API 差分
+    # --- 削除: XML にないゲームは消す ---
+    removed = set(old_dict) - set(local_dict)
+    for rid in removed:
+        print(f"Removing {old_dict[rid]['name']['value']} (no longer in XML)")
+        del old_dict[rid]
+
+    # --- マージ: status 更新、lastplay 追加 ---
+    for oid, game in local_dict.items():
+        if oid in old_dict:
+            # 既存は designers など残したまま status 更新
+            old_dict[oid]["status"] = game["status"]
+        else:
+            old_dict[oid] = game
+
+    # --- Thing API 差分 ---
     pending = [
-        g for g in all_games
+        g for g in old_dict.values()
         if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g or "type" not in g
     ]
     print(f"Pending games to update via Thing API: {len(pending)}")
 
-    for game in pending:
+    batch = pending[:BATCH_SIZE]
+    updated = 0
+
+    for game in batch:
         try:
-            designers, weight, mechanics, categories, type_ = fetch_thing_info(game["objectid"])
+            designers, weight, mechanics, categories, game_type = fetch_thing_info(game["objectid"])
             game["designers"] = designers
             game["weight"] = weight
             game["mechanics"] = mechanics
             game["categories"] = categories
-            game["type"] = type_
+            game["type"] = game_type
+            updated += 1
             print(f"Updated {game['name']['value']}")
             time.sleep(SLEEP_BETWEEN_CALLS)
         except Exception as e:
             print(f"Error fetching {game['name']['value']} ({game['objectid']}): {e}")
 
-    # 4. lastplay 追加
-    for game_id, date in lastplays.items():
-        if game_id in local_dict:
-            local_dict[game_id]["lastplay"] = date
+    print(f"Total Thing API updated: {updated}")
 
-    # 5. XMLから消えたゲームは削除
-    xml_ids = set(g["objectid"] for g in all_games)
-    json_ids = set(local_dict.keys())
-    removed_ids = json_ids - xml_ids
-    for rid in removed_ids:
-        print(f"Removed {local_dict[rid]['name']['value']} (no longer in collection)")
-        del local_dict[rid]
+    # --- lastplay 反映 ---
+    for oid, date in lastplays.items():
+        if oid in old_dict:
+            old_dict[oid]["lastplay"] = date
 
-    # 6. 保存
-    final_list = sorted(local_dict.values(), key=lambda x: x["name"]["value"].lower())
+    # --- 保存 ---
+    final_list = sorted(old_dict.values(), key=lambda x: x["name"]["value"].lower())
     with open("bgg_collection.json", "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
