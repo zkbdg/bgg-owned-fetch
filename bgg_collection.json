@@ -166,6 +166,74 @@
     "lastplay": "2025-11-19"
   },
   {
+    "objectid": "172818",
+    "name": {
+      "sortindex": "1",
+      "value": "Above and Below"
+    },
+    "yearpublished": {
+      "value": "2015"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "90",
+      "maxplaytime": "90",
+      "playingtime": "90",
+      "numowned": "27115",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "17025"
+        },
+        "average": {
+          "value": "7.34417"
+        },
+        "bayesaverage": {
+          "value": "7.07186"
+        },
+        "stddev": {
+          "value": "1.27654"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "412",
+              "bayesaverage": "7.07186"
+            },
+            {
+              "type": "family",
+              "id": "5496",
+              "name": "thematic",
+              "friendlyname": "Thematic Rank",
+              "value": "131",
+              "bayesaverage": "7.10548"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "326",
+              "bayesaverage": "7.09499"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    }
+  },
+  {
     "objecttype": "thing",
     "objectid": "5",
     "subtype": "boardgame",
@@ -842,7 +910,26 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2026-01-02"
+    "lastplay": "2026-01-02",
+    "designers": [
+      "Michael Kiesling"
+    ],
+    "weight": "1.7751",
+    "mechanics": [
+      "Chaining",
+      "End Game Bonuses",
+      "Grid Coverage",
+      "Open Drafting",
+      "Pattern Building",
+      "Set Collection",
+      "Square Grid",
+      "Tile Placement",
+      "Turn Order: Claim Action"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Renaissance"
+    ]
   },
   {
     "objecttype": "thing",
