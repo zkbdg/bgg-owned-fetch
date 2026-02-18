@@ -32,7 +32,7 @@ def fetch_thing_info(game_id):
 
     root = ET.fromstring(resp.text)
     item = root.find("item")
-    designers = [link.attrib["value"] for link in item.findall("link[@type='designer']")]
+    designers = [link.attrib["value"] for link in item.findall("link[@type='boardgamedesigner']")]
     weight_elem = item.find("statistics/ratings/averageweight")
     weight = weight_elem.attrib["value"] if weight_elem is not None else None
     return designers, weight
