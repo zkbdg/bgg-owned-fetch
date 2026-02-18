@@ -1,137 +1,230 @@
-import json
-import time
-import requests
 import os
+import time
+import json
+import requests
 import xml.etree.ElementTree as ET
+from datetime import datetime
 
-BGG_API_TOKEN = os.environ["BGG_API_TOKEN"]  # ← 必須にする（無いと即エラー）
+USERNAME = os.environ["BGG_USERNAME"]
+BGG_API_TOKEN = os.environ["BGG_API_TOKEN"]
 BGG_COOKIE = os.environ.get("BGG_COOKIE")
 
-API_URL = "https://boardgamegeek.com/xmlapi2/thing"
+COLLECTION_URL = "https://boardgamegeek.com/xmlapi2/collection"
+THING_URL = "https://boardgamegeek.com/xmlapi2/thing"
+PLAYS_URL = "https://boardgamegeek.com/xmlapi2/plays"
 
-BATCH_SIZE = 18
-SLEEP_BETWEEN_CALLS = 1
-SLEEP_ON_429 = 60
+JSON_FILE = "bgg_collection.json"
 
 
-def fetch_thing_info(game_id):
+# =========================
+# 共通リクエスト処理
+# =========================
+def bgg_get(url, params):
     headers = {
         "Authorization": f"Bearer {BGG_API_TOKEN}",
-        "User-Agent": "ZAKIbg-fetch/1.0"
+        "User-Agent": "ZAKIbg-sync/3.0"
     }
 
     cookies = {}
     if BGG_COOKIE:
         cookies["bggsession"] = BGG_COOKIE
 
-    params = {
-        "id": game_id,
-        "stats": 1
-    }
-
     while True:
-        resp = requests.get(
-            API_URL,
-            params=params,
-            headers=headers,
-            cookies=cookies,
-            timeout=30
-        )
-
-        if resp.status_code == 429:
-            print(f"[{game_id}] Rate limited → wait {SLEEP_ON_429}s")
-            time.sleep(SLEEP_ON_429)
-            continue
+        resp = requests.get(url, params=params, headers=headers, cookies=cookies)
 
         if resp.status_code == 202:
-            print(f"[{game_id}] Data not ready → wait 5s")
             time.sleep(5)
             continue
 
-        resp.raise_for_status()
-        break
+        if resp.status_code == 429:
+            time.sleep(60)
+            continue
 
-    root = ET.fromstring(resp.text)
+        resp.raise_for_status()
+        return resp.text
+
+
+# =========================
+# collection取得
+# =========================
+def fetch_collection():
+    xml_text = bgg_get(
+        COLLECTION_URL,
+        {"username": USERNAME, "own": 1, "stats": 1}
+    )
+
+    root = ET.fromstring(xml_text)
+    items = []
+
+    for item in root.findall("item"):
+        items.append({
+            "objectid": item.attrib["objectid"],
+            "name": item.find("name").text
+        })
+
+    return items
+
+
+# =========================
+# thing取得（新規のみ）
+# =========================
+def fetch_thing(game_id):
+    xml_text = bgg_get(
+        THING_URL,
+        {"id": game_id, "stats": 1}
+    )
+
+    root = ET.fromstring(xml_text)
     item = root.find("item")
 
-    if item is None:
-        raise Exception("No <item> found in response")
-
     designers = [
-        link.attrib["value"]
-        for link in item.findall("link")
-        if link.attrib.get("type") == "boardgamedesigner"
+        l.attrib["value"]
+        for l in item.findall("link")
+        if l.attrib.get("type") == "boardgamedesigner"
     ]
 
     mechanics = [
-        link.attrib["value"]
-        for link in item.findall("link")
-        if link.attrib.get("type") == "boardgamemechanic"
+        l.attrib["value"]
+        for l in item.findall("link")
+        if l.attrib.get("type") == "boardgamemechanic"
     ]
 
     categories = [
-        link.attrib["value"]
-        for link in item.findall("link")
-        if link.attrib.get("type") == "boardgamecategory"
+        l.attrib["value"]
+        for l in item.findall("link")
+        if l.attrib.get("type") == "boardgamecategory"
     ]
 
-    weight_elem = item.find("statistics/ratings/averageweight")
-    weight = weight_elem.attrib["value"] if weight_elem is not None else None
+    weight_node = item.find("statistics/ratings/averageweight")
+    weight = float(weight_node.attrib["value"]) if weight_node is not None else None
 
-    return designers, weight, mechanics, categories
+    return designers, mechanics, categories, weight
 
 
+# =========================
+# plays全取得＆集計
+# =========================
+def fetch_and_aggregate_plays():
+    page = 1
+    plays_dict = {}
+
+    while True:
+        xml_text = bgg_get(
+            PLAYS_URL,
+            {"username": USERNAME, "page": page}
+        )
+
+        root = ET.fromstring(xml_text)
+        total = int(root.attrib.get("total", 0))
+
+        plays = root.findall("play")
+        if not plays:
+            break
+
+        for play in plays:
+            date_str = play.attrib.get("date")
+            quantity = int(play.attrib.get("quantity", 1))
+            item = play.find("item")
+            if item is None:
+                continue
+
+            game_id = item.attrib["objectid"]
+
+            if game_id not in plays_dict:
+                plays_dict[game_id] = {
+                    "last_date": None,
+                    "last_quantity": 0,
+                    "total_plays": 0
+                }
+
+            # 通算加算
+            plays_dict[game_id]["total_plays"] += quantity
+
+            # 最新日判定
+            if date_str:
+                current_date = datetime.strptime(date_str, "%Y-%m-%d")
+                last_date = plays_dict[game_id]["last_date"]
+
+                if last_date is None or current_date > last_date:
+                    plays_dict[game_id]["last_date"] = current_date
+                    plays_dict[game_id]["last_quantity"] = quantity
+
+        # ページ終了判定
+        if page * 100 >= total:
+            break
+
+        page += 1
+
+    # datetime → 文字列変換
+    for gid in plays_dict:
+        if plays_dict[gid]["last_date"]:
+            plays_dict[gid]["last_date"] = plays_dict[gid]["last_date"].strftime("%Y-%m-%d")
+
+    return plays_dict
+
+
+# =========================
+# メイン同期処理
+# =========================
 def main():
-    with open("bgg_collection.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
 
-    pending = [
-        g for g in data
-        if "designers" not in g
-        or "mechanics" not in g
-        or "categories" not in g
-        or "weight" not in g
-    ]
+    # JSON読込
+    if os.path.exists(JSON_FILE):
+        with open(JSON_FILE, "r", encoding="utf-8") as f:
+            local_data = json.load(f)
+    else:
+        local_data = []
 
-    print(f"Pending games to update: {len(pending)}")
+    local_dict = {g["objectid"]: g for g in local_data}
+    local_ids = set(local_dict.keys())
 
-    batch = pending[:BATCH_SIZE]
-    updated = 0
+    # collection取得
+    remote_items = fetch_collection()
+    remote_ids = {g["objectid"] for g in remote_items}
 
-    for game in batch:
-        try:
-            designers, weight, mechanics, categories = fetch_thing_info(
-                game["objectid"]
-            )
+    new_ids = remote_ids - local_ids
+    removed_ids = local_ids - remote_ids
 
-            game["designers"] = designers
-            game["weight"] = weight
-            game["mechanics"] = mechanics
-            game["categories"] = categories
+    # 削除反映
+    for rid in removed_ids:
+        del local_dict[rid]
 
-            updated += 1
+    # 追加分thing取得
+    for item in remote_items:
+        gid = item["objectid"]
+        if gid in new_ids:
+            designers, mechanics, categories, weight = fetch_thing(gid)
+            local_dict[gid] = {
+                "objectid": gid,
+                "name": item["name"],
+                "designers": designers,
+                "mechanics": mechanics,
+                "categories": categories,
+                "weight": weight
+            }
 
-            print(
-                f"Updated {game['name']['value']} "
-                f"→ designers: {len(designers)}, "
-                f"mechanics: {len(mechanics)}, "
-                f"categories: {len(categories)}, "
-                f"weight: {weight}"
-            )
+    # plays集計
+    plays_dict = fetch_and_aggregate_plays()
 
-            time.sleep(SLEEP_BETWEEN_CALLS)
+    # lastplays付与
+    for gid, game in local_dict.items():
+        if gid in plays_dict:
+            p = plays_dict[gid]
+            game["lastplays"] = {
+                "date": p["last_date"],
+                "quantity": p["last_quantity"],
+                "total_plays": p["total_plays"]
+            }
+        else:
+            game["lastplays"] = None
 
-        except Exception as e:
-            print(
-                f"Error fetching {game['name']['value']} "
-                f"({game['objectid']}): {e}"
-            )
+    # 保存
+    final_list = sorted(local_dict.values(), key=lambda x: x["name"].lower())
 
-    if updated > 0:
-        with open("bgg_collection.json", "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(final_list, f, ensure_ascii=False, indent=2)
 
-    print(f"Total updated in this batch: {updated}")
+    print("✅ Full sync complete")
 
 
 if __name__ == "__main__":
