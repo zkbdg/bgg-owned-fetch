@@ -49,7 +49,16 @@
     "designers": [
       "Joe Hout"
     ],
-    "weight": "1.7069"
+    "weight": "1.7069",
+    "mechanics": [
+      "Closed Drafting",
+      "Set Collection",
+      "Trick-taking"
+    ],
+    "categories": [
+      "Card Game",
+      "Fantasy"
+    ]
   },
   {
     "objectid": "302260",
@@ -101,7 +110,16 @@
     "designers": [
       "Emma Larkins"
     ],
-    "weight": "1.25"
+    "weight": "1.25",
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Open Drafting",
+      "Race"
+    ],
+    "categories": [
+      "Card Game",
+      "Farming"
+    ]
   },
   {
     "objectid": "5",
@@ -153,7 +171,25 @@
     "designers": [
       "Sid Sackson"
     ],
-    "weight": "2.4903"
+    "weight": "2.4903",
+    "mechanics": [
+      "Connections",
+      "End Game Bonuses",
+      "Hand Management",
+      "Hidden Victory Points",
+      "Income",
+      "Investment",
+      "Market",
+      "Pattern Building",
+      "Square Grid",
+      "Stock Holding",
+      "Tile Placement",
+      "Victory Points as a Resource"
+    ],
+    "categories": [
+      "Economic",
+      "Territory Building"
+    ]
   },
   {
     "objectid": "326494",
@@ -205,7 +241,15 @@
     "designers": [
       "Michael Menzel"
     ],
-    "weight": "1.8295"
+    "weight": "1.8295",
+    "mechanics": [
+      "Cooperative Game",
+      "Scenario / Mission / Campaign Game",
+      "Storytelling"
+    ],
+    "categories": [
+      "Medieval"
+    ]
   },
   {
     "objectid": "191189",
@@ -259,7 +303,25 @@
       "Nick Little (I)",
       "Kevin Riley"
     ],
-    "weight": "2.8008"
+    "weight": "2.8008",
+    "mechanics": [
+      "Chit-Pull System",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Hand Management",
+      "Open Drafting",
+      "Solo / Solitaire Game",
+      "Variable Phase Order",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Fighting",
+      "Science Fiction"
+    ]
   },
   {
     "objectid": "338093",
@@ -311,7 +373,20 @@
     "designers": [
       "Rémi Mathieu"
     ],
-    "weight": "2.7222"
+    "weight": "2.7222",
+    "mechanics": [
+      "Delayed Purchase",
+      "End Game Bonuses",
+      "Hand Management",
+      "Open Drafting",
+      "Tags"
+    ],
+    "categories": [
+      "Ancient",
+      "Card Game",
+      "Civilization",
+      "Mythology"
+    ]
   },
   {
     "objectid": "236457",
@@ -364,7 +439,29 @@
       "S J Macdonald",
       "Shem Phillips"
     ],
-    "weight": "2.759"
+    "weight": "2.759",
+    "mechanics": [
+      "Area Movement",
+      "Contracts",
+      "End Game Bonuses",
+      "Events",
+      "Kill Steal",
+      "Loans",
+      "Open Drafting",
+      "Solo / Solitaire Game",
+      "Static Capture",
+      "Tags",
+      "Take That",
+      "Track Movement",
+      "Variable Player Powers",
+      "Variable Set-up",
+      "Worker Placement"
+    ],
+    "categories": [
+      "City Building",
+      "Economic",
+      "Medieval"
+    ]
   },
   {
     "objectid": "327245",
@@ -407,7 +504,18 @@
       "S J Macdonald",
       "Shem Phillips"
     ],
-    "weight": "3.3235"
+    "weight": "3.3235",
+    "mechanics": [
+      "Open Drafting",
+      "Set Collection",
+      "Variable Player Powers",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "City Building",
+      "Medieval"
+    ]
   },
   {
     "objectid": "230802",
@@ -467,7 +575,22 @@
     "designers": [
       "Michael Kiesling"
     ],
-    "weight": "1.7749"
+    "weight": "1.7749",
+    "mechanics": [
+      "Chaining",
+      "End Game Bonuses",
+      "Grid Coverage",
+      "Open Drafting",
+      "Pattern Building",
+      "Set Collection",
+      "Square Grid",
+      "Tile Placement",
+      "Turn Order: Claim Action"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Renaissance"
+    ]
   },
   {
     "objectid": "294345",
@@ -519,7 +642,15 @@
     "designers": [
       "Michael Kiesling"
     ],
-    "weight": "1.6538"
+    "weight": "1.6538",
+    "mechanics": [
+      "Pattern Building"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Abstract Strategy",
+      "Puzzle"
+    ]
   },
   {
     "objectid": "191925",
@@ -567,7 +698,21 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2025-11-02"
+    "lastplay": "2025-11-02",
+    "designers": [
+      "Martin Nedergaard Andersen"
+    ],
+    "weight": "1.1218",
+    "mechanics": [
+      "Cooperative Game",
+      "Network and Route Building",
+      "Solo / Solitaire Game",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Card Game",
+      "Print & Play"
+    ]
   },
   {
     "objectid": "760",
@@ -615,7 +760,20 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2025-11-20"
+    "lastplay": "2025-11-20",
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "weight": "1.8892",
+    "mechanics": [
+      "Card Play Conflict Resolution",
+      "Hand Management",
+      "Melding and Splaying"
+    ],
+    "categories": [
+      "Ancient",
+      "Card Game"
+    ]
   },
   {
     "objectid": "423151",
@@ -653,7 +811,22 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2025-11-15"
+    "lastplay": "2025-11-15",
+    "designers": [
+      "Nick Hayes",
+      "Bernard Tavitian"
+    ],
+    "weight": "0",
+    "mechanics": [
+      "Enclosure",
+      "Grid Coverage",
+      "Hand Management",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Territory Building"
+    ]
   },
   {
     "objectid": "413246",
@@ -701,7 +874,24 @@
     "numplays": {
       "value": "17"
     },
-    "lastplay": "2026-02-10"
+    "lastplay": "2026-02-10",
+    "designers": [
+      "Hisashi Hayashi"
+    ],
+    "weight": "1.9966",
+    "mechanics": [
+      "Communication Limits",
+      "Cooperative Game",
+      "Deduction",
+      "Memory",
+      "Once-Per-Game Abilities",
+      "Real-Time",
+      "Scenario / Mission / Campaign Game",
+      "Sudden Death Ending"
+    ],
+    "categories": [
+      "Deduction"
+    ]
   },
   {
     "objectid": "224517",
@@ -749,7 +939,37 @@
     "numplays": {
       "value": "0"
     },
-    "lastplay": null
+    "lastplay": null,
+    "designers": [
+      "Gavan Brown",
+      "Matt Tolman",
+      "Martin Wallace"
+    ],
+    "weight": "3.863",
+    "mechanics": [
+      "Chaining",
+      "End Game Bonuses",
+      "Hand Management",
+      "Income",
+      "Loans",
+      "Market",
+      "Multi-Use Cards",
+      "Network and Route Building",
+      "Ownership",
+      "Tags",
+      "Tech Trees / Tech Tracks",
+      "Tile Placement",
+      "Turn Order: Stat-Based",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Age of Reason",
+      "Economic",
+      "Industry / Manufacturing",
+      "Post-Napoleonic",
+      "Trains",
+      "Transportation"
+    ]
   },
   {
     "objectid": "144592",
@@ -797,7 +1017,21 @@
     "numplays": {
       "value": "0"
     },
-    "lastplay": null
+    "lastplay": null,
+    "designers": [
+      "Etienne Espreman"
+    ],
+    "weight": "3.5829",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Auction / Bidding",
+      "Modular Board",
+      "Open Drafting",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Economic"
+    ]
   },
   {
     "objectid": "260605",
@@ -853,7 +1087,24 @@
     "numplays": {
       "value": "7"
     },
-    "lastplay": "2026-01-30"
+    "lastplay": "2026-01-30",
+    "designers": [
+      "Steffen Bogen"
+    ],
+    "weight": "1.5106",
+    "mechanics": [
+      "Betting and Bluffing",
+      "Dice Rolling",
+      "Roll / Spin and Move",
+      "Track Movement",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Animals",
+      "Arabian",
+      "Dice",
+      "Racing"
+    ]
   },
   {
     "objectid": "822",
@@ -901,7 +1152,24 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2026-01-06"
+    "lastplay": "2026-01-06",
+    "designers": [
+      "Klaus-Jürgen Wrede"
+    ],
+    "weight": "1.8857",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Enclosure",
+      "Kill Steal",
+      "Map Addition",
+      "Pattern Building",
+      "Square Grid",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Medieval",
+      "Territory Building"
+    ]
   },
   {
     "objectid": "295947",
