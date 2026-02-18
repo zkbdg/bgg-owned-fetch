@@ -19,7 +19,7 @@ USERNAME = "zakibg"
 # ====================================
 # 設定
 # ====================================
-BATCH_SIZE = 150       # Thing 差分取得の件数
+BATCH_SIZE = 20       # Thing 差分取得の件数
 SLEEP_BETWEEN_CALLS = 1
 SLEEP_ON_429 = 60
 
@@ -177,10 +177,10 @@ def main():
     all_games = owned + wishlist + preordered + prevowned
     local_dict = {g["objectid"]: g for g in all_games}
 
-    # 3. Thing API 差分
+    # 3. Thing API 差分のみ
     pending = [
         g for g in all_games
-        if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g
+        if not g.get("designers") or not g.get("mechanics") or not g.get("categories") or not g.get("weight")
     ]
     print(f"Pending games to update via Thing API: {len(pending)}")
 
