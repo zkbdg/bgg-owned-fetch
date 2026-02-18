@@ -169,106 +169,6 @@
   },
   {
     "objecttype": "thing",
-    "objectid": "172818",
-    "subtype": "boardgame",
-    "collid": "142721933",
-    "name": {
-      "sortindex": "1",
-      "value": "Above and Below"
-    },
-    "yearpublished": {
-      "value": "2015"
-    },
-    "image": {
-      "value": "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__original/img/gIlpowYQ7XzumYO0jZyVldxosBA=/0x0/filters:format(jpeg)/pic2398773.jpg"
-    },
-    "thumbnail": {
-      "value": "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__small/img/jHLwKKWiJ-lHoaNIj0TrKAGm7QM=/fit-in/200x150/filters:strip_icc()/pic2398773.jpg"
-    },
-    "stats": {
-      "minplayers": "2",
-      "maxplayers": "4",
-      "minplaytime": "90",
-      "maxplaytime": "90",
-      "playingtime": "90",
-      "numowned": "27115",
-      "rating": {
-        "value": "N/A",
-        "usersrated": {
-          "value": "17025"
-        },
-        "average": {
-          "value": "7.34417"
-        },
-        "bayesaverage": {
-          "value": "7.07186"
-        },
-        "stddev": {
-          "value": "1.27654"
-        },
-        "median": {
-          "value": "0"
-        },
-        "ranks": {
-          "rank": [
-            {
-              "type": "subtype",
-              "id": "1",
-              "name": "boardgame",
-              "friendlyname": "Board Game Rank",
-              "value": "412",
-              "bayesaverage": "7.07186"
-            },
-            {
-              "type": "family",
-              "id": "5496",
-              "name": "thematic",
-              "friendlyname": "Thematic Rank",
-              "value": "131",
-              "bayesaverage": "7.10548"
-            },
-            {
-              "type": "family",
-              "id": "5497",
-              "name": "strategygames",
-              "friendlyname": "Strategy Game Rank",
-              "value": "326",
-              "bayesaverage": "7.09499"
-            }
-          ]
-        }
-      }
-    },
-    "status": "previouslyowned",
-    "numplays": {
-      "value": "0"
-    },
-    "designers": [
-      "Ryan Laukat"
-    ],
-    "weight": "2.5151",
-    "mechanics": [
-      "Action Points",
-      "Dice Rolling",
-      "Narrative Choice / Paragraph",
-      "Set Collection",
-      "Storytelling",
-      "Trading",
-      "Turn Order: Progressive"
-    ],
-    "categories": [
-      "Adventure",
-      "City Building",
-      "Economic",
-      "Exploration",
-      "Fantasy",
-      "Farming",
-      "Negotiation"
-    ],
-    "type": "boardgame"
-  },
-  {
-    "objecttype": "thing",
     "objectid": "5",
     "subtype": "boardgame",
     "collid": "131864698",
@@ -6370,7 +6270,8 @@
       "Exploration",
       "Travel"
     ],
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "lastplay": "2026-02-10"
   },
   {
     "objecttype": "thing",
@@ -6461,7 +6362,8 @@
       "Exploration",
       "Travel"
     ],
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "lastplay": "2026-02-10"
   },
   {
     "objecttype": "thing",
@@ -6538,7 +6440,8 @@
       "Adventure",
       "Exploration"
     ],
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "lastplay": "2025-11-30"
   },
   {
     "objecttype": "thing",
