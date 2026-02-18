@@ -23,20 +23,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "4823",
+      "numowned": "4830",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2204"
+          "value": "2207"
         },
         "average": {
-          "value": "7.0636"
+          "value": "7.06329"
         },
         "bayesaverage": {
-          "value": "6.2465"
+          "value": "6.24691"
         },
         "stddev": {
-          "value": "1.17789"
+          "value": "1.17773"
         },
         "median": {
           "value": "0"
@@ -48,8 +48,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2031",
-              "bayesaverage": "6.2465"
+              "value": "2030",
+              "bayesaverage": "6.24691"
             },
             {
               "type": "family",
@@ -57,7 +57,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "599",
-              "bayesaverage": "6.38438"
+              "bayesaverage": "6.38476"
             }
           ]
         }
@@ -80,6 +80,7 @@
       "Card Game",
       "Fantasy"
     ],
+    "type": "boardgame",
     "lastplay": "2026-01-15"
   },
   {
@@ -106,7 +107,7 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "10421",
+      "numowned": "10422",
       "rating": {
         "value": "6",
         "usersrated": {
@@ -131,7 +132,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1958",
+              "value": "1959",
               "bayesaverage": "6.26571"
             },
             {
@@ -163,6 +164,7 @@
       "Card Game",
       "Farming"
     ],
+    "type": "boardgame",
     "lastplay": "2025-11-19"
   },
   {
@@ -189,20 +191,20 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "29827",
+      "numowned": "29830",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "21977"
+          "value": "21979"
         },
         "average": {
-          "value": "7.35592"
+          "value": "7.35598"
         },
         "bayesaverage": {
-          "value": "7.1287"
+          "value": "7.12874"
         },
         "stddev": {
-          "value": "1.33377"
+          "value": "1.33372"
         },
         "median": {
           "value": "0"
@@ -215,7 +217,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "361",
-              "bayesaverage": "7.1287"
+              "bayesaverage": "7.12874"
             },
             {
               "type": "family",
@@ -223,7 +225,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "280",
-              "bayesaverage": "7.14728"
+              "bayesaverage": "7.14736"
             }
           ]
         }
@@ -254,7 +256,8 @@
     "categories": [
       "Economic",
       "Territory Building"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -280,20 +283,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "34390",
+      "numowned": "34394",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "23729"
+          "value": "23732"
         },
         "average": {
-          "value": "7.86533"
+          "value": "7.86548"
         },
         "bayesaverage": {
-          "value": "7.58291"
+          "value": "7.58297"
         },
         "stddev": {
-          "value": "1.37708"
+          "value": "1.37713"
         },
         "median": {
           "value": "0"
@@ -306,7 +309,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "104",
-              "bayesaverage": "7.58291"
+              "bayesaverage": "7.58297"
             },
             {
               "type": "family",
@@ -314,7 +317,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "91",
-              "bayesaverage": "7.59687"
+              "bayesaverage": "7.59698"
             }
           ]
         }
@@ -324,7 +327,6 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2026-02-12",
     "designers": [
       "Jenny Iglesias",
       "Nick Little (I)",
@@ -348,7 +350,9 @@
       "Fantasy",
       "Fighting",
       "Science Fiction"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-12"
   },
   {
     "objecttype": "thing",
@@ -398,7 +402,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "20627",
+            "value": "20630",
             "bayesaverage": "5.51514"
           }
         }
@@ -416,7 +420,8 @@
     "categories": [
       "Deduction",
       "Word Game"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -442,20 +447,20 @@
       "minplaytime": "75",
       "maxplaytime": "75",
       "playingtime": "75",
-      "numowned": "5174",
+      "numowned": "5177",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3512"
+          "value": "3514"
         },
         "average": {
-          "value": "7.13401"
+          "value": "7.13422"
         },
         "bayesaverage": {
-          "value": "6.45693"
+          "value": "6.45703"
         },
         "stddev": {
-          "value": "1.28502"
+          "value": "1.28474"
         },
         "median": {
           "value": "0"
@@ -468,15 +473,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1415",
-              "bayesaverage": "6.45693"
+              "bayesaverage": "6.45703"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "790",
-              "bayesaverage": "6.58103"
+              "value": "792",
+              "bayesaverage": "6.58112"
             }
           ]
         }
@@ -502,7 +507,8 @@
       "Card Game",
       "Civilization",
       "Mythology"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -528,20 +534,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "44219",
+      "numowned": "44217",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "32265"
+          "value": "32270"
         },
         "average": {
           "value": "7.70917"
         },
         "bayesaverage": {
-          "value": "7.51408"
+          "value": "7.51409"
         },
         "stddev": {
-          "value": "1.18466"
+          "value": "1.18472"
         },
         "median": {
           "value": "0"
@@ -554,15 +560,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "128",
-              "bayesaverage": "7.51408"
+              "bayesaverage": "7.51409"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "111",
-              "bayesaverage": "7.52829"
+              "value": "110",
+              "bayesaverage": "7.52835"
             }
           ]
         }
@@ -598,7 +604,8 @@
       "City Building",
       "Economic",
       "Medieval"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -624,20 +631,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "7889",
+      "numowned": "7885",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1237"
+          "value": "1236"
         },
         "average": {
-          "value": "8.01353"
+          "value": "8.01354"
         },
         "bayesaverage": {
-          "value": "6.34188"
+          "value": "6.34139"
         },
         "stddev": {
-          "value": "1.11979"
+          "value": "1.12024"
         },
         "median": {
           "value": "0"
@@ -649,7 +656,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.34188"
+            "bayesaverage": "6.34139"
           }
         }
       }
@@ -673,7 +680,8 @@
       "Expansion for Base-game",
       "City Building",
       "Medieval"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -699,20 +707,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "27141",
+      "numowned": "27170",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "15717"
+          "value": "15734"
         },
         "average": {
-          "value": "8.02179"
+          "value": "8.02085"
         },
         "bayesaverage": {
-          "value": "7.58049"
+          "value": "7.57976"
         },
         "stddev": {
-          "value": "1.72676"
+          "value": "1.72761"
         },
         "median": {
           "value": "0"
@@ -725,7 +733,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "106",
-              "bayesaverage": "7.58049"
+              "bayesaverage": "7.57976"
             },
             {
               "type": "family",
@@ -733,7 +741,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "81",
-              "bayesaverage": "7.6146"
+              "bayesaverage": "7.61367"
             }
           ]
         }
@@ -764,7 +772,8 @@
       "Science Fiction",
       "Space Exploration",
       "Wargame"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -790,17 +799,17 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "179509",
+      "numowned": "179558",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "106464"
+          "value": "106487"
         },
         "average": {
-          "value": "7.71833"
+          "value": "7.71831"
         },
         "bayesaverage": {
-          "value": "7.6089"
+          "value": "7.60886"
         },
         "stddev": {
           "value": "1.16716"
@@ -816,7 +825,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "96",
-              "bayesaverage": "7.6089"
+              "bayesaverage": "7.60886"
             },
             {
               "type": "family",
@@ -824,7 +833,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "3",
-              "bayesaverage": "7.63272"
+              "bayesaverage": "7.63259"
             },
             {
               "type": "family",
@@ -832,7 +841,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "17",
-              "bayesaverage": "7.61701"
+              "bayesaverage": "7.61693"
             }
           ]
         }
@@ -842,7 +851,6 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2026-01-02",
     "designers": [
       "Michael Kiesling"
     ],
@@ -861,7 +869,9 @@
     "categories": [
       "Abstract Strategy",
       "Renaissance"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-02"
   },
   {
     "objecttype": "thing",
@@ -887,20 +897,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "11708",
+      "numowned": "11711",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2372"
+          "value": "2373"
         },
         "average": {
-          "value": "7.26531"
+          "value": "7.26562"
         },
         "bayesaverage": {
-          "value": "6.36329"
+          "value": "6.36365"
         },
         "stddev": {
-          "value": "1.4535"
+          "value": "1.45327"
         },
         "median": {
           "value": "0"
@@ -913,7 +923,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.36329"
+              "bayesaverage": "6.36365"
             },
             {
               "type": "family",
@@ -921,7 +931,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.89479"
+              "bayesaverage": "6.89541"
             }
           ]
         }
@@ -942,7 +952,8 @@
       "Expansion for Base-game",
       "Abstract Strategy",
       "Puzzle"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -968,20 +979,20 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "13950",
+      "numowned": "13952",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "7292"
+          "value": "7294"
         },
         "average": {
-          "value": "6.4004"
+          "value": "6.40043"
         },
         "bayesaverage": {
-          "value": "6.12396"
+          "value": "6.12405"
         },
         "stddev": {
-          "value": "1.39377"
+          "value": "1.39361"
         },
         "median": {
           "value": "0"
@@ -994,7 +1005,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "2525",
-              "bayesaverage": "6.12396"
+              "bayesaverage": "6.12405"
             },
             {
               "type": "family",
@@ -1002,7 +1013,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "908",
-              "bayesaverage": "6.1641"
+              "bayesaverage": "6.16419"
             }
           ]
         }
@@ -1012,7 +1023,6 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2025-11-02",
     "designers": [
       "Martin Nedergaard Andersen"
     ],
@@ -1026,7 +1036,9 @@
     "categories": [
       "Card Game",
       "Print & Play"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-02"
   },
   {
     "objecttype": "thing",
@@ -1052,20 +1064,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "22436",
+      "numowned": "22433",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "18223"
+          "value": "18222"
         },
         "average": {
-          "value": "7.41439"
+          "value": "7.4143"
         },
         "bayesaverage": {
-          "value": "7.17255"
+          "value": "7.17246"
         },
         "stddev": {
-          "value": "1.27253"
+          "value": "1.27243"
         },
         "median": {
           "value": "0"
@@ -1078,7 +1090,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "323",
-              "bayesaverage": "7.17255"
+              "bayesaverage": "7.17246"
             },
             {
               "type": "family",
@@ -1086,7 +1098,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "246",
-              "bayesaverage": "7.20716"
+              "bayesaverage": "7.20706"
             }
           ]
         }
@@ -1096,7 +1108,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2025-11-20",
     "designers": [
       "Reiner Knizia"
     ],
@@ -1109,7 +1120,9 @@
     "categories": [
       "Ancient",
       "Card Game"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-20"
   },
   {
     "objecttype": "thing",
@@ -1169,7 +1182,6 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2025-11-15",
     "designers": [
       "Nick Hayes",
       "Bernard Tavitian"
@@ -1184,7 +1196,9 @@
     "categories": [
       "Abstract Strategy",
       "Territory Building"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-15"
   },
   {
     "objecttype": "thing",
@@ -1264,7 +1278,8 @@
     ],
     "categories": [
       "Bluffing"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -1290,20 +1305,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "22094",
+      "numowned": "22140",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "10858"
+          "value": "10879"
         },
         "average": {
-          "value": "8.04476"
+          "value": "8.04549"
         },
         "bayesaverage": {
-          "value": "7.55439"
+          "value": "7.55528"
         },
         "stddev": {
-          "value": "1.23784"
+          "value": "1.23794"
         },
         "median": {
           "value": "0"
@@ -1316,7 +1331,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "109",
-              "bayesaverage": "7.55439"
+              "bayesaverage": "7.55528"
             },
             {
               "type": "family",
@@ -1324,7 +1339,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "13",
-              "bayesaverage": "7.66015"
+              "bayesaverage": "7.66097"
             }
           ]
         }
@@ -1334,7 +1349,6 @@
     "numplays": {
       "value": "17"
     },
-    "lastplay": "2026-02-10",
     "designers": [
       "Hisashi Hayashi"
     ],
@@ -1351,7 +1365,9 @@
     ],
     "categories": [
       "Deduction"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-10"
   },
   {
     "objecttype": "thing",
@@ -1377,20 +1393,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "81579",
+      "numowned": "81612",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "56818"
+          "value": "56830"
         },
         "average": {
           "value": "8.56708"
         },
         "bayesaverage": {
-          "value": "8.39497"
+          "value": "8.39498"
         },
         "stddev": {
-          "value": "1.42427"
+          "value": "1.42428"
         },
         "median": {
           "value": "0"
@@ -1403,7 +1419,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1",
-              "bayesaverage": "8.39497"
+              "bayesaverage": "8.39498"
             },
             {
               "type": "family",
@@ -1411,7 +1427,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "1",
-              "bayesaverage": "8.40878"
+              "bayesaverage": "8.40879"
             }
           ]
         }
@@ -1450,7 +1466,8 @@
       "Post-Napoleonic",
       "Trains",
       "Transportation"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -1476,7 +1493,7 @@
       "minplaytime": "50",
       "maxplaytime": "125",
       "playingtime": "125",
-      "numowned": "6494",
+      "numowned": "6491",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -1509,7 +1526,7 @@
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "304",
+              "value": "305",
               "bayesaverage": "7.11798"
             }
           ]
@@ -1533,7 +1550,8 @@
     ],
     "categories": [
       "Economic"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -1559,20 +1577,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "29967",
+      "numowned": "29978",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "17363"
+          "value": "17375"
         },
         "average": {
           "value": "7.54324"
         },
         "bayesaverage": {
-          "value": "7.24832"
+          "value": "7.24822"
         },
         "stddev": {
-          "value": "1.1884"
+          "value": "1.18863"
         },
         "median": {
           "value": "0"
@@ -1584,8 +1602,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "266",
-              "bayesaverage": "7.24832"
+              "value": "267",
+              "bayesaverage": "7.24822"
             },
             {
               "type": "family",
@@ -1593,7 +1611,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "11",
-              "bayesaverage": "7.34197"
+              "bayesaverage": "7.34169"
             },
             {
               "type": "family",
@@ -1601,7 +1619,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "49",
-              "bayesaverage": "7.30278"
+              "bayesaverage": "7.30261"
             }
           ]
         }
@@ -1611,7 +1629,6 @@
     "numplays": {
       "value": "7"
     },
-    "lastplay": "2026-01-30",
     "designers": [
       "Steffen Bogen"
     ],
@@ -1628,7 +1645,9 @@
       "Arabian",
       "Dice",
       "Racing"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-30"
   },
   {
     "objecttype": "thing",
@@ -1654,20 +1673,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "220397",
+      "numowned": "220433",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "138385"
+          "value": "138397"
         },
         "average": {
-          "value": "7.41572"
+          "value": "7.41566"
         },
         "bayesaverage": {
-          "value": "7.29834"
+          "value": "7.29828"
         },
         "stddev": {
-          "value": "1.3119"
+          "value": "1.31183"
         },
         "median": {
           "value": "0"
@@ -1680,7 +1699,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "240",
-              "bayesaverage": "7.29834"
+              "bayesaverage": "7.29828"
             },
             {
               "type": "family",
@@ -1688,7 +1707,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "55",
-              "bayesaverage": "7.29049"
+              "bayesaverage": "7.29041"
             }
           ]
         }
@@ -1698,7 +1717,6 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2026-01-06",
     "designers": [
       "Klaus-Jürgen Wrede"
     ],
@@ -1715,7 +1733,9 @@
     "categories": [
       "Medieval",
       "Territory Building"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-06"
   },
   {
     "objecttype": "thing",
@@ -1741,20 +1761,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "89871",
+      "numowned": "89912",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "53549"
+          "value": "53572"
         },
         "average": {
-          "value": "7.89647"
+          "value": "7.89659"
         },
         "bayesaverage": {
-          "value": "7.7408"
+          "value": "7.74087"
         },
         "stddev": {
-          "value": "1.13659"
+          "value": "1.13647"
         },
         "median": {
           "value": "0"
@@ -1767,7 +1787,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "57",
-              "bayesaverage": "7.7408"
+              "bayesaverage": "7.74087"
             },
             {
               "type": "family",
@@ -1775,7 +1795,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "1",
-              "bayesaverage": "7.70231"
+              "bayesaverage": "7.70229"
             },
             {
               "type": "family",
@@ -1783,7 +1803,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "11",
-              "bayesaverage": "7.76623"
+              "bayesaverage": "7.76632"
             }
           ]
         }
@@ -1793,7 +1813,6 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2026-01-28",
     "designers": [
       "Randy Flynn"
     ],
@@ -1810,7 +1829,9 @@
     "categories": [
       "Animals",
       "Environmental"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-28"
   },
   {
     "objecttype": "thing",
@@ -1836,20 +1857,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "16772",
+      "numowned": "16774",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3366"
+          "value": "3368"
         },
         "average": {
-          "value": "7.75081"
+          "value": "7.75066"
         },
         "bayesaverage": {
           "value": "6.79794"
         },
         "stddev": {
-          "value": "1.16649"
+          "value": "1.16622"
         },
         "median": {
           "value": "0"
@@ -1904,7 +1925,8 @@
       "Animals",
       "Environmental",
       "Puzzle"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -1930,20 +1952,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "236594",
+      "numowned": "236639",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "140635"
+          "value": "140655"
         },
         "average": {
-          "value": "7.0912"
+          "value": "7.09124"
         },
         "bayesaverage": {
-          "value": "6.90424"
+          "value": "6.90422"
         },
         "stddev": {
-          "value": "1.50511"
+          "value": "1.5051"
         },
         "median": {
           "value": "0"
@@ -1956,15 +1978,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "612",
-              "bayesaverage": "6.90424"
+              "bayesaverage": "6.90422"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "573",
-              "bayesaverage": "6.77582"
+              "value": "574",
+              "bayesaverage": "6.77581"
             },
             {
               "type": "family",
@@ -1972,7 +1994,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "207",
-              "bayesaverage": "6.85168"
+              "bayesaverage": "6.85166"
             }
           ]
         }
@@ -1982,7 +2004,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2025-11-19",
     "designers": [
       "Klaus Teuber"
     ],
@@ -2006,7 +2027,9 @@
     "categories": [
       "Economic",
       "Negotiation"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-19"
   },
   {
     "objecttype": "thing",
@@ -2076,7 +2099,6 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2025-09-23",
     "designers": [
       "Klaus Teuber"
     ],
@@ -2089,7 +2111,9 @@
       "Children's Game",
       "Economic",
       "Pirates"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-09-23"
   },
   {
     "objecttype": "thing",
@@ -2115,7 +2139,7 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "1150",
+      "numowned": "1151",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -2139,7 +2163,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "7471",
+            "value": "7473",
             "bayesaverage": "5.64749"
           }
         }
@@ -2167,7 +2191,8 @@
       "Economic",
       "Environmental",
       "Territory Building"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -2197,16 +2222,16 @@
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "126"
+          "value": "127"
         },
         "average": {
-          "value": "6.29532"
+          "value": "6.31662"
         },
         "bayesaverage": {
           "value": "5.53221"
         },
         "stddev": {
-          "value": "1.66384"
+          "value": "1.67443"
         },
         "median": {
           "value": "0"
@@ -2217,7 +2242,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "15929",
+            "value": "15931",
             "bayesaverage": "5.53221"
           }
         }
@@ -2227,7 +2252,6 @@
     "numplays": {
       "value": "6"
     },
-    "lastplay": "2025-11-24",
     "designers": [
       "Martino Chiacchiera",
       "Gabriele Mari"
@@ -2240,7 +2264,9 @@
     "categories": [
       "Deduction",
       "Transportation"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-24"
   },
   {
     "objecttype": "thing",
@@ -2266,20 +2292,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "8840",
+      "numowned": "8843",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2035"
+          "value": "2036"
         },
         "average": {
-          "value": "8.17902"
+          "value": "8.17918"
         },
         "bayesaverage": {
           "value": "6.7074"
         },
         "stddev": {
-          "value": "1.14708"
+          "value": "1.14682"
         },
         "median": {
           "value": "0"
@@ -2332,7 +2358,8 @@
       "Expansion for Base-game",
       "Adventure",
       "Fantasy"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -2358,20 +2385,20 @@
       "minplaytime": "45",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "23012",
+      "numowned": "23030",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "12924"
+          "value": "12936"
         },
         "average": {
-          "value": "8.23666"
+          "value": "8.23698"
         },
         "bayesaverage": {
-          "value": "7.75551"
+          "value": "7.75597"
         },
         "stddev": {
-          "value": "1.16831"
+          "value": "1.16808"
         },
         "median": {
           "value": "0"
@@ -2384,7 +2411,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "53",
-              "bayesaverage": "7.75551"
+              "bayesaverage": "7.75597"
             },
             {
               "type": "family",
@@ -2392,7 +2419,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "41",
-              "bayesaverage": "7.82628"
+              "bayesaverage": "7.82675"
             },
             {
               "type": "family",
@@ -2400,7 +2427,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "7",
-              "bayesaverage": "7.85088"
+              "bayesaverage": "7.85134"
             }
           ]
         }
@@ -2410,7 +2437,6 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2026-01-01",
     "designers": [
       "Paul Dennen"
     ],
@@ -2433,7 +2459,9 @@
     "categories": [
       "Adventure",
       "Fantasy"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-01"
   },
   {
     "objecttype": "thing",
@@ -2459,20 +2487,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "10815",
+      "numowned": "10828",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "4816"
+          "value": "4824"
         },
         "average": {
-          "value": "7.10974"
+          "value": "7.10972"
         },
         "bayesaverage": {
-          "value": "6.49437"
+          "value": "6.49452"
         },
         "stddev": {
-          "value": "1.37864"
+          "value": "1.3781"
         },
         "median": {
           "value": "0"
@@ -2485,7 +2513,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1333",
-              "bayesaverage": "6.49437"
+              "bayesaverage": "6.49452"
             },
             {
               "type": "family",
@@ -2493,7 +2521,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "394",
-              "bayesaverage": "6.58726"
+              "bayesaverage": "6.58736"
             }
           ]
         }
@@ -2503,7 +2531,6 @@
     "numplays": {
       "value": "12"
     },
-    "lastplay": "2026-02-16",
     "designers": [
       "Euijin Han"
     ],
@@ -2515,7 +2542,9 @@
     ],
     "categories": [
       "Economic"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-16"
   },
   {
     "objecttype": "thing",
@@ -2541,20 +2570,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "2366",
+      "numowned": "2367",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "351"
+          "value": "352"
         },
         "average": {
-          "value": "7.56368"
+          "value": "7.5635"
         },
         "bayesaverage": {
-          "value": "5.72108"
+          "value": "5.72179"
         },
         "stddev": {
-          "value": "1.52881"
+          "value": "1.52664"
         },
         "median": {
           "value": "0"
@@ -2566,7 +2595,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.72108"
+            "bayesaverage": "5.72179"
           }
         }
       }
@@ -2585,7 +2614,8 @@
     ],
     "categories": [
       "Expansion for Base-game"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -2639,7 +2669,6 @@
     "numplays": {
       "value": "6"
     },
-    "lastplay": "2025-12-31",
     "designers": [
       "Toshiki Sato"
     ],
@@ -2649,7 +2678,9 @@
     ],
     "categories": [
       "Educational"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-12-31"
   },
   {
     "objecttype": "thing",
@@ -2675,20 +2706,20 @@
       "minplaytime": "40",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "50820",
+      "numowned": "50825",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "35054"
+          "value": "35055"
         },
         "average": {
-          "value": "7.09652"
+          "value": "7.09654"
         },
         "bayesaverage": {
-          "value": "6.95252"
+          "value": "6.95245"
         },
         "stddev": {
-          "value": "1.24778"
+          "value": "1.24793"
         },
         "median": {
           "value": "0"
@@ -2701,7 +2732,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "555",
-              "bayesaverage": "6.95252"
+              "bayesaverage": "6.95245"
             },
             {
               "type": "family",
@@ -2709,7 +2740,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "155",
-              "bayesaverage": "6.96962"
+              "bayesaverage": "6.96956"
             }
           ]
         }
@@ -2719,7 +2750,6 @@
     "numplays": {
       "value": "6"
     },
-    "lastplay": "2026-01-07",
     "designers": [
       "Christophe Raimbault"
     ],
@@ -2737,7 +2767,9 @@
       "American West",
       "Fighting",
       "Trains"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-07"
   },
   {
     "objecttype": "thing",
@@ -2763,20 +2795,20 @@
       "minplaytime": "100",
       "maxplaytime": "100",
       "playingtime": "100",
-      "numowned": "51044",
+      "numowned": "51042",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "44836"
+          "value": "44835"
         },
         "average": {
-          "value": "8.07823"
+          "value": "8.07822"
         },
         "bayesaverage": {
-          "value": "7.92646"
+          "value": "7.92642"
         },
         "stddev": {
-          "value": "1.21196"
+          "value": "1.21199"
         },
         "median": {
           "value": "0"
@@ -2789,7 +2821,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "29",
-              "bayesaverage": "7.92646"
+              "bayesaverage": "7.92642"
             },
             {
               "type": "family",
@@ -2797,7 +2829,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "24",
-              "bayesaverage": "7.94639"
+              "bayesaverage": "7.94635"
             }
           ]
         }
@@ -2831,7 +2863,8 @@
       "Ancient",
       "Economic",
       "Nautical"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -2857,7 +2890,7 @@
       "minplaytime": "45",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "222",
+      "numowned": "223",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -2881,7 +2914,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "15379",
+            "value": "15377",
             "bayesaverage": "5.53492"
           }
         }
@@ -2909,7 +2942,8 @@
       "Economic",
       "Industry / Manufacturing",
       "Transportation"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -2935,20 +2969,20 @@
       "minplaytime": "20",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3001",
+      "numowned": "3002",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "1995"
+          "value": "1996"
         },
         "average": {
-          "value": "6.63101"
+          "value": "6.63069"
         },
         "bayesaverage": {
           "value": "6.00637"
         },
         "stddev": {
-          "value": "1.25727"
+          "value": "1.25704"
         },
         "median": {
           "value": "0"
@@ -2960,7 +2994,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3103",
+              "value": "3104",
               "bayesaverage": "6.00637"
             },
             {
@@ -2991,7 +3025,8 @@
       "Card Game",
       "Deduction",
       "Party Game"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -3017,20 +3052,20 @@
       "minplaytime": "30",
       "maxplaytime": "50",
       "playingtime": "50",
-      "numowned": "23094",
+      "numowned": "23096",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "16844"
+          "value": "16847"
         },
         "average": {
-          "value": "7.42844"
+          "value": "7.42858"
         },
         "bayesaverage": {
-          "value": "7.16383"
+          "value": "7.164"
         },
         "stddev": {
-          "value": "1.28874"
+          "value": "1.28868"
         },
         "median": {
           "value": "0"
@@ -3043,7 +3078,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "336",
-              "bayesaverage": "7.16383"
+              "bayesaverage": "7.164"
             },
             {
               "type": "family",
@@ -3051,7 +3086,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "251",
-              "bayesaverage": "7.19803"
+              "bayesaverage": "7.1982"
             },
             {
               "type": "family",
@@ -3059,7 +3094,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "71",
-              "bayesaverage": "7.22217"
+              "bayesaverage": "7.22235"
             }
           ]
         }
@@ -3083,7 +3118,8 @@
     ],
     "categories": [
       "Deduction"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -3109,20 +3145,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "1764",
+      "numowned": "1767",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "520"
+          "value": "522"
         },
         "average": {
-          "value": "7.20106"
+          "value": "7.19741"
         },
         "bayesaverage": {
-          "value": "5.80269"
+          "value": "5.80302"
         },
         "stddev": {
-          "value": "1.11789"
+          "value": "1.11868"
         },
         "median": {
           "value": "0"
@@ -3134,7 +3170,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.80269"
+            "bayesaverage": "5.80302"
           }
         }
       }
@@ -3143,7 +3179,6 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2025-11-02",
     "designers": [
       "Jun Sasaki",
       "Goro Sasaki"
@@ -3159,7 +3194,9 @@
       "Exploration",
       "Nautical",
       "Party Game"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-02"
   },
   {
     "objecttype": "thing",
@@ -3185,20 +3222,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "32496",
+      "numowned": "32505",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "23886"
+          "value": "23888"
         },
         "average": {
-          "value": "6.84645"
+          "value": "6.84663"
         },
         "bayesaverage": {
-          "value": "6.70846"
+          "value": "6.70859"
         },
         "stddev": {
-          "value": "1.22222"
+          "value": "1.22223"
         },
         "median": {
           "value": "0"
@@ -3211,7 +3248,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "886",
-              "bayesaverage": "6.70846"
+              "bayesaverage": "6.70859"
             },
             {
               "type": "family",
@@ -3219,7 +3256,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "69",
-              "bayesaverage": "6.76784"
+              "bayesaverage": "6.76799"
             },
             {
               "type": "family",
@@ -3227,7 +3264,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "281",
-              "bayesaverage": "6.73928"
+              "bayesaverage": "6.73941"
             }
           ]
         }
@@ -3237,7 +3274,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2025-11-28",
     "designers": [
       "Bruno Faidutti",
       "Alan R. Moon"
@@ -3252,7 +3288,9 @@
       "Bluffing",
       "Card Game",
       "Exploration"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-28"
   },
   {
     "objecttype": "thing",
@@ -3282,16 +3320,16 @@
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "16598"
+          "value": "16599"
         },
         "average": {
-          "value": "7.08273"
+          "value": "7.08267"
         },
         "bayesaverage": {
-          "value": "6.85679"
+          "value": "6.85674"
         },
         "stddev": {
-          "value": "1.13627"
+          "value": "1.13623"
         },
         "median": {
           "value": "0"
@@ -3304,7 +3342,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "673",
-              "bayesaverage": "6.85679"
+              "bayesaverage": "6.85674"
             },
             {
               "type": "family",
@@ -3312,7 +3350,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "182",
-              "bayesaverage": "6.90619"
+              "bayesaverage": "6.90614"
             }
           ]
         }
@@ -3322,7 +3360,6 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2026-01-17",
     "designers": [
       "Antoine Bauza",
       "Corentin Lebrat",
@@ -3341,7 +3378,9 @@
       "Animals",
       "Prehistoric",
       "Science Fiction"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-17"
   },
   {
     "objecttype": "thing",
@@ -3367,7 +3406,7 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "7135",
+      "numowned": "7138",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -3427,7 +3466,8 @@
       "Children's Game",
       "Fantasy",
       "Territory Building"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -3453,7 +3493,7 @@
       "minplaytime": "15",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "4160",
+      "numowned": "4161",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -3478,7 +3518,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3212",
+              "value": "3214",
               "bayesaverage": "5.99013"
             },
             {
@@ -3497,7 +3537,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2025-09-11",
     "designers": [
       "Günter Burkhardt",
       "Lena Burkhardt"
@@ -3512,7 +3551,9 @@
       "Animals",
       "Children's Game",
       "Fantasy"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-09-11"
   },
   {
     "objecttype": "thing",
@@ -3538,20 +3579,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "7399",
+      "numowned": "7406",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1438"
+          "value": "1441"
         },
         "average": {
-          "value": "8.70442"
+          "value": "8.70261"
         },
         "bayesaverage": {
-          "value": "6.62332"
+          "value": "6.62436"
         },
         "stddev": {
-          "value": "1.31007"
+          "value": "1.31147"
         },
         "median": {
           "value": "0"
@@ -3564,7 +3605,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.62332"
+              "bayesaverage": "6.62436"
             },
             {
               "type": "family",
@@ -3572,7 +3613,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.83821"
+              "bayesaverage": "6.83932"
             }
           ]
         }
@@ -3601,7 +3642,8 @@
       "Novel-based",
       "Political",
       "Science Fiction"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -3627,20 +3669,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "28410",
+      "numowned": "28415",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "9526"
+          "value": "9528"
         },
         "average": {
-          "value": "8.80447"
+          "value": "8.80443"
         },
         "bayesaverage": {
-          "value": "8.09306"
+          "value": "8.09308"
         },
         "stddev": {
-          "value": "1.08543"
+          "value": "1.08534"
         },
         "median": {
           "value": "0"
@@ -3653,7 +3695,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.09306"
+              "bayesaverage": "8.09308"
             },
             {
               "type": "family",
@@ -3690,7 +3732,8 @@
       "Novel-based",
       "Political",
       "Science Fiction"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -3716,20 +3759,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "26320",
+      "numowned": "26337",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "16802"
+          "value": "16813"
         },
         "average": {
-          "value": "8.70353"
+          "value": "8.70388"
         },
         "bayesaverage": {
-          "value": "8.21512"
+          "value": "8.21546"
         },
         "stddev": {
-          "value": "1.32078"
+          "value": "1.32056"
         },
         "median": {
           "value": "0"
@@ -3742,7 +3785,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "7",
-              "bayesaverage": "8.21512"
+              "bayesaverage": "8.21546"
             },
             {
               "type": "family",
@@ -3750,7 +3793,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "4",
-              "bayesaverage": "8.28108"
+              "bayesaverage": "8.28144"
             }
           ]
         }
@@ -3784,7 +3827,8 @@
       "Movies / TV / Radio theme",
       "Novel-based",
       "Science Fiction"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -3835,7 +3879,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4428",
+              "value": "4429",
               "bayesaverage": "5.83081"
             },
             {
@@ -3843,7 +3887,7 @@
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1783",
+              "value": "1785",
               "bayesaverage": "5.93415"
             }
           ]
@@ -3854,7 +3898,6 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2026-01-04",
     "designers": [
       "Adam Buckingham",
       "Ed Marriott"
@@ -3869,7 +3912,9 @@
     "categories": [
       "American West",
       "City Building"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-04"
   },
   {
     "objecttype": "thing",
@@ -3943,7 +3988,8 @@
       "Expansion for Base-game",
       "American West",
       "City Building"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -3969,20 +4015,20 @@
       "minplaytime": "15",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "29919",
+      "numowned": "29944",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "16924"
+          "value": "16941"
         },
         "average": {
-          "value": "7.54931"
+          "value": "7.54935"
         },
         "bayesaverage": {
-          "value": "7.25947"
+          "value": "7.25948"
         },
         "stddev": {
-          "value": "1.17191"
+          "value": "1.17165"
         },
         "median": {
           "value": "0"
@@ -3995,7 +4041,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "258",
-              "bayesaverage": "7.25947"
+              "bayesaverage": "7.25948"
             },
             {
               "type": "family",
@@ -4003,7 +4049,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "47",
-              "bayesaverage": "7.32416"
+              "bayesaverage": "7.32413"
             }
           ]
         }
@@ -4013,7 +4059,6 @@
     "numplays": {
       "value": "6"
     },
-    "lastplay": "2026-02-01",
     "designers": [
       "Johannes Goupy",
       "Corentin Lebrat"
@@ -4033,7 +4078,9 @@
       "Card Game",
       "Fantasy",
       "Puzzle"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-01"
   },
   {
     "objecttype": "thing",
@@ -4059,20 +4106,20 @@
       "minplaytime": "25",
       "maxplaytime": "25",
       "playingtime": "25",
-      "numowned": "6743",
+      "numowned": "6753",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "1053"
         },
         "average": {
-          "value": "7.85039"
+          "value": "7.84849"
         },
         "bayesaverage": {
-          "value": "6.21046"
+          "value": "6.20984"
         },
         "stddev": {
-          "value": "1.10217"
+          "value": "1.10019"
         },
         "median": {
           "value": "0"
@@ -4084,7 +4131,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.21046"
+            "bayesaverage": "6.20984"
           }
         }
       }
@@ -4109,7 +4156,8 @@
       "Adventure",
       "Card Game",
       "Fantasy"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -4135,20 +4183,20 @@
       "minplaytime": "45",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "13560",
+      "numowned": "13580",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "5984"
+          "value": "5997"
         },
         "average": {
-          "value": "7.69236"
+          "value": "7.69174"
         },
         "bayesaverage": {
-          "value": "6.99488"
+          "value": "6.99511"
         },
         "stddev": {
-          "value": "1.36738"
+          "value": "1.36613"
         },
         "median": {
           "value": "0"
@@ -4161,7 +4209,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "499",
-              "bayesaverage": "6.99488"
+              "bayesaverage": "6.99511"
             },
             {
               "type": "family",
@@ -4169,7 +4217,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "333",
-              "bayesaverage": "7.0848"
+              "bayesaverage": "7.08497"
             },
             {
               "type": "family",
@@ -4177,7 +4225,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "99",
-              "bayesaverage": "7.12491"
+              "bayesaverage": "7.12502"
             }
           ]
         }
@@ -4187,7 +4235,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2026-01-12",
     "designers": [
       "David Gordon (I)",
       "Michael O'Connell (II)"
@@ -4204,7 +4251,9 @@
       "Animals",
       "Card Game",
       "Educational"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-12"
   },
   {
     "objecttype": "thing",
@@ -4263,7 +4312,7 @@
               "id": "4665",
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
-              "value": "306",
+              "value": "307",
               "bayesaverage": "5.73318"
             }
           ]
@@ -4274,7 +4323,6 @@
     "numplays": {
       "value": "3"
     },
-    "lastplay": "2026-01-18",
     "designers": [
       "Michael Kallauch"
     ],
@@ -4287,7 +4335,9 @@
       "Animals",
       "Children's Game",
       "Memory"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-18"
   },
   {
     "objecttype": "thing",
@@ -4313,20 +4363,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "9553",
+      "numowned": "9574",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "5684"
+          "value": "5695"
         },
         "average": {
-          "value": "7.68994"
+          "value": "7.69112"
         },
         "bayesaverage": {
-          "value": "7.02629"
+          "value": "7.02761"
         },
         "stddev": {
-          "value": "1.16172"
+          "value": "1.1618"
         },
         "median": {
           "value": "0"
@@ -4339,7 +4389,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "463",
-              "bayesaverage": "7.02629"
+              "bayesaverage": "7.02761"
             },
             {
               "type": "family",
@@ -4347,7 +4397,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "281",
-              "bayesaverage": "7.14309"
+              "bayesaverage": "7.14442"
             }
           ]
         }
@@ -4357,7 +4407,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2026-02-08",
     "designers": [
       "Matthew O'Malley",
       "Ben Rosset"
@@ -4376,7 +4425,9 @@
     "categories": [
       "Economic",
       "Farming"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-08"
   },
   {
     "objecttype": "thing",
@@ -4402,20 +4453,20 @@
       "minplaytime": "20",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "999",
+      "numowned": "1001",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "567"
+          "value": "568"
         },
         "average": {
-          "value": "7.18243"
+          "value": "7.18123"
         },
         "bayesaverage": {
-          "value": "5.83233"
+          "value": "5.83257"
         },
         "stddev": {
-          "value": "1.13085"
+          "value": "1.13193"
         },
         "median": {
           "value": "0"
@@ -4426,8 +4477,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "4410",
-            "bayesaverage": "5.83233"
+            "value": "4409",
+            "bayesaverage": "5.83257"
           }
         }
       }
@@ -4436,7 +4487,6 @@
     "numplays": {
       "value": "13"
     },
-    "lastplay": "2025-12-31",
     "designers": [
       "Kristian Amundsen Østby",
       "Maria Østby"
@@ -4451,7 +4501,9 @@
       "Fantasy",
       "Farming",
       "Puzzle"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-12-31"
   },
   {
     "objecttype": "thing",
@@ -4477,20 +4529,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "19383",
+      "numowned": "19386",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "10671"
+          "value": "10672"
         },
         "average": {
-          "value": "6.70835"
+          "value": "6.70828"
         },
         "bayesaverage": {
-          "value": "6.43397"
+          "value": "6.43388"
         },
         "stddev": {
-          "value": "1.35635"
+          "value": "1.35645"
         },
         "median": {
           "value": "0"
@@ -4502,8 +4554,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1481",
-              "bayesaverage": "6.43397"
+              "value": "1482",
+              "bayesaverage": "6.43388"
             },
             {
               "type": "family",
@@ -4511,15 +4563,15 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "120",
-              "bayesaverage": "6.51251"
+              "bayesaverage": "6.51239"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "480",
-              "bayesaverage": "6.48442"
+              "value": "481",
+              "bayesaverage": "6.48433"
             }
           ]
         }
@@ -4529,7 +4581,6 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2025-11-28",
     "designers": [
       "Jacques Zeimet"
     ],
@@ -4543,7 +4594,9 @@
       "Card Game",
       "Children's Game",
       "Real-time"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-11-28"
   },
   {
     "objecttype": "thing",
@@ -4569,20 +4622,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "9214",
+      "numowned": "9217",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "4319"
+          "value": "4321"
         },
         "average": {
-          "value": "7.1326"
+          "value": "7.133"
         },
         "bayesaverage": {
-          "value": "6.52493"
+          "value": "6.52532"
         },
         "stddev": {
-          "value": "1.21935"
+          "value": "1.21921"
         },
         "median": {
           "value": "0"
@@ -4594,8 +4647,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1253",
-              "bayesaverage": "6.52493"
+              "value": "1252",
+              "bayesaverage": "6.52532"
             },
             {
               "type": "family",
@@ -4603,7 +4656,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "11",
-              "bayesaverage": "7.01655"
+              "bayesaverage": "7.01704"
             },
             {
               "type": "family",
@@ -4611,7 +4664,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "349",
-              "bayesaverage": "6.63821"
+              "bayesaverage": "6.63864"
             }
           ]
         }
@@ -4621,7 +4674,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2026-02-01",
     "designers": [
       "Brian Yu"
     ],
@@ -4637,7 +4689,9 @@
       "Children's Game",
       "Fantasy",
       "Horror"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-01"
   },
   {
     "objecttype": "thing",
@@ -4694,7 +4748,6 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2026-01-13",
     "designers": [
       "Michael Schacht"
     ],
@@ -4702,7 +4755,9 @@
     "mechanics": [],
     "categories": [
       "Children's Game"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-13"
   },
   {
     "objecttype": "thing",
@@ -4753,7 +4808,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4244",
+              "value": "4246",
               "bayesaverage": "5.84977"
             },
             {
@@ -4780,7 +4835,6 @@
     "numplays": {
       "value": "5"
     },
-    "lastplay": "2025-09-23",
     "designers": [
       "Alex Randolph"
     ],
@@ -4799,7 +4853,9 @@
       "Children's Game",
       "Deduction",
       "Horror"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-09-23"
   },
   {
     "objecttype": "thing",
@@ -4825,20 +4881,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "45210",
+      "numowned": "45258",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "26578"
+          "value": "26618"
         },
         "average": {
-          "value": "8.03199"
+          "value": "8.03143"
         },
         "bayesaverage": {
-          "value": "7.74049"
+          "value": "7.74025"
         },
         "stddev": {
-          "value": "1.17303"
+          "value": "1.17328"
         },
         "median": {
           "value": "0"
@@ -4851,7 +4907,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "59",
-              "bayesaverage": "7.74049"
+              "bayesaverage": "7.74025"
             },
             {
               "type": "family",
@@ -4859,7 +4915,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "2",
-              "bayesaverage": "7.65265"
+              "bayesaverage": "7.65253"
             },
             {
               "type": "family",
@@ -4867,7 +4923,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "10",
-              "bayesaverage": "7.77569"
+              "bayesaverage": "7.7754"
             }
           ]
         }
@@ -4877,7 +4933,6 @@
     "numplays": {
       "value": "11"
     },
-    "lastplay": "2026-01-18",
     "designers": [
       "Johan Benvenuto"
     ],
@@ -4897,7 +4952,9 @@
       "Animals",
       "Environmental",
       "Puzzle"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-18"
   },
   {
     "objecttype": "thing",
@@ -4923,20 +4980,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "58089",
+      "numowned": "58105",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "38908"
+          "value": "38931"
         },
         "average": {
-          "value": "8.00147"
+          "value": "8.00172"
         },
         "bayesaverage": {
-          "value": "7.793"
+          "value": "7.79348"
         },
         "stddev": {
-          "value": "1.33223"
+          "value": "1.33182"
         },
         "median": {
           "value": "0"
@@ -4949,7 +5006,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "47",
-              "bayesaverage": "7.793"
+              "bayesaverage": "7.79348"
             },
             {
               "type": "family",
@@ -4957,7 +5014,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "9",
-              "bayesaverage": "7.81271"
+              "bayesaverage": "7.81308"
             }
           ]
         }
@@ -4988,7 +5045,8 @@
     "categories": [
       "Racing",
       "Sports"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -5038,7 +5096,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "11352",
+            "value": "11353",
             "bayesaverage": "5.56805"
           }
         }
@@ -5048,7 +5106,6 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2026-02-08",
     "designers": [
       "Jacques Zeimet"
     ],
@@ -5059,7 +5116,9 @@
     "categories": [
       "Animals",
       "Card Game"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-08"
   },
   {
     "objecttype": "thing",
@@ -5085,20 +5144,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "14200",
+      "numowned": "14226",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6793"
+          "value": "6808"
         },
         "average": {
           "value": "7.54216"
         },
         "bayesaverage": {
-          "value": "6.99144"
+          "value": "6.99204"
         },
         "stddev": {
-          "value": "1.41795"
+          "value": "1.41835"
         },
         "median": {
           "value": "0"
@@ -5110,16 +5169,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "504",
-              "bayesaverage": "6.99144"
+              "value": "502",
+              "bayesaverage": "6.99204"
             },
             {
               "type": "family",
               "id": "5498",
               "name": "partygames",
               "friendlyname": "Party Game Rank",
-              "value": "21",
-              "bayesaverage": "7.20797"
+              "value": "22",
+              "bayesaverage": "7.20792"
             }
           ]
         }
@@ -5140,7 +5199,8 @@
       "Party Game",
       "Print & Play",
       "Trivia"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -5166,20 +5226,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "20358",
+      "numowned": "20357",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "12164"
+          "value": "12166"
         },
         "average": {
-          "value": "6.7828"
+          "value": "6.78283"
         },
         "bayesaverage": {
-          "value": "6.55236"
+          "value": "6.55242"
         },
         "stddev": {
-          "value": "1.26378"
+          "value": "1.26374"
         },
         "median": {
           "value": "0"
@@ -5191,8 +5251,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1188",
-              "bayesaverage": "6.55236"
+              "value": "1189",
+              "bayesaverage": "6.55242"
             },
             {
               "type": "family",
@@ -5200,7 +5260,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "29",
-              "bayesaverage": "6.69208"
+              "bayesaverage": "6.69222"
             },
             {
               "type": "family",
@@ -5208,7 +5268,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "379",
-              "bayesaverage": "6.6059"
+              "bayesaverage": "6.60596"
             }
           ]
         }
@@ -5218,7 +5278,6 @@
     "numplays": {
       "value": "2"
     },
-    "lastplay": "2025-12-30",
     "designers": [
       "Brian Gomez"
     ],
@@ -5232,7 +5291,9 @@
       "Action / Dexterity",
       "Animals",
       "Children's Game"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2025-12-30"
   },
   {
     "objecttype": "thing",
@@ -5258,20 +5319,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "9057",
+      "numowned": "9054",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "4963"
+          "value": "4966"
         },
         "average": {
-          "value": "7.0238"
+          "value": "7.02354"
         },
         "bayesaverage": {
-          "value": "6.5236"
+          "value": "6.52364"
         },
         "stddev": {
-          "value": "1.29821"
+          "value": "1.2979"
         },
         "median": {
           "value": "0"
@@ -5284,7 +5345,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1257",
-              "bayesaverage": "6.5236"
+              "bayesaverage": "6.52364"
             },
             {
               "type": "family",
@@ -5320,7 +5381,8 @@
       "Deduction",
       "Party Game",
       "Word Game"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -5346,7 +5408,7 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "1556",
+      "numowned": "1555",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -5370,7 +5432,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "5142",
+            "value": "5141",
             "bayesaverage": "5.76809"
           }
         }
@@ -5393,7 +5455,8 @@
       "Bluffing",
       "Deduction",
       "Party Game"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -5419,20 +5482,20 @@
       "minplaytime": "40",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "38703",
+      "numowned": "38704",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "33462"
+          "value": "33464"
         },
         "average": {
-          "value": "7.53715"
+          "value": "7.53709"
         },
         "bayesaverage": {
-          "value": "7.37474"
+          "value": "7.37472"
         },
         "stddev": {
-          "value": "1.14854"
+          "value": "1.14858"
         },
         "median": {
           "value": "0"
@@ -5444,8 +5507,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "189",
-              "bayesaverage": "7.37474"
+              "value": "190",
+              "bayesaverage": "7.37472"
             },
             {
               "type": "family",
@@ -5453,7 +5516,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "152",
-              "bayesaverage": "7.38996"
+              "bayesaverage": "7.38994"
             },
             {
               "type": "family",
@@ -5461,7 +5524,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "31",
-              "bayesaverage": "7.41196"
+              "bayesaverage": "7.41197"
             }
           ]
         }
@@ -5490,7 +5553,8 @@
     ],
     "categories": [
       "Economic"
-    ]
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -5516,20 +5580,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "7088",
+      "numowned": "7090",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "2980"
+          "value": "2981"
         },
         "average": {
-          "value": "7.45651"
+          "value": "7.45686"
         },
         "bayesaverage": {
           "value": "6.58023"
         },
         "stddev": {
-          "value": "1.09564"
+          "value": "1.09562"
         },
         "median": {
           "value": "0"
@@ -5560,7 +5624,6 @@
     "numplays": {
       "value": "5"
     },
-    "lastplay": "2026-01-18",
     "designers": [
       "Bruno Cathala"
     ],
@@ -5575,7 +5638,9 @@
       "Prehistoric",
       "Puzzle",
       "Territory Building"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-18"
   },
   {
     "objecttype": "thing",
@@ -5626,7 +5691,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4492",
+              "value": "4493",
               "bayesaverage": "5.82466"
             },
             {
@@ -5653,7 +5718,6 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2025-11-29",
     "designers": [
       "Kwang Hee Lee"
     ],
@@ -5662,7 +5726,9 @@
       "Hand Management",
       "Ladder Climbing"
     ],
-    "categories": []
+    "categories": [],
+    "type": "boardgame",
+    "lastplay": "2025-11-29"
   },
   {
     "objecttype": "thing",
@@ -5688,20 +5754,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "6231",
+      "numowned": "6238",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "3235"
+          "value": "3240"
         },
         "average": {
-          "value": "8.11134"
+          "value": "8.10972"
         },
         "bayesaverage": {
-          "value": "6.97477"
+          "value": "6.97466"
         },
         "stddev": {
-          "value": "1.15571"
+          "value": "1.15728"
         },
         "median": {
           "value": "0"
@@ -5713,8 +5779,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "522",
-              "bayesaverage": "6.97477"
+              "value": "523",
+              "bayesaverage": "6.97466"
             },
             {
               "type": "family",
@@ -5722,7 +5788,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "268",
-              "bayesaverage": "7.16502"
+              "bayesaverage": "7.16471"
             }
           ]
         }
@@ -5732,7 +5798,6 @@
     "numplays": {
       "value": "7"
     },
-    "lastplay": "2026-02-14",
     "designers": [
       "Jamie Bloom"
     ],
@@ -5750,7 +5815,9 @@
     "categories": [
       "Animals",
       "Puzzle"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-14"
   },
   {
     "objecttype": "thing",
@@ -5776,20 +5843,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "75340",
+      "numowned": "75355",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "50509"
+          "value": "50510"
         },
         "average": {
-          "value": "7.25671"
+          "value": "7.25673"
         },
         "bayesaverage": {
-          "value": "7.15044"
+          "value": "7.15047"
         },
         "stddev": {
-          "value": "1.27057"
+          "value": "1.27056"
         },
         "median": {
           "value": "0"
@@ -5802,7 +5869,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "342",
-              "bayesaverage": "7.15044"
+              "bayesaverage": "7.15047"
             },
             {
               "type": "family",
@@ -5810,7 +5877,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "83",
-              "bayesaverage": "7.16971"
+              "bayesaverage": "7.16973"
             }
           ]
         }
@@ -5820,7 +5887,6 @@
     "numplays": {
       "value": "4"
     },
-    "lastplay": "2026-01-17",
     "designers": [
       "Reiner Knizia"
     ],
@@ -5837,7 +5903,9 @@
       "Card Game",
       "Exploration",
       "Number"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-01-17"
   },
   {
     "objecttype": "thing",
@@ -5863,20 +5931,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "84176",
+      "numowned": "84191",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "55541"
+          "value": "55552"
         },
         "average": {
-          "value": "8.08143"
+          "value": "8.08138"
         },
         "bayesaverage": {
-          "value": "7.91343"
+          "value": "7.91341"
         },
         "stddev": {
-          "value": "1.26193"
+          "value": "1.2619"
         },
         "median": {
           "value": "0"
@@ -5889,7 +5957,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "30",
-              "bayesaverage": "7.91343"
+              "bayesaverage": "7.91341"
             },
             {
               "type": "family",
@@ -5897,7 +5965,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "29",
-              "bayesaverage": "7.90567"
+              "bayesaverage": "7.90562"
             }
           ]
         }
@@ -5907,7 +5975,6 @@
     "numplays": {
       "value": "6"
     },
-    "lastplay": "2026-02-10",
     "designers": [
       "Elwen",
       "Mín"
@@ -5934,7 +6001,9 @@
       "Card Game",
       "Exploration",
       "Fantasy"
-    ]
+    ],
+    "type": "boardgame",
+    "lastplay": "2026-02-10"
   },
   {
     "objecttype": "thing",
@@ -5960,20 +6029,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "34233",
+      "numowned": "34243",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "9181"
+          "value": "9183"
         },
         "average": {
-          "value": "8.70619"
+          "value": "8.70642"
         },
         "bayesaverage": {
-          "value": "8.00756"
+          "value": "8.0077"
         },
         "stddev": {
-          "value": "1.0098"
+          "value": "1.00987"
         },
         "median": {
           "value": "0"
@@ -5986,7 +6055,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.00756"
+              "bayesaverage": "8.0077"
             },
             {
               "type": "family",
@@ -5994,7 +6063,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.13219"
+              "bayesaverage": "8.13214"
             }
           ]
         }
@@ -6022,7 +6091,8 @@
       "Ancient",
       "Exploration",
       "Travel"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -6048,20 +6118,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "18383",
+      "numowned": "18392",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3332"
+          "value": "3335"
         },
         "average": {
-          "value": "8.66535"
+          "value": "8.66325"
         },
         "bayesaverage": {
-          "value": "7.2981"
+          "value": "7.2978"
         },
         "stddev": {
-          "value": "1.08385"
+          "value": "1.0857"
         },
         "median": {
           "value": "0"
@@ -6074,7 +6144,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.2981"
+              "bayesaverage": "7.2978"
             },
             {
               "type": "family",
@@ -6082,7 +6152,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.5165"
+              "bayesaverage": "7.51604"
             }
           ]
         }
@@ -6112,7 +6182,8 @@
       "Ancient",
       "Exploration",
       "Travel"
-    ]
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -6138,20 +6209,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "7261",
+      "numowned": "7278",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "992"
+          "value": "997"
         },
         "average": {
-          "value": "8.75966"
+          "value": "8.75936"
         },
         "bayesaverage": {
-          "value": "6.41122"
+          "value": "6.41375"
         },
         "stddev": {
-          "value": "1.33339"
+          "value": "1.33223"
         },
         "median": {
           "value": "0"
@@ -6163,7 +6234,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.41122"
+            "bayesaverage": "6.41375"
           }
         }
       }
@@ -6171,7 +6242,25 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Elwen",
+      "Mín"
+    ],
+    "weight": "3.4815",
+    "mechanics": [
+      "Deck Construction",
+      "Deck, Bag, and Pool Building",
+      "Open Drafting",
+      "Solo / Solitaire Game",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Adventure",
+      "Exploration"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -6197,20 +6286,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "30302",
+      "numowned": "30319",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "15140"
+          "value": "15156"
         },
         "average": {
-          "value": "7.50524"
+          "value": "7.50555"
         },
         "bayesaverage": {
-          "value": "7.1779"
+          "value": "7.17831"
         },
         "stddev": {
-          "value": "1.30069"
+          "value": "1.30066"
         },
         "median": {
           "value": "0"
@@ -6223,7 +6312,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "319",
-              "bayesaverage": "7.1779"
+              "bayesaverage": "7.17831"
             },
             {
               "type": "family",
@@ -6231,7 +6320,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "18",
-              "bayesaverage": "7.26008"
+              "bayesaverage": "7.2603"
             },
             {
               "type": "family",
@@ -6239,7 +6328,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "69",
-              "bayesaverage": "7.22621"
+              "bayesaverage": "7.22641"
             }
           ]
         }
@@ -6249,6 +6338,25 @@
     "numplays": {
       "value": "7"
     },
+    "designers": [
+      "Seiji Kanai",
+      "Justin Kemppainen",
+      "Alexandar Ortloff-Tang"
+    ],
+    "weight": "1.1176",
+    "mechanics": [
+      "Deduction",
+      "Hand Management",
+      "Player Elimination",
+      "Score-and-Reset Game",
+      "Take That"
+    ],
+    "categories": [
+      "Card Game",
+      "Deduction",
+      "Renaissance"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-03"
   },
   {
@@ -6275,20 +6383,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "59246",
+      "numowned": "59248",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "35604"
+          "value": "35605"
         },
         "average": {
-          "value": "6.59527"
+          "value": "6.59538"
         },
         "bayesaverage": {
-          "value": "6.47722"
+          "value": "6.47729"
         },
         "stddev": {
-          "value": "1.36372"
+          "value": "1.36364"
         },
         "median": {
           "value": "0"
@@ -6300,8 +6408,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1364",
-              "bayesaverage": "6.47722"
+              "value": "1363",
+              "bayesaverage": "6.47729"
             },
             {
               "type": "family",
@@ -6309,7 +6417,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "483",
-              "bayesaverage": "6.48165"
+              "bayesaverage": "6.48173"
             }
           ]
         }
@@ -6318,7 +6426,22 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Masao Suganuma"
+    ],
+    "weight": "1.5191",
+    "mechanics": [
+      "Dice Rolling",
+      "Ownership",
+      "Race",
+      "Random Production"
+    ],
+    "categories": [
+      "City Building",
+      "Dice"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -6344,7 +6467,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "15674",
+      "numowned": "15675",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -6387,7 +6510,22 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Masao Suganuma"
+    ],
+    "weight": "1.6667",
+    "mechanics": [
+      "Dice Rolling",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "City Building",
+      "Dice",
+      "Expansion for Base-game"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -6413,7 +6551,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "9111",
+      "numowned": "9112",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -6446,7 +6584,22 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Masao Suganuma"
+    ],
+    "weight": "1.7627",
+    "mechanics": [
+      "Dice Rolling",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "City Building",
+      "Dice",
+      "Expansion for Base-game"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -6472,20 +6625,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "37735",
+      "numowned": "37742",
       "rating": {
         "value": "7",
         "usersrated": {
           "value": "23703"
         },
         "average": {
-          "value": "6.93781"
+          "value": "6.93777"
         },
         "bayesaverage": {
-          "value": "6.77702"
+          "value": "6.77698"
         },
         "stddev": {
-          "value": "1.34249"
+          "value": "1.3425"
         },
         "median": {
           "value": "0"
@@ -6498,7 +6651,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "780",
-              "bayesaverage": "6.77702"
+              "bayesaverage": "6.77698"
             },
             {
               "type": "family",
@@ -6514,7 +6667,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "230",
-              "bayesaverage": "6.80007"
+              "bayesaverage": "6.80003"
             }
           ]
         }
@@ -6524,6 +6677,29 @@
     "numplays": {
       "value": "4"
     },
+    "designers": [
+      "Kasper Lapp"
+    ],
+    "weight": "1.7482",
+    "mechanics": [
+      "Communication Limits",
+      "Cooperative Game",
+      "Elapsed Real Time Ending",
+      "Grid Movement",
+      "Map Addition",
+      "Modular Board",
+      "Real-Time",
+      "Scenario / Mission / Campaign Game",
+      "Solo / Solitaire Game",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Exploration",
+      "Fantasy",
+      "Maze",
+      "Real-time"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-15"
   },
   {
@@ -6575,7 +6751,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "21868",
+              "value": "21871",
               "bayesaverage": "5.5114"
             },
             {
@@ -6583,7 +6759,7 @@
               "id": "4665",
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
-              "value": "355",
+              "value": "356",
               "bayesaverage": "5.66728"
             }
           ]
@@ -6594,6 +6770,18 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Heinz Meister"
+    ],
+    "weight": "1.3333",
+    "mechanics": [
+      "Pattern Recognition"
+    ],
+    "categories": [
+      "Children's Game",
+      "Real-time"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-12-30"
   },
   {
@@ -6620,20 +6808,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "33350",
+      "numowned": "33357",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "25105"
+          "value": "25109"
         },
         "average": {
-          "value": "7.52189"
+          "value": "7.52185"
         },
         "bayesaverage": {
-          "value": "7.32858"
+          "value": "7.3285"
         },
         "stddev": {
-          "value": "1.31239"
+          "value": "1.3124"
         },
         "median": {
           "value": "0"
@@ -6646,7 +6834,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "220",
-              "bayesaverage": "7.32858"
+              "bayesaverage": "7.3285"
             },
             {
               "type": "family",
@@ -6654,7 +6842,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "165",
-              "bayesaverage": "7.35861"
+              "bayesaverage": "7.35852"
             }
           ]
         }
@@ -6663,7 +6851,26 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "weight": "2.279",
+    "mechanics": [
+      "Auction / Bidding",
+      "Auction: English",
+      "Auction: Once Around",
+      "Auction: Sealed Bid",
+      "Auction: Turn Order Until Pass",
+      "Commodity Speculation",
+      "Hand Management",
+      "Victory Points as a Resource"
+    ],
+    "categories": [
+      "Card Game",
+      "Economic"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -6689,7 +6896,7 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "6551",
+      "numowned": "6555",
       "rating": {
         "value": "7.5",
         "usersrated": {
@@ -6733,6 +6940,27 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "David Gordon (I)",
+      "TAM"
+    ],
+    "weight": "2.0167",
+    "mechanics": [
+      "End Game Bonuses",
+      "Hot Potato",
+      "Income",
+      "Open Drafting",
+      "Pattern Building",
+      "Pieces as Map",
+      "Three Dimensional Movement",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Animals",
+      "Children's Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-24"
   },
   {
@@ -6763,16 +6991,16 @@
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "909"
+          "value": "910"
         },
         "average": {
-          "value": "6.7997"
+          "value": "6.79772"
         },
         "bayesaverage": {
-          "value": "5.855"
+          "value": "5.85473"
         },
         "stddev": {
-          "value": "1.3896"
+          "value": "1.39012"
         },
         "median": {
           "value": "0"
@@ -6783,8 +7011,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "4197",
-            "bayesaverage": "5.855"
+            "value": "4202",
+            "bayesaverage": "5.85473"
           }
         }
       }
@@ -6793,6 +7021,22 @@
     "numplays": {
       "value": "5"
     },
+    "designers": [
+      "荒尾 俊樹 (Toshiki Arao)"
+    ],
+    "weight": "1.1905",
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Ladder Climbing",
+      "Score-and-Reset Game",
+      "Single Loser Game"
+    ],
+    "categories": [
+      "Animals",
+      "Card Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-02-05"
   },
   {
@@ -6819,20 +7063,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "14678",
+      "numowned": "14682",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "9993"
+          "value": "9994"
         },
         "average": {
-          "value": "7.25757"
+          "value": "7.25729"
         },
         "bayesaverage": {
-          "value": "6.89251"
+          "value": "6.8923"
         },
         "stddev": {
-          "value": "1.19187"
+          "value": "1.1918"
         },
         "median": {
           "value": "0"
@@ -6844,8 +7088,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "623",
-              "bayesaverage": "6.89251"
+              "value": "622",
+              "bayesaverage": "6.8923"
             },
             {
               "type": "family",
@@ -6853,15 +7097,15 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "24",
-              "bayesaverage": "7.07478"
+              "bayesaverage": "7.07433"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "150",
-              "bayesaverage": "6.97797"
+              "value": "151",
+              "bayesaverage": "6.97761"
             }
           ]
         }
@@ -6871,6 +7115,24 @@
     "numplays": {
       "value": "9"
     },
+    "designers": [
+      "Uwe Rosenberg",
+      "Corné van Moorsel"
+    ],
+    "weight": "1.8803",
+    "mechanics": [
+      "Contracts",
+      "Pattern Building",
+      "Race",
+      "Rondel",
+      "Tile Placement",
+      "Turn Order: Time Track"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Puzzle"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-02-07"
   },
   {
@@ -6897,7 +7159,7 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "3264",
+      "numowned": "3266",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -6948,7 +7210,20 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Henrik Berg",
+      "Åse Berg"
+    ],
+    "weight": "2.1478",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Tile Placement"
+    ],
+    "categories": [
+      "American West"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -6974,20 +7249,20 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "42566",
+      "numowned": "42568",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "35137"
+          "value": "35139"
         },
         "average": {
-          "value": "8.04833"
+          "value": "8.04844"
         },
         "bayesaverage": {
-          "value": "7.85986"
+          "value": "7.85998"
         },
         "stddev": {
-          "value": "1.17002"
+          "value": "1.16996"
         },
         "median": {
           "value": "0"
@@ -7000,7 +7275,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "36",
-              "bayesaverage": "7.85986"
+              "bayesaverage": "7.85998"
             },
             {
               "type": "family",
@@ -7008,7 +7283,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "33",
-              "bayesaverage": "7.88679"
+              "bayesaverage": "7.88691"
             }
           ]
         }
@@ -7017,7 +7292,30 @@
     "status": "wishlist",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Reiner Stockhausen"
+    ],
+    "weight": "3.0125",
+    "mechanics": [
+      "Contracts",
+      "Deck, Bag, and Pool Building",
+      "End Game Bonuses",
+      "Events",
+      "Kill Steal",
+      "Point to Point Movement",
+      "Simultaneous Action Selection",
+      "Tech Trees / Tech Tracks",
+      "Turn Order: Progressive",
+      "Variable Set-up",
+      "Worker Placement, Different Worker Types"
+    ],
+    "categories": [
+      "Medieval",
+      "Religious",
+      "Travel"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -7043,20 +7341,20 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "2524",
+      "numowned": "2525",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "898"
+          "value": "899"
         },
         "average": {
-          "value": "6.06942"
+          "value": "6.07046"
         },
         "bayesaverage": {
           "value": "5.6286"
         },
         "stddev": {
-          "value": "1.57086"
+          "value": "1.57029"
         },
         "median": {
           "value": "0"
@@ -7086,7 +7384,20 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Romain Caterdjian",
+      "Théo Rivière"
+    ],
+    "weight": "1.05",
+    "mechanics": [
+      "Push Your Luck"
+    ],
+    "categories": [
+      "Environmental",
+      "Party Game"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -7112,20 +7423,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "223598",
+      "numowned": "223618",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "134128"
+          "value": "134141"
         },
         "average": {
-          "value": "7.51548"
+          "value": "7.51547"
         },
         "bayesaverage": {
-          "value": "7.40613"
+          "value": "7.40608"
         },
         "stddev": {
-          "value": "1.33899"
+          "value": "1.33902"
         },
         "median": {
           "value": "0"
@@ -7138,7 +7449,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "170",
-              "bayesaverage": "7.40613"
+              "bayesaverage": "7.40608"
             },
             {
               "type": "family",
@@ -7146,7 +7457,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "174",
-              "bayesaverage": "7.33213"
+              "bayesaverage": "7.33208"
             },
             {
               "type": "family",
@@ -7154,7 +7465,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "35",
-              "bayesaverage": "7.39087"
+              "bayesaverage": "7.3908"
             }
           ]
         }
@@ -7164,6 +7475,32 @@
     "numplays": {
       "value": "3"
     },
+    "designers": [
+      "Matt Leacock"
+    ],
+    "weight": "2.3944",
+    "mechanics": [
+      "Action Points",
+      "Chaining",
+      "Contracts",
+      "Cooperative Game",
+      "Events",
+      "Hand Management",
+      "Multi-Use Cards",
+      "Point to Point Movement",
+      "Set Collection",
+      "Simulation",
+      "Solo / Solitaire Game",
+      "Tags",
+      "Trading",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Medical",
+      "Travel"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-02"
   },
   {
@@ -7190,7 +7527,7 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "3721",
+      "numowned": "3724",
       "rating": {
         "value": "6",
         "usersrated": {
@@ -7234,6 +7571,19 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "weight": "1.1165",
+    "mechanics": [
+      "Hand Management"
+    ],
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Children's Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-02"
   },
   {
@@ -7260,7 +7610,7 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "488",
+      "numowned": "493",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -7284,7 +7634,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "10336",
+            "value": "10340",
             "bayesaverage": "5.58183"
           }
         }
@@ -7293,7 +7643,19 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Kaoru ARISHIMA / 有島薫"
+    ],
+    "weight": "1",
+    "mechanics": [
+      "Pick-up and Deliver",
+      "Team-Based Game"
+    ],
+    "categories": [
+      "Action / Dexterity"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -7319,20 +7681,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "22436",
+      "numowned": "22441",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "12609"
+          "value": "12611"
         },
         "average": {
-          "value": "6.59691"
+          "value": "6.5969"
         },
         "bayesaverage": {
-          "value": "6.39384"
+          "value": "6.39381"
         },
         "stddev": {
-          "value": "1.27998"
+          "value": "1.27977"
         },
         "median": {
           "value": "0"
@@ -7345,7 +7707,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1588",
-              "bayesaverage": "6.39384"
+              "bayesaverage": "6.39381"
             },
             {
               "type": "family",
@@ -7353,7 +7715,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "535",
-              "bayesaverage": "6.4369"
+              "bayesaverage": "6.43683"
             }
           ]
         }
@@ -7363,6 +7725,21 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "weight": "1.1552",
+    "mechanics": [
+      "Dice Rolling",
+      "Push Your Luck",
+      "Re-rolling and Locking",
+      "Take That"
+    ],
+    "categories": [
+      "Animals",
+      "Dice"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-08"
   },
   {
@@ -7389,20 +7766,20 @@
       "minplaytime": "10",
       "maxplaytime": "10",
       "playingtime": "10",
-      "numowned": "1323",
+      "numowned": "1324",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "501"
+          "value": "502"
         },
         "average": {
-          "value": "6.53998"
+          "value": "6.53891"
         },
         "bayesaverage": {
-          "value": "5.65044"
+          "value": "5.65057"
         },
         "stddev": {
-          "value": "1.44434"
+          "value": "1.4431"
         },
         "median": {
           "value": "0"
@@ -7414,8 +7791,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "7395",
-              "bayesaverage": "5.65044"
+              "value": "7393",
+              "bayesaverage": "5.65057"
             },
             {
               "type": "family",
@@ -7433,6 +7810,19 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Thierry Chapeau"
+    ],
+    "weight": "1.0345",
+    "mechanics": [
+      "Set Collection"
+    ],
+    "categories": [
+      "Animals",
+      "Card Game",
+      "Children's Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-09-14"
   },
   {
@@ -7459,20 +7849,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "92324",
+      "numowned": "92340",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "58131"
+          "value": "58143"
         },
         "average": {
-          "value": "7.80654"
+          "value": "7.80652"
         },
         "bayesaverage": {
-          "value": "7.66924"
+          "value": "7.6692"
         },
         "stddev": {
-          "value": "1.2523"
+          "value": "1.25227"
         },
         "median": {
           "value": "0"
@@ -7485,7 +7875,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "77",
-              "bayesaverage": "7.66924"
+              "bayesaverage": "7.6692"
             },
             {
               "type": "family",
@@ -7493,7 +7883,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "12",
-              "bayesaverage": "7.69384"
+              "bayesaverage": "7.69381"
             }
           ]
         }
@@ -7502,7 +7892,30 @@
     "status": "wishlist",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Wolfgang Warsch"
+    ],
+    "weight": "1.9428",
+    "mechanics": [
+      "Catch the Leader",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Dice Rolling",
+      "Die Icon Resolution",
+      "Events",
+      "Neighbor Scope",
+      "Push Your Luck",
+      "Score-and-Reset Game",
+      "Simultaneous Action Selection",
+      "Track Movement",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Fantasy",
+      "Medieval"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -7528,20 +7941,20 @@
       "minplaytime": "45",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "16024",
+      "numowned": "16027",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "8518"
+          "value": "8521"
         },
         "average": {
           "value": "7.50983"
         },
         "bayesaverage": {
-          "value": "7.05897"
+          "value": "7.05914"
         },
         "stddev": {
-          "value": "1.31084"
+          "value": "1.31081"
         },
         "median": {
           "value": "0"
@@ -7554,7 +7967,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "433",
-              "bayesaverage": "7.05897"
+              "bayesaverage": "7.05914"
             },
             {
               "type": "family",
@@ -7562,7 +7975,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "16",
-              "bayesaverage": "7.27873"
+              "bayesaverage": "7.27855"
             }
           ]
         }
@@ -7571,7 +7984,25 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "John D. Clair"
+    ],
+    "weight": "1.3228",
+    "mechanics": [
+      "Betting and Bluffing",
+      "Dice Rolling",
+      "Real-Time",
+      "Track Movement"
+    ],
+    "categories": [
+      "Animals",
+      "Party Game",
+      "Racing",
+      "Real-time",
+      "Sports"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -7597,7 +8028,7 @@
       "minplaytime": "5",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "21866",
+      "numowned": "21865",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -7649,6 +8080,26 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Scott Frisco",
+      "Steven Strumpf"
+    ],
+    "weight": "1.0202",
+    "mechanics": [
+      "Hand Management",
+      "Lose a Turn",
+      "Score-and-Reset Game",
+      "Stacking and Balancing",
+      "Three Dimensional Movement"
+    ],
+    "categories": [
+      "Action / Dexterity",
+      "Animals",
+      "Card Game",
+      "Children's Game",
+      "Party Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-22"
   },
   {
@@ -7675,20 +8126,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "3928",
+      "numowned": "3935",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2845"
+          "value": "2847"
         },
         "average": {
-          "value": "7.41775"
+          "value": "7.41781"
         },
         "bayesaverage": {
-          "value": "6.55239"
+          "value": "6.55268"
         },
         "stddev": {
-          "value": "1.23596"
+          "value": "1.23559"
         },
         "median": {
           "value": "0"
@@ -7701,15 +8152,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1187",
-              "bayesaverage": "6.55239"
+              "bayesaverage": "6.55268"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "661",
-              "bayesaverage": "6.69663"
+              "value": "662",
+              "bayesaverage": "6.69694"
             }
           ]
         }
@@ -7719,6 +8170,23 @@
     "numplays": {
       "value": "4"
     },
+    "designers": [
+      "Yogi Shinichi (与儀新一)"
+    ],
+    "weight": "1.84",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Area-Impulse",
+      "Dice Rolling",
+      "Once-Per-Game Abilities",
+      "Re-rolling and Locking"
+    ],
+    "categories": [
+      "Civil War",
+      "Medieval",
+      "Territory Building"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-11"
   },
   {
@@ -7745,20 +8213,20 @@
       "minplaytime": "115",
       "maxplaytime": "115",
       "playingtime": "115",
-      "numowned": "126849",
+      "numowned": "126856",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "92223"
+          "value": "92230"
         },
         "average": {
-          "value": "8.10456"
+          "value": "8.10451"
         },
         "bayesaverage": {
-          "value": "7.94994"
+          "value": "7.94985"
         },
         "stddev": {
-          "value": "1.45684"
+          "value": "1.45683"
         },
         "median": {
           "value": "0"
@@ -7771,15 +8239,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "26",
-              "bayesaverage": "7.94994"
+              "bayesaverage": "7.94985"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "25",
-              "bayesaverage": "7.92111"
+              "value": "26",
+              "bayesaverage": "7.92103"
             }
           ]
         }
@@ -7788,7 +8256,37 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Jamey Stegmaier"
+    ],
+    "weight": "3.4529",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Card Play Conflict Resolution",
+      "Contracts",
+      "End Game Bonuses",
+      "Force Commitment",
+      "Grid Movement",
+      "Hexagon Grid",
+      "King of the Hill",
+      "Movement Points",
+      "Narrative Choice / Paragraph",
+      "Solo / Solitaire Game",
+      "Take That",
+      "Tech Trees / Tech Tracks",
+      "Variable Player Powers",
+      "Variable Set-up",
+      "Victory Points as a Resource",
+      "Zone of Control"
+    ],
+    "categories": [
+      "Economic",
+      "Fighting",
+      "Science Fiction",
+      "Territory Building"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -7814,20 +8312,20 @@
       "minplaytime": "40",
       "maxplaytime": "160",
       "playingtime": "160",
-      "numowned": "28002",
+      "numowned": "28036",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "17404"
+          "value": "17427"
         },
         "average": {
-          "value": "8.41615"
+          "value": "8.41611"
         },
         "bayesaverage": {
-          "value": "7.99558"
+          "value": "7.99564"
         },
         "stddev": {
-          "value": "1.26834"
+          "value": "1.26817"
         },
         "median": {
           "value": "0"
@@ -7840,7 +8338,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "17",
-              "bayesaverage": "7.99558"
+              "bayesaverage": "7.99564"
             },
             {
               "type": "family",
@@ -7848,7 +8346,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "14",
-              "bayesaverage": "8.05801"
+              "bayesaverage": "8.05796"
             }
           ]
         }
@@ -7857,7 +8355,26 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Tomáš Holek"
+    ],
+    "weight": "3.8169",
+    "mechanics": [
+      "Area Majority / Influence",
+      "End Game Bonuses",
+      "Income",
+      "Multi-Use Cards",
+      "Resource to Move",
+      "Solo / Solitaire Game",
+      "Turn Order: Progressive",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Science Fiction",
+      "Space Exploration"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -7883,20 +8400,20 @@
       "minplaytime": "15",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "46048",
+      "numowned": "46049",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "28032"
+          "value": "28037"
         },
         "average": {
-          "value": "7.17141"
+          "value": "7.1715"
         },
         "bayesaverage": {
-          "value": "7.01027"
+          "value": "7.0103"
         },
         "stddev": {
-          "value": "1.39937"
+          "value": "1.39929"
         },
         "median": {
           "value": "0"
@@ -7909,7 +8426,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "480",
-              "bayesaverage": "7.01027"
+              "bayesaverage": "7.0103"
             },
             {
               "type": "family",
@@ -7917,7 +8434,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "36",
-              "bayesaverage": "7.03334"
+              "bayesaverage": "7.03338"
             }
           ]
         }
@@ -7927,6 +8444,24 @@
     "numplays": {
       "value": "1"
     },
+    "designers": [
+      "Hervé Marly"
+    ],
+    "weight": "1.1154",
+    "mechanics": [
+      "Auction / Bidding",
+      "Auction: Turn Order Until Pass",
+      "Bids As Wagers",
+      "Hand Management",
+      "Player Elimination",
+      "Predictive Bid"
+    ],
+    "categories": [
+      "Bluffing",
+      "Card Game",
+      "Party Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-06-07"
   },
   {
@@ -7953,20 +8488,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "32155",
+      "numowned": "32166",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "15013"
+          "value": "15023"
         },
         "average": {
-          "value": "7.52726"
+          "value": "7.5275"
         },
         "bayesaverage": {
-          "value": "7.20352"
+          "value": "7.20353"
         },
         "stddev": {
-          "value": "1.34233"
+          "value": "1.34259"
         },
         "median": {
           "value": "0"
@@ -7979,7 +8514,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "299",
-              "bayesaverage": "7.20352"
+              "bayesaverage": "7.20353"
             },
             {
               "type": "family",
@@ -7987,7 +8522,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "59",
-              "bayesaverage": "7.26973"
+              "bayesaverage": "7.26955"
             }
           ]
         }
@@ -7997,6 +8532,23 @@
     "numplays": {
       "value": "16"
     },
+    "designers": [
+      "Brent Beck",
+      "Jeffrey Beck"
+    ],
+    "weight": "1.7349",
+    "mechanics": [
+      "Hand Management",
+      "Predictive Bid",
+      "Rock-Paper-Scissors",
+      "Trick-taking"
+    ],
+    "categories": [
+      "Card Game",
+      "Nautical",
+      "Pirates"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-20"
   },
   {
@@ -8056,7 +8608,20 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Totsuca Chuo"
+    ],
+    "weight": "0",
+    "mechanics": [
+      "Set Collection",
+      "Turn Order: Time Track"
+    ],
+    "categories": [
+      "Animals",
+      "Puzzle"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -8082,20 +8647,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "60878",
+      "numowned": "60940",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "29459"
+          "value": "29498"
         },
         "average": {
           "value": "8.1287"
         },
         "bayesaverage": {
-          "value": "7.88305"
+          "value": "7.88298"
         },
         "stddev": {
-          "value": "1.14896"
+          "value": "1.14925"
         },
         "median": {
           "value": "0"
@@ -8108,7 +8673,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "33",
-              "bayesaverage": "7.88305"
+              "bayesaverage": "7.88298"
             },
             {
               "type": "family",
@@ -8116,7 +8681,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "14",
-              "bayesaverage": "7.88219"
+              "bayesaverage": "7.88223"
             },
             {
               "type": "family",
@@ -8124,7 +8689,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "3",
-              "bayesaverage": "7.92405"
+              "bayesaverage": "7.92398"
             }
           ]
         }
@@ -8134,6 +8699,25 @@
     "numplays": {
       "value": "4"
     },
+    "designers": [
+      "Luc Rémond"
+    ],
+    "weight": "2.0439",
+    "mechanics": [
+      "Communication Limits",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Scenario / Mission / Campaign Game",
+      "Turn Order: Progressive",
+      "Variable Player Powers",
+      "Variable Set-up",
+      "Worker Placement with Dice Workers"
+    ],
+    "categories": [
+      "Aviation / Flight",
+      "Dice"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-02-07"
   },
   {
@@ -8160,20 +8744,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "10338",
+      "numowned": "10353",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "930"
+          "value": "931"
         },
         "average": {
-          "value": "8.48457"
+          "value": "8.48512"
         },
         "bayesaverage": {
-          "value": "6.31812"
+          "value": "6.31899"
         },
         "stddev": {
-          "value": "1.04551"
+          "value": "1.04508"
         },
         "median": {
           "value": "0"
@@ -8186,7 +8770,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.31812"
+              "bayesaverage": "6.31899"
             },
             {
               "type": "family",
@@ -8194,7 +8778,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.54653"
+              "bayesaverage": "6.54759"
             }
           ]
         }
@@ -8203,7 +8787,23 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Luc Rémond"
+    ],
+    "weight": "2.3077",
+    "mechanics": [
+      "Communication Limits",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Scenario / Mission / Campaign Game",
+      "Worker Placement with Dice Workers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Aviation / Flight"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -8263,6 +8863,19 @@
     "numplays": {
       "value": "17"
     },
+    "designers": [
+      "ODA"
+    ],
+    "weight": "1",
+    "mechanics": [
+      "Open Drafting",
+      "Pattern Building",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-11"
   },
   {
@@ -8289,20 +8902,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "95651",
+      "numowned": "95677",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "61812"
+          "value": "61820"
         },
         "average": {
-          "value": "8.34057"
+          "value": "8.3405"
         },
         "bayesaverage": {
-          "value": "8.14224"
+          "value": "8.14216"
         },
         "stddev": {
-          "value": "1.51919"
+          "value": "1.51922"
         },
         "median": {
           "value": "0"
@@ -8315,7 +8928,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "11",
-              "bayesaverage": "8.14224"
+              "bayesaverage": "8.14216"
             },
             {
               "type": "family",
@@ -8323,7 +8936,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "10",
-              "bayesaverage": "8.12198"
+              "bayesaverage": "8.12192"
             }
           ]
         }
@@ -8332,7 +8945,33 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "R. Eric Reuss"
+    ],
+    "weight": "4.0779",
+    "mechanics": [
+      "Action Retrieval",
+      "Area Majority / Influence",
+      "Automatic Resource Growth",
+      "Campaign / Battle Card Driven",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Modular Board",
+      "Simultaneous Action Selection",
+      "Solo / Solitaire Game",
+      "Tags",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Environmental",
+      "Fantasy",
+      "Mythology",
+      "Territory Building"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -8358,7 +8997,7 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "30317",
+      "numowned": "30321",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -8401,7 +9040,26 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "R. Eric Reuss"
+    ],
+    "weight": "4.2336",
+    "mechanics": [
+      "Cooperative Game",
+      "Hand Management",
+      "Modular Board",
+      "Open Drafting",
+      "Simultaneous Action Selection",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Fantasy",
+      "Fighting",
+      "Mythology"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -8427,7 +9085,7 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "8856",
+      "numowned": "8863",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -8470,7 +9128,25 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "R. Eric Reuss"
+    ],
+    "weight": "4.5455",
+    "mechanics": [
+      "Cooperative Game",
+      "Hand Management",
+      "Modular Board",
+      "Open Drafting",
+      "Simultaneous Action Selection",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Mythology",
+      "Territory Building"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -8496,7 +9172,7 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "23807",
+      "numowned": "23814",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -8539,7 +9215,28 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "R. Eric Reuss"
+    ],
+    "weight": "4.5199",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Cooperative Game",
+      "Hand Management",
+      "Modular Board",
+      "Set Collection",
+      "Simultaneous Action Selection",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Fantasy",
+      "Fighting",
+      "Mythology",
+      "Territory Building"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -8565,7 +9262,7 @@
       "minplaytime": "90",
       "maxplaytime": "180",
       "playingtime": "180",
-      "numowned": "10304",
+      "numowned": "10312",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -8616,7 +9313,33 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "R. Eric Reuss"
+    ],
+    "weight": "4.4559",
+    "mechanics": [
+      "Action Retrieval",
+      "Area Majority / Influence",
+      "Automatic Resource Growth",
+      "Campaign / Battle Card Driven",
+      "Cooperative Game",
+      "Events",
+      "Hand Management",
+      "Modular Board",
+      "Set Collection",
+      "Simultaneous Action Selection",
+      "Solo / Solitaire Game",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Fantasy",
+      "Mythology",
+      "Territory Building"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -8642,20 +9365,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "136299",
+      "numowned": "136325",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "89105"
+          "value": "89118"
         },
         "average": {
-          "value": "7.41965"
+          "value": "7.41963"
         },
         "bayesaverage": {
-          "value": "7.29232"
+          "value": "7.29227"
         },
         "stddev": {
-          "value": "1.28745"
+          "value": "1.28742"
         },
         "median": {
           "value": "0"
@@ -8668,7 +9391,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "241",
-              "bayesaverage": "7.29232"
+              "bayesaverage": "7.29227"
             },
             {
               "type": "family",
@@ -8676,7 +9399,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "54",
-              "bayesaverage": "7.29092"
+              "bayesaverage": "7.29086"
             }
           ]
         }
@@ -8686,6 +9409,22 @@
     "numplays": {
       "value": "6"
     },
+    "designers": [
+      "Marc André"
+    ],
+    "weight": "1.7758",
+    "mechanics": [
+      "Contracts",
+      "Open Drafting",
+      "Race",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Renaissance"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-28"
   },
   {
@@ -8712,20 +9451,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "36415",
+      "numowned": "36430",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "18446"
+          "value": "18460"
         },
         "average": {
-          "value": "7.87953"
+          "value": "7.87926"
         },
         "bayesaverage": {
-          "value": "7.55268"
+          "value": "7.55242"
         },
         "stddev": {
-          "value": "1.13004"
+          "value": "1.1307"
         },
         "median": {
           "value": "0"
@@ -8738,7 +9477,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "113",
-              "bayesaverage": "7.55268"
+              "bayesaverage": "7.55242"
             },
             {
               "type": "family",
@@ -8746,7 +9485,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "97",
-              "bayesaverage": "7.57369"
+              "bayesaverage": "7.57329"
             },
             {
               "type": "family",
@@ -8754,7 +9493,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "16",
-              "bayesaverage": "7.61951"
+              "bayesaverage": "7.61911"
             }
           ]
         }
@@ -8764,6 +9503,23 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Marc André",
+      "Bruno Cathala"
+    ],
+    "weight": "2.02",
+    "mechanics": [
+      "Contracts",
+      "Open Drafting",
+      "Race",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Renaissance"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-04"
   },
   {
@@ -8790,20 +9546,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "18667",
+      "numowned": "18669",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "5037"
+          "value": "5038"
         },
         "average": {
-          "value": "7.32629"
+          "value": "7.32659"
         },
         "bayesaverage": {
           "value": "6.69951"
         },
         "stddev": {
-          "value": "1.24629"
+          "value": "1.24634"
         },
         "median": {
           "value": "0"
@@ -8833,7 +9589,22 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Marc André"
+    ],
+    "weight": "2.1569",
+    "mechanics": [
+      "Open Drafting",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Expansion for Base-game",
+      "Renaissance"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -8859,20 +9630,20 @@
       "minplaytime": "45",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "1165",
+      "numowned": "1166",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "847"
+          "value": "848"
         },
         "average": {
-          "value": "7.42061"
+          "value": "7.42129"
         },
         "bayesaverage": {
-          "value": "6.00588"
+          "value": "6.00654"
         },
         "stddev": {
-          "value": "1.35288"
+          "value": "1.35222"
         },
         "median": {
           "value": "0"
@@ -8884,8 +9655,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3105",
-              "bayesaverage": "6.00588"
+              "value": "3102",
+              "bayesaverage": "6.00654"
             },
             {
               "type": "family",
@@ -8893,7 +9664,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "1378",
-              "bayesaverage": "6.14961"
+              "bayesaverage": "6.15041"
             }
           ]
         }
@@ -8903,6 +9674,29 @@
     "numplays": {
       "value": "1"
     },
+    "designers": [
+      "Martin Wallace"
+    ],
+    "weight": "2.2927",
+    "mechanics": [
+      "Chaining",
+      "Connections",
+      "Contracts",
+      "Hexagon Grid",
+      "Network and Route Building",
+      "Ownership",
+      "Pick-up and Deliver",
+      "Tile Placement",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Economic",
+      "Industry / Manufacturing",
+      "Territory Building",
+      "Trains",
+      "Transportation"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-19"
   },
   {
@@ -8963,6 +9757,19 @@
     "numplays": {
       "value": "3"
     },
+    "designers": [
+      "Koji Malta",
+      "Takahiro Shinozaki (篠崎　高広)"
+    ],
+    "weight": "1.6667",
+    "mechanics": [
+      "Set Collection"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Number"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-07"
   },
   {
@@ -8989,20 +9796,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "12665",
+      "numowned": "12669",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "5089"
+          "value": "5088"
         },
         "average": {
-          "value": "7.42971"
+          "value": "7.4298"
         },
         "bayesaverage": {
-          "value": "6.78331"
+          "value": "6.78327"
         },
         "stddev": {
-          "value": "1.34064"
+          "value": "1.34075"
         },
         "median": {
           "value": "0"
@@ -9015,7 +9822,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "770",
-              "bayesaverage": "6.78331"
+              "bayesaverage": "6.78327"
             },
             {
               "type": "family",
@@ -9032,7 +9839,20 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Michael Menzel"
+    ],
+    "weight": "1.8295",
+    "mechanics": [
+      "Cooperative Game",
+      "Scenario / Mission / Campaign Game",
+      "Storytelling"
+    ],
+    "categories": [
+      "Medieval"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -9058,20 +9878,20 @@
       "minplaytime": "30",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "83297",
+      "numowned": "83298",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "68663"
+          "value": "68666"
         },
         "average": {
-          "value": "8.15763"
+          "value": "8.15757"
         },
         "bayesaverage": {
-          "value": "8.02791"
+          "value": "8.0279"
         },
         "stddev": {
-          "value": "1.25284"
+          "value": "1.25295"
         },
         "median": {
           "value": "0"
@@ -9084,7 +9904,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "15",
-              "bayesaverage": "8.02791"
+              "bayesaverage": "8.0279"
             },
             {
               "type": "family",
@@ -9092,7 +9912,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "17",
-              "bayesaverage": "8.02753"
+              "bayesaverage": "8.02757"
             }
           ]
         }
@@ -9101,7 +9921,31 @@
     "status": "wishlist",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Stefan Feld"
+    ],
+    "weight": "2.9737",
+    "mechanics": [
+      "Delayed Purchase",
+      "Dice Rolling",
+      "End Game Bonuses",
+      "Grid Coverage",
+      "Hexagon Grid",
+      "Open Drafting",
+      "Pattern Building",
+      "Tile Placement",
+      "Track Movement",
+      "Turn Order: Stat-Based",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Animals",
+      "Dice",
+      "Medieval",
+      "Territory Building"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -9127,20 +9971,20 @@
       "minplaytime": "60",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "2296",
+      "numowned": "2308",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1160"
+          "value": "1169"
         },
         "average": {
-          "value": "7.90302"
+          "value": "7.90667"
         },
         "bayesaverage": {
-          "value": "6.26965"
+          "value": "6.27537"
         },
         "stddev": {
-          "value": "1.13493"
+          "value": "1.13357"
         },
         "median": {
           "value": "0"
@@ -9152,16 +9996,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1951",
-              "bayesaverage": "6.26965"
+              "value": "1932",
+              "bayesaverage": "6.27537"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "932",
-              "bayesaverage": "6.45329"
+              "value": "928",
+              "bayesaverage": "6.46001"
             }
           ]
         }
@@ -9170,7 +10014,22 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Stefan Feld"
+    ],
+    "weight": "3.0633",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Contracts",
+      "Dice Rolling",
+      "Worker Placement with Dice Workers"
+    ],
+    "categories": [
+      "Dice",
+      "Fantasy"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -9196,20 +10055,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "37706",
+      "numowned": "37758",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "17811"
+          "value": "17836"
         },
         "average": {
-          "value": "8.36145"
+          "value": "8.36155"
         },
         "bayesaverage": {
-          "value": "7.95954"
+          "value": "7.95962"
         },
         "stddev": {
-          "value": "1.11692"
+          "value": "1.11708"
         },
         "median": {
           "value": "0"
@@ -9222,7 +10081,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "22",
-              "bayesaverage": "7.95954"
+              "bayesaverage": "7.95962"
             },
             {
               "type": "family",
@@ -9230,7 +10089,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "21",
-              "bayesaverage": "7.99364"
+              "bayesaverage": "7.99371"
             },
             {
               "type": "family",
@@ -9238,7 +10097,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "1",
-              "bayesaverage": "8.03809"
+              "bayesaverage": "8.03815"
             }
           ]
         }
@@ -9247,7 +10106,39 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Antoine Bauza",
+      "Bruno Cathala"
+    ],
+    "weight": "2.0622",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Hand Management",
+      "Income",
+      "Layering",
+      "Market",
+      "Modular Board",
+      "Multi-Use Cards",
+      "Once-Per-Game Abilities",
+      "Open Drafting",
+      "Point to Point Movement",
+      "Race",
+      "Relative Movement",
+      "Set Collection",
+      "Sudden Death Ending",
+      "Tags",
+      "Take That",
+      "Tech Trees / Tech Tracks",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Novel-based"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -9273,20 +10164,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "6119",
+      "numowned": "6140",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "594"
+          "value": "600"
         },
         "average": {
-          "value": "8.094"
+          "value": "8.10223"
         },
         "bayesaverage": {
-          "value": "5.99551"
+          "value": "5.99897"
         },
         "stddev": {
-          "value": "1.30056"
+          "value": "1.30125"
         },
         "median": {
           "value": "0"
@@ -9298,7 +10189,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.99551"
+            "bayesaverage": "5.99897"
           }
         }
       }
@@ -9306,7 +10197,37 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Antoine Bauza",
+      "Bruno Cathala"
+    ],
+    "weight": "1.75",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Hand Management",
+      "Income",
+      "Layering",
+      "Market",
+      "Modular Board",
+      "Multi-Use Cards",
+      "Once-Per-Game Abilities",
+      "Open Drafting",
+      "Point to Point Movement",
+      "Race",
+      "Set Collection",
+      "Sudden Death Ending",
+      "Take That",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Card Game",
+      "Fantasy",
+      "Novel-based"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -9332,20 +10253,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "14094",
+      "numowned": "14127",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "6893"
+          "value": "6916"
         },
         "average": {
-          "value": "8.32095"
+          "value": "8.32134"
         },
         "bayesaverage": {
-          "value": "7.49463"
+          "value": "7.49633"
         },
         "stddev": {
-          "value": "1.33008"
+          "value": "1.32998"
         },
         "median": {
           "value": "0"
@@ -9358,7 +10279,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "134",
-              "bayesaverage": "7.49463"
+              "bayesaverage": "7.49633"
             },
             {
               "type": "family",
@@ -9366,7 +10287,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "29",
-              "bayesaverage": "7.70729"
+              "bayesaverage": "7.70848"
             }
           ]
         }
@@ -9376,6 +10297,25 @@
     "numplays": {
       "value": "3"
     },
+    "designers": [
+      "Matt Leacock"
+    ],
+    "weight": "3.0826",
+    "mechanics": [
+      "Action Points",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Hand Management",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Tags",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Fantasy",
+      "Novel-based"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-09"
   },
   {
@@ -9402,20 +10342,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "3715",
+      "numowned": "3724",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1960"
+          "value": "1967"
         },
         "average": {
-          "value": "8.13489"
+          "value": "8.13492"
         },
         "bayesaverage": {
-          "value": "6.58655"
+          "value": "6.58872"
         },
         "stddev": {
-          "value": "1.70673"
+          "value": "1.70404"
         },
         "median": {
           "value": "0"
@@ -9427,16 +10367,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1116",
-              "bayesaverage": "6.58655"
+              "value": "1115",
+              "bayesaverage": "6.58872"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "584",
-              "bayesaverage": "6.76635"
+              "value": "582",
+              "bayesaverage": "6.76872"
             }
           ]
         }
@@ -9445,7 +10385,23 @@
     "status": "wishlist",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Pablo Clark"
+    ],
+    "weight": "3.6407",
+    "mechanics": [
+      "Betting and Bluffing",
+      "Card Play Conflict Resolution",
+      "Hand Management",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Medieval"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -9471,20 +10427,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "52468",
+      "numowned": "52482",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "31935"
+          "value": "31950"
         },
         "average": {
-          "value": "7.71454"
+          "value": "7.71469"
         },
         "bayesaverage": {
-          "value": "7.53309"
+          "value": "7.53314"
         },
         "stddev": {
-          "value": "1.09815"
+          "value": "1.09813"
         },
         "median": {
           "value": "0"
@@ -9497,7 +10453,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "121",
-              "bayesaverage": "7.53309"
+              "bayesaverage": "7.53314"
             },
             {
               "type": "family",
@@ -9505,7 +10461,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "19",
-              "bayesaverage": "7.57284"
+              "bayesaverage": "7.57279"
             }
           ]
         }
@@ -9515,6 +10471,31 @@
     "numplays": {
       "value": "4"
     },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "weight": "1.9423",
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Grid Movement",
+      "Hand Management",
+      "Hexagon Grid",
+      "Modular Board",
+      "Multi-Use Cards",
+      "Once-Per-Game Abilities",
+      "Open Drafting",
+      "Race",
+      "Resource to Move",
+      "Variable Set-up",
+      "Zone of Control"
+    ],
+    "categories": [
+      "Adventure",
+      "Exploration",
+      "Racing"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-02-11"
   },
   {
@@ -9541,7 +10522,7 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "5768",
+      "numowned": "5771",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -9566,7 +10547,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1302",
+              "value": "1301",
               "bayesaverage": "6.50346"
             },
             {
@@ -9584,7 +10565,25 @@
     "status": "preordered",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "weight": "2.025",
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Grid Movement",
+      "Hand Management",
+      "Modular Board",
+      "Open Drafting",
+      "Pick-up and Deliver",
+      "Race"
+    ],
+    "categories": [
+      "Adventure",
+      "Exploration"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -9610,7 +10609,7 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "5667",
+      "numowned": "5670",
       "rating": {
         "value": "7.5",
         "usersrated": {
@@ -9654,6 +10653,20 @@
     "numplays": {
       "value": "7"
     },
+    "designers": [
+      "Alan R. Moon"
+    ],
+    "weight": "1.6538",
+    "mechanics": [
+      "Hand Management",
+      "Network and Route Building",
+      "Open Drafting",
+      "Set Collection"
+    ],
+    "categories": [
+      "Trains"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-02-02"
   },
   {
@@ -9724,6 +10737,20 @@
     "numplays": {
       "value": "1"
     },
+    "designers": [
+      "Rob Sparks"
+    ],
+    "weight": "1",
+    "mechanics": [
+      "Player Elimination",
+      "Stacking and Balancing"
+    ],
+    "categories": [
+      "Action / Dexterity",
+      "Adventure",
+      "Party Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-01"
   },
   {
@@ -9750,7 +10777,7 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "603",
+      "numowned": "604",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -9774,7 +10801,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "9937",
+            "value": "9938",
             "bayesaverage": "5.58793"
           }
         }
@@ -9784,6 +10811,20 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Alena Lebedeva"
+    ],
+    "weight": "1",
+    "mechanics": [
+      "Memory",
+      "Pattern Recognition"
+    ],
+    "categories": [
+      "Card Game",
+      "Children's Game",
+      "Memory"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-07-19"
   },
   {
@@ -9810,7 +10851,7 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "362",
+      "numowned": "363",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -9834,7 +10875,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "6725",
+            "value": "6729",
             "bayesaverage": "5.67717"
           }
         }
@@ -9844,6 +10885,18 @@
     "numplays": {
       "value": "3"
     },
+    "designers": [
+      "Moyuki Adisawa (アヂサワモユキ)"
+    ],
+    "weight": "1.2857",
+    "mechanics": [
+      "Hand Management",
+      "Race"
+    ],
+    "categories": [
+      "Racing"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-07-07"
   },
   {
@@ -9903,7 +10956,7 @@
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "1210",
+              "value": "1211",
               "bayesaverage": "5.99224"
             }
           ]
@@ -9914,6 +10967,24 @@
     "numplays": {
       "value": "4"
     },
+    "designers": [
+      "Grzegorz Rejchtman"
+    ],
+    "weight": "1.1",
+    "mechanics": [
+      "Dice Rolling",
+      "Finale Ending",
+      "Pattern Building",
+      "Player Elimination",
+      "Race",
+      "Stacking and Balancing"
+    ],
+    "categories": [
+      "Animals",
+      "Puzzle",
+      "Real-time"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-02-14"
   },
   {
@@ -9965,7 +11036,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2041",
+              "value": "2042",
               "bayesaverage": "6.24444"
             },
             {
@@ -9984,6 +11055,20 @@
     "numplays": {
       "value": "3"
     },
+    "designers": [
+      "Grzegorz Rejchtman"
+    ],
+    "weight": "1.9118",
+    "mechanics": [
+      "Grid Coverage",
+      "Pattern Building",
+      "Real-Time"
+    ],
+    "categories": [
+      "Puzzle",
+      "Real-time"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-12-30"
   },
   {
@@ -10035,7 +11120,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "10644",
+              "value": "10646",
               "bayesaverage": "5.57706"
             },
             {
@@ -10054,6 +11139,18 @@
     "numplays": {
       "value": "3"
     },
+    "designers": [
+      "Kristin Mückel"
+    ],
+    "weight": "1.2727",
+    "mechanics": [
+      "Dice Rolling",
+      "Roll / Spin and Move"
+    ],
+    "categories": [
+      "Children's Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-15"
   },
   {
@@ -10080,7 +11177,7 @@
       "minplaytime": "20",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "2566",
+      "numowned": "2567",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -10105,7 +11202,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3104",
+              "value": "3105",
               "bayesaverage": "6.00637"
             },
             {
@@ -10124,6 +11221,22 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Manfred Ludwig"
+    ],
+    "weight": "1.0833",
+    "mechanics": [
+      "Push Your Luck",
+      "Race",
+      "Roll / Spin and Move",
+      "Track Movement"
+    ],
+    "categories": [
+      "Animals",
+      "Children's Game",
+      "Dice"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-02"
   },
   {
@@ -10150,20 +11263,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "17942",
+      "numowned": "17950",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "12219"
+          "value": "12222"
         },
         "average": {
-          "value": "7.82695"
+          "value": "7.82697"
         },
         "bayesaverage": {
-          "value": "7.39065"
+          "value": "7.3907"
         },
         "stddev": {
-          "value": "1.37224"
+          "value": "1.37207"
         },
         "median": {
           "value": "0"
@@ -10176,7 +11289,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "181",
-              "bayesaverage": "7.39065"
+              "bayesaverage": "7.3907"
             },
             {
               "type": "family",
@@ -10184,7 +11297,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "6",
-              "bayesaverage": "7.44314"
+              "bayesaverage": "7.44315"
             }
           ]
         }
@@ -10193,7 +11306,29 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Trevor Benjamin",
+      "David Thompson (I)"
+    ],
+    "weight": "2.3216",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Grid Movement",
+      "Hand Management",
+      "Hexagon Grid",
+      "Team-Based Game",
+      "Turn Order: Claim Action",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Abstract Strategy",
+      "Medieval",
+      "Wargame"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -10219,20 +11354,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "6361",
+      "numowned": "6362",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1307"
+          "value": "1309"
         },
         "average": {
-          "value": "8.23375"
+          "value": "8.23279"
         },
         "bayesaverage": {
-          "value": "6.45856"
+          "value": "6.45871"
         },
         "stddev": {
-          "value": "1.18571"
+          "value": "1.18529"
         },
         "median": {
           "value": "0"
@@ -10245,7 +11380,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.45856"
+              "bayesaverage": "6.45871"
             },
             {
               "type": "family",
@@ -10262,7 +11397,25 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Trevor Benjamin",
+      "David Thompson (I)"
+    ],
+    "weight": "2.3333",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Team-Based Game",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Abstract Strategy",
+      "Wargame"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -10288,20 +11441,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "4982",
+      "numowned": "4983",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "864"
+          "value": "866"
         },
         "average": {
-          "value": "8.15374"
+          "value": "8.15246"
         },
         "bayesaverage": {
-          "value": "6.19589"
+          "value": "6.19615"
         },
         "stddev": {
-          "value": "1.21743"
+          "value": "1.21666"
         },
         "median": {
           "value": "0"
@@ -10314,7 +11467,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.19589"
+              "bayesaverage": "6.19615"
             },
             {
               "type": "family",
@@ -10331,7 +11484,26 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Trevor Benjamin",
+      "David Thompson (I)"
+    ],
+    "weight": "2.3684",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Team-Based Game",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Abstract Strategy",
+      "Medieval",
+      "Wargame"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -10357,7 +11529,7 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "5023",
+      "numowned": "5022",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -10382,7 +11554,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2986",
+              "value": "2988",
               "bayesaverage": "6.02714"
             },
             {
@@ -10401,6 +11573,19 @@
     "numplays": {
       "value": "5"
     },
+    "designers": [
+      "Alex Randolph"
+    ],
+    "weight": "1.1629",
+    "mechanics": [
+      "Auction: Sealed Bid",
+      "Simultaneous Action Selection"
+    ],
+    "categories": [
+      "Animals",
+      "Card Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-01"
   },
   {
@@ -10427,20 +11612,20 @@
       "minplaytime": "15",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3774",
+      "numowned": "3773",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2050"
+          "value": "2051"
         },
         "average": {
-          "value": "7.17903"
+          "value": "7.17821"
         },
         "bayesaverage": {
-          "value": "6.25709"
+          "value": "6.25691"
         },
         "stddev": {
-          "value": "1.29645"
+          "value": "1.29854"
         },
         "median": {
           "value": "0"
@@ -10453,7 +11638,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1987",
-              "bayesaverage": "6.25709"
+              "bayesaverage": "6.25691"
             },
             {
               "type": "family",
@@ -10461,7 +11646,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "578",
-              "bayesaverage": "6.40055"
+              "bayesaverage": "6.40029"
             }
           ]
         }
@@ -10471,6 +11656,18 @@
     "numplays": {
       "value": "6"
     },
+    "designers": [
+      "Erik Andersson Sundén"
+    ],
+    "weight": "1.8302",
+    "mechanics": [
+      "Simultaneous Action Selection",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Fantasy"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-26"
   },
   {
@@ -10521,7 +11718,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "22571",
+            "value": "22574",
             "bayesaverage": "5.50925"
           }
         }
@@ -10531,6 +11728,23 @@
     "numplays": {
       "value": "3"
     },
+    "designers": [
+      "Roberto Fraga"
+    ],
+    "weight": "1",
+    "mechanics": [
+      "Deduction",
+      "Role Playing",
+      "Team-Based Game",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Animals",
+      "Bluffing",
+      "Children's Game",
+      "Deduction"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-11-02"
   },
   {
@@ -10582,7 +11796,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "10472",
+              "value": "10473",
               "bayesaverage": "5.57969"
             },
             {
@@ -10601,6 +11815,19 @@
     "numplays": {
       "value": "1"
     },
+    "designers": [
+      "Heinz Meister"
+    ],
+    "weight": "1.025",
+    "mechanics": [
+      "Dice Rolling",
+      "Physical Removal"
+    ],
+    "categories": [
+      "Action / Dexterity",
+      "Children's Game"
+    ],
+    "type": "boardgame",
     "lastplay": "2025-09-11"
   },
   {
@@ -10627,20 +11854,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "13116",
+      "numowned": "13117",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6096"
+          "value": "6097"
         },
         "average": {
-          "value": "7.57105"
+          "value": "7.57096"
         },
         "bayesaverage": {
-          "value": "6.9398"
+          "value": "6.93981"
         },
         "stddev": {
-          "value": "1.30608"
+          "value": "1.30599"
         },
         "median": {
           "value": "0"
@@ -10652,8 +11879,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "572",
-              "bayesaverage": "6.9398"
+              "value": "571",
+              "bayesaverage": "6.93981"
             },
             {
               "type": "family",
@@ -10661,7 +11888,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "1",
-              "bayesaverage": "7.48517"
+              "bayesaverage": "7.48497"
             },
             {
               "type": "family",
@@ -10669,7 +11896,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "118",
-              "bayesaverage": "7.05718"
+              "bayesaverage": "7.05717"
             }
           ]
         }
@@ -10678,7 +11905,25 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Annick Lobet"
+    ],
+    "weight": "1.3758",
+    "mechanics": [
+      "Area Movement",
+      "Cooperative Game",
+      "Dice Rolling",
+      "Legacy Game",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Children's Game",
+      "Fighting",
+      "Horror",
+      "Zombies"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -10731,7 +11976,19 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [],
+    "weight": "0",
+    "mechanics": [
+      "Open Drafting",
+      "Pattern Building",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Abstract Strategy"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
@@ -10781,7 +12038,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "28783",
+            "value": "28788",
             "bayesaverage": "5.47527"
           }
         }
@@ -10790,7 +12047,22 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "(Uncredited)"
+    ],
+    "weight": "1",
+    "mechanics": [
+      "Hand Management",
+      "Set Collection",
+      "Trading"
+    ],
+    "categories": [
+      "Card Game",
+      "Fighting",
+      "Party Game"
+    ],
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -10820,16 +12092,16 @@
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "155"
+          "value": "156"
         },
         "average": {
-          "value": "6.94645"
+          "value": "6.95321"
         },
         "bayesaverage": {
-          "value": "5.58591"
+          "value": "5.58693"
         },
         "stddev": {
-          "value": "1.32394"
+          "value": "1.32236"
         },
         "median": {
           "value": "0"
@@ -10840,8 +12112,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "10075",
-            "bayesaverage": "5.58591"
+            "value": "10014",
+            "bayesaverage": "5.58693"
           }
         }
       }
@@ -10850,6 +12122,18 @@
     "numplays": {
       "value": "14"
     },
+    "designers": [
+      "Hashimoto Atsushi (橋本淳志)"
+    ],
+    "weight": "1.2857",
+    "mechanics": [
+      "Hand Management",
+      "Set Collection"
+    ],
+    "categories": [
+      "Abstract Strategy"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-18"
   },
   {
@@ -10876,7 +12160,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3441",
+      "numowned": "3444",
       "rating": {
         "value": "7.5",
         "usersrated": {
@@ -10901,7 +12185,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1445",
+              "value": "1447",
               "bayesaverage": "6.44425"
             },
             {
@@ -10920,6 +12204,23 @@
     "numplays": {
       "value": "2"
     },
+    "designers": [
+      "Marc André"
+    ],
+    "weight": "1.8696",
+    "mechanics": [
+      "Contracts",
+      "Open Drafting",
+      "Race",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Movies / TV / Radio theme",
+      "Video Game Theme"
+    ],
+    "type": "boardgame",
     "lastplay": "2026-01-01"
   }
 ]
