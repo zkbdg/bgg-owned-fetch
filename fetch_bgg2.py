@@ -19,7 +19,7 @@ USERNAME = "zakibg"
 # ====================================
 # 設定
 # ====================================
-BATCH_SIZE = 1       # Thing 差分取得の件数
+BATCH_SIZE = 20       # Thing API 差分取得件数
 SLEEP_BETWEEN_CALLS = 1
 SLEEP_ON_429 = 60
 
@@ -89,7 +89,7 @@ def fetch_latest_plays(username):
     return lastplays
 
 # ====================================
-# collection 取得（新規ゲームだけ追加用）
+# collection 取得
 # ====================================
 def fetch_collection(username, owned=False, wishlist=False, preordered=False, prevowned=False):
     status = None
@@ -122,15 +122,12 @@ def fetch_collection(username, owned=False, wishlist=False, preordered=False, pr
     else:
         raise Exception(f"Timeout fetching {status}")
 
-    new_games = []
+    games = []
     for item in root.findall("item"):
         game = xml_to_dict(item)
         game["status"] = status
-        # 不要フィールド削除
-        for key in ["image", "thumbnail", "objecttype", "subtype", "collid"]:
-            game.pop(key, None)
-        new_games.append(game)
-    return new_games
+        games.append(game)
+    return games
 
 # ====================================
 # Thing API 差分取得
@@ -168,34 +165,41 @@ def fetch_thing_info(game_id):
 # 実行
 # ====================================
 def main():
-    # 1. 既存 JSON 読込
-    try:
-        with open("bgg_collection.json", "r", encoding="utf-8") as f:
-            local_dict = {g["objectid"]: g for g in json.load(f)}
-    except FileNotFoundError:
-        local_dict = {}
-
-    # 2. plays 全件取得
+    # 1. plays 全件
     lastplays = fetch_latest_plays(USERNAME)
 
-    # 3. collection 新規ゲームチェック
-    for fetch_fn in [
-        lambda: fetch_collection(USERNAME, owned=True),
-        lambda: fetch_collection(USERNAME, wishlist=True),
-        lambda: fetch_collection(USERNAME, preordered=True),
-        lambda: fetch_collection(USERNAME, prevowned=True),
-    ]:
-        new_games = fetch_fn()
-        for g in new_games:
-            if g["objectid"] not in local_dict:
+    # 2. collection 全件
+    owned = fetch_collection(USERNAME, owned=True)
+    wishlist = fetch_collection(USERNAME, wishlist=True)
+    preordered = fetch_collection(USERNAME, preordered=True)
+    prevowned = fetch_collection(USERNAME, prevowned=True)
+
+    new_games = owned + wishlist + preordered + prevowned
+    local_dict = {}
+
+    # 既存 JSON があれば読み込む
+    if os.path.exists("bgg_collection.json"):
+        with open("bgg_collection.json", "r", encoding="utf-8") as f:
+            for g in json.load(f):
                 local_dict[g["objectid"]] = g
 
-    # 4. Thing API 差分（必要なものだけ）
+    # 3. 新規ゲーム or status 更新をマージ
+    for g in new_games:
+        oid = g["objectid"]
+        if oid in local_dict:
+            # 既存 status 更新
+            if local_dict[oid].get("status") != g["status"]:
+                local_dict[oid]["status"] = g["status"]
+        else:
+            local_dict[oid] = g
+
+    # 4. Thing API 差分取得（未取得フィールドのみ）
     pending = [
         g for g in local_dict.values()
         if "designers" not in g or "mechanics" not in g or "categories" not in g or "weight" not in g
     ]
     print(f"Pending games to update via Thing API: {len(pending)}")
+
     batch = pending[:BATCH_SIZE]
     updated = 0
     for game in batch:
@@ -209,10 +213,11 @@ def main():
             print(f"Updated {game['name']['value']}")
             time.sleep(SLEEP_BETWEEN_CALLS)
         except Exception as e:
-            print(f"Error fetching {game.get('name', {}).get('value', game['objectid'])}: {e}")
+            print(f"Error fetching {game['name']['value']} ({game['objectid']}): {e}")
+
     print(f"Total Thing API updated: {updated}")
 
-    # 5. lastplay マージ
+    # 5. lastplay 追加
     for game_id, date in lastplays.items():
         if game_id in local_dict:
             local_dict[game_id]["lastplay"] = date
