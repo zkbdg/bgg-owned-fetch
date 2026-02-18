@@ -2,38 +2,32 @@ name: Update BGG Collection
 
 on:
   schedule:
-    - cron: "0 15 * * *"   # 毎日 15:00 UTC 実行
+    - cron: "0 15 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write   # ← これが無いと 403 になる
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+      - run: pip install requests
 
-      - name: Run BGG updater
+      - name: Run updater
         env:
           BGG_API_TOKEN: ${{ secrets.BGG_API_TOKEN }}
           BGG_COOKIE: ${{ secrets.BGG_COOKIE }}
-        run: |
-          python fetch_bgg2.py
+        run: python fetch_bgg2.py
 
-      - name: Commit and Push if changed
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -41,7 +35,7 @@ jobs:
           git add bgg_collection.json
 
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
             git commit -m "Update BGG collection"
             git push
