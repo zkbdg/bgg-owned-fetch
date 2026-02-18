@@ -571,7 +571,34 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "S J Macdonald",
+      "Shem Phillips"
+    ],
+    "weight": "2.7592",
+    "mechanics": [
+      "Area Movement",
+      "Contracts",
+      "End Game Bonuses",
+      "Events",
+      "Kill Steal",
+      "Loans",
+      "Open Drafting",
+      "Solo / Solitaire Game",
+      "Static Capture",
+      "Tags",
+      "Take That",
+      "Track Movement",
+      "Variable Player Powers",
+      "Variable Set-up",
+      "Worker Placement"
+    ],
+    "categories": [
+      "City Building",
+      "Economic",
+      "Medieval"
+    ]
   },
   {
     "objecttype": "thing",
