@@ -324,7 +324,31 @@
     "numplays": {
       "value": "1"
     },
-    "lastplay": "2026-02-12"
+    "lastplay": "2026-02-12",
+    "designers": [
+      "Jenny Iglesias",
+      "Nick Little (I)",
+      "Kevin Riley"
+    ],
+    "weight": "2.8008",
+    "mechanics": [
+      "Chit-Pull System",
+      "Cooperative Game",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Hand Management",
+      "Open Drafting",
+      "Solo / Solitaire Game",
+      "Variable Phase Order",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Card Game",
+      "Fantasy",
+      "Fighting",
+      "Science Fiction"
+    ]
   },
   {
     "objecttype": "thing",
@@ -383,7 +407,16 @@
     "status": "wishlist",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Kazunari Yonemitsu"
+    ],
+    "weight": "1",
+    "mechanics": [],
+    "categories": [
+      "Deduction",
+      "Word Game"
+    ]
   },
   {
     "objecttype": "thing",
@@ -452,7 +485,24 @@
     "status": "owned",
     "numplays": {
       "value": "0"
-    }
+    },
+    "designers": [
+      "Rémi Mathieu"
+    ],
+    "weight": "2.7222",
+    "mechanics": [
+      "Delayed Purchase",
+      "End Game Bonuses",
+      "Hand Management",
+      "Open Drafting",
+      "Tags"
+    ],
+    "categories": [
+      "Ancient",
+      "Card Game",
+      "Civilization",
+      "Mythology"
+    ]
   },
   {
     "objecttype": "thing",
