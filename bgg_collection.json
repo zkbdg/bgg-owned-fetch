@@ -3364,6 +3364,7 @@
     ],
     "weight": "1.1111",
     "mechanics": [
+      "Pick-up and Deliver",
       "Push Your Luck",
       "Roll / Spin and Move"
     ],
@@ -8558,6 +8559,350 @@
       "Territory Building"
     ],
     "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "262151",
+    "subtype": "boardgame",
+    "collid": "142732828",
+    "name": {
+      "sortindex": "1",
+      "value": "Scythe: Encounters"
+    },
+    "yearpublished": {
+      "value": "2018"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/PwJm9BRgD_rndwtfpOnp9w__original/img/2pqH1UhAfsk_i6rwDTP16rKnUsc=/0x0/filters:format(jpeg)/pic4335859.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/PwJm9BRgD_rndwtfpOnp9w__small/img/7YaYe_C5vW5UwRqTmgg231JWw9o=/fit-in/200x150/filters:strip_icc()/pic4335859.jpg"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "7",
+      "minplaytime": "90",
+      "maxplaytime": "115",
+      "playingtime": "115",
+      "numowned": "17012",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "3435"
+        },
+        "average": {
+          "value": "8.10274"
+        },
+        "bayesaverage": {
+          "value": "6.98266"
+        },
+        "stddev": {
+          "value": "1.42435"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "6.98266"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.16293"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Jamey Stegmaier"
+    ],
+    "weight": "2.7143",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Grid Movement",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Economic",
+      "Expansion for Base-game",
+      "Exploration",
+      "Fighting",
+      "Territory Building"
+    ],
+    "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "199727",
+    "subtype": "boardgame",
+    "collid": "142732839",
+    "name": {
+      "sortindex": "1",
+      "value": "Scythe: Invaders from Afar"
+    },
+    "yearpublished": {
+      "value": "2016"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/gfT_6H4P9wdNQQ2KMU9rHg__original/img/Ar4fApbUiiDOjzQgpnQw6QOgvyw=/0x0/filters:format(jpeg)/pic3037396.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/gfT_6H4P9wdNQQ2KMU9rHg__small/img/qIGTlYnsBqH70p8E_l9nZ837TPM=/fit-in/200x150/filters:strip_icc()/pic3037396.jpg"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "7",
+      "minplaytime": "90",
+      "maxplaytime": "140",
+      "playingtime": "140",
+      "numowned": "44787",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "12407"
+        },
+        "average": {
+          "value": "8.26893"
+        },
+        "bayesaverage": {
+          "value": "7.77318"
+        },
+        "stddev": {
+          "value": "1.17084"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.77318"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.85032"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Jamey Stegmaier"
+    ],
+    "weight": "3.4425",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Solo / Solitaire Game"
+    ],
+    "categories": [
+      "Economic",
+      "Expansion for Base-game",
+      "Territory Building"
+    ],
+    "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "242277",
+    "subtype": "boardgame",
+    "collid": "142732832",
+    "name": {
+      "sortindex": "1",
+      "value": "Scythe: The Rise of Fenris"
+    },
+    "yearpublished": {
+      "value": "2018"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/GRp__UYY-wM-i2fg4Qzefw__original/img/XJgcyfvPBsrxdew_vyvf96MUK6I=/0x0/filters:format(jpeg)/pic3911078.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/GRp__UYY-wM-i2fg4Qzefw__small/img/qLl_YEnA_TiXfhinS8yqAARKUFY=/fit-in/200x150/filters:strip_icc()/pic3911078.jpg"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "5",
+      "minplaytime": "75",
+      "maxplaytime": "150",
+      "playingtime": "150",
+      "numowned": "31530",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "8192"
+        },
+        "average": {
+          "value": "8.69503"
+        },
+        "bayesaverage": {
+          "value": "7.92998"
+        },
+        "stddev": {
+          "value": "1.30074"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.92998"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "8.07292"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Ryan Lopez DeVinaspre",
+      "Jamey Stegmaier"
+    ],
+    "weight": "3.4196",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Campaign / Battle Card Driven",
+      "Cooperative Game",
+      "Scenario / Mission / Campaign Game",
+      "Solo / Solitaire Game",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Civilization",
+      "Economic",
+      "Expansion for Base-game",
+      "Fighting",
+      "Science Fiction",
+      "Territory Building"
+    ],
+    "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "223555",
+    "subtype": "boardgame",
+    "collid": "142732835",
+    "name": {
+      "sortindex": "1",
+      "value": "Scythe: The Wind Gambit"
+    },
+    "yearpublished": {
+      "value": "2017"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/kcp2L5EPPr-okBb1jCtxpA__original/img/Z7yDWUewStx7ojT0dXKfuT7KJlc=/0x0/filters:format(jpeg)/pic3487272.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/kcp2L5EPPr-okBb1jCtxpA__small/img/WgVl13rTR8CIJos1iBek5BEbRbc=/fit-in/200x150/filters:strip_icc()/pic3487272.jpg"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "7",
+      "minplaytime": "70",
+      "maxplaytime": "140",
+      "playingtime": "140",
+      "numowned": "33762",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "7806"
+        },
+        "average": {
+          "value": "7.76784"
+        },
+        "bayesaverage": {
+          "value": "7.18135"
+        },
+        "stddev": {
+          "value": "1.38735"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.18135"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.27371"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Kai Starck",
+      "Jamey Stegmaier"
+    ],
+    "weight": "3.4105",
+    "mechanics": [
+      "Area Majority / Influence",
+      "Point to Point Movement"
+    ],
+    "categories": [
+      "Economic",
+      "Expansion for Base-game",
+      "Transportation"
+    ],
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
