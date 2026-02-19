@@ -6002,6 +6002,85 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "399281",
+    "subtype": "boardgame",
+    "collid": "142734122",
+    "name": {
+      "sortindex": "1",
+      "value": "Life of the Amazonia: Mini-Expansion"
+    },
+    "yearpublished": {
+      "value": "2023"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/jGgiyPiI2fWvO9gKXS0Wmw__original/img/x_0p72xFMzgSR1v-n3m61jwNF1U=/0x0/filters:format(png)/pic7799473.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/jGgiyPiI2fWvO9gKXS0Wmw__small/img/pr98eQjHhQ8V_RABPkNV5ltXEM8=/fit-in/200x150/filters:strip_icc()/pic7799473.png"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "4",
+      "minplaytime": "60",
+      "maxplaytime": "150",
+      "playingtime": "150",
+      "numowned": "1660",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "207"
+        },
+        "average": {
+          "value": "8.19662"
+        },
+        "bayesaverage": {
+          "value": "5.71976"
+        },
+        "stddev": {
+          "value": "1.12385"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": {
+            "type": "subtype",
+            "id": "1",
+            "name": "boardgame",
+            "friendlyname": "Board Game Rank",
+            "value": "Not Ranked",
+            "bayesaverage": "5.71976"
+          }
+        }
+      }
+    },
+    "status": "owned",
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Jamie Bloom"
+    ],
+    "weight": "3",
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "End Game Bonuses",
+      "Hexagon Grid",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Tile Placement",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Animals",
+      "Puzzle"
+    ],
+    "type": "boardgameexpansion",
+    "lastplay": "2026-02-14"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "50",
     "subtype": "boardgame",
     "collid": "139206224",
