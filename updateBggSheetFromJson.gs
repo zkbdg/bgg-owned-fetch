@@ -145,5 +145,5 @@ function updateBggSheetFromJson() {
   sheet.getRange(1, 1, sheet.getLastRow(), headers.length).setWrapStrategy(SpreadsheetApp.WrapStrategy.CLIP);
   sheet.getRange(1, 1, 1, headers.length).setFontWeight("bold").setHorizontalAlignment("center").setBackground("#f3f3f3");
   
-  SpreadsheetApp.getUi().alert('書式を修正して更新しました！');
+  SpreadsheetApp.getUi().alert('更新しました！');
 }
