@@ -23,20 +23,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "4830",
+      "numowned": "4844",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2207"
+          "value": "2218"
         },
         "average": {
-          "value": "7.06329"
+          "value": "7.06135"
         },
         "bayesaverage": {
-          "value": "6.24691"
+          "value": "6.24781"
         },
         "stddev": {
-          "value": "1.17773"
+          "value": "1.17713"
         },
         "median": {
           "value": "0"
@@ -48,29 +48,27 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2030",
-              "bayesaverage": "6.24691"
+              "value": "2028",
+              "bayesaverage": "6.24781"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "599",
-              "bayesaverage": "6.38476"
+              "value": "600",
+              "bayesaverage": "6.3851"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Joe Hout"
     ],
-    "weight": "1.7069",
+    "weight": "1.6949",
     "mechanics": [
       "Closed Drafting",
       "Set Collection",
@@ -107,20 +105,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "10422",
+      "numowned": "10425",
       "rating": {
         "value": "6",
         "usersrated": {
-          "value": "6253"
+          "value": "6258"
         },
         "average": {
-          "value": "6.57721"
+          "value": "6.57707"
         },
         "bayesaverage": {
-          "value": "6.26571"
+          "value": "6.26579"
         },
         "stddev": {
-          "value": "1.28873"
+          "value": "1.2883"
         },
         "median": {
           "value": "0"
@@ -132,29 +130,27 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1959",
-              "bayesaverage": "6.26571"
+              "value": "1962",
+              "bayesaverage": "6.26579"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "667",
-              "bayesaverage": "6.33052"
+              "value": "668",
+              "bayesaverage": "6.33057"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Emma Larkins"
     ],
-    "weight": "1.25",
+    "weight": "1.2484",
     "mechanics": [
       "Deck, Bag, and Pool Building",
       "Open Drafting",
@@ -191,20 +187,20 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "29830",
+      "numowned": "29854",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "21979"
+          "value": "21983"
         },
         "average": {
-          "value": "7.35598"
+          "value": "7.35604"
         },
         "bayesaverage": {
-          "value": "7.12874"
+          "value": "7.12892"
         },
         "stddev": {
-          "value": "1.33372"
+          "value": "1.33366"
         },
         "median": {
           "value": "0"
@@ -217,7 +213,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "361",
-              "bayesaverage": "7.12874"
+              "bayesaverage": "7.12892"
             },
             {
               "type": "family",
@@ -225,16 +221,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "280",
-              "bayesaverage": "7.14736"
+              "bayesaverage": "7.14751"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Sid Sackson"
     ],
@@ -283,20 +277,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "34394",
+      "numowned": "34407",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "23732"
+          "value": "23739"
         },
         "average": {
-          "value": "7.86548"
+          "value": "7.8653"
         },
         "bayesaverage": {
-          "value": "7.58297"
+          "value": "7.58275"
         },
         "stddev": {
-          "value": "1.37713"
+          "value": "1.37769"
         },
         "median": {
           "value": "0"
@@ -309,7 +303,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "104",
-              "bayesaverage": "7.58297"
+              "bayesaverage": "7.58275"
             },
             {
               "type": "family",
@@ -317,22 +311,20 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "91",
-              "bayesaverage": "7.59698"
+              "bayesaverage": "7.59689"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Jenny Iglesias",
       "Nick Little (I)",
       "Kevin Riley"
     ],
-    "weight": "2.8008",
+    "weight": "2.8011",
     "mechanics": [
       "Chit-Pull System",
       "Cooperative Game",
@@ -402,16 +394,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "20630",
+            "value": "20646",
             "bayesaverage": "5.51514"
           }
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Kazunari Yonemitsu"
     ],
@@ -447,20 +437,20 @@
       "minplaytime": "75",
       "maxplaytime": "75",
       "playingtime": "75",
-      "numowned": "5177",
+      "numowned": "5185",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3514"
+          "value": "3518"
         },
         "average": {
-          "value": "7.13422"
+          "value": "7.13572"
         },
         "bayesaverage": {
-          "value": "6.45703"
+          "value": "6.4579"
         },
         "stddev": {
-          "value": "1.28474"
+          "value": "1.28487"
         },
         "median": {
           "value": "0"
@@ -472,8 +462,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1415",
-              "bayesaverage": "6.45703"
+              "value": "1413",
+              "bayesaverage": "6.4579"
             },
             {
               "type": "family",
@@ -481,16 +471,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "792",
-              "bayesaverage": "6.58112"
+              "bayesaverage": "6.58158"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Rémi Mathieu"
     ],
@@ -534,20 +522,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "44217",
+      "numowned": "44231",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "32270"
+          "value": "32289"
         },
         "average": {
-          "value": "7.70917"
+          "value": "7.70948"
         },
         "bayesaverage": {
-          "value": "7.51409"
+          "value": "7.51433"
         },
         "stddev": {
-          "value": "1.18472"
+          "value": "1.18444"
         },
         "median": {
           "value": "0"
@@ -560,7 +548,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "128",
-              "bayesaverage": "7.51409"
+              "bayesaverage": "7.51433"
             },
             {
               "type": "family",
@@ -568,21 +556,19 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "110",
-              "bayesaverage": "7.52835"
+              "bayesaverage": "7.52867"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "S J Macdonald",
       "Shem Phillips"
     ],
-    "weight": "2.7592",
+    "weight": "2.7603",
     "mechanics": [
       "Area Movement",
       "Contracts",
@@ -631,20 +617,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "12276",
+      "numowned": "12284",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2783"
+          "value": "2782"
         },
         "average": {
-          "value": "8.05169"
+          "value": "8.05135"
         },
         "bayesaverage": {
-          "value": "6.85184"
+          "value": "6.8514"
         },
         "stddev": {
-          "value": "1.08606"
+          "value": "1.0861"
         },
         "median": {
           "value": "0"
@@ -657,7 +643,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.85184"
+              "bayesaverage": "6.8514"
             },
             {
               "type": "family",
@@ -665,16 +651,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.05624"
+              "bayesaverage": "7.05576"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "S J Macdonald",
       "Shem Phillips"
@@ -717,20 +701,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "7885",
+      "numowned": "7894",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1236"
+          "value": "1235"
         },
         "average": {
-          "value": "8.01354"
+          "value": "8.01193"
         },
         "bayesaverage": {
-          "value": "6.34139"
+          "value": "6.34031"
         },
         "stddev": {
-          "value": "1.12024"
+          "value": "1.12071"
         },
         "median": {
           "value": "0"
@@ -742,15 +726,13 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.34139"
+            "bayesaverage": "6.34031"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "S J Macdonald",
       "Shem Phillips"
@@ -793,20 +775,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "27170",
+      "numowned": "27242",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "15734"
+          "value": "15783"
         },
         "average": {
-          "value": "8.02085"
+          "value": "8.02152"
         },
         "bayesaverage": {
-          "value": "7.57976"
+          "value": "7.58068"
         },
         "stddev": {
-          "value": "1.72761"
+          "value": "1.72565"
         },
         "median": {
           "value": "0"
@@ -819,7 +801,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "106",
-              "bayesaverage": "7.57976"
+              "bayesaverage": "7.58068"
             },
             {
               "type": "family",
@@ -827,20 +809,18 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "81",
-              "bayesaverage": "7.61367"
+              "bayesaverage": "7.61415"
             }
           ]
         }
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Cole Wehrle"
     ],
-    "weight": "3.43",
+    "weight": "3.4316",
     "mechanics": [
       "Area Majority / Influence",
       "Area Movement",
@@ -885,17 +865,17 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "179558",
+      "numowned": "179695",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "106487"
+          "value": "106557"
         },
         "average": {
-          "value": "7.71831"
+          "value": "7.71798"
         },
         "bayesaverage": {
-          "value": "7.60886"
+          "value": "7.60872"
         },
         "stddev": {
           "value": "1.16716"
@@ -911,7 +891,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "96",
-              "bayesaverage": "7.60886"
+              "bayesaverage": "7.60872"
             },
             {
               "type": "family",
@@ -919,7 +899,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "3",
-              "bayesaverage": "7.63259"
+              "bayesaverage": "7.63264"
             },
             {
               "type": "family",
@@ -927,20 +907,18 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "17",
-              "bayesaverage": "7.61693"
+              "bayesaverage": "7.61679"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Michael Kiesling"
     ],
-    "weight": "1.7751",
+    "weight": "1.7753",
     "mechanics": [
       "Chaining",
       "End Game Bonuses",
@@ -983,20 +961,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "11711",
+      "numowned": "11713",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2373"
+          "value": "2375"
         },
         "average": {
-          "value": "7.26562"
+          "value": "7.26582"
         },
         "bayesaverage": {
-          "value": "6.36365"
+          "value": "6.36416"
         },
         "stddev": {
-          "value": "1.45327"
+          "value": "1.45275"
         },
         "median": {
           "value": "0"
@@ -1009,7 +987,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.36365"
+              "bayesaverage": "6.36416"
             },
             {
               "type": "family",
@@ -1017,16 +995,14 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.89541"
+              "bayesaverage": "6.8961"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Michael Kiesling"
     ],
@@ -1066,20 +1042,20 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "13952",
+      "numowned": "13970",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "7294"
+          "value": "7299"
         },
         "average": {
-          "value": "6.40043"
+          "value": "6.4005"
         },
         "bayesaverage": {
-          "value": "6.12405"
+          "value": "6.12426"
         },
         "stddev": {
-          "value": "1.39361"
+          "value": "1.39353"
         },
         "median": {
           "value": "0"
@@ -1091,25 +1067,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2525",
-              "bayesaverage": "6.12405"
+              "value": "2527",
+              "bayesaverage": "6.12426"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "908",
-              "bayesaverage": "6.16419"
+              "value": "909",
+              "bayesaverage": "6.16439"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Martin Nedergaard Andersen"
     ],
@@ -1151,20 +1125,20 @@
       "minplaytime": "90",
       "maxplaytime": "180",
       "playingtime": "180",
-      "numowned": "25920",
+      "numowned": "25940",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "21239"
+          "value": "21257"
         },
         "average": {
-          "value": "8.13925"
+          "value": "8.13914"
         },
         "bayesaverage": {
-          "value": "7.83766"
+          "value": "7.83774"
         },
         "stddev": {
-          "value": "1.44258"
+          "value": "1.44287"
         },
         "median": {
           "value": "0"
@@ -1177,7 +1151,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "39",
-              "bayesaverage": "7.83766"
+              "bayesaverage": "7.83774"
             },
             {
               "type": "family",
@@ -1185,21 +1159,19 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "32",
-              "bayesaverage": "7.89429"
+              "bayesaverage": "7.89434"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Tommaso Battista",
       "Simone Luciani"
     ],
-    "weight": "4.1147",
+    "weight": "4.1144",
     "mechanics": [
       "Contracts",
       "End Game Bonuses",
@@ -1247,16 +1219,16 @@
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "18222"
+          "value": "18220"
         },
         "average": {
-          "value": "7.4143"
+          "value": "7.41436"
         },
         "bayesaverage": {
-          "value": "7.17246"
+          "value": "7.1725"
         },
         "stddev": {
-          "value": "1.27243"
+          "value": "1.27233"
         },
         "median": {
           "value": "0"
@@ -1268,8 +1240,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "323",
-              "bayesaverage": "7.17246"
+              "value": "325",
+              "bayesaverage": "7.1725"
             },
             {
               "type": "family",
@@ -1277,20 +1249,18 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "246",
-              "bayesaverage": "7.20706"
+              "bayesaverage": "7.20712"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Reiner Knizia"
     ],
-    "weight": "1.8892",
+    "weight": "1.8885",
     "mechanics": [
       "Card Play Conflict Resolution",
       "Hand Management",
@@ -1357,10 +1327,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Nick Hayes",
       "Bernard Tavitian"
@@ -1403,20 +1371,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "1544",
+      "numowned": "1546",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "816"
+          "value": "818"
         },
         "average": {
-          "value": "6.7614"
+          "value": "6.75954"
         },
         "bayesaverage": {
-          "value": "5.81033"
+          "value": "5.81045"
         },
         "stddev": {
-          "value": "1.50093"
+          "value": "1.50038"
         },
         "median": {
           "value": "0"
@@ -1428,8 +1396,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4620",
-              "bayesaverage": "5.81033"
+              "value": "4626",
+              "bayesaverage": "5.81045"
             },
             {
               "type": "family",
@@ -1437,16 +1405,14 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "291",
-              "bayesaverage": "6.05573"
+              "bayesaverage": "6.05564"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Richard Borg"
     ],
@@ -1484,20 +1450,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "22140",
+      "numowned": "22271",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "10879"
+          "value": "10947"
         },
         "average": {
-          "value": "8.04549"
+          "value": "8.04581"
         },
         "bayesaverage": {
-          "value": "7.55528"
+          "value": "7.55798"
         },
         "stddev": {
-          "value": "1.23794"
+          "value": "1.23695"
         },
         "median": {
           "value": "0"
@@ -1510,7 +1476,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "109",
-              "bayesaverage": "7.55528"
+              "bayesaverage": "7.55798"
             },
             {
               "type": "family",
@@ -1518,16 +1484,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "13",
-              "bayesaverage": "7.66097"
+              "bayesaverage": "7.66304"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "17"
-    },
+    "status": "own",
+    "numplays": "17",
     "designers": [
       "Hisashi Hayashi"
     ],
@@ -1572,20 +1536,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "81612",
+      "numowned": "81701",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "56830"
+          "value": "56891"
         },
         "average": {
-          "value": "8.56708"
+          "value": "8.56723"
         },
         "bayesaverage": {
-          "value": "8.39498"
+          "value": "8.39497"
         },
         "stddev": {
-          "value": "1.42428"
+          "value": "1.4241"
         },
         "median": {
           "value": "0"
@@ -1598,7 +1562,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1",
-              "bayesaverage": "8.39498"
+              "bayesaverage": "8.39497"
             },
             {
               "type": "family",
@@ -1606,22 +1570,20 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "1",
-              "bayesaverage": "8.40879"
+              "bayesaverage": "8.4087"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Gavan Brown",
       "Matt Tolman",
       "Martin Wallace"
     ],
-    "weight": "3.863",
+    "weight": "3.8628",
     "mechanics": [
       "Chaining",
       "End Game Bonuses",
@@ -1672,20 +1634,20 @@
       "minplaytime": "50",
       "maxplaytime": "125",
       "playingtime": "125",
-      "numowned": "6491",
+      "numowned": "6490",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "5846"
         },
         "average": {
-          "value": "7.59158"
+          "value": "7.59107"
         },
         "bayesaverage": {
-          "value": "6.9829"
+          "value": "6.98252"
         },
         "stddev": {
-          "value": "1.24233"
+          "value": "1.2425"
         },
         "median": {
           "value": "0"
@@ -1698,7 +1660,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "516",
-              "bayesaverage": "6.9829"
+              "bayesaverage": "6.98252"
             },
             {
               "type": "family",
@@ -1706,16 +1668,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "305",
-              "bayesaverage": "7.11798"
+              "bayesaverage": "7.11756"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Etienne Espreman"
     ],
@@ -1756,20 +1716,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "29978",
+      "numowned": "30002",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "17375"
+          "value": "17390"
         },
         "average": {
-          "value": "7.54324"
+          "value": "7.54245"
         },
         "bayesaverage": {
-          "value": "7.24822"
+          "value": "7.24768"
         },
         "stddev": {
-          "value": "1.18863"
+          "value": "1.1892"
         },
         "median": {
           "value": "0"
@@ -1782,7 +1742,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "267",
-              "bayesaverage": "7.24822"
+              "bayesaverage": "7.24768"
             },
             {
               "type": "family",
@@ -1790,7 +1750,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "11",
-              "bayesaverage": "7.34169"
+              "bayesaverage": "7.34098"
             },
             {
               "type": "family",
@@ -1798,16 +1758,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "49",
-              "bayesaverage": "7.30261"
+              "bayesaverage": "7.30204"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "7"
-    },
+    "status": "own",
+    "numplays": "7",
     "designers": [
       "Steffen Bogen"
     ],
@@ -1852,20 +1810,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "220433",
+      "numowned": "220549",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "138397"
+          "value": "138466"
         },
         "average": {
-          "value": "7.41566"
+          "value": "7.41571"
         },
         "bayesaverage": {
-          "value": "7.29828"
+          "value": "7.29819"
         },
         "stddev": {
-          "value": "1.31183"
+          "value": "1.3119"
         },
         "median": {
           "value": "0"
@@ -1878,7 +1836,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "240",
-              "bayesaverage": "7.29828"
+              "bayesaverage": "7.29819"
             },
             {
               "type": "family",
@@ -1886,16 +1844,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "55",
-              "bayesaverage": "7.29041"
+              "bayesaverage": "7.29042"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Klaus-Jürgen Wrede"
     ],
@@ -1940,20 +1896,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "89912",
+      "numowned": "90021",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "53572"
+          "value": "53631"
         },
         "average": {
-          "value": "7.89659"
+          "value": "7.89619"
         },
         "bayesaverage": {
-          "value": "7.74087"
+          "value": "7.74067"
         },
         "stddev": {
-          "value": "1.13647"
+          "value": "1.1372"
         },
         "median": {
           "value": "0"
@@ -1965,8 +1921,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "57",
-              "bayesaverage": "7.74087"
+              "value": "58",
+              "bayesaverage": "7.74067"
             },
             {
               "type": "family",
@@ -1974,7 +1930,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "1",
-              "bayesaverage": "7.70229"
+              "bayesaverage": "7.70185"
             },
             {
               "type": "family",
@@ -1982,20 +1938,18 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "11",
-              "bayesaverage": "7.76632"
+              "bayesaverage": "7.76607"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Randy Flynn"
     ],
-    "weight": "1.8441",
+    "weight": "1.8437",
     "mechanics": [
       "End Game Bonuses",
       "Hexagon Grid",
@@ -2036,20 +1990,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "16774",
+      "numowned": "16797",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3368"
+          "value": "3369"
         },
         "average": {
-          "value": "7.75066"
+          "value": "7.74955"
         },
         "bayesaverage": {
-          "value": "6.79794"
+          "value": "6.79742"
         },
         "stddev": {
-          "value": "1.16622"
+          "value": "1.1658"
         },
         "median": {
           "value": "0"
@@ -2062,7 +2016,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.79794"
+              "bayesaverage": "6.79742"
             },
             {
               "type": "family",
@@ -2070,16 +2024,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.98526"
+              "bayesaverage": "6.98449"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Randy Flynn",
       "Molly Johnson",
@@ -2114,7 +2066,7 @@
     "collid": "130627666",
     "name": {
       "sortindex": "1",
-      "value": "CATAN"
+      "value": "Catan"
     },
     "yearpublished": {
       "value": "1995"
@@ -2131,20 +2083,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "236639",
+      "numowned": "236776",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "140655"
+          "value": "140717"
         },
         "average": {
-          "value": "7.09124"
+          "value": "7.0911"
         },
         "bayesaverage": {
-          "value": "6.90422"
+          "value": "6.90403"
         },
         "stddev": {
-          "value": "1.5051"
+          "value": "1.5052"
         },
         "median": {
           "value": "0"
@@ -2157,15 +2109,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "612",
-              "bayesaverage": "6.90422"
+              "bayesaverage": "6.90403"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "574",
-              "bayesaverage": "6.77581"
+              "value": "575",
+              "bayesaverage": "6.7757"
             },
             {
               "type": "family",
@@ -2173,20 +2125,18 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "207",
-              "bayesaverage": "6.85166"
+              "bayesaverage": "6.85152"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Klaus Teuber"
     ],
-    "weight": "2.2839",
+    "weight": "2.2836",
     "mechanics": [
       "Chaining",
       "Dice Rolling",
@@ -2234,20 +2184,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3775",
+      "numowned": "3779",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1378"
+          "value": "1379"
         },
         "average": {
-          "value": "6.50312"
+          "value": "6.50239"
         },
         "bayesaverage": {
           "value": "5.83296"
         },
         "stddev": {
-          "value": "1.36011"
+          "value": "1.35988"
         },
         "median": {
           "value": "0"
@@ -2259,7 +2209,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4403",
+              "value": "4408",
               "bayesaverage": "5.83296"
             },
             {
@@ -2274,10 +2224,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Klaus Teuber"
     ],
@@ -2301,7 +2249,7 @@
     "collid": "141380275",
     "name": {
       "sortindex": "1",
-      "value": "CATAN: New Energies"
+      "value": "Catan: New Energies"
     },
     "yearpublished": {
       "value": "2024"
@@ -2318,20 +2266,20 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "1151",
+      "numowned": "1157",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "411"
+          "value": "414"
         },
         "average": {
-          "value": "6.75414"
+          "value": "6.73176"
         },
         "bayesaverage": {
-          "value": "5.64749"
+          "value": "5.64518"
         },
         "stddev": {
-          "value": "1.70069"
+          "value": "1.71511"
         },
         "median": {
           "value": "0"
@@ -2342,16 +2290,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "7473",
-            "bayesaverage": "5.64749"
+            "value": "7553",
+            "bayesaverage": "5.64518"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Klaus Teuber",
       "Benjamin Teuber"
@@ -2421,16 +2367,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "15931",
+            "value": "15940",
             "bayesaverage": "5.53221"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Martino Chiacchiera",
       "Gabriele Mari"
@@ -2471,20 +2415,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "8843",
+      "numowned": "8856",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2036"
+          "value": "2038"
         },
         "average": {
-          "value": "8.17918"
+          "value": "8.18023"
         },
         "bayesaverage": {
-          "value": "6.7074"
+          "value": "6.70808"
         },
         "stddev": {
-          "value": "1.14682"
+          "value": "1.14688"
         },
         "median": {
           "value": "0"
@@ -2497,7 +2441,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.7074"
+              "bayesaverage": "6.70808"
             },
             {
               "type": "family",
@@ -2505,16 +2449,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.90137"
+              "bayesaverage": "6.90201"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Evan Lorentz"
     ],
@@ -2564,20 +2506,20 @@
       "minplaytime": "45",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "23030",
+      "numowned": "23088",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "12936"
+          "value": "12966"
         },
         "average": {
-          "value": "8.23698"
+          "value": "8.23732"
         },
         "bayesaverage": {
-          "value": "7.75597"
+          "value": "7.75681"
         },
         "stddev": {
-          "value": "1.16808"
+          "value": "1.16729"
         },
         "median": {
           "value": "0"
@@ -2590,15 +2532,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "53",
-              "bayesaverage": "7.75597"
+              "bayesaverage": "7.75681"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "41",
-              "bayesaverage": "7.82675"
+              "value": "40",
+              "bayesaverage": "7.82763"
             },
             {
               "type": "family",
@@ -2606,16 +2548,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "7",
-              "bayesaverage": "7.85134"
+              "bayesaverage": "7.85213"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Paul Dennen"
     ],
@@ -2666,20 +2606,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "10828",
+      "numowned": "10862",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "4824"
+          "value": "4834"
         },
         "average": {
-          "value": "7.10972"
+          "value": "7.109"
         },
         "bayesaverage": {
-          "value": "6.49452"
+          "value": "6.49504"
         },
         "stddev": {
-          "value": "1.3781"
+          "value": "1.37724"
         },
         "median": {
           "value": "0"
@@ -2692,7 +2632,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1333",
-              "bayesaverage": "6.49452"
+              "bayesaverage": "6.49504"
             },
             {
               "type": "family",
@@ -2700,16 +2640,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "394",
-              "bayesaverage": "6.58736"
+              "bayesaverage": "6.58811"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "12"
-    },
+    "status": "own",
+    "numplays": "12",
     "designers": [
       "Euijin Han"
     ],
@@ -2749,20 +2687,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "2367",
+      "numowned": "2379",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "352"
+          "value": "355"
         },
         "average": {
-          "value": "7.5635"
+          "value": "7.57564"
         },
         "bayesaverage": {
-          "value": "5.72179"
+          "value": "5.72309"
         },
         "stddev": {
-          "value": "1.52664"
+          "value": "1.52585"
         },
         "median": {
           "value": "0"
@@ -2774,15 +2712,13 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.72179"
+            "bayesaverage": "5.72309"
           }
         }
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Euijin Han"
     ],
@@ -2844,10 +2780,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Toshiki Sato"
     ],
@@ -2885,17 +2819,17 @@
       "minplaytime": "40",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "50825",
+      "numowned": "50847",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "35055"
+          "value": "35067"
         },
         "average": {
-          "value": "7.09654"
+          "value": "7.09659"
         },
         "bayesaverage": {
-          "value": "6.95245"
+          "value": "6.95248"
         },
         "stddev": {
           "value": "1.24793"
@@ -2911,24 +2845,22 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "555",
-              "bayesaverage": "6.95245"
+              "bayesaverage": "6.95248"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "155",
-              "bayesaverage": "6.96956"
+              "value": "156",
+              "bayesaverage": "6.96952"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Christophe Raimbault"
     ],
@@ -2974,20 +2906,20 @@
       "minplaytime": "100",
       "maxplaytime": "100",
       "playingtime": "100",
-      "numowned": "51042",
+      "numowned": "51068",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "44835"
+          "value": "44866"
         },
         "average": {
-          "value": "8.07822"
+          "value": "8.07803"
         },
         "bayesaverage": {
-          "value": "7.92642"
+          "value": "7.92635"
         },
         "stddev": {
-          "value": "1.21199"
+          "value": "1.21172"
         },
         "median": {
           "value": "0"
@@ -3000,7 +2932,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "29",
-              "bayesaverage": "7.92642"
+              "bayesaverage": "7.92635"
             },
             {
               "type": "family",
@@ -3008,16 +2940,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "24",
-              "bayesaverage": "7.94635"
+              "bayesaverage": "7.94624"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Mac Gerdts"
     ],
@@ -3093,16 +3023,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "15377",
+            "value": "15387",
             "bayesaverage": "5.53492"
           }
         }
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Franz-Benno Delonge",
       "Thomas Ewert",
@@ -3148,7 +3076,7 @@
       "minplaytime": "20",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3002",
+      "numowned": "3005",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -3173,7 +3101,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3104",
+              "value": "3106",
               "bayesaverage": "6.00637"
             },
             {
@@ -3188,10 +3116,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Spartaco Albertarelli"
     ],
@@ -3231,20 +3157,20 @@
       "minplaytime": "30",
       "maxplaytime": "50",
       "playingtime": "50",
-      "numowned": "23096",
+      "numowned": "23105",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "16847"
+          "value": "16856"
         },
         "average": {
-          "value": "7.42858"
+          "value": "7.42842"
         },
         "bayesaverage": {
-          "value": "7.164"
+          "value": "7.16398"
         },
         "stddev": {
-          "value": "1.28868"
+          "value": "1.2886"
         },
         "median": {
           "value": "0"
@@ -3257,15 +3183,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "336",
-              "bayesaverage": "7.164"
+              "bayesaverage": "7.16398"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "251",
-              "bayesaverage": "7.1982"
+              "value": "252",
+              "bayesaverage": "7.19817"
             },
             {
               "type": "family",
@@ -3273,16 +3199,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "71",
-              "bayesaverage": "7.22235"
+              "bayesaverage": "7.22238"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Hal Duncan",
       "Ruth Veevers"
@@ -3324,7 +3248,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "1767",
+      "numowned": "1776",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -3354,10 +3278,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Jun Sasaki",
       "Goro Sasaki"
@@ -3401,20 +3323,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "32505",
+      "numowned": "32526",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "23888"
+          "value": "23899"
         },
         "average": {
-          "value": "6.84663"
+          "value": "6.84698"
         },
         "bayesaverage": {
-          "value": "6.70859"
+          "value": "6.70869"
         },
         "stddev": {
-          "value": "1.22223"
+          "value": "1.22154"
         },
         "median": {
           "value": "0"
@@ -3426,8 +3348,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "886",
-              "bayesaverage": "6.70859"
+              "value": "888",
+              "bayesaverage": "6.70869"
             },
             {
               "type": "family",
@@ -3435,7 +3357,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "69",
-              "bayesaverage": "6.76799"
+              "bayesaverage": "6.76804"
             },
             {
               "type": "family",
@@ -3443,16 +3365,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "281",
-              "bayesaverage": "6.73941"
+              "bayesaverage": "6.73954"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Bruno Faidutti",
       "Alan R. Moon"
@@ -3495,20 +3415,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "27320",
+      "numowned": "27329",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "16599"
+          "value": "16602"
         },
         "average": {
-          "value": "7.08267"
+          "value": "7.08243"
         },
         "bayesaverage": {
-          "value": "6.85674"
+          "value": "6.85678"
         },
         "stddev": {
-          "value": "1.13623"
+          "value": "1.13648"
         },
         "median": {
           "value": "0"
@@ -3521,24 +3441,22 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "673",
-              "bayesaverage": "6.85674"
+              "bayesaverage": "6.85678"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "182",
-              "bayesaverage": "6.90614"
+              "value": "183",
+              "bayesaverage": "6.90611"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Antoine Bauza",
       "Corentin Lebrat",
@@ -3585,20 +3503,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "7138",
+      "numowned": "7147",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3043"
+          "value": "3047"
         },
         "average": {
-          "value": "7.03789"
+          "value": "7.03686"
         },
         "bayesaverage": {
-          "value": "6.3388"
+          "value": "6.33873"
         },
         "stddev": {
-          "value": "1.24934"
+          "value": "1.24894"
         },
         "median": {
           "value": "0"
@@ -3610,8 +3528,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1732",
-              "bayesaverage": "6.3388"
+              "value": "1733",
+              "bayesaverage": "6.33873"
             },
             {
               "type": "family",
@@ -3625,10 +3543,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Bruno Cathala",
       "Marie Fort",
@@ -3672,20 +3588,20 @@
       "minplaytime": "15",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "4161",
+      "numowned": "4164",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1994"
+          "value": "1996"
         },
         "average": {
-          "value": "6.5639"
+          "value": "6.56383"
         },
         "bayesaverage": {
-          "value": "5.99013"
+          "value": "5.99037"
         },
         "stddev": {
-          "value": "1.29092"
+          "value": "1.29037"
         },
         "median": {
           "value": "0"
@@ -3697,8 +3613,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3214",
-              "bayesaverage": "5.99013"
+              "value": "3212",
+              "bayesaverage": "5.99037"
             },
             {
               "type": "family",
@@ -3706,16 +3622,14 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "58",
-              "bayesaverage": "6.43228"
+              "bayesaverage": "6.43199"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Günter Burkhardt",
       "Lena Burkhardt"
@@ -3758,20 +3672,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "7406",
+      "numowned": "7452",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1441"
+          "value": "1448"
         },
         "average": {
-          "value": "8.70261"
+          "value": "8.70646"
         },
         "bayesaverage": {
-          "value": "6.62436"
+          "value": "6.62849"
         },
         "stddev": {
-          "value": "1.31147"
+          "value": "1.301"
         },
         "median": {
           "value": "0"
@@ -3784,7 +3698,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.62436"
+              "bayesaverage": "6.62849"
             },
             {
               "type": "family",
@@ -3792,16 +3706,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.83932"
+              "bayesaverage": "6.84383"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Phil Amylon",
       "Andy Clautice",
@@ -3848,17 +3760,17 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "28415",
+      "numowned": "28441",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "9528"
+          "value": "9541"
         },
         "average": {
-          "value": "8.80443"
+          "value": "8.80391"
         },
         "bayesaverage": {
-          "value": "8.09308"
+          "value": "8.0934"
         },
         "stddev": {
           "value": "1.08534"
@@ -3874,7 +3786,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.09308"
+              "bayesaverage": "8.0934"
             },
             {
               "type": "family",
@@ -3882,16 +3794,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.22655"
+              "bayesaverage": "8.22678"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Paul Dennen"
     ],
@@ -3939,20 +3849,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "26337",
+      "numowned": "26407",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "16813"
+          "value": "16867"
         },
         "average": {
-          "value": "8.70388"
+          "value": "8.70368"
         },
         "bayesaverage": {
-          "value": "8.21546"
+          "value": "8.21565"
         },
         "stddev": {
-          "value": "1.32056"
+          "value": "1.3199"
         },
         "median": {
           "value": "0"
@@ -3965,7 +3875,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "7",
-              "bayesaverage": "8.21546"
+              "bayesaverage": "8.21565"
             },
             {
               "type": "family",
@@ -3973,16 +3883,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "4",
-              "bayesaverage": "8.28144"
+              "bayesaverage": "8.28167"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Paul Dennen"
     ],
@@ -4034,7 +3942,7 @@
       "minplaytime": "60",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "1200",
+      "numowned": "1199",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -4059,7 +3967,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4429",
+              "value": "4431",
               "bayesaverage": "5.83081"
             },
             {
@@ -4067,17 +3975,15 @@
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1785",
+              "value": "1786",
               "bayesaverage": "5.93415"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Adam Buckingham",
       "Ed Marriott"
@@ -4151,9 +4057,7 @@
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Adam Buckingham",
       "Ed Marriott"
@@ -4195,20 +4099,20 @@
       "minplaytime": "15",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "29944",
+      "numowned": "30011",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "16941"
+          "value": "16990"
         },
         "average": {
-          "value": "7.54935"
+          "value": "7.54771"
         },
         "bayesaverage": {
-          "value": "7.25948"
+          "value": "7.25869"
         },
         "stddev": {
-          "value": "1.17165"
+          "value": "1.17137"
         },
         "median": {
           "value": "0"
@@ -4221,7 +4125,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "258",
-              "bayesaverage": "7.25948"
+              "bayesaverage": "7.25869"
             },
             {
               "type": "family",
@@ -4229,21 +4133,19 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "47",
-              "bayesaverage": "7.32413"
+              "bayesaverage": "7.32336"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Johannes Goupy",
       "Corentin Lebrat"
     ],
-    "weight": "1.9311",
+    "weight": "1.929",
     "mechanics": [
       "Constrained Bidding",
       "End Game Bonuses",
@@ -4286,20 +4188,20 @@
       "minplaytime": "25",
       "maxplaytime": "25",
       "playingtime": "25",
-      "numowned": "6753",
+      "numowned": "6791",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1053"
+          "value": "1058"
         },
         "average": {
-          "value": "7.84849"
+          "value": "7.84921"
         },
         "bayesaverage": {
-          "value": "6.20984"
+          "value": "6.21261"
         },
         "stddev": {
-          "value": "1.10019"
+          "value": "1.09849"
         },
         "median": {
           "value": "0"
@@ -4311,15 +4213,13 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.20984"
+            "bayesaverage": "6.21261"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Johannes Goupy",
       "Corentin Lebrat"
@@ -4364,20 +4264,20 @@
       "minplaytime": "45",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "13580",
+      "numowned": "13638",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "5997"
+          "value": "6036"
         },
         "average": {
-          "value": "7.69174"
+          "value": "7.69224"
         },
         "bayesaverage": {
-          "value": "6.99511"
+          "value": "6.9982"
         },
         "stddev": {
-          "value": "1.36613"
+          "value": "1.36447"
         },
         "median": {
           "value": "0"
@@ -4389,33 +4289,31 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "499",
-              "bayesaverage": "6.99511"
+              "value": "494",
+              "bayesaverage": "6.9982"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "333",
-              "bayesaverage": "7.08497"
+              "value": "331",
+              "bayesaverage": "7.08742"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "99",
-              "bayesaverage": "7.12502"
+              "value": "98",
+              "bayesaverage": "7.12778"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "David Gordon (I)",
       "Michael O'Connell (II)"
@@ -4485,7 +4383,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "16306",
+              "value": "16312",
               "bayesaverage": "5.53049"
             },
             {
@@ -4500,10 +4398,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Michael Kallauch"
     ],
@@ -4544,20 +4440,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "9574",
+      "numowned": "9630",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "5695"
+          "value": "5728"
         },
         "average": {
-          "value": "7.69112"
+          "value": "7.69086"
         },
         "bayesaverage": {
-          "value": "7.02761"
+          "value": "7.02988"
         },
         "stddev": {
-          "value": "1.1618"
+          "value": "1.15998"
         },
         "median": {
           "value": "0"
@@ -4569,8 +4465,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "463",
-              "bayesaverage": "7.02761"
+              "value": "460",
+              "bayesaverage": "7.02988"
             },
             {
               "type": "family",
@@ -4578,16 +4474,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "281",
-              "bayesaverage": "7.14442"
+              "bayesaverage": "7.14639"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Matthew O'Malley",
       "Ben Rosset"
@@ -4634,20 +4528,20 @@
       "minplaytime": "20",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "1001",
+      "numowned": "1006",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "568"
+          "value": "571"
         },
         "average": {
-          "value": "7.18123"
+          "value": "7.18168"
         },
         "bayesaverage": {
-          "value": "5.83257"
+          "value": "5.83377"
         },
         "stddev": {
-          "value": "1.13193"
+          "value": "1.12961"
         },
         "median": {
           "value": "0"
@@ -4658,16 +4552,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "4409",
-            "bayesaverage": "5.83257"
+            "value": "4404",
+            "bayesaverage": "5.83377"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "13"
-    },
+    "status": "own",
+    "numplays": "13",
     "designers": [
       "Kristian Amundsen Østby",
       "Maria Østby"
@@ -4710,20 +4602,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "19386",
+      "numowned": "19399",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "10672"
+          "value": "10678"
         },
         "average": {
-          "value": "6.70828"
+          "value": "6.70802"
         },
         "bayesaverage": {
-          "value": "6.43388"
+          "value": "6.43386"
         },
         "stddev": {
-          "value": "1.35645"
+          "value": "1.35622"
         },
         "median": {
           "value": "0"
@@ -4736,7 +4628,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1482",
-              "bayesaverage": "6.43388"
+              "bayesaverage": "6.43386"
             },
             {
               "type": "family",
@@ -4751,17 +4643,15 @@
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "481",
-              "bayesaverage": "6.48433"
+              "value": "480",
+              "bayesaverage": "6.48429"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Jacques Zeimet"
     ],
@@ -4803,20 +4693,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "9217",
+      "numowned": "9219",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "4321"
+          "value": "4322"
         },
         "average": {
-          "value": "7.133"
+          "value": "7.13205"
         },
         "bayesaverage": {
-          "value": "6.52532"
+          "value": "6.52437"
         },
         "stddev": {
-          "value": "1.21921"
+          "value": "1.22239"
         },
         "median": {
           "value": "0"
@@ -4828,16 +4718,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1252",
-              "bayesaverage": "6.52532"
+              "value": "1255",
+              "bayesaverage": "6.52437"
             },
             {
               "type": "family",
               "id": "4665",
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
-              "value": "11",
-              "bayesaverage": "7.01704"
+              "value": "12",
+              "bayesaverage": "7.01559"
             },
             {
               "type": "family",
@@ -4845,16 +4735,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "349",
-              "bayesaverage": "6.63864"
+              "bayesaverage": "6.63784"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Brian Yu"
     ],
@@ -4925,10 +4813,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Michael Schacht"
     ],
@@ -4989,7 +4875,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4246",
+              "value": "4247",
               "bayesaverage": "5.84977"
             },
             {
@@ -5005,17 +4891,15 @@
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "1352",
+              "value": "1354",
               "bayesaverage": "5.92822"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "5"
-    },
+    "status": "own",
+    "numplays": "5",
     "designers": [
       "Alex Randolph"
     ],
@@ -5062,20 +4946,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "45258",
+      "numowned": "45392",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "26618"
+          "value": "26709"
         },
         "average": {
-          "value": "8.03143"
+          "value": "8.03101"
         },
         "bayesaverage": {
-          "value": "7.74025"
+          "value": "7.74006"
         },
         "stddev": {
-          "value": "1.17328"
+          "value": "1.17411"
         },
         "median": {
           "value": "0"
@@ -5088,7 +4972,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "59",
-              "bayesaverage": "7.74025"
+              "bayesaverage": "7.74006"
             },
             {
               "type": "family",
@@ -5096,7 +4980,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "2",
-              "bayesaverage": "7.65253"
+              "bayesaverage": "7.65286"
             },
             {
               "type": "family",
@@ -5104,16 +4988,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "10",
-              "bayesaverage": "7.7754"
+              "bayesaverage": "7.77521"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "11"
-    },
+    "status": "own",
+    "numplays": "11",
     "designers": [
       "Johan Benvenuto"
     ],
@@ -5161,20 +5043,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "58105",
+      "numowned": "58198",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "38931"
+          "value": "38987"
         },
         "average": {
-          "value": "8.00172"
+          "value": "8.00137"
         },
         "bayesaverage": {
-          "value": "7.79348"
+          "value": "7.79338"
         },
         "stddev": {
-          "value": "1.33182"
+          "value": "1.33183"
         },
         "median": {
           "value": "0"
@@ -5187,7 +5069,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "47",
-              "bayesaverage": "7.79348"
+              "bayesaverage": "7.79338"
             },
             {
               "type": "family",
@@ -5195,21 +5077,19 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "9",
-              "bayesaverage": "7.81308"
+              "bayesaverage": "7.81292"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Asger Aleksandrov Granerud",
       "Daniel Skjold Pedersen"
     ],
-    "weight": "2.2007",
+    "weight": "2.2004",
     "mechanics": [
       "Catch the Leader",
       "Deck, Bag, and Pool Building",
@@ -5253,7 +5133,7 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "490",
+      "numowned": "492",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -5277,16 +5157,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "11353",
+            "value": "11357",
             "bayesaverage": "5.56805"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Jacques Zeimet"
     ],
@@ -5325,20 +5203,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "14226",
+      "numowned": "14265",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6808"
+          "value": "6837"
         },
         "average": {
-          "value": "7.54216"
+          "value": "7.54106"
         },
         "bayesaverage": {
-          "value": "6.99204"
+          "value": "6.9935"
         },
         "stddev": {
-          "value": "1.41835"
+          "value": "1.41722"
         },
         "median": {
           "value": "0"
@@ -5350,8 +5228,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "502",
-              "bayesaverage": "6.99204"
+              "value": "501",
+              "bayesaverage": "6.9935"
             },
             {
               "type": "family",
@@ -5359,20 +5237,18 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "22",
-              "bayesaverage": "7.20792"
+              "bayesaverage": "7.20892"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Marcus Carleson"
     ],
-    "weight": "1.0214",
+    "weight": "1.0213",
     "mechanics": [],
     "categories": [
       "Card Game",
@@ -5407,20 +5283,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "20357",
+      "numowned": "20364",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "12166"
+          "value": "12168"
         },
         "average": {
-          "value": "6.78283"
+          "value": "6.78292"
         },
         "bayesaverage": {
-          "value": "6.55242"
+          "value": "6.55253"
         },
         "stddev": {
-          "value": "1.26374"
+          "value": "1.26376"
         },
         "median": {
           "value": "0"
@@ -5433,7 +5309,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1189",
-              "bayesaverage": "6.55242"
+              "bayesaverage": "6.55253"
             },
             {
               "type": "family",
@@ -5441,7 +5317,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "29",
-              "bayesaverage": "6.69222"
+              "bayesaverage": "6.69175"
             },
             {
               "type": "family",
@@ -5449,16 +5325,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "379",
-              "bayesaverage": "6.60596"
+              "bayesaverage": "6.60606"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Brian Gomez"
     ],
@@ -5500,20 +5374,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "9054",
+      "numowned": "9059",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "4966"
+          "value": "4971"
         },
         "average": {
-          "value": "7.02354"
+          "value": "7.02372"
         },
         "bayesaverage": {
-          "value": "6.52364"
+          "value": "6.52412"
         },
         "stddev": {
-          "value": "1.2979"
+          "value": "1.29748"
         },
         "median": {
           "value": "0"
@@ -5526,7 +5400,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1257",
-              "bayesaverage": "6.52364"
+              "bayesaverage": "6.52412"
             },
             {
               "type": "family",
@@ -5534,16 +5408,14 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "67",
-              "bayesaverage": "6.78128"
+              "bayesaverage": "6.78146"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "ｱｷﾋﾛｲﾄｵ (Akihiro Itoh)",
       "Kwaji",
@@ -5613,16 +5485,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "5141",
+            "value": "5145",
             "bayesaverage": "5.76809"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [],
     "weight": "1.1667",
     "mechanics": [
@@ -5663,20 +5533,20 @@
       "minplaytime": "40",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "38704",
+      "numowned": "38711",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "33464"
+          "value": "33477"
         },
         "average": {
-          "value": "7.53709"
+          "value": "7.5373"
         },
         "bayesaverage": {
-          "value": "7.37472"
+          "value": "7.37502"
         },
         "stddev": {
-          "value": "1.14858"
+          "value": "1.14829"
         },
         "median": {
           "value": "0"
@@ -5689,7 +5559,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "190",
-              "bayesaverage": "7.37472"
+              "bayesaverage": "7.37502"
             },
             {
               "type": "family",
@@ -5697,7 +5567,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "152",
-              "bayesaverage": "7.38994"
+              "bayesaverage": "7.39019"
             },
             {
               "type": "family",
@@ -5705,16 +5575,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "31",
-              "bayesaverage": "7.41197"
+              "bayesaverage": "7.41224"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Rüdiger Dorn"
     ],
@@ -5765,16 +5633,16 @@
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "2981"
+          "value": "2984"
         },
         "average": {
-          "value": "7.45686"
+          "value": "7.45641"
         },
         "bayesaverage": {
-          "value": "6.58023"
+          "value": "6.5804"
         },
         "stddev": {
-          "value": "1.09562"
+          "value": "1.09532"
         },
         "median": {
           "value": "0"
@@ -5787,7 +5655,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1134",
-              "bayesaverage": "6.58023"
+              "bayesaverage": "6.5804"
             },
             {
               "type": "family",
@@ -5795,16 +5663,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "275",
-              "bayesaverage": "6.75363"
+              "bayesaverage": "6.75374"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "5"
-    },
+    "status": "own",
+    "numplays": "5",
     "designers": [
       "Bruno Cathala"
     ],
@@ -5847,20 +5713,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "996",
+      "numowned": "997",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "789"
         },
         "average": {
-          "value": "6.81642"
+          "value": "6.81744"
         },
         "bayesaverage": {
-          "value": "5.82466"
+          "value": "5.82425"
         },
         "stddev": {
-          "value": "1.48743"
+          "value": "1.48967"
         },
         "median": {
           "value": "0"
@@ -5872,33 +5738,31 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4493",
-              "bayesaverage": "5.82466"
+              "value": "4497",
+              "bayesaverage": "5.82425"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1833",
-              "bayesaverage": "5.91238"
+              "value": "1835",
+              "bayesaverage": "5.91185"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "1355",
-              "bayesaverage": "5.92715"
+              "value": "1356",
+              "bayesaverage": "5.92661"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Kwang Hee Lee"
     ],
@@ -5935,20 +5799,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "6238",
+      "numowned": "6254",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "3240"
+          "value": "3252"
         },
         "average": {
-          "value": "8.10972"
+          "value": "8.10735"
         },
         "bayesaverage": {
-          "value": "6.97466"
+          "value": "6.97653"
         },
         "stddev": {
-          "value": "1.15728"
+          "value": "1.15483"
         },
         "median": {
           "value": "0"
@@ -5960,29 +5824,27 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "523",
-              "bayesaverage": "6.97466"
+              "value": "522",
+              "bayesaverage": "6.97653"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "268",
-              "bayesaverage": "7.16471"
+              "value": "269",
+              "bayesaverage": "7.16575"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "7"
-    },
+    "status": "own",
+    "numplays": "7",
     "designers": [
       "Jamie Bloom"
     ],
-    "weight": "2.8284",
+    "weight": "2.8296",
     "mechanics": [
       "Deck, Bag, and Pool Building",
       "End Game Bonuses",
@@ -6024,20 +5886,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "1660",
+      "numowned": "1662",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "207"
+          "value": "208"
         },
         "average": {
-          "value": "8.19662"
+          "value": "8.20529"
         },
         "bayesaverage": {
-          "value": "5.71976"
+          "value": "5.72153"
         },
         "stddev": {
-          "value": "1.12385"
+          "value": "1.12806"
         },
         "median": {
           "value": "0"
@@ -6049,15 +5911,13 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.71976"
+            "bayesaverage": "5.72153"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Jamie Bloom"
     ],
@@ -6103,20 +5963,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "75355",
+      "numowned": "75373",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "50510"
+          "value": "50517"
         },
         "average": {
-          "value": "7.25673"
+          "value": "7.25685"
         },
         "bayesaverage": {
-          "value": "7.15047"
+          "value": "7.15062"
         },
         "stddev": {
-          "value": "1.27056"
+          "value": "1.27061"
         },
         "median": {
           "value": "0"
@@ -6129,7 +5989,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "342",
-              "bayesaverage": "7.15047"
+              "bayesaverage": "7.15062"
             },
             {
               "type": "family",
@@ -6137,16 +5997,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "83",
-              "bayesaverage": "7.16973"
+              "bayesaverage": "7.16993"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Reiner Knizia"
     ],
@@ -6191,20 +6049,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "84191",
+      "numowned": "84267",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "55552"
+          "value": "55606"
         },
         "average": {
-          "value": "8.08138"
+          "value": "8.08141"
         },
         "bayesaverage": {
-          "value": "7.91341"
+          "value": "7.91339"
         },
         "stddev": {
-          "value": "1.2619"
+          "value": "1.26156"
         },
         "median": {
           "value": "0"
@@ -6217,7 +6075,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "30",
-              "bayesaverage": "7.91341"
+              "bayesaverage": "7.91339"
             },
             {
               "type": "family",
@@ -6225,16 +6083,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "29",
-              "bayesaverage": "7.90562"
+              "bayesaverage": "7.90564"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Elwen",
       "Mín"
@@ -6289,20 +6145,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "34243",
+      "numowned": "34280",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "9183"
+          "value": "9194"
         },
         "average": {
-          "value": "8.70642"
+          "value": "8.708"
         },
         "bayesaverage": {
-          "value": "8.0077"
+          "value": "8.00929"
         },
         "stddev": {
-          "value": "1.00987"
+          "value": "1.00627"
         },
         "median": {
           "value": "0"
@@ -6315,7 +6171,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.0077"
+              "bayesaverage": "8.00929"
             },
             {
               "type": "family",
@@ -6323,16 +6179,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.13214"
+              "bayesaverage": "8.13384"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "5",
     "designers": [
       "Elwen",
       "Mín"
@@ -6379,20 +6233,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "18392",
+      "numowned": "18427",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3335"
+          "value": "3339"
         },
         "average": {
-          "value": "8.66325"
+          "value": "8.665"
         },
         "bayesaverage": {
-          "value": "7.2978"
+          "value": "7.29943"
         },
         "stddev": {
-          "value": "1.0857"
+          "value": "1.07788"
         },
         "median": {
           "value": "0"
@@ -6405,7 +6259,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.2978"
+              "bayesaverage": "7.29943"
             },
             {
               "type": "family",
@@ -6413,16 +6267,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.51604"
+              "bayesaverage": "7.51773"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Elwen",
       "Mín"
@@ -6471,20 +6323,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "7278",
+      "numowned": "7332",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "997"
+          "value": "1004"
         },
         "average": {
-          "value": "8.75936"
+          "value": "8.76702"
         },
         "bayesaverage": {
-          "value": "6.41375"
+          "value": "6.42033"
         },
         "stddev": {
-          "value": "1.33223"
+          "value": "1.30783"
         },
         "median": {
           "value": "0"
@@ -6496,15 +6348,13 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.41375"
+            "bayesaverage": "6.42033"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Elwen",
       "Mín"
@@ -6549,20 +6399,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "30319",
+      "numowned": "30354",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "15156"
+          "value": "15179"
         },
         "average": {
-          "value": "7.50555"
+          "value": "7.5058"
         },
         "bayesaverage": {
-          "value": "7.17831"
+          "value": "7.17851"
         },
         "stddev": {
-          "value": "1.30066"
+          "value": "1.30097"
         },
         "median": {
           "value": "0"
@@ -6575,7 +6425,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "319",
-              "bayesaverage": "7.17831"
+              "bayesaverage": "7.17851"
             },
             {
               "type": "family",
@@ -6583,7 +6433,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "18",
-              "bayesaverage": "7.2603"
+              "bayesaverage": "7.25983"
             },
             {
               "type": "family",
@@ -6591,16 +6441,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "69",
-              "bayesaverage": "7.22641"
+              "bayesaverage": "7.22629"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "7"
-    },
+    "status": "own",
+    "numplays": "7",
     "designers": [
       "Seiji Kanai",
       "Justin Kemppainen",
@@ -6646,20 +6494,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "59248",
+      "numowned": "59267",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "35605"
+          "value": "35618"
         },
         "average": {
-          "value": "6.59538"
+          "value": "6.59469"
         },
         "bayesaverage": {
-          "value": "6.47729"
+          "value": "6.47685"
         },
         "stddev": {
-          "value": "1.36364"
+          "value": "1.36394"
         },
         "median": {
           "value": "0"
@@ -6672,7 +6520,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1363",
-              "bayesaverage": "6.47729"
+              "bayesaverage": "6.47685"
             },
             {
               "type": "family",
@@ -6680,16 +6528,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "483",
-              "bayesaverage": "6.48173"
+              "bayesaverage": "6.48131"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Masao Suganuma"
     ],
@@ -6734,16 +6580,16 @@
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6156"
+          "value": "6157"
         },
         "average": {
-          "value": "7.03983"
+          "value": "7.03901"
         },
         "bayesaverage": {
-          "value": "6.58794"
+          "value": "6.58737"
         },
         "stddev": {
-          "value": "1.33619"
+          "value": "1.33823"
         },
         "median": {
           "value": "0"
@@ -6756,7 +6602,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.58794"
+              "bayesaverage": "6.58737"
             },
             {
               "type": "family",
@@ -6764,16 +6610,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.68237"
+              "bayesaverage": "6.68172"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Masao Suganuma"
     ],
@@ -6818,16 +6662,16 @@
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2574"
+          "value": "2575"
         },
         "average": {
-          "value": "6.7169"
+          "value": "6.71701"
         },
         "bayesaverage": {
-          "value": "6.11924"
+          "value": "6.11943"
         },
         "stddev": {
-          "value": "1.37548"
+          "value": "1.37523"
         },
         "median": {
           "value": "0"
@@ -6839,15 +6683,13 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.11924"
+            "bayesaverage": "6.11943"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Masao Suganuma"
     ],
@@ -6888,20 +6730,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "37742",
+      "numowned": "37756",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "23703"
+          "value": "23711"
         },
         "average": {
-          "value": "6.93777"
+          "value": "6.93753"
         },
         "bayesaverage": {
-          "value": "6.77698"
+          "value": "6.77677"
         },
         "stddev": {
-          "value": "1.3425"
+          "value": "1.34289"
         },
         "median": {
           "value": "0"
@@ -6913,8 +6755,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "780",
-              "bayesaverage": "6.77698"
+              "value": "782",
+              "bayesaverage": "6.77677"
             },
             {
               "type": "family",
@@ -6922,7 +6764,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "61",
-              "bayesaverage": "6.82654"
+              "bayesaverage": "6.82655"
             },
             {
               "type": "family",
@@ -6930,16 +6772,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "230",
-              "bayesaverage": "6.80003"
+              "bayesaverage": "6.80009"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Kasper Lapp"
     ],
@@ -7014,7 +6854,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "21871",
+              "value": "21883",
               "bayesaverage": "5.5114"
             },
             {
@@ -7029,10 +6869,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Heinz Meister"
     ],
@@ -7071,20 +6909,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "33357",
+      "numowned": "33382",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "25109"
+          "value": "25122"
         },
         "average": {
-          "value": "7.52185"
+          "value": "7.52166"
         },
         "bayesaverage": {
-          "value": "7.3285"
+          "value": "7.32824"
         },
         "stddev": {
-          "value": "1.3124"
+          "value": "1.31242"
         },
         "median": {
           "value": "0"
@@ -7097,7 +6935,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "220",
-              "bayesaverage": "7.3285"
+              "bayesaverage": "7.32824"
             },
             {
               "type": "family",
@@ -7105,16 +6943,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "165",
-              "bayesaverage": "7.35852"
+              "bayesaverage": "7.35827"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Reiner Knizia"
     ],
@@ -7159,20 +6995,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "6555",
+      "numowned": "6569",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "2159"
+          "value": "2168"
         },
         "average": {
-          "value": "7.15848"
+          "value": "7.15911"
         },
         "bayesaverage": {
-          "value": "6.26265"
+          "value": "6.2637"
         },
         "stddev": {
-          "value": "1.23581"
+          "value": "1.23449"
         },
         "median": {
           "value": "0"
@@ -7184,25 +7020,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1973",
-              "bayesaverage": "6.26265"
+              "value": "1971",
+              "bayesaverage": "6.2637"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "579",
-              "bayesaverage": "6.39756"
+              "value": "581",
+              "bayesaverage": "6.39941"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "David Gordon (I)",
       "TAM"
@@ -7250,20 +7084,20 @@
       "minplaytime": "10",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "1082",
+      "numowned": "1086",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "910"
+          "value": "911"
         },
         "average": {
-          "value": "6.79772"
+          "value": "6.79904"
         },
         "bayesaverage": {
-          "value": "5.85473"
+          "value": "5.85542"
         },
         "stddev": {
-          "value": "1.39012"
+          "value": "1.39072"
         },
         "median": {
           "value": "0"
@@ -7274,16 +7108,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "4202",
-            "bayesaverage": "5.85473"
+            "value": "4195",
+            "bayesaverage": "5.85542"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "5"
-    },
+    "status": "own",
+    "numplays": "5",
     "designers": [
       "荒尾 俊樹 (Toshiki Arao)"
     ],
@@ -7326,17 +7158,17 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "14682",
+      "numowned": "14689",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "9994"
+          "value": "9998"
         },
         "average": {
-          "value": "7.25729"
+          "value": "7.25691"
         },
         "bayesaverage": {
-          "value": "6.8923"
+          "value": "6.89218"
         },
         "stddev": {
           "value": "1.1918"
@@ -7351,8 +7183,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "622",
-              "bayesaverage": "6.8923"
+              "value": "623",
+              "bayesaverage": "6.89218"
             },
             {
               "type": "family",
@@ -7360,7 +7192,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "24",
-              "bayesaverage": "7.07433"
+              "bayesaverage": "7.07424"
             },
             {
               "type": "family",
@@ -7368,16 +7200,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "151",
-              "bayesaverage": "6.97761"
+              "bayesaverage": "6.97754"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "9"
-    },
+    "status": "own",
+    "numplays": "9",
     "designers": [
       "Uwe Rosenberg",
       "Corné van Moorsel"
@@ -7422,20 +7252,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "3266",
+      "numowned": "3267",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "3558"
         },
         "average": {
-          "value": "6.77728"
+          "value": "6.77714"
         },
         "bayesaverage": {
-          "value": "6.26153"
+          "value": "6.26144"
         },
         "stddev": {
-          "value": "1.21659"
+          "value": "1.21637"
         },
         "median": {
           "value": "0"
@@ -7447,33 +7277,31 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1976",
-              "bayesaverage": "6.26153"
+              "value": "1978",
+              "bayesaverage": "6.26144"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1070",
-              "bayesaverage": "6.35977"
+              "value": "1072",
+              "bayesaverage": "6.35967"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "615",
-              "bayesaverage": "6.37009"
+              "value": "616",
+              "bayesaverage": "6.36999"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Henrik Berg",
       "Åse Berg"
@@ -7512,20 +7340,20 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "42568",
+      "numowned": "42583",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "35139"
+          "value": "35160"
         },
         "average": {
           "value": "8.04844"
         },
         "bayesaverage": {
-          "value": "7.85998"
+          "value": "7.86022"
         },
         "stddev": {
-          "value": "1.16996"
+          "value": "1.16973"
         },
         "median": {
           "value": "0"
@@ -7538,7 +7366,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "36",
-              "bayesaverage": "7.85998"
+              "bayesaverage": "7.86022"
             },
             {
               "type": "family",
@@ -7546,16 +7374,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "33",
-              "bayesaverage": "7.88691"
+              "bayesaverage": "7.88708"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Reiner Stockhausen"
     ],
@@ -7604,20 +7430,20 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "2525",
+      "numowned": "2529",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "899"
+          "value": "900"
         },
         "average": {
-          "value": "6.07046"
+          "value": "6.07038"
         },
         "bayesaverage": {
-          "value": "5.6286"
+          "value": "5.62872"
         },
         "stddev": {
-          "value": "1.57029"
+          "value": "1.56942"
         },
         "median": {
           "value": "0"
@@ -7629,25 +7455,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "8055",
-              "bayesaverage": "5.6286"
+              "value": "8059",
+              "bayesaverage": "5.62872"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "2183",
-              "bayesaverage": "5.65853"
+              "value": "2185",
+              "bayesaverage": "5.65868"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Romain Caterdjian",
       "Théo Rivière"
@@ -7686,20 +7510,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "223618",
+      "numowned": "223712",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "134141"
+          "value": "134163"
         },
         "average": {
-          "value": "7.51547"
+          "value": "7.51548"
         },
         "bayesaverage": {
-          "value": "7.40608"
+          "value": "7.40607"
         },
         "stddev": {
-          "value": "1.33902"
+          "value": "1.33897"
         },
         "median": {
           "value": "0"
@@ -7712,7 +7536,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "170",
-              "bayesaverage": "7.40608"
+              "bayesaverage": "7.40607"
             },
             {
               "type": "family",
@@ -7720,7 +7544,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "174",
-              "bayesaverage": "7.33208"
+              "bayesaverage": "7.33209"
             },
             {
               "type": "family",
@@ -7728,16 +7552,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "35",
-              "bayesaverage": "7.3908"
+              "bayesaverage": "7.39078"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Matt Leacock"
     ],
@@ -7790,20 +7612,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "3724",
+      "numowned": "3729",
       "rating": {
         "value": "6",
         "usersrated": {
           "value": "2074"
         },
         "average": {
-          "value": "6.65314"
+          "value": "6.65266"
         },
         "bayesaverage": {
-          "value": "6.03619"
+          "value": "6.03573"
         },
         "stddev": {
-          "value": "1.30046"
+          "value": "1.29941"
         },
         "median": {
           "value": "0"
@@ -7815,25 +7637,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2945",
-              "bayesaverage": "6.03619"
+              "value": "2952",
+              "bayesaverage": "6.03573"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "936",
-              "bayesaverage": "6.14343"
+              "value": "937",
+              "bayesaverage": "6.1429"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Reiner Knizia"
     ],
@@ -7873,20 +7693,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "493",
+      "numowned": "500",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "165"
+          "value": "168"
         },
         "average": {
-          "value": "6.7497"
+          "value": "6.76012"
         },
         "bayesaverage": {
-          "value": "5.58183"
+          "value": "5.58404"
         },
         "stddev": {
-          "value": "1.17013"
+          "value": "1.16391"
         },
         "median": {
           "value": "0"
@@ -7897,16 +7717,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "10340",
-            "bayesaverage": "5.58183"
+            "value": "10195",
+            "bayesaverage": "5.58404"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Kaoru ARISHIMA / 有島薫"
     ],
@@ -7944,20 +7762,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "22441",
+      "numowned": "22455",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "12611"
+          "value": "12619"
         },
         "average": {
-          "value": "6.5969"
+          "value": "6.59717"
         },
         "bayesaverage": {
-          "value": "6.39381"
+          "value": "6.39385"
         },
         "stddev": {
-          "value": "1.27977"
+          "value": "1.27953"
         },
         "median": {
           "value": "0"
@@ -7969,8 +7787,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1588",
-              "bayesaverage": "6.39381"
+              "value": "1590",
+              "bayesaverage": "6.39385"
             },
             {
               "type": "family",
@@ -7978,16 +7796,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "535",
-              "bayesaverage": "6.43683"
+              "bayesaverage": "6.43686"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Reiner Knizia"
     ],
@@ -8054,7 +7870,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "7393",
+              "value": "7395",
               "bayesaverage": "5.65057"
             },
             {
@@ -8069,10 +7885,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Thierry Chapeau"
     ],
@@ -8112,20 +7926,20 @@
       "minplaytime": "90",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "84655",
+      "numowned": "84665",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "73849"
+          "value": "73875"
         },
         "average": {
-          "value": "7.89899"
+          "value": "7.89909"
         },
         "bayesaverage": {
-          "value": "7.75363"
+          "value": "7.75371"
         },
         "stddev": {
-          "value": "1.38964"
+          "value": "1.38961"
         },
         "median": {
           "value": "0"
@@ -8138,7 +7952,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "54",
-              "bayesaverage": "7.75363"
+              "bayesaverage": "7.75371"
             },
             {
               "type": "family",
@@ -8146,16 +7960,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "54",
-              "bayesaverage": "7.74254"
+              "bayesaverage": "7.74264"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Andreas Seyfarth"
     ],
@@ -8200,20 +8012,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "92340",
+      "numowned": "92398",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "58143"
+          "value": "58173"
         },
         "average": {
-          "value": "7.80652"
+          "value": "7.80648"
         },
         "bayesaverage": {
-          "value": "7.6692"
+          "value": "7.66926"
         },
         "stddev": {
-          "value": "1.25227"
+          "value": "1.25196"
         },
         "median": {
           "value": "0"
@@ -8226,7 +8038,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "77",
-              "bayesaverage": "7.6692"
+              "bayesaverage": "7.66926"
             },
             {
               "type": "family",
@@ -8234,20 +8046,18 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "12",
-              "bayesaverage": "7.69381"
+              "bayesaverage": "7.69377"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Wolfgang Warsch"
     ],
-    "weight": "1.9428",
+    "weight": "1.9421",
     "mechanics": [
       "Catch the Leader",
       "Deck, Bag, and Pool Building",
@@ -8292,20 +8102,20 @@
       "minplaytime": "45",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "16027",
+      "numowned": "16043",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "8521"
+          "value": "8532"
         },
         "average": {
-          "value": "7.50983"
+          "value": "7.50884"
         },
         "bayesaverage": {
-          "value": "7.05914"
+          "value": "7.05918"
         },
         "stddev": {
-          "value": "1.31081"
+          "value": "1.31109"
         },
         "median": {
           "value": "0"
@@ -8318,7 +8128,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "433",
-              "bayesaverage": "7.05914"
+              "bayesaverage": "7.05918"
             },
             {
               "type": "family",
@@ -8326,16 +8136,14 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "16",
-              "bayesaverage": "7.27855"
+              "bayesaverage": "7.27835"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "John D. Clair"
     ],
@@ -8379,20 +8187,20 @@
       "minplaytime": "5",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "21865",
+      "numowned": "21873",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "12174"
+          "value": "12178"
         },
         "average": {
-          "value": "6.8877"
+          "value": "6.88757"
         },
         "bayesaverage": {
-          "value": "6.63278"
+          "value": "6.63291"
         },
         "stddev": {
-          "value": "1.20763"
+          "value": "1.20762"
         },
         "median": {
           "value": "0"
@@ -8404,8 +8212,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1026",
-              "bayesaverage": "6.63278"
+              "value": "1028",
+              "bayesaverage": "6.63291"
             },
             {
               "type": "family",
@@ -8413,7 +8221,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "22",
-              "bayesaverage": "6.77562"
+              "bayesaverage": "6.77567"
             },
             {
               "type": "family",
@@ -8421,16 +8229,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "312",
-              "bayesaverage": "6.68295"
+              "bayesaverage": "6.68308"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Scott Frisco",
       "Steven Strumpf"
@@ -8477,20 +8283,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "3935",
+      "numowned": "3945",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2847"
+          "value": "2855"
         },
         "average": {
-          "value": "7.41781"
+          "value": "7.41829"
         },
         "bayesaverage": {
-          "value": "6.55268"
+          "value": "6.55444"
         },
         "stddev": {
-          "value": "1.23559"
+          "value": "1.23414"
         },
         "median": {
           "value": "0"
@@ -8502,25 +8308,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1187",
-              "bayesaverage": "6.55268"
+              "value": "1185",
+              "bayesaverage": "6.55444"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "662",
-              "bayesaverage": "6.69694"
+              "value": "661",
+              "bayesaverage": "6.69879"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Yogi Shinichi (与儀新一)"
     ],
@@ -8564,20 +8368,20 @@
       "minplaytime": "115",
       "maxplaytime": "115",
       "playingtime": "115",
-      "numowned": "126856",
+      "numowned": "126914",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "92230"
+          "value": "92282"
         },
         "average": {
-          "value": "8.10451"
+          "value": "8.1045"
         },
         "bayesaverage": {
-          "value": "7.94985"
+          "value": "7.94982"
         },
         "stddev": {
-          "value": "1.45683"
+          "value": "1.45669"
         },
         "median": {
           "value": "0"
@@ -8590,7 +8394,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "26",
-              "bayesaverage": "7.94985"
+              "bayesaverage": "7.94982"
             },
             {
               "type": "family",
@@ -8598,16 +8402,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "26",
-              "bayesaverage": "7.92103"
+              "bayesaverage": "7.92102"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Jamey Stegmaier"
     ],
@@ -8663,20 +8465,20 @@
       "minplaytime": "90",
       "maxplaytime": "115",
       "playingtime": "115",
-      "numowned": "17012",
+      "numowned": "17021",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3435"
+          "value": "3437"
         },
         "average": {
-          "value": "8.10274"
+          "value": "8.10298"
         },
         "bayesaverage": {
           "value": "6.98266"
         },
         "stddev": {
-          "value": "1.42435"
+          "value": "1.42402"
         },
         "median": {
           "value": "0"
@@ -8704,9 +8506,7 @@
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Jamey Stegmaier"
     ],
@@ -8749,20 +8549,20 @@
       "minplaytime": "90",
       "maxplaytime": "140",
       "playingtime": "140",
-      "numowned": "44787",
+      "numowned": "44804",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "12407"
+          "value": "12414"
         },
         "average": {
-          "value": "8.26893"
+          "value": "8.2689"
         },
         "bayesaverage": {
-          "value": "7.77318"
+          "value": "7.77329"
         },
         "stddev": {
-          "value": "1.17084"
+          "value": "1.17074"
         },
         "median": {
           "value": "0"
@@ -8775,7 +8575,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.77318"
+              "bayesaverage": "7.77329"
             },
             {
               "type": "family",
@@ -8783,16 +8583,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.85032"
+              "bayesaverage": "7.85036"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Jamey Stegmaier"
     ],
@@ -8832,20 +8630,20 @@
       "minplaytime": "75",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "31530",
+      "numowned": "31546",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "8192"
+          "value": "8197"
         },
         "average": {
-          "value": "8.69503"
+          "value": "8.6954"
         },
         "bayesaverage": {
-          "value": "7.92998"
+          "value": "7.93015"
         },
         "stddev": {
-          "value": "1.30074"
+          "value": "1.30058"
         },
         "median": {
           "value": "0"
@@ -8858,7 +8656,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.92998"
+              "bayesaverage": "7.93015"
             },
             {
               "type": "family",
@@ -8866,16 +8664,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.07292"
+              "bayesaverage": "8.07307"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Ryan Lopez DeVinaspre",
       "Jamey Stegmaier"
@@ -8923,20 +8719,20 @@
       "minplaytime": "70",
       "maxplaytime": "140",
       "playingtime": "140",
-      "numowned": "33762",
+      "numowned": "33777",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "7806"
+          "value": "7812"
         },
         "average": {
-          "value": "7.76784"
+          "value": "7.76771"
         },
         "bayesaverage": {
-          "value": "7.18135"
+          "value": "7.18114"
         },
         "stddev": {
-          "value": "1.38735"
+          "value": "1.38719"
         },
         "median": {
           "value": "0"
@@ -8949,7 +8745,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.18135"
+              "bayesaverage": "7.18114"
             },
             {
               "type": "family",
@@ -8957,16 +8753,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.27371"
+              "bayesaverage": "7.27344"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Kai Starck",
       "Jamey Stegmaier"
@@ -9007,20 +8801,20 @@
       "minplaytime": "40",
       "maxplaytime": "160",
       "playingtime": "160",
-      "numowned": "28036",
+      "numowned": "28132",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "17427"
+          "value": "17503"
         },
         "average": {
-          "value": "8.41611"
+          "value": "8.41724"
         },
         "bayesaverage": {
-          "value": "7.99564"
+          "value": "7.998"
         },
         "stddev": {
-          "value": "1.26817"
+          "value": "1.26624"
         },
         "median": {
           "value": "0"
@@ -9033,7 +8827,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "17",
-              "bayesaverage": "7.99564"
+              "bayesaverage": "7.998"
             },
             {
               "type": "family",
@@ -9041,20 +8835,18 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "14",
-              "bayesaverage": "8.05796"
+              "bayesaverage": "8.06009"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Tomáš Holek"
     ],
-    "weight": "3.8169",
+    "weight": "3.8182",
     "mechanics": [
       "Area Majority / Influence",
       "End Game Bonuses",
@@ -9095,20 +8887,20 @@
       "minplaytime": "15",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "46049",
+      "numowned": "46083",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "28037"
+          "value": "28054"
         },
         "average": {
-          "value": "7.1715"
+          "value": "7.17186"
         },
         "bayesaverage": {
-          "value": "7.0103"
+          "value": "7.01062"
         },
         "stddev": {
-          "value": "1.39929"
+          "value": "1.39932"
         },
         "median": {
           "value": "0"
@@ -9121,7 +8913,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "480",
-              "bayesaverage": "7.0103"
+              "bayesaverage": "7.01062"
             },
             {
               "type": "family",
@@ -9129,20 +8921,18 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "36",
-              "bayesaverage": "7.03338"
+              "bayesaverage": "7.03377"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Hervé Marly"
     ],
-    "weight": "1.1154",
+    "weight": "1.1152",
     "mechanics": [
       "Auction / Bidding",
       "Auction: Turn Order Until Pass",
@@ -9183,20 +8973,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "32166",
+      "numowned": "32207",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "15023"
+          "value": "15050"
         },
         "average": {
-          "value": "7.5275"
+          "value": "7.52706"
         },
         "bayesaverage": {
-          "value": "7.20353"
+          "value": "7.20375"
         },
         "stddev": {
-          "value": "1.34259"
+          "value": "1.34282"
         },
         "median": {
           "value": "0"
@@ -9209,7 +8999,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "299",
-              "bayesaverage": "7.20353"
+              "bayesaverage": "7.20375"
             },
             {
               "type": "family",
@@ -9217,21 +9007,19 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "59",
-              "bayesaverage": "7.26955"
+              "bayesaverage": "7.26954"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "16"
-    },
+    "status": "own",
+    "numplays": "16",
     "designers": [
       "Brent Beck",
       "Jeffrey Beck"
     ],
-    "weight": "1.7349",
+    "weight": "1.7357",
     "mechanics": [
       "Hand Management",
       "Predictive Bid",
@@ -9301,9 +9089,7 @@
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Totsuca Chuo"
     ],
@@ -9342,17 +9128,17 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "60940",
+      "numowned": "61096",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "29498"
+          "value": "29594"
         },
         "average": {
-          "value": "8.1287"
+          "value": "8.12784"
         },
         "bayesaverage": {
-          "value": "7.88298"
+          "value": "7.88268"
         },
         "stddev": {
           "value": "1.14925"
@@ -9368,7 +9154,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "33",
-              "bayesaverage": "7.88298"
+              "bayesaverage": "7.88268"
             },
             {
               "type": "family",
@@ -9376,7 +9162,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "14",
-              "bayesaverage": "7.88223"
+              "bayesaverage": "7.88211"
             },
             {
               "type": "family",
@@ -9384,20 +9170,18 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "3",
-              "bayesaverage": "7.92398"
+              "bayesaverage": "7.9238"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Luc Rémond"
     ],
-    "weight": "2.0439",
+    "weight": "2.0423",
     "mechanics": [
       "Communication Limits",
       "Cooperative Game",
@@ -9439,20 +9223,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "10353",
+      "numowned": "10396",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "931"
+          "value": "936"
         },
         "average": {
-          "value": "8.48512"
+          "value": "8.4868"
         },
         "bayesaverage": {
-          "value": "6.31899"
+          "value": "6.32181"
         },
         "stddev": {
-          "value": "1.04508"
+          "value": "1.04397"
         },
         "median": {
           "value": "0"
@@ -9465,7 +9249,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.31899"
+              "bayesaverage": "6.32181"
             },
             {
               "type": "family",
@@ -9473,16 +9257,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.54759"
+              "bayesaverage": "6.55095"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Luc Rémond"
     ],
@@ -9554,10 +9336,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "17"
-    },
+    "status": "own",
+    "numplays": "17",
     "designers": [
       "ODA"
     ],
@@ -9597,20 +9377,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "95677",
+      "numowned": "95763",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "61820"
+          "value": "61871"
         },
         "average": {
-          "value": "8.3405"
+          "value": "8.3403"
         },
         "bayesaverage": {
-          "value": "8.14216"
+          "value": "8.14213"
         },
         "stddev": {
-          "value": "1.51922"
+          "value": "1.51943"
         },
         "median": {
           "value": "0"
@@ -9623,7 +9403,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "11",
-              "bayesaverage": "8.14216"
+              "bayesaverage": "8.14213"
             },
             {
               "type": "family",
@@ -9631,16 +9411,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "10",
-              "bayesaverage": "8.12192"
+              "bayesaverage": "8.12184"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "R. Eric Reuss"
     ],
@@ -9693,20 +9471,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "30321",
+      "numowned": "30341",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "7657"
+          "value": "7663"
         },
         "average": {
-          "value": "8.98074"
+          "value": "8.98084"
         },
         "bayesaverage": {
-          "value": "8.11239"
+          "value": "8.11292"
         },
         "stddev": {
-          "value": "1.08507"
+          "value": "1.08478"
         },
         "median": {
           "value": "0"
@@ -9719,7 +9497,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.11239"
+              "bayesaverage": "8.11292"
             },
             {
               "type": "family",
@@ -9727,16 +9505,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.26821"
+              "bayesaverage": "8.26864"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "R. Eric Reuss"
     ],
@@ -9781,20 +9557,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "8863",
+      "numowned": "8880",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1656"
+          "value": "1659"
         },
         "average": {
-          "value": "9.00278"
+          "value": "9.00199"
         },
         "bayesaverage": {
-          "value": "6.87624"
+          "value": "6.87711"
         },
         "stddev": {
-          "value": "1.06945"
+          "value": "1.06992"
         },
         "median": {
           "value": "0"
@@ -9807,7 +9583,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.87624"
+              "bayesaverage": "6.87711"
             },
             {
               "type": "family",
@@ -9815,16 +9591,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.10721"
+              "bayesaverage": "7.10818"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "R. Eric Reuss"
     ],
@@ -9868,20 +9642,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "23814",
+      "numowned": "23834",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6054"
+          "value": "6062"
         },
         "average": {
-          "value": "9.32875"
+          "value": "9.32888"
         },
         "bayesaverage": {
-          "value": "8.18722"
+          "value": "8.18834"
         },
         "stddev": {
-          "value": "0.955206"
+          "value": "0.954741"
         },
         "median": {
           "value": "0"
@@ -9894,7 +9668,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.18722"
+              "bayesaverage": "8.18834"
             },
             {
               "type": "family",
@@ -9902,20 +9676,18 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.39011"
+              "bayesaverage": "8.39111"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "R. Eric Reuss"
     ],
-    "weight": "4.5199",
+    "weight": "4.5216",
     "mechanics": [
       "Area Majority / Influence",
       "Cooperative Game",
@@ -9958,20 +9730,20 @@
       "minplaytime": "90",
       "maxplaytime": "180",
       "playingtime": "180",
-      "numowned": "10312",
+      "numowned": "10332",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1944"
+          "value": "1949"
         },
         "average": {
-          "value": "9.3295"
+          "value": "9.32722"
         },
         "bayesaverage": {
-          "value": "7.17115"
+          "value": "7.17222"
         },
         "stddev": {
-          "value": "1.09806"
+          "value": "1.0984"
         },
         "median": {
           "value": "0"
@@ -9984,7 +9756,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.17115"
+              "bayesaverage": "7.17222"
             },
             {
               "type": "family",
@@ -9992,7 +9764,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.65608"
+              "bayesaverage": "7.65679"
             },
             {
               "type": "family",
@@ -10000,16 +9772,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.44526"
+              "bayesaverage": "7.44657"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "R. Eric Reuss"
     ],
@@ -10061,20 +9831,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "136325",
+      "numowned": "136407",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "89118"
+          "value": "89154"
         },
         "average": {
-          "value": "7.41963"
+          "value": "7.41958"
         },
         "bayesaverage": {
-          "value": "7.29227"
+          "value": "7.29215"
         },
         "stddev": {
-          "value": "1.28742"
+          "value": "1.28738"
         },
         "median": {
           "value": "0"
@@ -10087,7 +9857,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "241",
-              "bayesaverage": "7.29227"
+              "bayesaverage": "7.29215"
             },
             {
               "type": "family",
@@ -10095,20 +9865,18 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "54",
-              "bayesaverage": "7.29086"
+              "bayesaverage": "7.29069"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Marc André"
     ],
-    "weight": "1.7758",
+    "weight": "1.7753",
     "mechanics": [
       "Contracts",
       "Open Drafting",
@@ -10147,20 +9915,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "36430",
+      "numowned": "36500",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "18460"
+          "value": "18487"
         },
         "average": {
-          "value": "7.87926"
+          "value": "7.879"
         },
         "bayesaverage": {
-          "value": "7.55242"
+          "value": "7.55257"
         },
         "stddev": {
-          "value": "1.1307"
+          "value": "1.13059"
         },
         "median": {
           "value": "0"
@@ -10173,7 +9941,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "113",
-              "bayesaverage": "7.55242"
+              "bayesaverage": "7.55257"
             },
             {
               "type": "family",
@@ -10181,7 +9949,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "97",
-              "bayesaverage": "7.57329"
+              "bayesaverage": "7.57334"
             },
             {
               "type": "family",
@@ -10189,16 +9957,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "16",
-              "bayesaverage": "7.61911"
+              "bayesaverage": "7.61923"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Marc André",
       "Bruno Cathala"
@@ -10242,20 +10008,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "18669",
+      "numowned": "18671",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "5038"
+          "value": "5043"
         },
         "average": {
-          "value": "7.32659"
+          "value": "7.32636"
         },
         "bayesaverage": {
-          "value": "6.69951"
+          "value": "6.69979"
         },
         "stddev": {
-          "value": "1.24634"
+          "value": "1.24591"
         },
         "median": {
           "value": "0"
@@ -10268,7 +10034,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.69951"
+              "bayesaverage": "6.69979"
             },
             {
               "type": "family",
@@ -10276,16 +10042,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.83183"
+              "bayesaverage": "6.83208"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Marc André"
     ],
@@ -10326,20 +10090,20 @@
       "minplaytime": "45",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "1166",
+      "numowned": "1172",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "848"
+          "value": "849"
         },
         "average": {
-          "value": "7.42129"
+          "value": "7.41962"
         },
         "bayesaverage": {
-          "value": "6.00654"
+          "value": "6.00653"
         },
         "stddev": {
-          "value": "1.35222"
+          "value": "1.35231"
         },
         "median": {
           "value": "0"
@@ -10351,25 +10115,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3102",
-              "bayesaverage": "6.00654"
+              "value": "3103",
+              "bayesaverage": "6.00653"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1378",
-              "bayesaverage": "6.15041"
+              "value": "1379",
+              "bayesaverage": "6.15035"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Martin Wallace"
     ],
@@ -10419,20 +10181,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "508",
+      "numowned": "509",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "244"
+          "value": "245"
         },
         "average": {
-          "value": "6.97361"
+          "value": "6.96963"
         },
         "bayesaverage": {
-          "value": "5.62859"
+          "value": "5.62874"
         },
         "stddev": {
-          "value": "1.40853"
+          "value": "1.40702"
         },
         "median": {
           "value": "0"
@@ -10443,16 +10205,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "8057",
-            "bayesaverage": "5.62859"
+            "value": "8058",
+            "bayesaverage": "5.62874"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Koji Malta",
       "Takahiro Shinozaki (篠崎　高広)"
@@ -10492,20 +10252,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "12669",
+      "numowned": "12673",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "5088"
+          "value": "5091"
         },
         "average": {
-          "value": "7.4298"
+          "value": "7.43013"
         },
         "bayesaverage": {
-          "value": "6.78327"
+          "value": "6.78303"
         },
         "stddev": {
-          "value": "1.34075"
+          "value": "1.34061"
         },
         "median": {
           "value": "0"
@@ -10517,8 +10277,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "770",
-              "bayesaverage": "6.78327"
+              "value": "771",
+              "bayesaverage": "6.78303"
             },
             {
               "type": "family",
@@ -10526,16 +10286,14 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "170",
-              "bayesaverage": "6.98684"
+              "bayesaverage": "6.98633"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Michael Menzel"
     ],
@@ -10574,20 +10332,20 @@
       "minplaytime": "30",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "83298",
+      "numowned": "83329",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "68666"
+          "value": "68704"
         },
         "average": {
-          "value": "8.15757"
+          "value": "8.15784"
         },
         "bayesaverage": {
-          "value": "8.0279"
+          "value": "8.02813"
         },
         "stddev": {
-          "value": "1.25295"
+          "value": "1.2529"
         },
         "median": {
           "value": "0"
@@ -10600,7 +10358,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "15",
-              "bayesaverage": "8.0279"
+              "bayesaverage": "8.02813"
             },
             {
               "type": "family",
@@ -10608,16 +10366,14 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "17",
-              "bayesaverage": "8.02757"
+              "bayesaverage": "8.02785"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Stefan Feld"
     ],
@@ -10667,20 +10423,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "49836",
+      "numowned": "49898",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "24736"
+          "value": "24765"
         },
         "average": {
-          "value": "8.05803"
+          "value": "8.0578"
         },
         "bayesaverage": {
-          "value": "7.81084"
+          "value": "7.81082"
         },
         "stddev": {
-          "value": "1.31739"
+          "value": "1.31764"
         },
         "median": {
           "value": "0"
@@ -10693,7 +10449,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "43",
-              "bayesaverage": "7.81084"
+              "bayesaverage": "7.81082"
             },
             {
               "type": "family",
@@ -10701,20 +10457,18 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "4",
-              "bayesaverage": "7.87036"
+              "bayesaverage": "7.8704"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Thomas Sing"
     ],
-    "weight": "2.0476",
+    "weight": "2.0475",
     "mechanics": [
       "Communication Limits",
       "Cooperative Game",
@@ -10755,20 +10509,20 @@
       "minplaytime": "60",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "2308",
+      "numowned": "2343",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1169"
+          "value": "1194"
         },
         "average": {
-          "value": "7.90667"
+          "value": "7.91382"
         },
         "bayesaverage": {
-          "value": "6.27537"
+          "value": "6.28845"
         },
         "stddev": {
-          "value": "1.13357"
+          "value": "1.12472"
         },
         "median": {
           "value": "0"
@@ -10780,29 +10534,27 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1932",
-              "bayesaverage": "6.27537"
+              "value": "1880",
+              "bayesaverage": "6.28845"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "928",
-              "bayesaverage": "6.46001"
+              "value": "912",
+              "bayesaverage": "6.47525"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Stefan Feld"
     ],
-    "weight": "3.0633",
+    "weight": "3.0625",
     "mechanics": [
       "Area Majority / Influence",
       "Contracts",
@@ -10839,20 +10591,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "37758",
+      "numowned": "37885",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "17836"
+          "value": "17907"
         },
         "average": {
-          "value": "8.36155"
+          "value": "8.36102"
         },
         "bayesaverage": {
-          "value": "7.95962"
+          "value": "7.96047"
         },
         "stddev": {
-          "value": "1.11708"
+          "value": "1.11712"
         },
         "median": {
           "value": "0"
@@ -10865,7 +10617,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "22",
-              "bayesaverage": "7.95962"
+              "bayesaverage": "7.96047"
             },
             {
               "type": "family",
@@ -10873,7 +10625,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "21",
-              "bayesaverage": "7.99371"
+              "bayesaverage": "7.99401"
             },
             {
               "type": "family",
@@ -10881,21 +10633,19 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "1",
-              "bayesaverage": "8.03815"
+              "bayesaverage": "8.0385"
             }
           ]
         }
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Antoine Bauza",
       "Bruno Cathala"
     ],
-    "weight": "2.0622",
+    "weight": "2.0621",
     "mechanics": [
       "Area Majority / Influence",
       "Hand Management",
@@ -10948,20 +10698,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "6140",
+      "numowned": "6211",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "600"
+          "value": "603"
         },
         "average": {
-          "value": "8.10223"
+          "value": "8.10421"
         },
         "bayesaverage": {
-          "value": "5.99897"
+          "value": "6.00168"
         },
         "stddev": {
-          "value": "1.30125"
+          "value": "1.29895"
         },
         "median": {
           "value": "0"
@@ -10973,15 +10723,13 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.99897"
+            "bayesaverage": "6.00168"
           }
         }
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Antoine Bauza",
       "Bruno Cathala"
@@ -11037,20 +10785,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "14127",
+      "numowned": "14202",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "6916"
+          "value": "6975"
         },
         "average": {
-          "value": "8.32134"
+          "value": "8.31958"
         },
         "bayesaverage": {
-          "value": "7.49633"
+          "value": "7.50029"
         },
         "stddev": {
-          "value": "1.32998"
+          "value": "1.33163"
         },
         "median": {
           "value": "0"
@@ -11063,28 +10811,26 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "134",
-              "bayesaverage": "7.49633"
+              "bayesaverage": "7.50029"
             },
             {
               "type": "family",
               "id": "5496",
               "name": "thematic",
               "friendlyname": "Thematic Rank",
-              "value": "29",
-              "bayesaverage": "7.70848"
+              "value": "28",
+              "bayesaverage": "7.71151"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Matt Leacock"
     ],
-    "weight": "3.0826",
+    "weight": "3.0848",
     "mechanics": [
       "Action Points",
       "Cooperative Game",
@@ -11106,7 +10852,7 @@
     "objecttype": "thing",
     "objectid": "357873",
     "subtype": "boardgame",
-    "collid": "141639387",
+    "collid": "142732948",
     "name": {
       "sortindex": "5",
       "value": "The Old King's Crown"
@@ -11126,20 +10872,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "3724",
+      "numowned": "3758",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1967"
+          "value": "1995"
         },
         "average": {
-          "value": "8.13492"
+          "value": "8.13418"
         },
         "bayesaverage": {
-          "value": "6.58872"
+          "value": "6.5964"
         },
         "stddev": {
-          "value": "1.70404"
+          "value": "1.70703"
         },
         "median": {
           "value": "0"
@@ -11151,29 +10897,27 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1115",
-              "bayesaverage": "6.58872"
+              "value": "1099",
+              "bayesaverage": "6.5964"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "582",
-              "bayesaverage": "6.76872"
+              "value": "574",
+              "bayesaverage": "6.77603"
             }
           ]
         }
       }
     },
     "status": "wishlist",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Pablo Clark"
     ],
-    "weight": "3.6407",
+    "weight": "3.645",
     "mechanics": [
       "Betting and Bluffing",
       "Card Play Conflict Resolution",
@@ -11211,20 +10955,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "52482",
+      "numowned": "52525",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "31950"
+          "value": "31972"
         },
         "average": {
-          "value": "7.71469"
+          "value": "7.71494"
         },
         "bayesaverage": {
-          "value": "7.53314"
+          "value": "7.53348"
         },
         "stddev": {
-          "value": "1.09813"
+          "value": "1.09799"
         },
         "median": {
           "value": "0"
@@ -11237,7 +10981,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "121",
-              "bayesaverage": "7.53314"
+              "bayesaverage": "7.53348"
             },
             {
               "type": "family",
@@ -11245,16 +10989,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "19",
-              "bayesaverage": "7.57279"
+              "bayesaverage": "7.57308"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Reiner Knizia"
     ],
@@ -11306,20 +11048,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "5771",
+      "numowned": "5777",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2121"
+          "value": "2123"
         },
         "average": {
-          "value": "7.63888"
+          "value": "7.63874"
         },
         "bayesaverage": {
-          "value": "6.50346"
+          "value": "6.50393"
         },
         "stddev": {
-          "value": "1.13574"
+          "value": "1.13573"
         },
         "median": {
           "value": "0"
@@ -11332,7 +11074,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1301",
-              "bayesaverage": "6.50346"
+              "bayesaverage": "6.50393"
             },
             {
               "type": "family",
@@ -11340,16 +11082,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "304",
-              "bayesaverage": "6.70027"
+              "bayesaverage": "6.70007"
             }
           ]
         }
       }
     },
     "status": "preordered",
-    "numplays": {
-      "value": "0"
-    },
+    "numplays": "0",
     "designers": [
       "Reiner Knizia"
     ],
@@ -11393,20 +11133,20 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "5670",
+      "numowned": "5677",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "1459"
+          "value": "1464"
         },
         "average": {
-          "value": "7.14519"
+          "value": "7.14763"
         },
         "bayesaverage": {
-          "value": "6.11456"
+          "value": "6.11618"
         },
         "stddev": {
-          "value": "1.1421"
+          "value": "1.14235"
         },
         "median": {
           "value": "0"
@@ -11418,25 +11158,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2565",
-              "bayesaverage": "6.11456"
+              "value": "2557",
+              "bayesaverage": "6.11618"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "755",
-              "bayesaverage": "6.25816"
+              "value": "754",
+              "bayesaverage": "6.26001"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "7"
-    },
+    "status": "own",
+    "numplays": "7",
     "designers": [
       "Alan R. Moon"
     ],
@@ -11477,20 +11215,20 @@
       "minplaytime": "3",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "9171",
+      "numowned": "9183",
       "rating": {
         "value": "6.5",
         "usersrated": {
-          "value": "2923"
+          "value": "2930"
         },
         "average": {
-          "value": "6.75932"
+          "value": "6.7599"
         },
         "bayesaverage": {
-          "value": "6.1544"
+          "value": "6.15565"
         },
         "stddev": {
-          "value": "1.24459"
+          "value": "1.24466"
         },
         "median": {
           "value": "0"
@@ -11502,8 +11240,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2384",
-              "bayesaverage": "6.1544"
+              "value": "2378",
+              "bayesaverage": "6.15565"
             },
             {
               "type": "family",
@@ -11511,16 +11249,14 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "780",
-              "bayesaverage": "6.24165"
+              "bayesaverage": "6.24195"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Rob Sparks"
     ],
@@ -11585,16 +11321,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "9938",
+            "value": "9945",
             "bayesaverage": "5.58793"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Alena Lebedeva"
     ],
@@ -11639,16 +11373,16 @@
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "238"
+          "value": "241"
         },
         "average": {
-          "value": "7.53782"
+          "value": "7.55851"
         },
         "bayesaverage": {
-          "value": "5.67717"
+          "value": "5.67796"
         },
         "stddev": {
-          "value": "1.21993"
+          "value": "1.23272"
         },
         "median": {
           "value": "0"
@@ -11659,16 +11393,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "6729",
-            "bayesaverage": "5.67717"
+            "value": "6722",
+            "bayesaverage": "5.67796"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Moyuki Adisawa (アヂサワモユキ)"
     ],
@@ -11707,7 +11439,7 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "2118",
+      "numowned": "2117",
       "rating": {
         "value": "7.5",
         "usersrated": {
@@ -11740,17 +11472,15 @@
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "1211",
+              "value": "1212",
               "bayesaverage": "5.99224"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "4"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [
       "Grzegorz Rejchtman"
     ],
@@ -11795,20 +11525,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3122",
+      "numowned": "3126",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "2179"
+          "value": "2181"
         },
         "average": {
-          "value": "7.06545"
+          "value": "7.06355"
         },
         "bayesaverage": {
-          "value": "6.24444"
+          "value": "6.24386"
         },
         "stddev": {
-          "value": "1.42147"
+          "value": "1.42252"
         },
         "median": {
           "value": "0"
@@ -11820,25 +11550,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2042",
-              "bayesaverage": "6.24444"
+              "value": "2043",
+              "bayesaverage": "6.24386"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "591",
-              "bayesaverage": "6.3926"
+              "value": "592",
+              "bayesaverage": "6.39249"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Grzegorz Rejchtman"
     ],
@@ -11879,20 +11607,20 @@
       "minplaytime": "10",
       "maxplaytime": "10",
       "playingtime": "10",
-      "numowned": "1840",
+      "numowned": "1842",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "809"
+          "value": "810"
         },
         "average": {
-          "value": "5.85043"
+          "value": "5.85309"
         },
         "bayesaverage": {
-          "value": "5.57706"
+          "value": "5.57787"
         },
         "stddev": {
-          "value": "1.60461"
+          "value": "1.60539"
         },
         "median": {
           "value": "0"
@@ -11904,8 +11632,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "10646",
-              "bayesaverage": "5.57706"
+              "value": "10583",
+              "bayesaverage": "5.57787"
             },
             {
               "type": "family",
@@ -11919,10 +11647,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Kristin Mückel"
     ],
@@ -11961,20 +11687,20 @@
       "minplaytime": "20",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "2567",
+      "numowned": "2569",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1611"
+          "value": "1612"
         },
         "average": {
-          "value": "6.82169"
+          "value": "6.82304"
         },
         "bayesaverage": {
-          "value": "6.00637"
+          "value": "6.00718"
         },
         "stddev": {
-          "value": "1.24"
+          "value": "1.2402"
         },
         "median": {
           "value": "0"
@@ -11986,8 +11712,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3105",
-              "bayesaverage": "6.00637"
+              "value": "3100",
+              "bayesaverage": "6.00718"
             },
             {
               "type": "family",
@@ -11995,16 +11721,14 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "34",
-              "bayesaverage": "6.61448"
+              "bayesaverage": "6.6165"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Manfred Ludwig"
     ],
@@ -12047,20 +11771,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "17950",
+      "numowned": "17965",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "12222"
+          "value": "12234"
         },
         "average": {
-          "value": "7.82697"
+          "value": "7.82628"
         },
         "bayesaverage": {
-          "value": "7.3907"
+          "value": "7.39036"
         },
         "stddev": {
-          "value": "1.37207"
+          "value": "1.37205"
         },
         "median": {
           "value": "0"
@@ -12072,8 +11796,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "181",
-              "bayesaverage": "7.3907"
+              "value": "182",
+              "bayesaverage": "7.39036"
             },
             {
               "type": "family",
@@ -12081,16 +11805,14 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "6",
-              "bayesaverage": "7.44315"
+              "bayesaverage": "7.44228"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Trevor Benjamin",
       "David Thompson (I)"
@@ -12138,20 +11860,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "6362",
+      "numowned": "6373",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1309"
+          "value": "1311"
         },
         "average": {
-          "value": "8.23279"
+          "value": "8.23014"
         },
         "bayesaverage": {
-          "value": "6.45871"
+          "value": "6.45874"
         },
         "stddev": {
-          "value": "1.18529"
+          "value": "1.18584"
         },
         "median": {
           "value": "0"
@@ -12164,7 +11886,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.45871"
+              "bayesaverage": "6.45874"
             },
             {
               "type": "family",
@@ -12172,16 +11894,14 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.32904"
+              "bayesaverage": "7.32844"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Trevor Benjamin",
       "David Thompson (I)"
@@ -12225,20 +11945,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "4983",
+      "numowned": "4991",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "866"
+          "value": "868"
         },
         "average": {
-          "value": "8.15246"
+          "value": "8.14981"
         },
         "bayesaverage": {
-          "value": "6.19615"
+          "value": "6.19668"
         },
         "stddev": {
-          "value": "1.21666"
+          "value": "1.21746"
         },
         "median": {
           "value": "0"
@@ -12251,7 +11971,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.19615"
+              "bayesaverage": "6.19668"
             },
             {
               "type": "family",
@@ -12259,16 +11979,14 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.0552"
+              "bayesaverage": "7.05507"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Trevor Benjamin",
       "David Thompson (I)"
@@ -12313,20 +12031,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "5022",
+      "numowned": "5025",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2837"
+          "value": "2839"
         },
         "average": {
-          "value": "6.49043"
+          "value": "6.49061"
         },
         "bayesaverage": {
-          "value": "6.02714"
+          "value": "6.02743"
         },
         "stddev": {
-          "value": "1.34266"
+          "value": "1.34222"
         },
         "median": {
           "value": "0"
@@ -12339,24 +12057,22 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "2988",
-              "bayesaverage": "6.02714"
+              "bayesaverage": "6.02743"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "983",
-              "bayesaverage": "6.11787"
+              "value": "985",
+              "bayesaverage": "6.11817"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "5"
-    },
+    "status": "own",
+    "numplays": "5",
     "designers": [
       "Alex Randolph"
     ],
@@ -12396,20 +12112,20 @@
       "minplaytime": "15",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3773",
+      "numowned": "3772",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2051"
+          "value": "2052"
         },
         "average": {
-          "value": "7.17821"
+          "value": "7.17837"
         },
         "bayesaverage": {
-          "value": "6.25691"
+          "value": "6.25721"
         },
         "stddev": {
-          "value": "1.29854"
+          "value": "1.29825"
         },
         "median": {
           "value": "0"
@@ -12422,24 +12138,22 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1987",
-              "bayesaverage": "6.25691"
+              "bayesaverage": "6.25721"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "578",
-              "bayesaverage": "6.40029"
+              "value": "579",
+              "bayesaverage": "6.40061"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "6"
-    },
+    "status": "own",
+    "numplays": "6",
     "designers": [
       "Erik Andersson Sundén"
     ],
@@ -12502,16 +12216,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "22574",
+            "value": "22576",
             "bayesaverage": "5.50925"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "3"
-    },
+    "status": "own",
+    "numplays": "3",
     "designers": [
       "Roberto Fraga"
     ],
@@ -12580,7 +12292,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "10473",
+              "value": "10477",
               "bayesaverage": "5.57969"
             },
             {
@@ -12595,10 +12307,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "1"
-    },
+    "status": "own",
+    "numplays": "1",
     "designers": [
       "Heinz Meister"
     ],
@@ -12638,20 +12348,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "13117",
+      "numowned": "13133",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6097"
+          "value": "6101"
         },
         "average": {
-          "value": "7.57096"
+          "value": "7.5715"
         },
         "bayesaverage": {
-          "value": "6.93981"
+          "value": "6.94041"
         },
         "stddev": {
-          "value": "1.30599"
+          "value": "1.30428"
         },
         "median": {
           "value": "0"
@@ -12663,8 +12373,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "571",
-              "bayesaverage": "6.93981"
+              "value": "570",
+              "bayesaverage": "6.94041"
             },
             {
               "type": "family",
@@ -12672,24 +12382,22 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "1",
-              "bayesaverage": "7.48497"
+              "bayesaverage": "7.48522"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "118",
-              "bayesaverage": "7.05717"
+              "value": "117",
+              "bayesaverage": "7.05781"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "Annick Lobet"
     ],
@@ -12757,10 +12465,8 @@
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "4",
     "designers": [],
     "weight": "0",
     "mechanics": [
@@ -12823,16 +12529,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "28788",
+            "value": "28798",
             "bayesaverage": "5.47527"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "0"
-    },
+    "status": "own",
+    "numplays": "0",
     "designers": [
       "(Uncredited)"
     ],
@@ -12897,16 +12601,14 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "10014",
+            "value": "10017",
             "bayesaverage": "5.58693"
           }
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "14"
-    },
+    "status": "own",
+    "numplays": "14",
     "designers": [
       "Hashimoto Atsushi (橋本淳志)"
     ],
@@ -12945,20 +12647,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3444",
+      "numowned": "3454",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "1598"
+          "value": "1602"
         },
         "average": {
-          "value": "7.91498"
+          "value": "7.91444"
         },
         "bayesaverage": {
-          "value": "6.44425"
+          "value": "6.44509"
         },
         "stddev": {
-          "value": "1.1767"
+          "value": "1.17504"
         },
         "median": {
           "value": "0"
@@ -12970,25 +12672,23 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1447",
-              "bayesaverage": "6.44425"
+              "value": "1444",
+              "bayesaverage": "6.44509"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "757",
-              "bayesaverage": "6.60708"
+              "value": "758",
+              "bayesaverage": "6.60804"
             }
           ]
         }
       }
     },
-    "status": "owned",
-    "numplays": {
-      "value": "2"
-    },
+    "status": "own",
+    "numplays": "2",
     "designers": [
       "Marc André"
     ],
