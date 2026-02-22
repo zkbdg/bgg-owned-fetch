@@ -7990,6 +7990,94 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "318985",
+    "subtype": "boardgame",
+    "collid": "142845562",
+    "name": {
+      "sortindex": "1",
+      "value": "Puerto Rico"
+    },
+    "yearpublished": {
+      "value": "2020"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/OA0K6zAeAHGjx8s8-H5P0A__original/img/NA8MZeacPkv1dm9dAwlbspjOb4w=/0x0/filters:format(jpeg)/pic5657345.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/OA0K6zAeAHGjx8s8-H5P0A__small/img/AdExcsAZuRn4V9ozAhS_waprgNU=/fit-in/200x150/filters:strip_icc()/pic5657345.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "5",
+      "minplaytime": "70",
+      "maxplaytime": "120",
+      "playingtime": "120",
+      "numowned": "3933",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "1533"
+        },
+        "average": {
+          "value": "7.9778"
+        },
+        "bayesaverage": {
+          "value": "6.44188"
+        },
+        "stddev": {
+          "value": "1.36299"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "6.44188"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "6.61018"
+            }
+          ]
+        }
+      }
+    },
+    "status": "preordered",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Andreas Seyfarth"
+    ],
+    "weight": "3.0417",
+    "mechanics": [
+      "Action Drafting",
+      "End Game Bonuses",
+      "Follow",
+      "Hidden Victory Points",
+      "Increase Value of Unchosen Resources",
+      "Turn Order: Progressive",
+      "Variable Phase Order"
+    ],
+    "categories": [
+      "City Building",
+      "Economic",
+      "Farming"
+    ],
+    "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "244521",
     "subtype": "boardgame",
     "collid": "130627281",
