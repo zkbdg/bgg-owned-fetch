@@ -110,11 +110,10 @@ def fetch_collection(username, param, status_label):
 # ====================================
 def fetch_thing_info(game_id):
     headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
-    cookies = {"bggsession": BGG_COOKIE}
     params = {"id": game_id, "stats": 1}
 
     while True:
-        resp = requests.get(API_THING, params=params, headers=headers, cookies=cookies)
+        resp = requests.get(API_THING, params=params, headers=headers)
         if resp.status_code == 429:
             time.sleep(SLEEP_ON_429)
             continue
