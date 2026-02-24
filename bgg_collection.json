@@ -10553,6 +10553,105 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "167791",
+    "subtype": "boardgame",
+    "collid": "142916418",
+    "name": {
+      "sortindex": "1",
+      "value": "Terraforming Mars"
+    },
+    "yearpublished": {
+      "value": "2016"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__small/img/BTxqxgYay5tHJfVoJ2NF5g43_gA=/fit-in/200x150/filters:strip_icc()/pic3536616.jpg"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "5",
+      "minplaytime": "120",
+      "maxplaytime": "120",
+      "playingtime": "120",
+      "numowned": "157387",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "111716"
+        },
+        "average": {
+          "value": "8.34003"
+        },
+        "bayesaverage": {
+          "value": "8.18908"
+        },
+        "stddev": {
+          "value": "1.42984"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "9",
+              "bayesaverage": "8.18908"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "8",
+              "bayesaverage": "8.1668"
+            }
+          ]
+        }
+      }
+    },
+    "status": "owned",
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Jacob Fryxelius"
+    ],
+    "mechanics": [
+      "Closed Drafting",
+      "Contracts",
+      "End Game Bonuses",
+      "Hand Management",
+      "Hexagon Grid",
+      "Income",
+      "Solo / Solitaire Game",
+      "Tags",
+      "Take That",
+      "Tile Placement",
+      "Turn Order: Progressive",
+      "Variable Player Powers",
+      "Variable Set-up"
+    ],
+    "categories": [
+      "Civilization",
+      "Economic",
+      "Environmental",
+      "Industry / Manufacturing",
+      "Science Fiction",
+      "Space Exploration",
+      "Territory Building"
+    ],
+    "weight": "3.2697",
+    "type": "boardgame",
+    "lastplay": "2026-02-24"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "326494",
     "subtype": "boardgame",
     "collid": "136317218",
