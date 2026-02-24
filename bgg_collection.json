@@ -63,7 +63,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:57:01"
+    },
     "numplays": {
       "value": "6"
     },
@@ -147,7 +157,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:03:33"
+    },
     "numplays": {
       "value": "3"
     },
@@ -231,7 +251,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-04-30 22:16:20"
+    },
     "numplays": {
       "value": "0"
     },
@@ -323,7 +353,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-03-23 07:41:17"
+    },
     "numplays": {
       "value": "1"
     },
@@ -408,7 +448,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 15:16:51"
+    },
     "numplays": {
       "value": "0"
     },
@@ -487,7 +538,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-11 05:27:50"
+    },
     "numplays": {
       "value": "0"
     },
@@ -574,7 +635,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-11-11 08:26:57"
+    },
     "numplays": {
       "value": "0"
     },
@@ -671,7 +742,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-18 16:30:37"
+    },
     "numplays": {
       "value": "0"
     },
@@ -747,7 +828,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-11-11 22:42:53"
+    },
     "numplays": {
       "value": "0"
     },
@@ -833,7 +924,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2025-09-07 03:14:04"
+    },
     "numplays": {
       "value": "0"
     },
@@ -933,7 +1034,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-06-29 05:58:50"
+    },
     "numplays": {
       "value": "4"
     },
@@ -1023,7 +1134,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 06:48:54"
+    },
     "numplays": {
       "value": "4"
     },
@@ -1106,7 +1227,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 06:48:15"
+    },
     "numplays": {
       "value": "3"
     },
@@ -1191,7 +1322,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-02-18 08:02:40"
+    },
     "numplays": {
       "value": "0"
     },
@@ -1283,7 +1425,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:03:15"
+    },
     "numplays": {
       "value": "2"
     },
@@ -1357,7 +1509,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-01 06:52:28"
+    },
     "numplays": {
       "value": "1"
     },
@@ -1443,7 +1605,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-18 07:23:51"
+    },
     "numplays": {
       "value": "0"
     },
@@ -1524,7 +1696,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:54:46"
+    },
     "numplays": {
       "value": "17"
     },
@@ -1612,7 +1794,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 05:09:33"
+    },
     "numplays": {
       "value": "0"
     },
@@ -1712,7 +1904,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-16 19:42:44"
+    },
     "numplays": {
       "value": "0"
     },
@@ -1804,7 +2006,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-30 16:08:52"
+    },
     "numplays": {
       "value": "7"
     },
@@ -1892,7 +2104,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:59:38"
+    },
     "numplays": {
       "value": "3"
     },
@@ -1988,7 +2210,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:04:03"
+    },
     "numplays": {
       "value": "3"
     },
@@ -2076,7 +2308,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 04:58:13"
+    },
     "numplays": {
       "value": "0"
     },
@@ -2179,7 +2421,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-03-23 07:55:52"
+    },
     "numplays": {
       "value": "2"
     },
@@ -2274,7 +2526,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 07:07:17"
+    },
     "numplays": {
       "value": "1"
     },
@@ -2348,7 +2610,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-16 19:45:10"
+    },
     "numplays": {
       "value": "0"
     },
@@ -2427,7 +2699,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:03:00"
+    },
     "numplays": {
       "value": "8"
     },
@@ -2511,7 +2793,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-30 10:27:23"
+    },
     "numplays": {
       "value": "0"
     },
@@ -2612,7 +2904,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-12 21:24:31"
+    },
     "numplays": {
       "value": "1"
     },
@@ -2706,7 +3008,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:58:14"
+    },
     "numplays": {
       "value": "12"
     },
@@ -2779,7 +3091,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2026-02-13 07:26:20"
+    },
     "numplays": {
       "value": "0"
     },
@@ -2844,7 +3166,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-11-09 21:50:19"
+    },
     "numplays": {
       "value": "9"
     },
@@ -2925,7 +3257,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:59:22"
+    },
     "numplays": {
       "value": "6"
     },
@@ -3014,7 +3356,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 15:16:54"
+    },
     "numplays": {
       "value": "0"
     },
@@ -3099,7 +3452,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2025-09-24 16:31:41"
+    },
     "numplays": {
       "value": "0"
     },
@@ -3188,7 +3551,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 04:32:44"
+    },
     "numplays": {
       "value": "0"
     },
@@ -3279,7 +3652,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-06-29 05:59:16"
+    },
     "numplays": {
       "value": "0"
     },
@@ -3354,7 +3737,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:05:11"
+    },
     "numplays": {
       "value": "3"
     },
@@ -3449,7 +3842,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:02:43"
+    },
     "numplays": {
       "value": "2"
     },
@@ -3535,7 +3938,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:56:23"
+    },
     "numplays": {
       "value": "4"
     },
@@ -3625,7 +4038,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 05:10:20"
+    },
     "numplays": {
       "value": "0"
     },
@@ -3712,7 +4135,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-09-11 03:50:36"
+    },
     "numplays": {
       "value": "2"
     },
@@ -3798,7 +4231,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-09-10 22:29:53"
+    },
     "numplays": {
       "value": "0"
     },
@@ -3888,7 +4331,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-04-30 22:17:10"
+    },
     "numplays": {
       "value": "1"
     },
@@ -3979,7 +4432,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:06:39"
+    },
     "numplays": {
       "value": "0"
     },
@@ -4074,7 +4537,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-12 21:24:30"
+    },
     "numplays": {
       "value": "1"
     },
@@ -4150,7 +4623,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2026-02-13 07:25:48"
+    },
     "numplays": {
       "value": "0"
     },
@@ -4235,7 +4718,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:02:33"
+    },
     "numplays": {
       "value": "6"
     },
@@ -4316,7 +4809,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-12 21:36:03"
+    },
     "numplays": {
       "value": "1"
     },
@@ -4412,7 +4915,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:57:28"
+    },
     "numplays": {
       "value": "2"
     },
@@ -4500,7 +5013,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-10 11:53:47"
+    },
     "numplays": {
       "value": "3"
     },
@@ -4584,7 +5107,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-10 11:53:27"
+    },
     "numplays": {
       "value": "3"
     },
@@ -4664,7 +5197,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:01:30"
+    },
     "numplays": {
       "value": "13"
     },
@@ -4758,7 +5301,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 04:48:59"
+    },
     "numplays": {
       "value": "4"
     },
@@ -4851,7 +5404,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-23 20:23:57"
+    },
     "numplays": {
       "value": "2"
     },
@@ -4925,7 +5488,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-23 20:23:02"
+    },
     "numplays": {
       "value": "1"
     },
@@ -5012,7 +5585,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-01 06:57:10"
+    },
     "numplays": {
       "value": "5"
     },
@@ -5102,7 +5685,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:55:55"
+    },
     "numplays": {
       "value": "11"
     },
@@ -5193,7 +5786,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 15:16:53"
+    },
     "numplays": {
       "value": "0"
     },
@@ -5275,7 +5879,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:04:38"
+    },
     "numplays": {
       "value": "4"
     },
@@ -5357,7 +5971,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-24 08:55:24"
+    },
     "numplays": {
       "value": "0"
     },
@@ -5447,7 +6071,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:01:49"
+    },
     "numplays": {
       "value": "2"
     },
@@ -5532,7 +6166,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-08-08 20:41:09"
+    },
     "numplays": {
       "value": "0"
     },
@@ -5611,7 +6255,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-08-08 20:41:30"
+    },
     "numplays": {
       "value": "0"
     },
@@ -5703,7 +6357,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 15:16:56"
+    },
     "numplays": {
       "value": "0"
     },
@@ -5793,7 +6458,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:55:27"
+    },
     "numplays": {
       "value": "5"
     },
@@ -5887,7 +6562,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-11-28 01:50:13"
+    },
     "numplays": {
       "value": "1"
     },
@@ -5967,7 +6652,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-21 23:25:22"
+    },
     "numplays": {
       "value": "7"
     },
@@ -6046,7 +6741,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-19 04:02:54"
+    },
     "numplays": {
       "value": "1"
     },
@@ -6135,7 +6840,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:56:50"
+    },
     "numplays": {
       "value": "4"
     },
@@ -6223,7 +6938,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-18 19:29:18"
+    },
     "numplays": {
       "value": "6"
     },
@@ -6321,7 +7046,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:58:26"
+    },
     "numplays": {
       "value": "5"
     },
@@ -6411,7 +7146,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 05:13:48"
+    },
     "numplays": {
       "value": "1"
     },
@@ -6493,7 +7238,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-10-23 05:24:34"
+    },
     "numplays": {
       "value": "1"
     },
@@ -6589,7 +7344,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:04:23"
+    },
     "numplays": {
       "value": "7"
     },
@@ -6678,7 +7443,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-17 17:58:23"
+    },
     "numplays": {
       "value": "0"
     },
@@ -6762,7 +7537,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-17 18:12:55"
+    },
     "numplays": {
       "value": "0"
     },
@@ -6836,7 +7621,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-17 18:12:36"
+    },
     "numplays": {
       "value": "0"
     },
@@ -6928,7 +7723,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:03:49"
+    },
     "numplays": {
       "value": "7"
     },
@@ -7021,7 +7826,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:01:56"
+    },
     "numplays": {
       "value": "2"
     },
@@ -7103,7 +7918,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-03-23 07:44:49"
+    },
     "numplays": {
       "value": "0"
     },
@@ -7191,7 +8016,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:02:52"
+    },
     "numplays": {
       "value": "2"
     },
@@ -7272,7 +8107,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-10 11:55:28"
+    },
     "numplays": {
       "value": "5"
     },
@@ -7366,7 +8211,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-28 22:02:29"
+    },
     "numplays": {
       "value": "11"
     },
@@ -7462,7 +8317,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-16 19:44:20"
+    },
     "numplays": {
       "value": "0"
     },
@@ -7544,7 +8409,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 15:16:52"
+    },
     "numplays": {
       "value": "0"
     },
@@ -7636,7 +8512,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-11 05:27:52"
+    },
     "numplays": {
       "value": "0"
     },
@@ -7726,7 +8612,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:05:21"
+    },
     "numplays": {
       "value": "3"
     },
@@ -7822,7 +8718,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:00:51"
+    },
     "numplays": {
       "value": "2"
     },
@@ -7895,7 +8801,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-11 05:27:51"
+    },
     "numplays": {
       "value": "0"
     },
@@ -7976,7 +8892,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:58:42"
+    },
     "numplays": {
       "value": "2"
     },
@@ -8061,7 +8987,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 06:47:38"
+    },
     "numplays": {
       "value": "2"
     },
@@ -8144,7 +9080,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2026-02-22 07:57:19"
+    },
     "numplays": {
       "value": "0"
     },
@@ -8232,7 +9178,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 15:16:57"
+    },
     "numplays": {
       "value": "0"
     },
@@ -8324,7 +9281,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 04:32:30"
+    },
     "numplays": {
       "value": "0"
     },
@@ -8419,7 +9386,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-10 05:59:08"
+    },
     "numplays": {
       "value": "2"
     },
@@ -8509,7 +9486,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:57:56"
+    },
     "numplays": {
       "value": "4"
     },
@@ -8596,7 +9583,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-06-17 16:55:22"
+    },
     "numplays": {
       "value": "0"
     },
@@ -8695,7 +9692,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-02-19 02:49:18"
+    },
     "numplays": {
       "value": "0"
     },
@@ -8781,7 +9789,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-02-19 02:49:54"
+    },
     "numplays": {
       "value": "0"
     },
@@ -8864,7 +9883,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-02-19 02:49:28"
+    },
     "numplays": {
       "value": "0"
     },
@@ -8955,7 +9985,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-02-19 02:49:38"
+    },
     "numplays": {
       "value": "0"
     },
@@ -9039,7 +10080,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-11-09 07:02:23"
+    },
     "numplays": {
       "value": "0"
     },
@@ -9127,7 +10178,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:06:15"
+    },
     "numplays": {
       "value": "1"
     },
@@ -9215,7 +10276,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:55:04"
+    },
     "numplays": {
       "value": "16"
     },
@@ -9292,7 +10363,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2025-11-11 09:11:42"
+    },
     "numplays": {
       "value": "0"
     },
@@ -9382,7 +10463,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-06 19:54:27"
+    },
     "numplays": {
       "value": "4"
     },
@@ -9471,7 +10562,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-15 15:48:11"
+    },
     "numplays": {
       "value": "0"
     },
@@ -9546,7 +10647,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:57:42"
+    },
     "numplays": {
       "value": "17"
     },
@@ -9629,7 +10740,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-21 10:20:55"
+    },
     "numplays": {
       "value": "1"
     },
@@ -9725,7 +10846,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-21 10:20:57"
+    },
     "numplays": {
       "value": "0"
     },
@@ -9813,7 +10944,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-21 10:20:54"
+    },
     "numplays": {
       "value": "0"
     },
@@ -9900,7 +11041,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-21 10:20:59"
+    },
     "numplays": {
       "value": "0"
     },
@@ -9998,7 +11149,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-21 10:20:56"
+    },
     "numplays": {
       "value": "0"
     },
@@ -10093,7 +11254,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:05:48"
+    },
     "numplays": {
       "value": "6"
     },
@@ -10187,7 +11358,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-10 11:56:03"
+    },
     "numplays": {
       "value": "2"
     },
@@ -10274,7 +11455,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 04:32:20"
+    },
     "numplays": {
       "value": "0"
     },
@@ -10358,7 +11549,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:55:13"
+    },
     "numplays": {
       "value": "1"
     },
@@ -10441,7 +11642,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:04:15"
+    },
     "numplays": {
       "value": "3"
     },
@@ -10524,7 +11735,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-09-10 22:28:56"
+    },
     "numplays": {
       "value": "0"
     },
@@ -10606,7 +11827,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 15:16:50"
+    },
     "numplays": {
       "value": "0"
     },
@@ -10699,7 +11931,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-02-18 08:02:58"
+    },
     "numplays": {
       "value": "0"
     },
@@ -10787,7 +12030,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-19 21:53:13"
+    },
     "numplays": {
       "value": "0"
     },
@@ -10879,7 +12132,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2026-02-13 07:24:18"
+    },
     "numplays": {
       "value": "0"
     },
@@ -10970,7 +12233,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2026-02-13 07:24:44"
+    },
     "numplays": {
       "value": "0"
     },
@@ -11069,7 +12342,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-09-08 10:27:22"
+    },
     "numplays": {
       "value": "3"
     },
@@ -11158,7 +12441,18 @@
         }
       }
     },
-    "status": "wishlist",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "1",
+      "wishlistpriority": "3",
+      "preordered": "0",
+      "lastmodified": "2026-02-19 02:55:24"
+    },
     "numplays": {
       "value": "0"
     },
@@ -11243,7 +12537,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-23 20:25:53"
+    },
     "numplays": {
       "value": "4"
     },
@@ -11338,7 +12642,17 @@
         }
       }
     },
-    "status": "preordered",
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "1",
+      "lastmodified": "2026-02-13 07:26:39"
+    },
     "numplays": {
       "value": "0"
     },
@@ -11425,7 +12739,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:05:36"
+    },
     "numplays": {
       "value": "7"
     },
@@ -11509,7 +12833,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-18 07:18:09"
+    },
     "numplays": {
       "value": "1"
     },
@@ -11583,7 +12917,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-07-19 05:49:00"
+    },
     "numplays": {
       "value": "2"
     },
@@ -11657,7 +13001,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 04:32:58"
+    },
     "numplays": {
       "value": "3"
     },
@@ -11739,7 +13093,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:03:42"
+    },
     "numplays": {
       "value": "4"
     },
@@ -11827,7 +13191,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:01:42"
+    },
     "numplays": {
       "value": "3"
     },
@@ -11911,7 +13285,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-11-03 04:25:03"
+    },
     "numplays": {
       "value": "3"
     },
@@ -11993,7 +13377,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 05:10:43"
+    },
     "numplays": {
       "value": "2"
     },
@@ -12079,7 +13473,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-21 23:09:55"
+    },
     "numplays": {
       "value": "0"
     },
@@ -12170,7 +13574,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 06:49:57"
+    },
     "numplays": {
       "value": "0"
     },
@@ -12257,7 +13671,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-09 06:50:22"
+    },
     "numplays": {
       "value": "0"
     },
@@ -12345,7 +13769,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:01:02"
+    },
     "numplays": {
       "value": "5"
     },
@@ -12428,7 +13862,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 03:05:57"
+    },
     "numplays": {
       "value": "6"
     },
@@ -12500,7 +13944,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-07-29 04:56:58"
+    },
     "numplays": {
       "value": "4"
     },
@@ -12587,7 +14041,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-05-10 05:57:46"
+    },
     "numplays": {
       "value": "1"
     },
@@ -12678,7 +14142,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-15 15:12:02"
+    },
     "numplays": {
       "value": "0"
     },
@@ -12749,7 +14223,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-12-07 04:59:02"
+    },
     "numplays": {
       "value": "4"
     },
@@ -12821,7 +14305,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 04:32:07"
+    },
     "numplays": {
       "value": "0"
     },
@@ -12895,7 +14389,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-01-22 02:56:11"
+    },
     "numplays": {
       "value": "14"
     },
@@ -12977,7 +14481,17 @@
         }
       }
     },
-    "status": "own",
+    "status": {
+      "own": "1",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-21 23:08:22"
+    },
     "numplays": {
       "value": "2"
     },
