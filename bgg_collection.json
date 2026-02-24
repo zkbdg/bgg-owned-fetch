@@ -80,6 +80,7 @@
       "Fantasy"
     ],
     "type": "boardgame",
+    "weight": "1.6949",
     "lastplay": "2026-01-15"
   },
   {
@@ -232,7 +233,7 @@
     },
     "status": "owned",
     "numplays": {
-      "value": "1"
+      "value": "0"
     },
     "designers": [
       "Sid Sackson"
@@ -256,8 +257,7 @@
       "Territory Building"
     ],
     "weight": "2.4903",
-    "type": "boardgame",
-    "lastplay": "2026-02-24"
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -8144,7 +8144,7 @@
         }
       }
     },
-    "status": "preordered",
+    "status": "owned",
     "numplays": {
       "value": "0"
     },
