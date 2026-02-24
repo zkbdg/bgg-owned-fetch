@@ -79,8 +79,8 @@
       "Card Game",
       "Fantasy"
     ],
-    "type": "boardgame",
     "weight": "1.6949",
+    "type": "boardgame",
     "lastplay": "2026-01-15"
   },
   {
@@ -3822,6 +3822,97 @@
       "Science Fiction"
     ],
     "weight": "3.68",
+    "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "367466",
+    "subtype": "boardgame",
+    "collid": "142914074",
+    "name": {
+      "sortindex": "1",
+      "value": "Dune: Imperium – Immortality"
+    },
+    "yearpublished": {
+      "value": "2022"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/wp-Xtg49QE1gEdaik08q9A__original/img/e-TGyTMoEbDJ83ZweLaJ6u3bKBM=/0x0/filters:format(png)/pic6972857.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/wp-Xtg49QE1gEdaik08q9A__small/img/IcRLaWsDjmlbXM0714WyaGKesZc=/fit-in/200x150/filters:strip_icc()/pic6972857.png"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "4",
+      "minplaytime": "60",
+      "maxplaytime": "120",
+      "playingtime": "120",
+      "numowned": "18811",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "4980"
+        },
+        "average": {
+          "value": "8.54854"
+        },
+        "bayesaverage": {
+          "value": "7.50717"
+        },
+        "stddev": {
+          "value": "1.17924"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.50717"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "7.68656"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Paul Dennen"
+    ],
+    "mechanics": [
+      "Card Play Conflict Resolution",
+      "Deck, Bag, and Pool Building",
+      "Force Commitment",
+      "Open Drafting",
+      "Race",
+      "Solo / Solitaire Game",
+      "Turn Order: Progressive",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Movies / TV / Radio theme",
+      "Novel-based",
+      "Political",
+      "Science Fiction"
+    ],
+    "weight": "3.3333",
     "type": "boardgameexpansion"
   },
   {
@@ -8146,7 +8237,7 @@
     },
     "status": "owned",
     "numplays": {
-      "value": "0"
+      "value": "1"
     },
     "designers": [
       "Andreas Seyfarth"
@@ -8166,7 +8257,8 @@
       "Farming"
     ],
     "weight": "3.0417",
-    "type": "boardgame"
+    "type": "boardgame",
+    "lastplay": "2026-02-24"
   },
   {
     "objecttype": "thing",
@@ -11273,6 +11365,263 @@
     "weight": "1.9423",
     "type": "boardgame",
     "lastplay": "2026-02-11"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "364636",
+    "subtype": "boardgame",
+    "collid": "142914116",
+    "name": {
+      "sortindex": "5",
+      "value": "The Quest for El Dorado: Dangers & Muisca"
+    },
+    "yearpublished": {
+      "value": "2022"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/3Rtbwuppg598BeCiL9pipw__original/img/aRXVhonFE0agySi0xXZntXNBES0=/0x0/filters:format(jpeg)/pic6910360.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/3Rtbwuppg598BeCiL9pipw__small/img/RrjLEV-U_zzVkluOI02-XugRSIM=/fit-in/200x150/filters:strip_icc()/pic6910360.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "60",
+      "maxplaytime": "60",
+      "playingtime": "60",
+      "numowned": "2478",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "485"
+        },
+        "average": {
+          "value": "8.06825"
+        },
+        "bayesaverage": {
+          "value": "5.93178"
+        },
+        "stddev": {
+          "value": "1.10037"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": {
+            "type": "subtype",
+            "id": "1",
+            "name": "boardgame",
+            "friendlyname": "Board Game Rank",
+            "value": "Not Ranked",
+            "bayesaverage": "5.93178"
+          }
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Grid Movement",
+      "Hand Management",
+      "Hexagon Grid",
+      "Modular Board",
+      "Multi-Use Cards",
+      "Open Drafting",
+      "Pick-up and Deliver",
+      "Race",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Adventure",
+      "Exploration",
+      "Racing"
+    ],
+    "weight": "2.2",
+    "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "377971",
+    "subtype": "boardgame",
+    "collid": "142914112",
+    "name": {
+      "sortindex": "5",
+      "value": "The Quest for El Dorado: Dragons, Treasures & Mysteries"
+    },
+    "yearpublished": {
+      "value": "2023"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/mxYBlQiNxekK4t_xPzoWsw__original/img/7h3JK_kK-wTaHQNX-DO3TYkQHmc=/0x0/filters:format(jpeg)/pic7278310.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/mxYBlQiNxekK4t_xPzoWsw__small/img/ykRzwJ_8Yd571mSM3kpSPqAZgbc=/fit-in/200x150/filters:strip_icc()/pic7278310.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "60",
+      "maxplaytime": "60",
+      "playingtime": "60",
+      "numowned": "1516",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "237"
+        },
+        "average": {
+          "value": "7.70949"
+        },
+        "bayesaverage": {
+          "value": "5.69488"
+        },
+        "stddev": {
+          "value": "1.21657"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": {
+            "type": "subtype",
+            "id": "1",
+            "name": "boardgame",
+            "friendlyname": "Board Game Rank",
+            "value": "Not Ranked",
+            "bayesaverage": "5.69488"
+          }
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Grid Movement",
+      "Hand Management",
+      "Hexagon Grid",
+      "Modular Board",
+      "Open Drafting",
+      "Race",
+      "Sudden Death Ending",
+      "Take That",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game",
+      "Adventure",
+      "Exploration",
+      "Racing"
+    ],
+    "weight": "2.4286",
+    "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "246431",
+    "subtype": "boardgame",
+    "collid": "142914118",
+    "name": {
+      "sortindex": "5",
+      "value": "The Quest for El Dorado: Heroes & Hexes"
+    },
+    "yearpublished": {
+      "value": "2018"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/QBmpa-_VClr0lEIE132MSw__original/img/kCMhwzVTDIGT9H7pKhymAUd5wm8=/0x0/filters:format(jpeg)/pic6214976.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/QBmpa-_VClr0lEIE132MSw__small/img/aFBGonO3aLLKbU2bWRUqFsD-xaQ=/fit-in/200x150/filters:strip_icc()/pic6214976.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "30",
+      "maxplaytime": "60",
+      "playingtime": "60",
+      "numowned": "9353",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "2135"
+        },
+        "average": {
+          "value": "7.73187"
+        },
+        "bayesaverage": {
+          "value": "6.55305"
+        },
+        "stddev": {
+          "value": "1.14124"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "6.55305"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "Not Ranked",
+              "bayesaverage": "6.75379"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Reiner Knizia"
+    ],
+    "mechanics": [
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Grid Movement",
+      "Hand Management",
+      "Hexagon Grid",
+      "Hot Potato",
+      "Modular Board",
+      "Multi-Use Cards",
+      "Once-Per-Game Abilities",
+      "Open Drafting",
+      "Race",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Expansion for Base-game"
+    ],
+    "weight": "2",
+    "type": "boardgameexpansion"
   },
   {
     "objecttype": "thing",
