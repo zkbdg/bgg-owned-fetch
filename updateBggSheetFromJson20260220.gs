@@ -112,5 +112,5 @@ function updateBggSheetFromJson() {
   sheet.getRange(1, 1, 1, headers.length).setFontWeight("bold").setBackground("#f3f3f3").setHorizontalAlignment("center");
   sheet.getRange(1, 1, sheet.getLastRow() || 1, headers.length).setWrapStrategy(SpreadsheetApp.WrapStrategy.CLIP);
 
-  console.log("更新完了：条件付き書式で色分けを再現しました。");
+  console.log("更新完了しました。");
 }
