@@ -1,168 +1,275 @@
 import os
 import requests
 import time
-import json
 import xml.etree.ElementTree as ET
+import json
+import smtplib
+import datetime
+from email.mime.text import MIMEText
 
-USERNAME = os.environ["BGG_USERNAME"]
+# ====================================
+# 必須: トークンと Cookie
+# ====================================
+BGG_API_TOKEN = os.environ["BGG_API_TOKEN"]
+BGG_COOKIE = os.environ["BGG_COOKIE"]
+API_THING = "https://boardgamegeek.com/xmlapi2/thing"
 
-COLLECTION_URL = f"https://boardgamegeek.com/xmlapi2/collection?username={USERNAME}&own=1&wishlist=1&preordered=1&stats=1"
-PLAYS_URL = f"https://boardgamegeek.com/xmlapi2/plays?username={USERNAME}"
-THING_URL = "https://boardgamegeek.com/xmlapi2/thing?id={ids}&stats=1"
+# ====================================
+# 固定ユーザー名
+# ====================================
+USERNAME = "zakibg"
 
-COLLECTION_FILE = "bgg_collection.json"
-PLAYS_FILE = "bgg_plays.json"
-THING_FILE = "bgg_thing.json"
+# ====================================
+# 設定
+# ====================================
+ROTATION_DAYS = 100
+SLEEP_BETWEEN_CALLS = 1
+SLEEP_ON_429 = 60
 
-# ------------------------
-# Utility
-# ------------------------
+# ====================================
+# XML → dict
+# ====================================
+def xml_to_dict(element):
+    d = {}
+    if element.attrib:
+        d.update(element.attrib)
 
-def fetch_xml(url):
-    while True:
-        r = requests.get(url)
-        if r.status_code == 202:
-            time.sleep(2)
-            continue
-        r.raise_for_status()
-        return ET.fromstring(r.content)
+    children = list(element)
+    if children:
+        for child in children:
+            child_dict = xml_to_dict(child)
+            if child.tag in d:
+                if not isinstance(d[child.tag], list):
+                    d[child.tag] = [d[child.tag]]
+                d[child.tag].append(child_dict)
+            else:
+                d[child.tag] = child_dict
+    else:
+        text = element.text.strip() if element.text else None
+        if text:
+            d["value"] = text
+    return d
 
-# ------------------------
-# 1️⃣ COLLECTION (フル同期)
-# ------------------------
-
-def fetch_collection():
-    root = fetch_xml(COLLECTION_URL)
-    collection = []
-
-    for item in root.findall("item"):
-        game = {
-            "id": item.get("objectid"),
-            "name": item.find("name").text,
-            "yearpublished": item.findtext("yearpublished"),
-            "numplays": item.findtext("numplays"),
-            "status": item.find("status").attrib,
-            "stats": {
-                "rating": {
-                    "value": item.find("stats/rating").attrib.get("value")
-                }
-            }
-        }
-
-        # rank
-        rank = item.find("stats/rating/ranks/rank")
-        if rank is not None:
-            game["stats"]["rank"] = rank.attrib.get("value")
-
-        collection.append(game)
-
-    return collection
-
-def save_json(filename, data):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-# ------------------------
-# 2️⃣ PLAYS (全件取得)
-# ------------------------
-
-def fetch_all_plays():
-    all_plays = []
+# ====================================
+# plays 全件取得
+# ====================================
+def fetch_latest_plays(username):
+    print("Fetching plays...")
+    headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
+    lastplays = {}
     page = 1
 
     while True:
-        url = f"{PLAYS_URL}&page={page}"
-        root = fetch_xml(url)
+        url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame&page={page}"
+        resp = requests.get(url, headers=headers, timeout=60)
+
+        if resp.status_code == 202:
+            time.sleep(5)
+            continue
+
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
 
         plays = root.findall("play")
         if not plays:
             break
 
         for play in plays:
-            entry = {
-                "id": play.get("id"),
-                "date": play.get("date"),
-                "quantity": play.get("quantity"),
-                "game_id": play.find("item").get("objectid"),
-                "game_name": play.find("item").get("name"),
-            }
-            all_plays.append(entry)
+            date = play.get("date")
+            item = play.find("item")
+            if item is None:
+                continue
+            gid = item.get("objectid")
+            if gid and date:
+                if gid not in lastplays or date > lastplays[gid]:
+                    lastplays[gid] = date
 
         page += 1
         time.sleep(1)
 
-    return all_plays
+    print(f"Collected last plays for {len(lastplays)} games")
+    return lastplays
 
-# ------------------------
-# 3️⃣ THING (差分取得)
-# ------------------------
+# ====================================
+# collection 完全取得
+# ====================================
+def fetch_collection(username, flag):
+    url = f"https://boardgamegeek.com/xmlapi2/collection?username={username}&{flag}=1&stats=1"
+    headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
 
-def load_existing_thing():
-    if not os.path.exists(THING_FILE):
-        return {}
-    with open(THING_FILE, "r", encoding="utf-8") as f:
-        return {g["id"]: g for g in json.load(f)}
+    for _ in range(15):
+        resp = requests.get(url, headers=headers, timeout=60)
+        if resp.status_code == 202:
+            time.sleep(5)
+            continue
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+        break
+    else:
+        raise Exception("Collection timeout")
 
-def fetch_thing_batch(ids):
-    url = THING_URL.format(ids=",".join(ids))
-    root = fetch_xml(url)
-
-    results = {}
+    games = []
     for item in root.findall("item"):
-        results[item.get("id")] = {
-            "id": item.get("id"),
-            "minplayers": item.findtext("minplayers"),
-            "maxplayers": item.findtext("maxplayers"),
-            "playingtime": item.findtext("playingtime"),
-        }
+        g = xml_to_dict(item)
+        g["status"] = flag
+        games.append(g)
 
-    return results
+    return games
 
-def update_thing(collection):
-    existing = load_existing_thing()
-    collection_ids = [g["id"] for g in collection]
+# ====================================
+# Thing API
+# ====================================
+def fetch_thing_info(game_id):
+    headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
+    cookies = {"bggsession": BGG_COOKIE}
+    params = {"id": game_id, "stats": 1}
 
-    # 差分対象：
-    # ① 未取得ID
-    # ② 2024年以降発売
-    ids_to_fetch = []
+    while True:
+        resp = requests.get(API_THING, params=params, headers=headers, cookies=cookies)
 
-    for g in collection:
-        if g["id"] not in existing:
-            ids_to_fetch.append(g["id"])
-        elif g.get("yearpublished") and int(g["yearpublished"]) >= 2024:
-            ids_to_fetch.append(g["id"])
+        if resp.status_code == 429:
+            time.sleep(SLEEP_ON_429)
+            continue
+        if resp.status_code == 202:
+            time.sleep(5)
+            continue
 
-    # 50件ずつ
-    for i in range(0, len(ids_to_fetch), 50):
-        batch = ids_to_fetch[i:i+50]
-        print("Fetching thing:", batch)
-        data = fetch_thing_batch(batch)
-        existing.update(data)
-        time.sleep(2)
+        resp.raise_for_status()
+        break
 
-    # 所持から外れたもの削除
-    existing = {k: v for k, v in existing.items() if k in collection_ids}
+    root = ET.fromstring(resp.text)
+    item = root.find("item")
 
-    save_json(THING_FILE, list(existing.values()))
+    designers = [l.attrib["value"] for l in item.findall("link") if l.attrib.get("type") == "boardgamedesigner"]
+    mechanics = [l.attrib["value"] for l in item.findall("link") if l.attrib.get("type") == "boardgamemechanic"]
+    categories = [l.attrib["value"] for l in item.findall("link") if l.attrib.get("type") == "boardgamecategory"]
 
-# ------------------------
-# MAIN
-# ------------------------
+    weight_elem = item.find("statistics/ratings/averageweight")
+    weight = weight_elem.attrib["value"] if weight_elem is not None else None
 
+    game_type = item.attrib.get("type", "boardgame")
+
+    return designers, weight, mechanics, categories, game_type
+
+# ====================================
+# メール
+# ====================================
+def send_email(updated, total, diff_log):
+    EMAIL_FROM = os.environ.get("EMAIL_FROM")
+    EMAIL_TO = os.environ.get("EMAIL_TO")
+    EMAIL_USER = os.environ.get("EMAIL_USER")
+    EMAIL_PASS = os.environ.get("EMAIL_PASS")
+
+    if not all([EMAIL_FROM, EMAIL_TO, EMAIL_USER, EMAIL_PASS]):
+        return
+
+    subject = f"BGG Sync: {updated} thing updates"
+
+    body = f"""Total games: {total}
+Thing updated: {updated}
+
+Collection changes:
+{diff_log if diff_log else "None"}
+"""
+
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = EMAIL_FROM
+    msg["To"] = EMAIL_TO
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+        smtp.login(EMAIL_USER, EMAIL_PASS)
+        smtp.send_message(msg)
+
+# ====================================
+# 実行
+# ====================================
 def main():
-    print("Fetching collection...")
-    collection = fetch_collection()
-    save_json(COLLECTION_FILE, collection)
 
-    print("Fetching plays...")
-    plays = fetch_all_plays()
-    save_json(PLAYS_FILE, plays)
+    today_mod = datetime.date.today().toordinal() % ROTATION_DAYS
+    print(f"Rotation bucket: {today_mod}")
 
-    print("Updating thing (diff)...")
-    update_thing(collection)
+    try:
+        with open("bgg_collection.json", "r", encoding="utf-8") as f:
+            old_data = json.load(f)
+    except FileNotFoundError:
+        old_data = []
 
-    print("Done.")
+    old_dict = {g["objectid"]: g for g in old_data}
+
+    # --- plays ---
+    lastplays = fetch_latest_plays(USERNAME)
+
+    # --- collection完全同期 ---
+    owned = fetch_collection(USERNAME, "own")
+    wishlist = fetch_collection(USERNAME, "wishlist")
+    preordered = fetch_collection(USERNAME, "preordered")
+    prevowned = fetch_collection(USERNAME, "prevowned")
+
+    all_games = owned + wishlist + preordered + prevowned
+    new_dict = {g["objectid"]: g for g in all_games}
+
+    # --- 差分ログ ---
+    diff_lines = []
+
+    for oid, new_game in new_dict.items():
+        if oid in old_dict:
+            old_game = old_dict[oid]
+            if old_game.get("stats") != new_game.get("stats"):
+                diff_lines.append(f"Stats changed: {new_game['name']['value']}")
+        else:
+            diff_lines.append(f"Added: {new_game['name']['value']}")
+
+    removed = set(old_dict) - set(new_dict)
+    for r in removed:
+        diff_lines.append(f"Removed: {old_dict[r]['name']['value']}")
+
+    # --- thing更新対象 ---
+    to_update = []
+
+    for g in new_dict.values():
+        oid = int(g["objectid"])
+
+        if any(k not in g for k in ["designers","mechanics","categories","weight","type"]):
+            to_update.append(g)
+            continue
+
+        if oid % ROTATION_DAYS == today_mod:
+            to_update.append(g)
+
+    print(f"Thing targets: {len(to_update)}")
+
+    updated = 0
+
+    for g in to_update:
+        try:
+            designers, weight, mechanics, categories, game_type = fetch_thing_info(g["objectid"])
+            g["designers"] = designers
+            g["mechanics"] = mechanics
+            g["categories"] = categories
+            g["weight"] = weight
+            g["type"] = game_type
+            updated += 1
+            print(f"Updated {g['name']['value']}")
+            time.sleep(SLEEP_BETWEEN_CALLS)
+        except Exception as e:
+            print("Thing error:", e)
+
+    # --- lastplay統合 ---
+    for oid, date in lastplays.items():
+        if oid in new_dict:
+            new_dict[oid]["lastplay"] = date
+
+    final_list = sorted(new_dict.values(), key=lambda x: x["name"]["value"].lower())
+
+    with open("bgg_collection.json", "w", encoding="utf-8") as f:
+        json.dump(final_list, f, ensure_ascii=False, indent=2)
+
+    print(f"{len(final_list)} games saved")
+    print(f"Thing updated: {updated}")
+
+    send_email(updated, len(final_list), "\n".join(diff_lines))
+
 
 if __name__ == "__main__":
     main()
