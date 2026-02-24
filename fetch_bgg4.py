@@ -7,9 +7,6 @@ import smtplib
 import datetime
 from email.mime.text import MIMEText
 
-# ====================================
-# 必須: トークンと Cookie
-# ====================================
 BGG_API_TOKEN = os.environ["BGG_API_TOKEN"]
 BGG_COOKIE = os.environ["BGG_COOKIE"]
 API_THING = "https://boardgamegeek.com/xmlapi2/thing"
@@ -46,7 +43,7 @@ def xml_to_dict(element):
     return d
 
 # ====================================
-# plays 全件取得
+# plays
 # ====================================
 def fetch_latest_plays(username):
     headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
@@ -84,9 +81,9 @@ def fetch_latest_plays(username):
     return lastplays
 
 # ====================================
-# collection取得
+# collection
 # ====================================
-def fetch_collection(username, param):
+def fetch_collection(username, param, status_label):
     url = f"https://boardgamegeek.com/xmlapi2/collection?username={username}&{param}=1&stats=1"
     headers = {"User-Agent": "Mozilla/5.0", "Cookie": BGG_COOKIE}
 
@@ -104,11 +101,16 @@ def fetch_collection(username, param):
     games = []
     for item in root.findall("item"):
         g = xml_to_dict(item)
+
+        # 👇 statusを単純化
+        g["status"] = status_label
+
         games.append(g)
+
     return games
 
 # ====================================
-# Thing API
+# thing
 # ====================================
 def fetch_thing_info(game_id):
     headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
@@ -143,7 +145,7 @@ def fetch_thing_info(game_id):
 # ====================================
 # メール
 # ====================================
-def send_email(updated_count, total_count):
+def send_email(updated_count, total_count, target_info):
     EMAIL_FROM = os.environ.get("EMAIL_FROM")
     EMAIL_TO = os.environ.get("EMAIL_TO")
     EMAIL_USER = os.environ.get("EMAIL_USER")
@@ -153,7 +155,13 @@ def send_email(updated_count, total_count):
         return
 
     subject = f"BGG Updated: {updated_count} Thing calls"
-    body = f"Total games: {total_count}\nThing updated today: {updated_count}"
+
+    body = (
+        f"Total games: {total_count}\n"
+        f"Thing updated today: {updated_count}\n\n"
+        f"Targets ({len(target_info)}):\n"
+        + "\n".join(target_info)
+    )
 
     msg = MIMEText(body)
     msg["Subject"] = subject
@@ -165,7 +173,7 @@ def send_email(updated_count, total_count):
         smtp.send_message(msg)
 
 # ====================================
-# 実行
+# main
 # ====================================
 def main():
 
@@ -179,36 +187,42 @@ def main():
 
     old_dict = {g["objectid"]: g for g in old_data}
 
-    # --- collection完全同期 ---
-    owned = fetch_collection(USERNAME, "own")
-    wishlist = fetch_collection(USERNAME, "wishlist")
-    preordered = fetch_collection(USERNAME, "preordered")
-    prevowned = fetch_collection(USERNAME, "prevowned")
+    # collection完全同期
+    owned = fetch_collection(USERNAME, "own", "owned")
+    wishlist = fetch_collection(USERNAME, "wishlist", "wishlist")
+    preordered = fetch_collection(USERNAME, "preordered", "preordered")
+    prevowned = fetch_collection(USERNAME, "prevowned", "previouslyowned")
 
     all_games = owned + wishlist + preordered + prevowned
     new_dict = {g["objectid"]: g for g in all_games}
 
-    # --- thing情報だけ移植 ---
+    # thing情報移植
     for oid, g in new_dict.items():
         if oid in old_dict:
             for key in THING_KEYS:
                 if key in old_dict[oid]:
                     g[key] = old_dict[oid][key]
 
-    # --- thing差分判定 ---
+    # thing差分判定（理由付き）
     to_update = []
+    target_info = []
 
     for g in new_dict.values():
         oid = int(g["objectid"])
+        name = g["name"]["value"]
 
         if any(k not in g for k in THING_KEYS):
             to_update.append(g)
+            target_info.append(f"{name} (missing thing data)")
             continue
 
         if oid % ROTATION_DAYS == today_mod:
             to_update.append(g)
+            target_info.append(f"{name} (rotation bucket)")
 
     print(f"Thing targets: {len(to_update)}")
+    for t in target_info:
+        print(f"  - {t}")
 
     updated = 0
 
@@ -225,13 +239,12 @@ def main():
         except Exception as e:
             print(f"Thing error {game['objectid']} {e}")
 
-    # --- plays ---
+    # plays
     lastplays = fetch_latest_plays(USERNAME)
     for oid, date in lastplays.items():
         if oid in new_dict:
             new_dict[oid]["lastplay"] = date
 
-    # --- 保存 ---
     final_list = sorted(new_dict.values(), key=lambda x: x["name"]["value"].lower())
 
     with open("bgg_collection.json", "w", encoding="utf-8") as f:
@@ -240,7 +253,7 @@ def main():
     print(f"{len(final_list)} games saved")
     print(f"Thing updated: {updated}")
 
-    send_email(updated, len(final_list))
+    send_email(updated, len(final_list), target_info)
 
 
 if __name__ == "__main__":
