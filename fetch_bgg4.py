@@ -101,10 +101,7 @@ def fetch_collection(username, param, status_label):
     games = []
     for item in root.findall("item"):
         g = xml_to_dict(item)
-
-        # 👇 statusを単純化
         g["status"] = status_label
-
         games.append(g)
 
     return games
@@ -187,7 +184,6 @@ def main():
 
     old_dict = {g["objectid"]: g for g in old_data}
 
-    # collection完全同期
     owned = fetch_collection(USERNAME, "own", "owned")
     wishlist = fetch_collection(USERNAME, "wishlist", "wishlist")
     preordered = fetch_collection(USERNAME, "preordered", "preordered")
@@ -196,14 +192,12 @@ def main():
     all_games = owned + wishlist + preordered + prevowned
     new_dict = {g["objectid"]: g for g in all_games}
 
-    # thing情報移植
     for oid, g in new_dict.items():
         if oid in old_dict:
             for key in THING_KEYS:
                 if key in old_dict[oid]:
                     g[key] = old_dict[oid][key]
 
-    # thing差分判定（理由付き）
     to_update = []
     target_info = []
 
@@ -239,8 +233,16 @@ def main():
         except Exception as e:
             print(f"Thing error {game['objectid']} {e}")
 
-    # plays
+    # ================================
+    # plays（完全同期）
+    # ================================
     lastplays = fetch_latest_plays(USERNAME)
+
+    # 既存lastplayを一旦削除
+    for g in new_dict.values():
+        g.pop("lastplay", None)
+
+    # 最新playsを再付与
     for oid, date in lastplays.items():
         if oid in new_dict:
             new_dict[oid]["lastplay"] = date
