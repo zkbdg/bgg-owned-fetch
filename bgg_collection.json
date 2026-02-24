@@ -8173,42 +8173,42 @@
   },
   {
     "objecttype": "thing",
-    "objectid": "318985",
+    "objectid": "3076",
     "subtype": "boardgame",
-    "collid": "142845562",
+    "collid": "142915608",
     "name": {
       "sortindex": "1",
       "value": "Puerto Rico"
     },
     "yearpublished": {
-      "value": "2020"
+      "value": "2002"
     },
     "image": {
-      "value": "https://cf.geekdo-images.com/OA0K6zAeAHGjx8s8-H5P0A__original/img/NA8MZeacPkv1dm9dAwlbspjOb4w=/0x0/filters:format(jpeg)/pic5657345.jpg"
+      "value": "https://cf.geekdo-images.com/QFiIRd2kimaMqTyWsX0aUg__original/img/DOgIp57F7tKZvxeITGAd3e_Q9as=/0x0/filters:format(jpeg)/pic158548.jpg"
     },
     "thumbnail": {
-      "value": "https://cf.geekdo-images.com/OA0K6zAeAHGjx8s8-H5P0A__small/img/AdExcsAZuRn4V9ozAhS_waprgNU=/fit-in/200x150/filters:strip_icc()/pic5657345.jpg"
+      "value": "https://cf.geekdo-images.com/QFiIRd2kimaMqTyWsX0aUg__small/img/5fLo89ChZH6Wzukk36bhZ-EpBS0=/fit-in/200x150/filters:strip_icc()/pic158548.jpg"
     },
     "stats": {
-      "minplayers": "2",
+      "minplayers": "3",
       "maxplayers": "5",
-      "minplaytime": "70",
-      "maxplaytime": "120",
-      "playingtime": "120",
-      "numowned": "3937",
+      "minplaytime": "90",
+      "maxplaytime": "150",
+      "playingtime": "150",
+      "numowned": "84674",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1535"
+          "value": "73887"
         },
         "average": {
-          "value": "7.97783"
+          "value": "7.89889"
         },
         "bayesaverage": {
-          "value": "6.44231"
+          "value": "7.75345"
         },
         "stddev": {
-          "value": "1.3621"
+          "value": "1.38985"
         },
         "median": {
           "value": "0"
@@ -8220,16 +8220,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "Not Ranked",
-              "bayesaverage": "6.44231"
+              "value": "54",
+              "bayesaverage": "7.75345"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "Not Ranked",
-              "bayesaverage": "6.61018"
+              "value": "54",
+              "bayesaverage": "7.74241"
             }
           ]
         }
@@ -8237,7 +8237,7 @@
     },
     "status": "owned",
     "numplays": {
-      "value": "1"
+      "value": "0"
     },
     "designers": [
       "Andreas Seyfarth"
@@ -8256,9 +8256,8 @@
       "Economic",
       "Farming"
     ],
-    "weight": "3.0417",
-    "type": "boardgame",
-    "lastplay": "2026-02-24"
+    "weight": "3.2671",
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
@@ -12821,7 +12820,7 @@
       "playingtime": "20",
       "numowned": "145",
       "rating": {
-        "value": "N/A",
+        "value": "6",
         "usersrated": {
           "value": "56"
         },
