@@ -175,7 +175,8 @@ def send_email(updated_count, total_count, target_info):
     if not all([EMAIL_FROM, EMAIL_TO, EMAIL_USER, EMAIL_PASS]):
         return
 
-    subject = f"BGG Updated: {updated_count} Thing calls"
+    total_api_calls = updated_count + COLLECTION_CALLS + PLAYS_CALLS
+    subject = f"BGG_Collection Updated: {total_api_calls} API Calls"
 
     body = (
         f"Total games: {total_count}\n"
