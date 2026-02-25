@@ -7817,6 +7817,81 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "188018",
+    "subtype": "boardgame",
+    "collid": "142950516",
+    "name": {
+      "sortindex": "1",
+      "value": "Nine Tiles"
+    },
+    "yearpublished": {
+      "value": "2015"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/GPqt86JzvoBc546JyDLcwQ__original/img/6BFMLkfUSo1K80Ay8ibBro9DoEw=/0x0/filters:format(png)/pic5783648.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/GPqt86JzvoBc546JyDLcwQ__small/img/EDNlx3F3JOf-y55Jv6Z8xRSE5cE=/fit-in/200x150/filters:strip_icc()/pic5783648.png"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "15",
+      "maxplaytime": "15",
+      "playingtime": "15",
+      "numowned": "1144",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "497"
+        },
+        "average": {
+          "value": "6.44692"
+        },
+        "bayesaverage": {
+          "value": "5.65262"
+        },
+        "stddev": {
+          "value": "1.50747"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": {
+            "type": "subtype",
+            "id": "1",
+            "name": "boardgame",
+            "friendlyname": "Board Game Rank",
+            "value": "7339",
+            "bayesaverage": "5.65262"
+          }
+        }
+      }
+    },
+    "status": "played(not owned)",
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Jean-Claude Pellin"
+    ],
+    "mechanics": [
+      "Pattern Building",
+      "Pattern Recognition",
+      "Player Elimination",
+      "Tile Placement"
+    ],
+    "categories": [
+      "Action / Dexterity",
+      "Real-time"
+    ],
+    "weight": "1.0833",
+    "type": "boardgame",
+    "lastplay": "2026-02-21"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "284435",
     "subtype": "boardgame",
     "collid": "139220306",
@@ -13752,6 +13827,77 @@
     ],
     "weight": "1.3758",
     "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "458859",
+    "subtype": "boardgame",
+    "collid": "142950505",
+    "name": {
+      "sortindex": "12",
+      "value": "ウロボロストリック (Ouroboros Trick)"
+    },
+    "yearpublished": {
+      "value": "2025"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/Mg44zm-V1PIMWaXobu6Oaw__original/img/l0kLl12WUUF-AqaFyIShRV-pTOs=/0x0/filters:format(jpeg)/pic9243804.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/Mg44zm-V1PIMWaXobu6Oaw__small/img/ynq8z3t5WO_MPFdxjySgEMDS4pY=/fit-in/200x150/filters:strip_icc()/pic9243804.jpg"
+    },
+    "stats": {
+      "minplayers": "3",
+      "maxplayers": "5",
+      "minplaytime": "15",
+      "maxplaytime": "20",
+      "playingtime": "20",
+      "numowned": "36",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "20"
+        },
+        "average": {
+          "value": "7.45"
+        },
+        "bayesaverage": {
+          "value": "0"
+        },
+        "stddev": {
+          "value": "1.33173"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": {
+            "type": "subtype",
+            "id": "1",
+            "name": "boardgame",
+            "friendlyname": "Board Game Rank",
+            "value": "Not Ranked",
+            "bayesaverage": "Not Ranked"
+          }
+        }
+      }
+    },
+    "status": "played(not owned)",
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Yoshiteru Shinohara"
+    ],
+    "mechanics": [
+      "Trick-taking"
+    ],
+    "categories": [
+      "Card Game"
+    ],
+    "weight": "2",
+    "type": "boardgame",
+    "lastplay": "2026-02-21"
   },
   {
     "objecttype": "thing",
