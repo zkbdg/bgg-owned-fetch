@@ -46,45 +46,46 @@ def xml_to_dict(element):
     return d
 
 # ====================================
-# plays
+# plays（boardgame + boardgameexpansion 対応）
 # ====================================
 def fetch_latest_plays(username, full_refresh=False):
     global PLAYS_CALLS
     headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
     lastplays = {}
-    page = 1
 
-    while True:
-        url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame&page={page}"
-        resp = requests.get(url, headers=headers, timeout=60)
-        PLAYS_CALLS += 1
+    for subtype in ["boardgame", "boardgameexpansion"]:
+        page = 1
+        while True:
+            url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype={subtype}&page={page}"
+            resp = requests.get(url, headers=headers, timeout=60)
+            PLAYS_CALLS += 1
 
-        if resp.status_code == 202:
-            time.sleep(5)
-            continue
-
-        resp.raise_for_status()
-        root = ET.fromstring(resp.content)
-        plays = root.findall("play")
-
-        if not plays:
-            break
-
-        for play in plays:
-            date = play.get("date")
-            item = play.find("item")
-            if item is None:
+            if resp.status_code == 202:
+                time.sleep(5)
                 continue
-            game_id = item.get("objectid")
-            if game_id and date:
-                if game_id not in lastplays or date > lastplays[game_id]:
-                    lastplays[game_id] = date
 
-        if not full_refresh:
-            break
+            resp.raise_for_status()
+            root = ET.fromstring(resp.content)
+            plays = root.findall("play")
 
-        page += 1
-        time.sleep(1)
+            if not plays:
+                break
+
+            for play in plays:
+                date = play.get("date")
+                item = play.find("item")
+                if item is None:
+                    continue
+                game_id = item.get("objectid")
+                if game_id and date:
+                    if game_id not in lastplays or date > lastplays[game_id]:
+                        lastplays[game_id] = date
+
+            if not full_refresh:
+                break
+
+            page += 1
+            time.sleep(1)
 
     return lastplays
 
