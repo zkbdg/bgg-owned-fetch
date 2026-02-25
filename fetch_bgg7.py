@@ -55,7 +55,7 @@ def fetch_latest_plays(username, full_refresh=False):
     page = 1
 
     while True:
-        url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame&page={page}"
+        url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame,boardgameexpansion&page={page}"
         resp = requests.get(url, headers=headers, timeout=60)
         PLAYS_CALLS += 1
 
