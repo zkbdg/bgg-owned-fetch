@@ -18,6 +18,10 @@ SLEEP_ON_429 = 60
 
 THING_KEYS = ["designers", "mechanics", "categories", "weight", "type"]
 
+# ★ 追加：APIカウンタ
+COLLECTION_CALLS = 0
+PLAYS_CALLS = 0
+
 # ====================================
 # XML → dict
 # ====================================
@@ -45,6 +49,7 @@ def xml_to_dict(element):
 # plays
 # ====================================
 def fetch_latest_plays(username, full_refresh=False):
+    global PLAYS_CALLS
     headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
     lastplays = {}
     page = 1
@@ -52,6 +57,7 @@ def fetch_latest_plays(username, full_refresh=False):
     while True:
         url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame&page={page}"
         resp = requests.get(url, headers=headers, timeout=60)
+        PLAYS_CALLS += 1
 
         if resp.status_code == 202:
             time.sleep(5)
@@ -86,11 +92,14 @@ def fetch_latest_plays(username, full_refresh=False):
 # collection（1回取得版）
 # ====================================
 def fetch_collection_all(username):
+    global COLLECTION_CALLS
     url = f"https://boardgamegeek.com/xmlapi2/collection?username={username}&stats=1"
     headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
 
     for _ in range(15):
         resp = requests.get(url, headers=headers, timeout=60)
+        COLLECTION_CALLS += 1
+
         if resp.status_code == 202 or not resp.text.strip():
             time.sleep(5)
             continue
@@ -115,7 +124,7 @@ def fetch_collection_all(username):
                 g["status"] = "preordered"
             elif status_node.get("prevowned") == "1":
                 g["status"] = "previouslyowned"
-            else :
+            else:
                 g["status"] = "played(not owned)"
 
         games.append(g)
@@ -170,7 +179,9 @@ def send_email(updated_count, total_count, target_info):
 
     body = (
         f"Total games: {total_count}\n"
-        f"Thing updated today: {updated_count}\n\n"
+        f"Thing updated today: {updated_count}\n"
+        f"Collection API calls: {COLLECTION_CALLS}\n"
+        f"Plays API calls: {PLAYS_CALLS}\n\n"
         f"Targets ({len(target_info)}):\n"
         + "\n".join(target_info)
     )
@@ -201,9 +212,7 @@ def main():
 
     old_dict = {g["objectid"]: g for g in old_data}
 
-    # ★ ここだけ変更（4回→1回）
     all_games = fetch_collection_all(USERNAME)
-
     new_dict = {g["objectid"]: g for g in all_games}
 
     for oid, g in new_dict.items():
@@ -212,9 +221,6 @@ def main():
                 if key in old_dict[oid]:
                     g[key] = old_dict[oid][key]
 
-    # ====================================
-    # thing（ローテのみ）
-    # ====================================
     to_update = []
     target_info = []
 
@@ -247,9 +253,6 @@ def main():
         except Exception as e:
             print(f"Thing error {game['objectid']} {e}")
 
-    # ====================================
-    # plays
-    # ====================================
     print("Fetching plays...")
     lastplays = fetch_latest_plays(USERNAME, full_refresh=is_monthly_refresh)
 
@@ -268,6 +271,8 @@ def main():
 
     print(f"{len(final_list)} games saved")
     print(f"Thing updated: {updated}")
+    print(f"Collection API calls: {COLLECTION_CALLS}")
+    print(f"Plays API calls: {PLAYS_CALLS}")
 
     send_email(updated, len(final_list), target_info)
 
