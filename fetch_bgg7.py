@@ -116,7 +116,7 @@ def fetch_collection_all(username):
             elif status_node.get("prevowned") == "1":
                 g["status"] = "previouslyowned"
             else :
-                g["status"] = "played(not owned"
+                g["status"] = "played(not owned)"
 
         games.append(g)
 
