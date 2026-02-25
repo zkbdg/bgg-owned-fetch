@@ -115,6 +115,8 @@ def fetch_collection_all(username):
                 g["status"] = "preordered"
             elif status_node.get("prevowned") == "1":
                 g["status"] = "previouslyowned"
+            else
+                g["status"] = "played(not owned"
 
         games.append(g)
 
