@@ -44,7 +44,7 @@ def xml_to_dict(element):
 # ====================================
 # plays
 # ====================================
-def fetch_latest_plays(username):
+def fetch_latest_plays(username, full_refresh=False):
     headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
     lastplays = {}
     page = 1
@@ -73,6 +73,10 @@ def fetch_latest_plays(username):
             if game_id and date:
                 if game_id not in lastplays or date > lastplays[game_id]:
                     lastplays[game_id] = date
+
+        # 通常日は1ページで終了
+        if not full_refresh:
+            break
 
         page += 1
         time.sleep(1)
@@ -174,7 +178,7 @@ def main():
 
     today = datetime.date.today()
     today_mod = today.toordinal() % ROTATION_DAYS
-    full_refresh = today.day == 1  # 月初だけlastplay完全同期
+    is_monthly_refresh = today.day == 1  # 月初のみ完全同期
 
     try:
         with open("bgg_collection.json", "r", encoding="utf-8") as f:
@@ -192,16 +196,16 @@ def main():
     all_games = owned + wishlist + preordered + prevowned
     new_dict = {g["objectid"]: g for g in all_games}
 
-    # 既存thingデータ引き継ぎ
+    # 既存THING情報引き継ぎ
     for oid, g in new_dict.items():
         if oid in old_dict:
             for key in THING_KEYS:
                 if key in old_dict[oid]:
                     g[key] = old_dict[oid][key]
 
-    # ================================
-    # thing ローテーション
-    # ================================
+    # ====================================
+    # thing（ローテのみ）
+    # ====================================
     to_update = []
     target_info = []
 
@@ -234,22 +238,22 @@ def main():
         except Exception as e:
             print(f"Thing error {game['objectid']} {e}")
 
-    # ================================
-    # lastplay（月初のみ完全同期）
-    # ================================
-    lastplays = fetch_latest_plays(USERNAME)
+    # ====================================
+    # plays
+    # ====================================
+    print("Fetching plays...")
+    lastplays = fetch_latest_plays(USERNAME, full_refresh=is_monthly_refresh)
 
-    if full_refresh:
+    if is_monthly_refresh:
+        # 月初は完全同期
         for g in new_dict.values():
             g.pop("lastplay", None)
 
+    # 最新playsを反映
     for oid, date in lastplays.items():
         if oid in new_dict:
             new_dict[oid]["lastplay"] = date
 
-    # ================================
-    # 保存
-    # ================================
     final_list = sorted(new_dict.values(), key=lambda x: x["name"]["value"].lower())
 
     with open("bgg_collection.json", "w", encoding="utf-8") as f:
