@@ -166,7 +166,7 @@ def fetch_thing_info(game_id):
 # ====================================
 # メール
 # ====================================
-def send_email(updated_count, total_count, target_info):
+def send_email(updated_count, total_count, target_info, is_monthly_refresh):
     EMAIL_FROM = os.environ.get("EMAIL_FROM")
     EMAIL_TO = os.environ.get("EMAIL_TO")
     EMAIL_USER = os.environ.get("EMAIL_USER")
@@ -179,6 +179,7 @@ def send_email(updated_count, total_count, target_info):
     subject = f"BGG_Collection Updated: {total_api_calls} API Calls"
 
     body = (
+        f"Plays sync mode: {'FULL REFRESH' if is_monthly_refresh else 'INCREMENTAL'}\n"
         f"Total games: {total_count}\n"
         f"Thing updated today: {updated_count}\n"
         f"Collection API calls: {COLLECTION_CALLS}\n"
@@ -205,6 +206,11 @@ def main():
     today_mod = today.toordinal() % ROTATION_DAYS
     is_monthly_refresh = today.day == 25
 
+    if is_monthly_refresh:
+        print("Plays sync mode: FULL REFRESH")
+    else:
+        print("Plays sync mode: INCREMENTAL")
+
     try:
         with open("bgg_collection.json", "r", encoding="utf-8") as f:
             old_data = json.load(f)
@@ -221,6 +227,9 @@ def main():
             for key in THING_KEYS:
                 if key in old_dict[oid]:
                     g[key] = old_dict[oid][key]
+
+        if not is_monthly_refresh and oid in old_dict and "lastplay" in old_dict[oid]:
+            g["lastplay"] = old_dict[oid]["lastplay"]
 
     to_update = []
     target_info = []
@@ -275,7 +284,7 @@ def main():
     print(f"Collection API calls: {COLLECTION_CALLS}")
     print(f"Plays API calls: {PLAYS_CALLS}")
 
-    send_email(updated, len(final_list), target_info)
+    send_email(updated, len(final_list), target_info, is_monthly_refresh)
 
 
 if __name__ == "__main__":
