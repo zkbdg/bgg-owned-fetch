@@ -203,7 +203,7 @@ def main():
 
     today = datetime.date.today()
     today_mod = today.toordinal() % ROTATION_DAYS
-    is_monthly_refresh = today.day == 1
+    is_monthly_refresh = today.day == 25
 
     try:
         with open("bgg_collection.json", "r", encoding="utf-8") as f:
