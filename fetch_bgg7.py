@@ -203,9 +203,12 @@ def send_email(updated_count, total_count, target_info, is_monthly_refresh):
 # ====================================
 def main():
 
-    today = datetime.date.today()
+    # JST基準で今日の日付を取得
+    JST = datetime.timezone(datetime.timedelta(hours=9))
+    today = datetime.datetime.now(JST).date()
+
     today_mod = today.toordinal() % ROTATION_DAYS
-    is_monthly_refresh = today.day == 25
+    is_monthly_refresh = today.day == 1
 
     if is_monthly_refresh:
         print("Plays sync mode: FULL REFRESH")
