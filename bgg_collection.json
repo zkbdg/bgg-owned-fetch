@@ -2369,6 +2369,113 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "232832",
+    "subtype": "boardgame",
+    "collid": "131864633",
+    "name": {
+      "sortindex": "1",
+      "value": "Century: Golem Edition"
+    },
+    "yearpublished": {
+      "value": "2017"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/1bihoShOuqaCuZJXB3Q2gQ__original/img/fvGzpqyud6Oz1BWOe4gItWWb8P0=/0x0/filters:format(jpeg)/pic3936124.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/1bihoShOuqaCuZJXB3Q2gQ__small/img/dvGQkdnwtcwAmcxHR_7J17OsLjQ=/fit-in/200x150/filters:strip_icc()/pic3936124.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "5",
+      "minplaytime": "30",
+      "maxplaytime": "45",
+      "playingtime": "45",
+      "numowned": "21507",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "13985"
+        },
+        "average": {
+          "value": "7.5787"
+        },
+        "bayesaverage": {
+          "value": "7.23148"
+        },
+        "stddev": {
+          "value": "1.20833"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "276",
+              "bayesaverage": "7.23148"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "218",
+              "bayesaverage": "7.25989"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "52",
+              "bayesaverage": "7.30163"
+            }
+          ]
+        }
+      }
+    },
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-08-13 21:05:22"
+    },
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Emerson Matsuuchi"
+    ],
+    "mechanics": [
+      "Action Retrieval",
+      "Auction: Dutch",
+      "Contracts",
+      "Deck, Bag, and Pool Building",
+      "Hand Management",
+      "Increase Value of Unchosen Resources",
+      "Open Drafting",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game",
+      "Economic",
+      "Fantasy"
+    ],
+    "weight": "1.7168",
+    "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "346625",
     "subtype": "boardgame",
     "collid": "132122899",
@@ -3727,6 +3834,114 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "316554",
+    "subtype": "boardgame",
+    "collid": "142414867",
+    "name": {
+      "sortindex": "1",
+      "value": "Dune: Imperium"
+    },
+    "yearpublished": {
+      "value": "2020"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__original/img/mZzaBAEEJpMlHWWmC0R6Su0OibQ=/0x0/filters:format(jpeg)/pic5666597.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__small/img/JGgY-nBmkyB8WRp8vcoBLlNMQ5U=/fit-in/200x150/filters:strip_icc()/pic5666597.jpg"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "4",
+      "minplaytime": "60",
+      "maxplaytime": "120",
+      "playingtime": "120",
+      "numowned": "76474",
+      "rating": {
+        "value": "8",
+        "usersrated": {
+          "value": "57206"
+        },
+        "average": {
+          "value": "8.41395"
+        },
+        "bayesaverage": {
+          "value": "8.22372"
+        },
+        "stddev": {
+          "value": "1.2869"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "5",
+              "bayesaverage": "8.22372"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "7",
+              "bayesaverage": "8.22055"
+            }
+          ]
+        }
+      }
+    },
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-10 11:54:08"
+    },
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Paul Dennen"
+    ],
+    "mechanics": [
+      "Card Play Conflict Resolution",
+      "Deck, Bag, and Pool Building",
+      "Delayed Purchase",
+      "Force Commitment",
+      "Increase Value of Unchosen Resources",
+      "Multi-Use Cards",
+      "Open Drafting",
+      "Ownership",
+      "Race",
+      "Solo / Solitaire Game",
+      "Tags",
+      "Take That",
+      "Turn Order: Progressive",
+      "Variable Player Powers",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Movies / TV / Radio theme",
+      "Novel-based",
+      "Political",
+      "Science Fiction"
+    ],
+    "weight": "3.0762",
+    "type": "boardgame",
+    "lastplay": "2026-01-27"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "426129",
     "subtype": "boardgame",
     "collid": "136317238",
@@ -4091,6 +4306,111 @@
     ],
     "weight": "3.5243",
     "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "6281",
+    "subtype": "boardgame",
+    "collid": "142910222",
+    "name": {
+      "sortindex": "1",
+      "value": "Eketorp"
+    },
+    "yearpublished": {
+      "value": "2003"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/Lrla-DYzxXgCHZo1UTo0Kw__original/img/H4oYl_l4vet8n7zC-ld5qt5DE24=/0x0/filters:format(jpeg)/pic1175189.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/Lrla-DYzxXgCHZo1UTo0Kw__small/img/U8bZ_D2YTJpLEWl5XmO9O_EKojA=/fit-in/200x150/filters:strip_icc()/pic1175189.jpg"
+    },
+    "stats": {
+      "minplayers": "3",
+      "maxplayers": "6",
+      "minplaytime": "45",
+      "maxplaytime": "60",
+      "playingtime": "60",
+      "numowned": "2121",
+      "rating": {
+        "value": "6.5",
+        "usersrated": {
+          "value": "1437"
+        },
+        "average": {
+          "value": "6.34782"
+        },
+        "bayesaverage": {
+          "value": "5.81352"
+        },
+        "stddev": {
+          "value": "1.28888"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "4595",
+              "bayesaverage": "5.81352"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "1901",
+              "bayesaverage": "5.88594"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "1437",
+              "bayesaverage": "5.89378"
+            }
+          ]
+        }
+      }
+    },
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-23 20:21:24"
+    },
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Dirk Henn"
+    ],
+    "mechanics": [
+      "Action Queue",
+      "Hand Management",
+      "Secret Unit Deployment",
+      "Simultaneous Action Selection",
+      "Worker Placement"
+    ],
+    "categories": [
+      "Bluffing",
+      "Fighting",
+      "Medieval"
+    ],
+    "weight": "2.0811",
+    "type": "boardgame",
+    "lastplay": "2026-02-21"
   },
   {
     "objecttype": "thing",
@@ -4953,6 +5273,89 @@
     "weight": "1.626",
     "type": "boardgame",
     "lastplay": "2026-02-01"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "450112",
+    "subtype": "boardgame",
+    "collid": "142910291",
+    "name": {
+      "sortindex": "1",
+      "value": "Ghost Lift"
+    },
+    "yearpublished": {
+      "value": "2025"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/QFL7SqrX-6VAHkZsjP4JpA__original/img/XhLeu7D9mZ-sH1ggvJjyGXqJYsg=/0x0/filters:format(jpeg)/pic8985058.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/QFL7SqrX-6VAHkZsjP4JpA__small/img/dIJHxddbMrrGDfkzE_3mMW0g1AY=/fit-in/200x150/filters:strip_icc()/pic8985058.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "6",
+      "minplaytime": "15",
+      "maxplaytime": "30",
+      "playingtime": "30",
+      "numowned": "347",
+      "rating": {
+        "value": "6.5",
+        "usersrated": {
+          "value": "290"
+        },
+        "average": {
+          "value": "6.61103"
+        },
+        "bayesaverage": {
+          "value": "5.61621"
+        },
+        "stddev": {
+          "value": "1.47771"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": {
+            "type": "subtype",
+            "id": "1",
+            "name": "boardgame",
+            "friendlyname": "Board Game Rank",
+            "value": "8524",
+            "bayesaverage": "5.61621"
+          }
+        }
+      }
+    },
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2026-02-23 20:24:30"
+    },
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "尾根ギア (Onegear)"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Ladder Climbing",
+      "Score-and-Reset Game"
+    ],
+    "categories": [
+      "Card Game"
+    ],
+    "weight": "1.25",
+    "type": "boardgame",
+    "lastplay": "2026-02-21"
   },
   {
     "objecttype": "thing",
@@ -7840,6 +8243,116 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "161936",
+    "subtype": "boardgame",
+    "collid": "135207368",
+    "name": {
+      "sortindex": "1",
+      "value": "Pandemic Legacy: Season 1"
+    },
+    "yearpublished": {
+      "value": "2015"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__original/img/PlzAH7swN1nsFxOXbfUvE3TkE5w=/0x0/filters:format(png)/pic2452831.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__small/img/NQQcjS31TO0DE246N9rpt0hd9eo=/fit-in/200x150/filters:strip_icc()/pic2452831.png"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "60",
+      "maxplaytime": "60",
+      "playingtime": "60",
+      "numowned": "88882",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "57054"
+        },
+        "average": {
+          "value": "8.50496"
+        },
+        "bayesaverage": {
+          "value": "8.34877"
+        },
+        "stddev": {
+          "value": "1.60843"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "3",
+              "bayesaverage": "8.34877"
+            },
+            {
+              "type": "family",
+              "id": "5496",
+              "name": "thematic",
+              "friendlyname": "Thematic Rank",
+              "value": "1",
+              "bayesaverage": "8.35634"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "3",
+              "bayesaverage": "8.33704"
+            }
+          ]
+        }
+      }
+    },
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-08-09 22:12:22"
+    },
+    "numplays": {
+      "value": "2"
+    },
+    "designers": [
+      "Rob Daviau",
+      "Matt Leacock"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Cooperative Game",
+      "Hand Management",
+      "Legacy Game",
+      "Multi-Use Cards",
+      "Point to Point Movement",
+      "Scenario / Mission / Campaign Game",
+      "Set Collection",
+      "Tags",
+      "Trading",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Environmental",
+      "Medical"
+    ],
+    "weight": "2.8279",
+    "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "56933",
     "subtype": "boardgame",
     "collid": "131872629",
@@ -10370,6 +10883,104 @@
     ],
     "weight": "2.1569",
     "type": "boardgameexpansion"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "370913",
+    "subtype": "boardgame",
+    "collid": "135212641",
+    "name": {
+      "sortindex": "1",
+      "value": "Star Wars: The Clone Wars"
+    },
+    "yearpublished": {
+      "value": "2022"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/3d4Yptz2IUC2ZAxtdPidig__original/img/0q0SHD60yNcZHW3eS9rzwrCXQLU=/0x0/filters:format(jpeg)/pic8211893.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/3d4Yptz2IUC2ZAxtdPidig__small/img/8k4-L_HBKfD7AaNu2OmsrX-vIcs=/fit-in/200x150/filters:strip_icc()/pic8211893.jpg"
+    },
+    "stats": {
+      "minplayers": "1",
+      "maxplayers": "5",
+      "minplaytime": "60",
+      "maxplaytime": "60",
+      "playingtime": "60",
+      "numowned": "12516",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "4872"
+        },
+        "average": {
+          "value": "7.52021"
+        },
+        "bayesaverage": {
+          "value": "6.80456"
+        },
+        "stddev": {
+          "value": "1.15885"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "744",
+              "bayesaverage": "6.80456"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "476",
+              "bayesaverage": "6.89451"
+            }
+          ]
+        }
+      }
+    },
+    "status": {
+      "own": "0",
+      "prevowned": "0",
+      "fortrade": "0",
+      "want": "0",
+      "wanttoplay": "0",
+      "wanttobuy": "0",
+      "wishlist": "0",
+      "preordered": "0",
+      "lastmodified": "2025-08-10 02:44:47"
+    },
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Alexandar Ortloff-Tang"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Cooperative Game",
+      "Die Icon Resolution",
+      "Hand Management",
+      "Point to Point Movement",
+      "Set Collection",
+      "Solo / Solitaire Game",
+      "Variable Player Powers"
+    ],
+    "categories": [
+      "Movies / TV / Radio theme",
+      "Science Fiction"
+    ],
+    "weight": "2.1591",
+    "type": "boardgame"
   },
   {
     "objecttype": "thing",
