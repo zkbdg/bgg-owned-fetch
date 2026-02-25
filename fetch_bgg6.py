@@ -42,14 +42,12 @@ def xml_to_dict(element):
     return d
 
 # ====================================
-# plays（月1フル + 差分取得）
+# plays
 # ====================================
-def fetch_latest_plays(username, old_lastplays, force_full=False):
+def fetch_latest_plays(username):
     headers = {"Authorization": f"Bearer {BGG_API_TOKEN}"}
     lastplays = {}
     page = 1
-
-    print("Plays mode:", "FULL REFRESH" if force_full else "INCREMENTAL")
 
     while True:
         url = f"https://boardgamegeek.com/xmlapi2/plays?username={username}&subtype=boardgame&page={page}"
@@ -66,29 +64,15 @@ def fetch_latest_plays(username, old_lastplays, force_full=False):
         if not plays:
             break
 
-        stop = False
-
         for play in plays:
             date = play.get("date")
             item = play.find("item")
             if item is None:
                 continue
-
             game_id = item.get("objectid")
-            if not game_id or not date:
-                continue
-
-            if not force_full:
-                old_date = old_lastplays.get(game_id)
-                if old_date and date <= old_date:
-                    stop = True
-                    break
-
-            if game_id not in lastplays or date > lastplays.get(game_id, ""):
-                lastplays[game_id] = date
-
-        if stop:
-            break
+            if game_id and date:
+                if game_id not in lastplays or date > lastplays[game_id]:
+                    lastplays[game_id] = date
 
         page += 1
         time.sleep(1)
@@ -154,14 +138,43 @@ def fetch_thing_info(game_id):
     return designers, mechanics, categories, weight, game_type
 
 # ====================================
+# メール
+# ====================================
+def send_email(updated_count, total_count, target_info):
+    EMAIL_FROM = os.environ.get("EMAIL_FROM")
+    EMAIL_TO = os.environ.get("EMAIL_TO")
+    EMAIL_USER = os.environ.get("EMAIL_USER")
+    EMAIL_PASS = os.environ.get("EMAIL_PASS")
+
+    if not all([EMAIL_FROM, EMAIL_TO, EMAIL_USER, EMAIL_PASS]):
+        return
+
+    subject = f"BGG Updated: {updated_count} Thing calls"
+
+    body = (
+        f"Total games: {total_count}\n"
+        f"Thing updated today: {updated_count}\n\n"
+        f"Targets ({len(target_info)}):\n"
+        + "\n".join(target_info)
+    )
+
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = EMAIL_FROM
+    msg["To"] = EMAIL_TO
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+        smtp.login(EMAIL_USER, EMAIL_PASS)
+        smtp.send_message(msg)
+
+# ====================================
 # main
 # ====================================
 def main():
 
     today = datetime.date.today()
     today_mod = today.toordinal() % ROTATION_DAYS
-
-    force_full_refresh = (today.day == 1)
+    full_refresh = today.day == 1  # 月初だけlastplay完全同期
 
     try:
         with open("bgg_collection.json", "r", encoding="utf-8") as f:
@@ -170,11 +183,6 @@ def main():
         old_data = []
 
     old_dict = {g["objectid"]: g for g in old_data}
-    old_lastplays = {
-        g["objectid"]: g.get("lastplay")
-        for g in old_data
-        if g.get("lastplay")
-    }
 
     owned = fetch_collection(USERNAME, "own", "owned")
     wishlist = fetch_collection(USERNAME, "wishlist", "wishlist")
@@ -184,23 +192,33 @@ def main():
     all_games = owned + wishlist + preordered + prevowned
     new_dict = {g["objectid"]: g for g in all_games}
 
+    # 既存thingデータ引き継ぎ
     for oid, g in new_dict.items():
         if oid in old_dict:
             for key in THING_KEYS:
                 if key in old_dict[oid]:
                     g[key] = old_dict[oid][key]
 
-    # ===== thing rotation =====
+    # ================================
+    # thing ローテーション
+    # ================================
     to_update = []
+    target_info = []
+
     for g in new_dict.values():
         oid = int(g["objectid"])
+        name = g["name"]["value"]
 
         if any(k not in g for k in THING_KEYS):
             to_update.append(g)
+            target_info.append(f"{name} (missing thing data)")
             continue
 
         if oid % ROTATION_DAYS == today_mod:
             to_update.append(g)
+            target_info.append(f"{name} (rotation bucket)")
+
+    print(f"Thing targets: {len(to_update)}")
 
     updated = 0
     for game in to_update:
@@ -216,18 +234,22 @@ def main():
         except Exception as e:
             print(f"Thing error {game['objectid']} {e}")
 
-    # ===== plays =====
-    lastplays = fetch_latest_plays(
-        USERNAME,
-        old_lastplays,
-        force_full=force_full_refresh
-    )
+    # ================================
+    # lastplay（月初のみ完全同期）
+    # ================================
+    lastplays = fetch_latest_plays(USERNAME)
 
-    # 差分マージ
+    if full_refresh:
+        for g in new_dict.values():
+            g.pop("lastplay", None)
+
     for oid, date in lastplays.items():
         if oid in new_dict:
             new_dict[oid]["lastplay"] = date
 
+    # ================================
+    # 保存
+    # ================================
     final_list = sorted(new_dict.values(), key=lambda x: x["name"]["value"].lower())
 
     with open("bgg_collection.json", "w", encoding="utf-8") as f:
@@ -235,6 +257,9 @@ def main():
 
     print(f"{len(final_list)} games saved")
     print(f"Thing updated: {updated}")
+
+    send_email(updated, len(final_list), target_info)
+
 
 if __name__ == "__main__":
     main()
