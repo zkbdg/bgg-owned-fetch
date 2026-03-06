@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 15 * * *"  # 毎日15時UTCに実行
   workflow_dispatch:
+  repository_dispatch:
 
 permissions:
   contents: write
