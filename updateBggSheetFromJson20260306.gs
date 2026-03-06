@@ -5,7 +5,6 @@ function onEditTrigger(e) {
   if (!e || !e.range) return;
   const sheet = e.range.getSheet();
   
-  // シート名が正しいか確認
   if (sheet.getName() !== 'bgg-collection') return;
 
   // A1: スプレッドシートの表示更新のみ
@@ -14,18 +13,14 @@ function onEditTrigger(e) {
     updateBggSheetFromJson();
   }
 
-  // D1: GitHub Actionsを実行してから更新
+  // D1: GitHub Actionsを実行するだけ ★変更箇所
   if (e.range.getA1Notation() === "D1" && e.value === "TRUE") {
     e.range.setValue(false);
     
-    // 1. GitHub Actionsをキック
     const success = triggerGitHubAction();
     
     if (success) {
-      SpreadsheetApp.getActiveSpreadsheet().toast("GitHub Actionsを起動しました。60秒後にデータを読み込みます...", "実行中", 5);
-      // 2. 反映待ち（GitHub Actionsの実行時間を考慮して少し待機）
-      Utilities.sleep(60000); 
-      updateBggSheetFromJson();
+      SpreadsheetApp.getActiveSpreadsheet().toast("GitHub Actionsを起動しました。更新完了までしばらくお待ちください。", "実行成功", 5);
     } else {
       SpreadsheetApp.getActiveSpreadsheet().toast("GitHub APIの呼び出しに失敗しました。", "エラー", 5);
     }
@@ -70,6 +65,7 @@ function triggerGitHubAction() {
 
 /**
  * メイン関数：BGGからデータを取得してシートを再構築する
+ * (ここから下は変更なし)
  */
 function updateBggSheetFromJson() {
   const JSON_URL = 'https://raw.githubusercontent.com/zkbdg/bgg-owned-fetch/main/bgg_collection.json';
@@ -86,11 +82,11 @@ function updateBggSheetFromJson() {
   sheet.getRange("A1").setDataValidation(checkboxValidation).setValue(false);
   sheet.getRange("B1").setValue("←表示を最新に更新").setFontSize(9).setFontColor("#666666");
 
-  // D1: GitHub連携用 ★追加
+  // D1: GitHub連携用
   sheet.getRange("D1").setDataValidation(checkboxValidation).setValue(false);
-  sheet.getRange("E1").setValue("←GitHubからデータを再取得して更新").setFontSize(9).setFontColor("#d32f2f").setFontWeight("bold");
+  sheet.getRange("E1").setValue("←JSON更新").setFontSize(9).setFontColor("#d32f2f").setFontWeight("bold");
 
-  // --- 2. データ取得と整形 (以下、元のロジックを維持) ---
+  // --- 2. データ取得と整形 ---
   const response = UrlFetchApp.fetch(JSON_URL);
   const data = JSON.parse(response.getContentText());
   
@@ -118,7 +114,7 @@ function updateBggSheetFromJson() {
     return [
       extractValue(item.name), 
       extractValue(item.numplays) || 0, 
-      item.lastplay || "",             
+      item.lastplay || "",              
       extractValue(rating.value), formatNum(extractValue(rating.average)), formatNum(extractValue(rating.bayesaverage)),
       getRank('boardgame'), getRank('familygames'), formatNum(item.weight),
       stats.minplayers, stats.maxplayers, stats.playingtime, extractValue(item.yearpublished),
