@@ -23,20 +23,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "5126",
+      "numowned": "5129",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2388"
+          "value": "2392"
         },
         "average": {
-          "value": "7.05174"
+          "value": "7.05102"
         },
         "bayesaverage": {
-          "value": "6.26937"
+          "value": "6.26968"
         },
         "stddev": {
-          "value": "1.17096"
+          "value": "1.16997"
         },
         "median": {
           "value": "0"
@@ -49,7 +49,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1970",
-              "bayesaverage": "6.26937"
+              "bayesaverage": "6.26968"
             },
             {
               "type": "family",
@@ -57,7 +57,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "582",
-              "bayesaverage": "6.40165"
+              "bayesaverage": "6.40188"
             }
           ]
         }
@@ -107,20 +107,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "881",
+      "numowned": "883",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "361"
+          "value": "363"
         },
         "average": {
-          "value": "7.05252"
+          "value": "7.05223"
         },
         "bayesaverage": {
-          "value": "5.70231"
+          "value": "5.70331"
         },
         "stddev": {
-          "value": "1.1734"
+          "value": "1.17017"
         },
         "median": {
           "value": "0"
@@ -131,8 +131,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "6230",
-            "bayesaverage": "5.70231"
+            "value": "6208",
+            "bayesaverage": "5.70331"
           }
         }
       }
@@ -180,20 +180,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "10553",
+      "numowned": "10561",
       "rating": {
         "value": "6",
         "usersrated": {
-          "value": "6309"
+          "value": "6312"
         },
         "average": {
-          "value": "6.5783"
+          "value": "6.57866"
         },
         "bayesaverage": {
-          "value": "6.26594"
+          "value": "6.26591"
         },
         "stddev": {
-          "value": "1.28621"
+          "value": "1.28608"
         },
         "median": {
           "value": "0"
@@ -205,8 +205,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1980",
-              "bayesaverage": "6.26594"
+              "value": "1981",
+              "bayesaverage": "6.26591"
             },
             {
               "type": "family",
@@ -214,7 +214,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "672",
-              "bayesaverage": "6.3315"
+              "bayesaverage": "6.33145"
             }
           ]
         }
@@ -264,20 +264,20 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "30111",
+      "numowned": "30113",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "22123"
+          "value": "22126"
         },
         "average": {
-          "value": "7.35672"
+          "value": "7.35679"
         },
         "bayesaverage": {
-          "value": "7.12919"
+          "value": "7.12926"
         },
         "stddev": {
-          "value": "1.33388"
+          "value": "1.33379"
         },
         "median": {
           "value": "0"
@@ -289,8 +289,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "359",
-              "bayesaverage": "7.12919"
+              "value": "360",
+              "bayesaverage": "7.12926"
             },
             {
               "type": "family",
@@ -298,7 +298,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "279",
-              "bayesaverage": "7.14839"
+              "bayesaverage": "7.14842"
             }
           ]
         }
@@ -356,20 +356,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "34673",
+      "numowned": "34684",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "23941"
+          "value": "23951"
         },
         "average": {
-          "value": "7.86394"
+          "value": "7.86401"
         },
         "bayesaverage": {
-          "value": "7.5798"
+          "value": "7.57993"
         },
         "stddev": {
-          "value": "1.3777"
+          "value": "1.37761"
         },
         "median": {
           "value": "0"
@@ -382,7 +382,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "108",
-              "bayesaverage": "7.5798"
+              "bayesaverage": "7.57993"
             },
             {
               "type": "family",
@@ -390,7 +390,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "91",
-              "bayesaverage": "7.59514"
+              "bayesaverage": "7.59515"
             }
           ]
         }
@@ -475,7 +475,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "19198",
+            "value": "19206",
             "bayesaverage": "5.52023"
           }
         }
@@ -521,20 +521,20 @@
       "minplaytime": "75",
       "maxplaytime": "75",
       "playingtime": "75",
-      "numowned": "5307",
+      "numowned": "5314",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3618"
+          "value": "3621"
         },
         "average": {
-          "value": "7.12944"
+          "value": "7.12983"
         },
         "bayesaverage": {
-          "value": "6.4635"
+          "value": "6.4641"
         },
         "stddev": {
-          "value": "1.28606"
+          "value": "1.28411"
         },
         "median": {
           "value": "0"
@@ -547,15 +547,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1406",
-              "bayesaverage": "6.4635"
+              "bayesaverage": "6.4641"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "788",
-              "bayesaverage": "6.58803"
+              "value": "787",
+              "bayesaverage": "6.58864"
             }
           ]
         }
@@ -608,20 +608,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "44598",
+      "numowned": "44612",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "32514"
+          "value": "32520"
         },
         "average": {
-          "value": "7.70678"
+          "value": "7.70676"
         },
         "bayesaverage": {
-          "value": "7.51212"
+          "value": "7.51214"
         },
         "stddev": {
-          "value": "1.18502"
+          "value": "1.18485"
         },
         "median": {
           "value": "0"
@@ -634,7 +634,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "130",
-              "bayesaverage": "7.51212"
+              "bayesaverage": "7.51214"
             },
             {
               "type": "family",
@@ -642,7 +642,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "112",
-              "bayesaverage": "7.52687"
+              "bayesaverage": "7.52689"
             }
           ]
         }
@@ -706,20 +706,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "12441",
+      "numowned": "12443",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2797"
+          "value": "2798"
         },
         "average": {
-          "value": "8.04986"
+          "value": "8.05056"
         },
         "bayesaverage": {
-          "value": "6.8476"
+          "value": "6.84824"
         },
         "stddev": {
-          "value": "1.08811"
+          "value": "1.08788"
         },
         "median": {
           "value": "0"
@@ -732,7 +732,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.8476"
+              "bayesaverage": "6.84824"
             },
             {
               "type": "family",
@@ -740,7 +740,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.05116"
+              "bayesaverage": "7.05187"
             }
           ]
         }
@@ -765,7 +765,7 @@
       "Expansion for Base-game",
       "Medieval"
     ],
-    "weight": "2.863",
+    "weight": "2.8514",
     "type": "boardgameexpansion"
   },
   {
@@ -792,20 +792,20 @@
       "minplaytime": "60",
       "maxplaytime": "80",
       "playingtime": "80",
-      "numowned": "8070",
+      "numowned": "8071",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1249"
+          "value": "1251"
         },
         "average": {
-          "value": "8.00283"
+          "value": "8.00362"
         },
         "bayesaverage": {
-          "value": "6.33722"
+          "value": "6.33848"
         },
         "stddev": {
-          "value": "1.1245"
+          "value": "1.12395"
         },
         "median": {
           "value": "0"
@@ -817,7 +817,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.33722"
+            "bayesaverage": "6.33848"
           }
         }
       }
@@ -868,20 +868,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "28757",
+      "numowned": "28802",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "16778"
+          "value": "16814"
         },
         "average": {
-          "value": "8.01394"
+          "value": "8.01329"
         },
         "bayesaverage": {
-          "value": "7.58917"
+          "value": "7.58808"
         },
         "stddev": {
-          "value": "1.72303"
+          "value": "1.72514"
         },
         "median": {
           "value": "0"
@@ -893,16 +893,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "102",
-              "bayesaverage": "7.58917"
+              "value": "103",
+              "bayesaverage": "7.58808"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "80",
-              "bayesaverage": "7.62071"
+              "value": "81",
+              "bayesaverage": "7.61922"
             }
           ]
         }
@@ -960,20 +960,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "182536",
+      "numowned": "182636",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "107859"
+          "value": "107903"
         },
         "average": {
-          "value": "7.71628"
+          "value": "7.71622"
         },
         "bayesaverage": {
-          "value": "7.60667"
+          "value": "7.60664"
         },
         "stddev": {
-          "value": "1.16818"
+          "value": "1.16812"
         },
         "median": {
           "value": "0"
@@ -986,7 +986,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "96",
-              "bayesaverage": "7.60667"
+              "bayesaverage": "7.60664"
             },
             {
               "type": "family",
@@ -994,7 +994,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "2",
-              "bayesaverage": "7.63159"
+              "bayesaverage": "7.63164"
             },
             {
               "type": "family",
@@ -1002,7 +1002,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "17",
-              "bayesaverage": "7.61508"
+              "bayesaverage": "7.61502"
             }
           ]
         }
@@ -1058,20 +1058,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "11841",
+      "numowned": "11848",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "2402"
+          "value": "2403"
         },
         "average": {
-          "value": "7.26455"
+          "value": "7.26444"
         },
         "bayesaverage": {
-          "value": "6.36486"
+          "value": "6.365"
         },
         "stddev": {
-          "value": "1.45222"
+          "value": "1.45193"
         },
         "median": {
           "value": "0"
@@ -1084,7 +1084,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.36486"
+              "bayesaverage": "6.365"
             },
             {
               "type": "family",
@@ -1141,20 +1141,20 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "14275",
+      "numowned": "14291",
       "rating": {
         "value": "6.5",
         "usersrated": {
-          "value": "7426"
+          "value": "7432"
         },
         "average": {
-          "value": "6.39792"
+          "value": "6.39791"
         },
         "bayesaverage": {
-          "value": "6.12861"
+          "value": "6.12881"
         },
         "stddev": {
-          "value": "1.39783"
+          "value": "1.39774"
         },
         "median": {
           "value": "0"
@@ -1166,8 +1166,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2517",
-              "bayesaverage": "6.12861"
+              "value": "2516",
+              "bayesaverage": "6.12881"
             },
             {
               "type": "family",
@@ -1175,7 +1175,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "906",
-              "bayesaverage": "6.16774"
+              "bayesaverage": "6.16794"
             }
           ]
         }
@@ -1226,20 +1226,20 @@
       "minplaytime": "90",
       "maxplaytime": "180",
       "playingtime": "180",
-      "numowned": "26413",
+      "numowned": "26423",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "21600"
+          "value": "21614"
         },
         "average": {
-          "value": "8.13622"
+          "value": "8.13584"
         },
         "bayesaverage": {
-          "value": "7.83702"
+          "value": "7.83687"
         },
         "stddev": {
-          "value": "1.44516"
+          "value": "1.44504"
         },
         "median": {
           "value": "0"
@@ -1252,7 +1252,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "40",
-              "bayesaverage": "7.83702"
+              "bayesaverage": "7.83687"
             },
             {
               "type": "family",
@@ -1260,7 +1260,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "32",
-              "bayesaverage": "7.89276"
+              "bayesaverage": "7.89248"
             }
           ]
         }
@@ -1318,20 +1318,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "22525",
+      "numowned": "22523",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "18279"
+          "value": "18280"
         },
         "average": {
-          "value": "7.41226"
+          "value": "7.4123"
         },
         "bayesaverage": {
-          "value": "7.16965"
+          "value": "7.16969"
         },
         "stddev": {
-          "value": "1.27385"
+          "value": "1.27382"
         },
         "median": {
           "value": "0"
@@ -1343,8 +1343,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "330",
-              "bayesaverage": "7.16965"
+              "value": "329",
+              "bayesaverage": "7.16969"
             },
             {
               "type": "family",
@@ -1352,7 +1352,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "249",
-              "bayesaverage": "7.20472"
+              "bayesaverage": "7.20476"
             }
           ]
         }
@@ -1478,7 +1478,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "1594",
+      "numowned": "1597",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -1559,20 +1559,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "24998",
+      "numowned": "25103",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "12431"
+          "value": "12498"
         },
         "average": {
-          "value": "8.03793"
+          "value": "8.03835"
         },
         "bayesaverage": {
-          "value": "7.59378"
+          "value": "7.59581"
         },
         "stddev": {
-          "value": "1.23942"
+          "value": "1.24116"
         },
         "median": {
           "value": "0"
@@ -1585,15 +1585,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "99",
-              "bayesaverage": "7.59378"
+              "bayesaverage": "7.59581"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "13",
-              "bayesaverage": "7.69098"
+              "value": "12",
+              "bayesaverage": "7.69287"
             }
           ]
         }
@@ -1647,20 +1647,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "83393",
+      "numowned": "83447",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "58085"
+          "value": "58128"
         },
         "average": {
-          "value": "8.56544"
+          "value": "8.56543"
         },
         "bayesaverage": {
-          "value": "8.39391"
+          "value": "8.39393"
         },
         "stddev": {
-          "value": "1.42682"
+          "value": "1.42712"
         },
         "median": {
           "value": "0"
@@ -1673,7 +1673,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1",
-              "bayesaverage": "8.39391"
+              "bayesaverage": "8.39393"
             },
             {
               "type": "family",
@@ -1681,7 +1681,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "1",
-              "bayesaverage": "8.40636"
+              "bayesaverage": "8.4064"
             }
           ]
         }
@@ -1747,20 +1747,20 @@
       "minplaytime": "50",
       "maxplaytime": "125",
       "playingtime": "125",
-      "numowned": "6537",
+      "numowned": "6540",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "5870"
+          "value": "5873"
         },
         "average": {
-          "value": "7.58813"
+          "value": "7.58792"
         },
         "bayesaverage": {
-          "value": "6.97783"
+          "value": "6.9779"
         },
         "stddev": {
-          "value": "1.24323"
+          "value": "1.24299"
         },
         "median": {
           "value": "0"
@@ -1772,8 +1772,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "524",
-              "bayesaverage": "6.97783"
+              "value": "525",
+              "bayesaverage": "6.9779"
             },
             {
               "type": "family",
@@ -1781,7 +1781,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "309",
-              "bayesaverage": "7.11473"
+              "bayesaverage": "7.11475"
             }
           ]
         }
@@ -1831,20 +1831,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "30646",
+      "numowned": "30666",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "17738"
+          "value": "17744"
         },
         "average": {
-          "value": "7.54101"
+          "value": "7.54127"
         },
         "bayesaverage": {
-          "value": "7.24894"
+          "value": "7.24905"
         },
         "stddev": {
-          "value": "1.19024"
+          "value": "1.19016"
         },
         "median": {
           "value": "0"
@@ -1856,8 +1856,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "265",
-              "bayesaverage": "7.24894"
+              "value": "266",
+              "bayesaverage": "7.24905"
             },
             {
               "type": "family",
@@ -1865,7 +1865,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "10",
-              "bayesaverage": "7.34331"
+              "bayesaverage": "7.34326"
             },
             {
               "type": "family",
@@ -1873,7 +1873,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "51",
-              "bayesaverage": "7.30311"
+              "bayesaverage": "7.30322"
             }
           ]
         }
@@ -1927,20 +1927,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "222758",
+      "numowned": "222822",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "139402"
+          "value": "139437"
         },
         "average": {
-          "value": "7.41638"
+          "value": "7.41632"
         },
         "bayesaverage": {
           "value": "7.29866"
         },
         "stddev": {
-          "value": "1.31206"
+          "value": "1.31208"
         },
         "median": {
           "value": "0"
@@ -1961,7 +1961,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "54",
-              "bayesaverage": "7.29131"
+              "bayesaverage": "7.29132"
             }
           ]
         }
@@ -2015,20 +2015,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "92047",
+      "numowned": "92116",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "54770"
+          "value": "54806"
         },
         "average": {
-          "value": "7.89118"
+          "value": "7.89088"
         },
         "bayesaverage": {
-          "value": "7.73677"
+          "value": "7.73667"
         },
         "stddev": {
-          "value": "1.14022"
+          "value": "1.1401"
         },
         "median": {
           "value": "0"
@@ -2041,7 +2041,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "60",
-              "bayesaverage": "7.73677"
+              "bayesaverage": "7.73667"
             },
             {
               "type": "family",
@@ -2049,7 +2049,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "11",
-              "bayesaverage": "7.76171"
+              "bayesaverage": "7.76154"
             }
           ]
         }
@@ -2103,20 +2103,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "17304",
+      "numowned": "17322",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3494"
+          "value": "3497"
         },
         "average": {
-          "value": "7.74536"
+          "value": "7.74578"
         },
         "bayesaverage": {
-          "value": "6.81068"
+          "value": "6.81145"
         },
         "stddev": {
-          "value": "1.16883"
+          "value": "1.16853"
         },
         "median": {
           "value": "0"
@@ -2129,7 +2129,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.81068"
+              "bayesaverage": "6.81145"
             },
             {
               "type": "family",
@@ -2137,7 +2137,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.9945"
+              "bayesaverage": "6.99508"
             }
           ]
         }
@@ -2198,20 +2198,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "239350",
+      "numowned": "239425",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "141818"
+          "value": "141861"
         },
         "average": {
-          "value": "7.09124"
+          "value": "7.09116"
         },
         "bayesaverage": {
-          "value": "6.90393"
+          "value": "6.9038"
         },
         "stddev": {
-          "value": "1.50634"
+          "value": "1.50632"
         },
         "median": {
           "value": "0"
@@ -2224,7 +2224,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "617",
-              "bayesaverage": "6.90393"
+              "bayesaverage": "6.9038"
             },
             {
               "type": "family",
@@ -2232,15 +2232,15 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "579",
-              "bayesaverage": "6.77476"
+              "bayesaverage": "6.77469"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "208",
-              "bayesaverage": "6.85122"
+              "value": "209",
+              "bayesaverage": "6.85113"
             }
           ]
         }
@@ -2301,20 +2301,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3869",
+      "numowned": "3873",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1407"
+          "value": "1408"
         },
         "average": {
-          "value": "6.49548"
+          "value": "6.49584"
         },
         "bayesaverage": {
           "value": "5.83447"
         },
         "stddev": {
-          "value": "1.36023"
+          "value": "1.35981"
         },
         "median": {
           "value": "0"
@@ -2326,7 +2326,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4423",
+              "value": "4424",
               "bayesaverage": "5.83447"
             },
             {
@@ -2409,7 +2409,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "7281",
+            "value": "7282",
             "bayesaverage": "5.65721"
           }
         }
@@ -2464,20 +2464,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "21718",
+      "numowned": "21721",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "14104"
+          "value": "14108"
         },
         "average": {
-          "value": "7.57711"
+          "value": "7.57674"
         },
         "bayesaverage": {
-          "value": "7.23167"
+          "value": "7.23169"
         },
         "stddev": {
-          "value": "1.21175"
+          "value": "1.21211"
         },
         "median": {
           "value": "0"
@@ -2490,15 +2490,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "277",
-              "bayesaverage": "7.23167"
+              "bayesaverage": "7.23169"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "219",
-              "bayesaverage": "7.2591"
+              "value": "220",
+              "bayesaverage": "7.25902"
             },
             {
               "type": "family",
@@ -2506,7 +2506,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "52",
-              "bayesaverage": "7.30206"
+              "bayesaverage": "7.30207"
             }
           ]
         }
@@ -2586,7 +2586,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "14719",
+            "value": "14722",
             "bayesaverage": "5.53945"
           }
         }
@@ -2636,20 +2636,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "9053",
+      "numowned": "9060",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2092"
+          "value": "2093"
         },
         "average": {
-          "value": "8.18261"
+          "value": "8.18395"
         },
         "bayesaverage": {
-          "value": "6.71747"
+          "value": "6.71849"
         },
         "stddev": {
-          "value": "1.16424"
+          "value": "1.16312"
         },
         "median": {
           "value": "0"
@@ -2662,7 +2662,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.71747"
+              "bayesaverage": "6.71849"
             },
             {
               "type": "family",
@@ -2670,7 +2670,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.91408"
+              "bayesaverage": "6.91529"
             }
           ]
         }
@@ -2729,20 +2729,20 @@
       "minplaytime": "45",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "24224",
+      "numowned": "24265",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "13696"
+          "value": "13728"
         },
         "average": {
-          "value": "8.22917"
+          "value": "8.2293"
         },
         "bayesaverage": {
-          "value": "7.76807"
+          "value": "7.7684"
         },
         "stddev": {
-          "value": "1.17184"
+          "value": "1.17191"
         },
         "median": {
           "value": "0"
@@ -2755,7 +2755,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "52",
-              "bayesaverage": "7.76807"
+              "bayesaverage": "7.7684"
             },
             {
               "type": "family",
@@ -2763,7 +2763,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "39",
-              "bayesaverage": "7.83545"
+              "bayesaverage": "7.83544"
             },
             {
               "type": "family",
@@ -2771,7 +2771,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "5",
-              "bayesaverage": "7.86006"
+              "bayesaverage": "7.86018"
             }
           ]
         }
@@ -2831,20 +2831,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "11621",
+      "numowned": "11636",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "5231"
+          "value": "5241"
         },
         "average": {
-          "value": "7.10203"
+          "value": "7.10153"
         },
         "bayesaverage": {
-          "value": "6.52373"
+          "value": "6.52404"
         },
         "stddev": {
-          "value": "1.38547"
+          "value": "1.38494"
         },
         "median": {
           "value": "0"
@@ -2857,7 +2857,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1267",
-              "bayesaverage": "6.52373"
+              "bayesaverage": "6.52404"
             },
             {
               "type": "family",
@@ -2865,7 +2865,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "373",
-              "bayesaverage": "6.61191"
+              "bayesaverage": "6.61173"
             }
           ]
         }
@@ -2914,20 +2914,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "2716",
+      "numowned": "2720",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "408"
+          "value": "411"
         },
         "average": {
-          "value": "7.57268"
+          "value": "7.57458"
         },
         "bayesaverage": {
-          "value": "5.7506"
+          "value": "5.75137"
         },
         "stddev": {
-          "value": "1.47692"
+          "value": "1.47843"
         },
         "median": {
           "value": "0"
@@ -2939,7 +2939,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.7506"
+            "bayesaverage": "5.75137"
           }
         }
       }
@@ -3018,7 +3018,7 @@
     },
     "status": "owned",
     "numplays": {
-      "value": "9"
+      "value": "10"
     },
     "designers": [
       "Toshiki Sato"
@@ -3031,7 +3031,7 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-02-23"
+    "lastplay": "2026-04-29"
   },
   {
     "objecttype": "thing",
@@ -3057,11 +3057,11 @@
       "minplaytime": "40",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "51273",
+      "numowned": "51294",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "35286"
+          "value": "35298"
         },
         "average": {
           "value": "7.09674"
@@ -3070,7 +3070,7 @@
           "value": "6.9523"
         },
         "stddev": {
-          "value": "1.24807"
+          "value": "1.24796"
         },
         "median": {
           "value": "0"
@@ -3082,7 +3082,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "556",
+              "value": "557",
               "bayesaverage": "6.9523"
             },
             {
@@ -3146,20 +3146,20 @@
       "minplaytime": "100",
       "maxplaytime": "100",
       "playingtime": "100",
-      "numowned": "51583",
+      "numowned": "51600",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "45374"
+          "value": "45393"
         },
         "average": {
-          "value": "8.07735"
+          "value": "8.07713"
         },
         "bayesaverage": {
-          "value": "7.92636"
+          "value": "7.92623"
         },
         "stddev": {
-          "value": "1.21482"
+          "value": "1.21527"
         },
         "median": {
           "value": "0"
@@ -3172,7 +3172,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "29",
-              "bayesaverage": "7.92636"
+              "bayesaverage": "7.92623"
             },
             {
               "type": "family",
@@ -3180,7 +3180,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "24",
-              "bayesaverage": "7.94653"
+              "bayesaverage": "7.9463"
             }
           ]
         }
@@ -3241,20 +3241,20 @@
       "minplaytime": "45",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "336",
+      "numowned": "351",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "64"
+          "value": "66"
         },
         "average": {
-          "value": "7.73711"
+          "value": "7.72992"
         },
         "bayesaverage": {
-          "value": "5.55338"
+          "value": "5.55508"
         },
         "stddev": {
-          "value": "1.95545"
+          "value": "1.92799"
         },
         "median": {
           "value": "0"
@@ -3265,8 +3265,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "12801",
-            "bayesaverage": "5.55338"
+            "value": "12623",
+            "bayesaverage": "5.55508"
           }
         }
       }
@@ -3324,16 +3324,16 @@
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2011"
+          "value": "2012"
         },
         "average": {
-          "value": "6.6297"
+          "value": "6.62988"
         },
         "bayesaverage": {
-          "value": "6.00652"
+          "value": "6.00676"
         },
         "stddev": {
-          "value": "1.25594"
+          "value": "1.25565"
         },
         "median": {
           "value": "0"
@@ -3345,8 +3345,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3122",
-              "bayesaverage": "6.00652"
+              "value": "3123",
+              "bayesaverage": "6.00676"
             },
             {
               "type": "family",
@@ -3354,7 +3354,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "192",
-              "bayesaverage": "6.28859"
+              "bayesaverage": "6.28889"
             }
           ]
         }
@@ -3403,20 +3403,20 @@
       "minplaytime": "30",
       "maxplaytime": "50",
       "playingtime": "50",
-      "numowned": "23380",
+      "numowned": "23391",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "17044"
+          "value": "17053"
         },
         "average": {
-          "value": "7.42544"
+          "value": "7.42538"
         },
         "bayesaverage": {
-          "value": "7.16283"
+          "value": "7.16286"
         },
         "stddev": {
-          "value": "1.29101"
+          "value": "1.29094"
         },
         "median": {
           "value": "0"
@@ -3429,7 +3429,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "337",
-              "bayesaverage": "7.16283"
+              "bayesaverage": "7.16286"
             },
             {
               "type": "family",
@@ -3437,7 +3437,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "253",
-              "bayesaverage": "7.19785"
+              "bayesaverage": "7.19786"
             },
             {
               "type": "family",
@@ -3445,7 +3445,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "71",
-              "bayesaverage": "7.22163"
+              "bayesaverage": "7.22164"
             }
           ]
         }
@@ -3497,20 +3497,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "1048",
+      "numowned": "1047",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "866"
+          "value": "867"
         },
         "average": {
-          "value": "6.55033"
+          "value": "6.55085"
         },
         "bayesaverage": {
-          "value": "5.77932"
+          "value": "5.77971"
         },
         "stddev": {
-          "value": "1.26492"
+          "value": "1.26429"
         },
         "median": {
           "value": "0"
@@ -3522,16 +3522,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "5025",
-              "bayesaverage": "5.77932"
+              "value": "5021",
+              "bayesaverage": "5.77971"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "1530",
-              "bayesaverage": "5.86249"
+              "value": "1529",
+              "bayesaverage": "5.86298"
             }
           ]
         }
@@ -3580,20 +3580,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "1946",
+      "numowned": "1951",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "586"
+          "value": "589"
         },
         "average": {
-          "value": "7.15845"
+          "value": "7.15509"
         },
         "bayesaverage": {
-          "value": "5.82222"
+          "value": "5.82295"
         },
         "stddev": {
-          "value": "1.12742"
+          "value": "1.12665"
         },
         "median": {
           "value": "0"
@@ -3605,7 +3605,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.82222"
+            "bayesaverage": "5.82295"
           }
         }
       }
@@ -3657,20 +3657,20 @@
       "minplaytime": "40",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "1913",
+      "numowned": "1929",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1350"
+          "value": "1368"
         },
         "average": {
-          "value": "7.3595"
+          "value": "7.35754"
         },
         "bayesaverage": {
-          "value": "6.1409"
+          "value": "6.14556"
         },
         "stddev": {
-          "value": "1.17843"
+          "value": "1.17639"
         },
         "median": {
           "value": "0"
@@ -3682,16 +3682,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2462",
-              "bayesaverage": "6.1409"
+              "value": "2439",
+              "bayesaverage": "6.14556"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "719",
-              "bayesaverage": "6.29836"
+              "value": "713",
+              "bayesaverage": "6.30432"
             }
           ]
         }
@@ -3736,20 +3736,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "32908",
+      "numowned": "32925",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "24107"
+          "value": "24113"
         },
         "average": {
-          "value": "6.84796"
+          "value": "6.84798"
         },
         "bayesaverage": {
-          "value": "6.71023"
+          "value": "6.7102"
         },
         "stddev": {
-          "value": "1.2218"
+          "value": "1.22179"
         },
         "median": {
           "value": "0"
@@ -3762,7 +3762,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "892",
-              "bayesaverage": "6.71023"
+              "bayesaverage": "6.7102"
             },
             {
               "type": "family",
@@ -3770,15 +3770,15 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "69",
-              "bayesaverage": "6.76907"
+              "bayesaverage": "6.76899"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "279",
-              "bayesaverage": "6.74068"
+              "value": "280",
+              "bayesaverage": "6.74065"
             }
           ]
         }
@@ -3830,20 +3830,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "8211",
+      "numowned": "8217",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3198"
+          "value": "3201"
         },
         "average": {
-          "value": "8.27428"
+          "value": "8.2748"
         },
         "bayesaverage": {
-          "value": "7.01713"
+          "value": "7.01761"
         },
         "stddev": {
-          "value": "1.24028"
+          "value": "1.24047"
         },
         "median": {
           "value": "0"
@@ -3856,7 +3856,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.01713"
+              "bayesaverage": "7.01761"
             },
             {
               "type": "family",
@@ -3926,20 +3926,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "27630",
+      "numowned": "27643",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "16796"
+          "value": "16802"
         },
         "average": {
-          "value": "7.0827"
+          "value": "7.08285"
         },
         "bayesaverage": {
-          "value": "6.85678"
+          "value": "6.85693"
         },
         "stddev": {
-          "value": "1.13667"
+          "value": "1.13647"
         },
         "median": {
           "value": "0"
@@ -3952,7 +3952,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "677",
-              "bayesaverage": "6.85678"
+              "bayesaverage": "6.85693"
             },
             {
               "type": "family",
@@ -3960,7 +3960,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "184",
-              "bayesaverage": "6.9072"
+              "bayesaverage": "6.90731"
             }
           ]
         }
@@ -4016,20 +4016,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "7298",
+      "numowned": "7305",
       "rating": {
         "value": "6.5",
         "usersrated": {
-          "value": "3109"
+          "value": "3110"
         },
         "average": {
-          "value": "7.03037"
+          "value": "7.03036"
         },
         "bayesaverage": {
-          "value": "6.34035"
+          "value": "6.34054"
         },
         "stddev": {
-          "value": "1.24657"
+          "value": "1.24637"
         },
         "median": {
           "value": "0"
@@ -4042,7 +4042,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1732",
-              "bayesaverage": "6.34035"
+              "bayesaverage": "6.34054"
             },
             {
               "type": "family",
@@ -4103,20 +4103,20 @@
       "minplaytime": "15",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "4222",
+      "numowned": "4225",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2030"
+          "value": "2032"
         },
         "average": {
-          "value": "6.55727"
+          "value": "6.55721"
         },
         "bayesaverage": {
-          "value": "5.99073"
+          "value": "5.99097"
         },
         "stddev": {
-          "value": "1.28999"
+          "value": "1.28946"
         },
         "median": {
           "value": "0"
@@ -4128,8 +4128,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3226",
-              "bayesaverage": "5.99073"
+              "value": "3222",
+              "bayesaverage": "5.99097"
             },
             {
               "type": "family",
@@ -4137,7 +4137,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "59",
-              "bayesaverage": "6.43241"
+              "bayesaverage": "6.43279"
             }
           ]
         }
@@ -4189,20 +4189,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "77509",
+      "numowned": "77554",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "58084"
+          "value": "58117"
         },
         "average": {
-          "value": "8.41357"
+          "value": "8.41334"
         },
         "bayesaverage": {
-          "value": "8.22395"
+          "value": "8.22383"
         },
         "stddev": {
-          "value": "1.28951"
+          "value": "1.28923"
         },
         "median": {
           "value": "0"
@@ -4215,7 +4215,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "6",
-              "bayesaverage": "8.22395"
+              "bayesaverage": "8.22383"
             },
             {
               "type": "family",
@@ -4223,7 +4223,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "7",
-              "bayesaverage": "8.22048"
+              "bayesaverage": "8.22038"
             }
           ]
         }
@@ -4287,20 +4287,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "8234",
+      "numowned": "8256",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1627"
+          "value": "1631"
         },
         "average": {
-          "value": "8.69158"
+          "value": "8.69203"
         },
         "bayesaverage": {
-          "value": "6.7074"
+          "value": "6.70948"
         },
         "stddev": {
-          "value": "1.29616"
+          "value": "1.29512"
         },
         "median": {
           "value": "0"
@@ -4313,7 +4313,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.7074"
+              "bayesaverage": "6.70948"
             },
             {
               "type": "family",
@@ -4321,7 +4321,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.92397"
+              "bayesaverage": "6.92634"
             }
           ]
         }
@@ -4377,20 +4377,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "19196",
+      "numowned": "19209",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "5076"
+          "value": "5080"
         },
         "average": {
-          "value": "8.54113"
+          "value": "8.53953"
         },
         "bayesaverage": {
-          "value": "7.50952"
+          "value": "7.50923"
         },
         "stddev": {
-          "value": "1.18075"
+          "value": "1.18209"
         },
         "median": {
           "value": "0"
@@ -4403,7 +4403,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.50952"
+              "bayesaverage": "7.50923"
             },
             {
               "type": "family",
@@ -4411,7 +4411,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.68789"
+              "bayesaverage": "7.68749"
             }
           ]
         }
@@ -4468,20 +4468,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "28910",
+      "numowned": "28923",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "9686"
+          "value": "9696"
         },
         "average": {
-          "value": "8.80064"
+          "value": "8.80059"
         },
         "bayesaverage": {
-          "value": "8.0911"
+          "value": "8.09137"
         },
         "stddev": {
-          "value": "1.08738"
+          "value": "1.08742"
         },
         "median": {
           "value": "0"
@@ -4494,7 +4494,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.0911"
+              "bayesaverage": "8.09137"
             },
             {
               "type": "family",
@@ -4502,7 +4502,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.22402"
+              "bayesaverage": "8.22423"
             }
           ]
         }
@@ -4559,20 +4559,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "27887",
+      "numowned": "27929",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "18016"
+          "value": "18041"
         },
         "average": {
-          "value": "8.70081"
+          "value": "8.70108"
         },
         "bayesaverage": {
-          "value": "8.23239"
+          "value": "8.2334"
         },
         "stddev": {
-          "value": "1.3325"
+          "value": "1.33282"
         },
         "median": {
           "value": "0"
@@ -4585,7 +4585,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "5",
-              "bayesaverage": "8.23239"
+              "bayesaverage": "8.2334"
             },
             {
               "type": "family",
@@ -4593,7 +4593,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "4",
-              "bayesaverage": "8.29458"
+              "bayesaverage": "8.29559"
             }
           ]
         }
@@ -4654,20 +4654,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "2009",
+      "numowned": "2020",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "996"
+          "value": "1008"
         },
         "average": {
-          "value": "7.25114"
+          "value": "7.24815"
         },
         "bayesaverage": {
-          "value": "5.99121"
+          "value": "5.99533"
         },
         "stddev": {
-          "value": "1.2548"
+          "value": "1.25256"
         },
         "median": {
           "value": "0"
@@ -4678,8 +4678,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "3219",
-            "bayesaverage": "5.99121"
+            "value": "3202",
+            "bayesaverage": "5.99533"
           }
         }
       }
@@ -4731,7 +4731,7 @@
       "minplaytime": "45",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "2126",
+      "numowned": "2127",
       "rating": {
         "value": "6.5",
         "usersrated": {
@@ -4756,7 +4756,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4662",
+              "value": "4665",
               "bayesaverage": "5.81021"
             },
             {
@@ -4764,7 +4764,7 @@
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1920",
+              "value": "1921",
               "bayesaverage": "5.88134"
             },
             {
@@ -4826,7 +4826,7 @@
       "minplaytime": "60",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "1204",
+      "numowned": "1203",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -4851,7 +4851,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4454",
+              "value": "4459",
               "bayesaverage": "5.83118"
             },
             {
@@ -4859,7 +4859,7 @@
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1799",
+              "value": "1800",
               "bayesaverage": "5.93331"
             }
           ]
@@ -4987,20 +4987,20 @@
       "minplaytime": "15",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "31417",
+      "numowned": "31462",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "17841"
+          "value": "17863"
         },
         "average": {
-          "value": "7.54282"
+          "value": "7.54296"
         },
         "bayesaverage": {
-          "value": "7.2629"
+          "value": "7.26299"
         },
         "stddev": {
-          "value": "1.17101"
+          "value": "1.17091"
         },
         "median": {
           "value": "0"
@@ -5013,7 +5013,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "255",
-              "bayesaverage": "7.2629"
+              "bayesaverage": "7.26299"
             },
             {
               "type": "family",
@@ -5021,7 +5021,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "48",
-              "bayesaverage": "7.32597"
+              "bayesaverage": "7.32615"
             }
           ]
         }
@@ -5078,20 +5078,20 @@
       "minplaytime": "25",
       "maxplaytime": "25",
       "playingtime": "25",
-      "numowned": "7408",
+      "numowned": "7421",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1174"
+          "value": "1181"
         },
         "average": {
-          "value": "7.83131"
+          "value": "7.83273"
         },
         "bayesaverage": {
-          "value": "6.25759"
+          "value": "6.26136"
         },
         "stddev": {
-          "value": "1.0997"
+          "value": "1.09802"
         },
         "median": {
           "value": "0"
@@ -5103,7 +5103,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.25759"
+            "bayesaverage": "6.26136"
           }
         }
       }
@@ -5156,20 +5156,20 @@
       "minplaytime": "45",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "14780",
+      "numowned": "14821",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "6589"
+          "value": "6612"
         },
         "average": {
-          "value": "7.68122"
+          "value": "7.68143"
         },
         "bayesaverage": {
-          "value": "7.02897"
+          "value": "7.03037"
         },
         "stddev": {
-          "value": "1.34916"
+          "value": "1.34792"
         },
         "median": {
           "value": "0"
@@ -5181,24 +5181,24 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "467",
-              "bayesaverage": "7.02897"
+              "value": "466",
+              "bayesaverage": "7.03037"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "312",
-              "bayesaverage": "7.11183"
+              "value": "311",
+              "bayesaverage": "7.11341"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "89",
-              "bayesaverage": "7.15426"
+              "value": "88",
+              "bayesaverage": "7.15523"
             }
           ]
         }
@@ -5277,7 +5277,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "16703",
+              "value": "16716",
               "bayesaverage": "5.5294"
             },
             {
@@ -5336,20 +5336,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "10514",
+      "numowned": "10534",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "6308"
+          "value": "6324"
         },
         "average": {
-          "value": "7.68319"
+          "value": "7.68187"
         },
         "bayesaverage": {
-          "value": "7.06741"
+          "value": "7.06819"
         },
         "stddev": {
-          "value": "1.16335"
+          "value": "1.16312"
         },
         "median": {
           "value": "0"
@@ -5361,8 +5361,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "422",
-              "bayesaverage": "7.06741"
+              "value": "421",
+              "bayesaverage": "7.06819"
             },
             {
               "type": "family",
@@ -5370,7 +5370,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "265",
-              "bayesaverage": "7.17916"
+              "bayesaverage": "7.17983"
             }
           ]
         }
@@ -5430,16 +5430,16 @@
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "611"
+          "value": "615"
         },
         "average": {
-          "value": "7.16463"
+          "value": "7.16112"
         },
         "bayesaverage": {
-          "value": "5.84382"
+          "value": "5.84492"
         },
         "stddev": {
-          "value": "1.15162"
+          "value": "1.14988"
         },
         "median": {
           "value": "0"
@@ -5450,8 +5450,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "4334",
-            "bayesaverage": "5.84382"
+            "value": "4328",
+            "bayesaverage": "5.84492"
           }
         }
       }
@@ -5502,20 +5502,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "19701",
+      "numowned": "19715",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "10811"
+          "value": "10814"
         },
         "average": {
-          "value": "6.70756"
+          "value": "6.70787"
         },
         "bayesaverage": {
-          "value": "6.43484"
+          "value": "6.43497"
         },
         "stddev": {
-          "value": "1.35615"
+          "value": "1.3562"
         },
         "median": {
           "value": "0"
@@ -5527,8 +5527,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1493",
-              "bayesaverage": "6.43484"
+              "value": "1491",
+              "bayesaverage": "6.43497"
             },
             {
               "type": "family",
@@ -5536,7 +5536,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "119",
-              "bayesaverage": "6.51426"
+              "bayesaverage": "6.51443"
             },
             {
               "type": "family",
@@ -5544,7 +5544,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "483",
-              "bayesaverage": "6.48437"
+              "bayesaverage": "6.4845"
             }
           ]
         }
@@ -5595,20 +5595,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "9307",
+      "numowned": "9309",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "4363"
+          "value": "4365"
         },
         "average": {
-          "value": "7.13247"
+          "value": "7.13195"
         },
         "bayesaverage": {
-          "value": "6.52432"
+          "value": "6.52415"
         },
         "stddev": {
-          "value": "1.2226"
+          "value": "1.22275"
         },
         "median": {
           "value": "0"
@@ -5620,8 +5620,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1265",
-              "bayesaverage": "6.52432"
+              "value": "1266",
+              "bayesaverage": "6.52415"
             },
             {
               "type": "family",
@@ -5629,7 +5629,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "12",
-              "bayesaverage": "7.0133"
+              "bayesaverage": "7.01232"
             },
             {
               "type": "family",
@@ -5637,7 +5637,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "349",
-              "bayesaverage": "6.63877"
+              "bayesaverage": "6.63854"
             }
           ]
         }
@@ -5690,20 +5690,20 @@
       "minplaytime": "15",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "455",
+      "numowned": "456",
       "rating": {
         "value": "6.5",
         "usersrated": {
-          "value": "364"
+          "value": "365"
         },
         "average": {
-          "value": "6.65112"
+          "value": "6.65207"
         },
         "bayesaverage": {
-          "value": "5.64794"
+          "value": "5.64846"
         },
         "stddev": {
-          "value": "1.47078"
+          "value": "1.46888"
         },
         "median": {
           "value": "0"
@@ -5714,8 +5714,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "7531",
-            "bayesaverage": "5.64794"
+            "value": "7513",
+            "bayesaverage": "5.64846"
           }
         }
       }
@@ -5829,20 +5829,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "2549",
+      "numowned": "2550",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1682"
+          "value": "1683"
         },
         "average": {
-          "value": "6.37004"
+          "value": "6.37042"
         },
         "bayesaverage": {
           "value": "5.84907"
         },
         "stddev": {
-          "value": "1.42293"
+          "value": "1.42259"
         },
         "median": {
           "value": "0"
@@ -5854,7 +5854,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4283",
+              "value": "4284",
               "bayesaverage": "5.84907"
             },
             {
@@ -5870,7 +5870,7 @@
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "1374",
+              "value": "1373",
               "bayesaverage": "5.92726"
             }
           ]
@@ -5927,20 +5927,20 @@
       "minplaytime": "30",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "48626",
+      "numowned": "48727",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "28599"
+          "value": "28651"
         },
         "average": {
-          "value": "8.03057"
+          "value": "8.03056"
         },
         "bayesaverage": {
-          "value": "7.74926"
+          "value": "7.74905"
         },
         "stddev": {
-          "value": "1.17559"
+          "value": "1.17581"
         },
         "median": {
           "value": "0"
@@ -5953,7 +5953,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "57",
-              "bayesaverage": "7.74926"
+              "bayesaverage": "7.74905"
             },
             {
               "type": "family",
@@ -5961,7 +5961,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "1",
-              "bayesaverage": "7.65409"
+              "bayesaverage": "7.65352"
             },
             {
               "type": "family",
@@ -5969,7 +5969,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "10",
-              "bayesaverage": "7.78131"
+              "bayesaverage": "7.78116"
             }
           ]
         }
@@ -6026,20 +6026,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "60401",
+      "numowned": "60478",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "40421"
+          "value": "40467"
         },
         "average": {
-          "value": "7.99866"
+          "value": "7.99871"
         },
         "bayesaverage": {
-          "value": "7.79466"
+          "value": "7.79465"
         },
         "stddev": {
-          "value": "1.33465"
+          "value": "1.33435"
         },
         "median": {
           "value": "0"
@@ -6052,7 +6052,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "47",
-              "bayesaverage": "7.79466"
+              "bayesaverage": "7.79465"
             },
             {
               "type": "family",
@@ -6060,7 +6060,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "8",
-              "bayesaverage": "7.81421"
+              "bayesaverage": "7.81404"
             }
           ]
         }
@@ -6118,7 +6118,7 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "511",
+      "numowned": "510",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -6142,7 +6142,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "11444",
+            "value": "11448",
             "bayesaverage": "5.56819"
           }
         }
@@ -6214,7 +6214,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "14994",
+            "value": "15002",
             "bayesaverage": "5.53785"
           }
         }
@@ -6269,20 +6269,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "15143",
+      "numowned": "15175",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "7340"
+          "value": "7358"
         },
         "average": {
-          "value": "7.52292"
+          "value": "7.52347"
         },
         "bayesaverage": {
-          "value": "7.00322"
+          "value": "7.00337"
         },
         "stddev": {
-          "value": "1.42246"
+          "value": "1.42318"
         },
         "median": {
           "value": "0"
@@ -6295,7 +6295,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "497",
-              "bayesaverage": "7.00322"
+              "bayesaverage": "7.00337"
             },
             {
               "type": "family",
@@ -6303,7 +6303,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "23",
-              "bayesaverage": "7.20434"
+              "bayesaverage": "7.20413"
             }
           ]
         }
@@ -6351,20 +6351,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "20517",
+      "numowned": "20518",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "12237"
+          "value": "12242"
         },
         "average": {
-          "value": "6.78284"
+          "value": "6.78287"
         },
         "bayesaverage": {
-          "value": "6.55144"
+          "value": "6.55152"
         },
         "stddev": {
-          "value": "1.26277"
+          "value": "1.26267"
         },
         "median": {
           "value": "0"
@@ -6376,8 +6376,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1192",
-              "bayesaverage": "6.55144"
+              "value": "1193",
+              "bayesaverage": "6.55152"
             },
             {
               "type": "family",
@@ -6393,7 +6393,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "381",
-              "bayesaverage": "6.60529"
+              "bayesaverage": "6.60533"
             }
           ]
         }
@@ -6444,20 +6444,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "9161",
+      "numowned": "9171",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "5034"
+          "value": "5036"
         },
         "average": {
-          "value": "7.02436"
+          "value": "7.02454"
         },
         "bayesaverage": {
-          "value": "6.52461"
+          "value": "6.52482"
         },
         "stddev": {
-          "value": "1.29586"
+          "value": "1.29568"
         },
         "median": {
           "value": "0"
@@ -6470,7 +6470,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1263",
-              "bayesaverage": "6.52461"
+              "bayesaverage": "6.52482"
             },
             {
               "type": "family",
@@ -6478,7 +6478,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "67",
-              "bayesaverage": "6.78135"
+              "bayesaverage": "6.78159"
             }
           ]
         }
@@ -6533,7 +6533,7 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "1587",
+      "numowned": "1588",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -6557,7 +6557,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "5122",
+            "value": "5124",
             "bayesaverage": "5.77202"
           }
         }
@@ -6607,20 +6607,20 @@
       "minplaytime": "40",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "38874",
+      "numowned": "38887",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "33636"
+          "value": "33644"
         },
         "average": {
-          "value": "7.53577"
+          "value": "7.53572"
         },
         "bayesaverage": {
-          "value": "7.37294"
+          "value": "7.37298"
         },
         "stddev": {
-          "value": "1.15007"
+          "value": "1.14995"
         },
         "median": {
           "value": "0"
@@ -6632,8 +6632,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "191",
-              "bayesaverage": "7.37294"
+              "value": "190",
+              "bayesaverage": "7.37298"
             },
             {
               "type": "family",
@@ -6641,7 +6641,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "154",
-              "bayesaverage": "7.38885"
+              "bayesaverage": "7.38889"
             },
             {
               "type": "family",
@@ -6649,7 +6649,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "32",
-              "bayesaverage": "7.41046"
+              "bayesaverage": "7.41051"
             }
           ]
         }
@@ -6705,20 +6705,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "7228",
+      "numowned": "7234",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "3041"
+          "value": "3042"
         },
         "average": {
-          "value": "7.45259"
+          "value": "7.45227"
         },
         "bayesaverage": {
           "value": "6.58303"
         },
         "stddev": {
-          "value": "1.09559"
+          "value": "1.09554"
         },
         "median": {
           "value": "0"
@@ -6730,7 +6730,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1133",
+              "value": "1134",
               "bayesaverage": "6.58303"
             },
             {
@@ -6791,7 +6791,7 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "1009",
+      "numowned": "1010",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -6816,7 +6816,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4538",
+              "value": "4540",
               "bayesaverage": "5.82333"
             },
             {
@@ -6824,7 +6824,7 @@
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1849",
+              "value": "1850",
               "bayesaverage": "5.91077"
             },
             {
@@ -6879,20 +6879,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "6501",
+      "numowned": "6510",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "3439"
+          "value": "3443"
         },
         "average": {
-          "value": "8.09601"
+          "value": "8.09503"
         },
         "bayesaverage": {
-          "value": "7.00373"
+          "value": "7.00391"
         },
         "stddev": {
-          "value": "1.16287"
+          "value": "1.16314"
         },
         "median": {
           "value": "0"
@@ -6905,7 +6905,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "496",
-              "bayesaverage": "7.00373"
+              "bayesaverage": "7.00391"
             },
             {
               "type": "family",
@@ -6913,7 +6913,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "256",
-              "bayesaverage": "7.19106"
+              "bayesaverage": "7.19111"
             }
           ]
         }
@@ -6968,20 +6968,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "1735",
+      "numowned": "1739",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "221"
+          "value": "224"
         },
         "average": {
-          "value": "8.23122"
+          "value": "8.25045"
         },
         "bayesaverage": {
-          "value": "5.73158"
+          "value": "5.73639"
         },
         "stddev": {
-          "value": "1.128"
+          "value": "1.13381"
         },
         "median": {
           "value": "0"
@@ -6993,7 +6993,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.73158"
+            "bayesaverage": "5.73639"
           }
         }
       }
@@ -7047,20 +7047,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "76015",
+      "numowned": "76038",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "50820"
+          "value": "50833"
         },
         "average": {
-          "value": "7.25817"
+          "value": "7.25831"
         },
         "bayesaverage": {
-          "value": "7.1523"
+          "value": "7.15243"
         },
         "stddev": {
-          "value": "1.27041"
+          "value": "1.2704"
         },
         "median": {
           "value": "0"
@@ -7073,15 +7073,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "344",
-              "bayesaverage": "7.1523"
+              "bayesaverage": "7.15243"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "86",
-              "bayesaverage": "7.17185"
+              "value": "85",
+              "bayesaverage": "7.17195"
             }
           ]
         }
@@ -7216,20 +7216,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "85862",
+      "numowned": "85910",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "56624"
+          "value": "56658"
         },
         "average": {
-          "value": "8.08238"
+          "value": "8.0823"
         },
         "bayesaverage": {
-          "value": "7.91508"
+          "value": "7.91511"
         },
         "stddev": {
-          "value": "1.26517"
+          "value": "1.26542"
         },
         "median": {
           "value": "0"
@@ -7242,7 +7242,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "30",
-              "bayesaverage": "7.91508"
+              "bayesaverage": "7.91511"
             },
             {
               "type": "family",
@@ -7250,7 +7250,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "29",
-              "bayesaverage": "7.90825"
+              "bayesaverage": "7.90823"
             }
           ]
         }
@@ -7314,20 +7314,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "35011",
+      "numowned": "35033",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "9427"
+          "value": "9432"
         },
         "average": {
-          "value": "8.71081"
+          "value": "8.71053"
         },
         "bayesaverage": {
-          "value": "8.0184"
+          "value": "8.01848"
         },
         "stddev": {
-          "value": "1.00961"
+          "value": "1.00966"
         },
         "median": {
           "value": "0"
@@ -7340,7 +7340,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.0184"
+              "bayesaverage": "8.01848"
             },
             {
               "type": "family",
@@ -7348,7 +7348,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.14287"
+              "bayesaverage": "8.14289"
             }
           ]
         }
@@ -7404,20 +7404,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "19129",
+      "numowned": "19143",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "3493"
+          "value": "3496"
         },
         "average": {
-          "value": "8.66531"
+          "value": "8.6656"
         },
         "bayesaverage": {
-          "value": "7.32518"
+          "value": "7.32611"
         },
         "stddev": {
-          "value": "1.0772"
+          "value": "1.07705"
         },
         "median": {
           "value": "0"
@@ -7430,7 +7430,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.32518"
+              "bayesaverage": "7.32611"
             },
             {
               "type": "family",
@@ -7438,7 +7438,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.54305"
+              "bayesaverage": "7.544"
             }
           ]
         }
@@ -7496,20 +7496,20 @@
       "minplaytime": "30",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "8485",
+      "numowned": "8517",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1176"
+          "value": "1184"
         },
         "average": {
-          "value": "8.74934"
+          "value": "8.74681"
         },
         "bayesaverage": {
-          "value": "6.52042"
+          "value": "6.52491"
         },
         "stddev": {
-          "value": "1.27855"
+          "value": "1.27902"
         },
         "median": {
           "value": "0"
@@ -7521,7 +7521,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.52042"
+            "bayesaverage": "6.52491"
           }
         }
       }
@@ -7574,20 +7574,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "31333",
+      "numowned": "31365",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "15627"
+          "value": "15647"
         },
         "average": {
-          "value": "7.50409"
+          "value": "7.50334"
         },
         "bayesaverage": {
-          "value": "7.18432"
+          "value": "7.18404"
         },
         "stddev": {
-          "value": "1.30273"
+          "value": "1.30314"
         },
         "median": {
           "value": "0"
@@ -7600,7 +7600,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "316",
-              "bayesaverage": "7.18432"
+              "bayesaverage": "7.18404"
             },
             {
               "type": "family",
@@ -7608,15 +7608,15 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "19",
-              "bayesaverage": "7.26644"
+              "bayesaverage": "7.26574"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "69",
-              "bayesaverage": "7.23264"
+              "value": "70",
+              "bayesaverage": "7.23222"
             }
           ]
         }
@@ -7671,20 +7671,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "59646",
+      "numowned": "59656",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "35832"
+          "value": "35833"
         },
         "average": {
-          "value": "6.59259"
+          "value": "6.59255"
         },
         "bayesaverage": {
-          "value": "6.47439"
+          "value": "6.47436"
         },
         "stddev": {
-          "value": "1.36466"
+          "value": "1.36464"
         },
         "median": {
           "value": "0"
@@ -7697,7 +7697,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1379",
-              "bayesaverage": "6.47439"
+              "bayesaverage": "6.47436"
             },
             {
               "type": "family",
@@ -7705,7 +7705,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "492",
-              "bayesaverage": "6.47844"
+              "bayesaverage": "6.47841"
             }
           ]
         }
@@ -7755,7 +7755,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "15689",
+      "numowned": "15691",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -7839,7 +7839,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "9121",
+      "numowned": "9123",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -7913,20 +7913,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "38094",
+      "numowned": "38114",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "23865"
+          "value": "23868"
         },
         "average": {
-          "value": "6.93613"
+          "value": "6.93618"
         },
         "bayesaverage": {
-          "value": "6.7757"
+          "value": "6.77571"
         },
         "stddev": {
-          "value": "1.34346"
+          "value": "1.34355"
         },
         "median": {
           "value": "0"
@@ -7939,7 +7939,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "792",
-              "bayesaverage": "6.7757"
+              "bayesaverage": "6.77571"
             },
             {
               "type": "family",
@@ -7947,7 +7947,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "60",
-              "bayesaverage": "6.82389"
+              "bayesaverage": "6.824"
             },
             {
               "type": "family",
@@ -7955,7 +7955,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "230",
-              "bayesaverage": "6.79971"
+              "bayesaverage": "6.79972"
             }
           ]
         }
@@ -8039,7 +8039,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "22086",
+              "value": "22093",
               "bayesaverage": "5.51151"
             },
             {
@@ -8047,7 +8047,7 @@
               "id": "4665",
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
-              "value": "349",
+              "value": "348",
               "bayesaverage": "5.67782"
             }
           ]
@@ -8096,20 +8096,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "33730",
+      "numowned": "33738",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "25329"
+          "value": "25337"
         },
         "average": {
-          "value": "7.52254"
+          "value": "7.52263"
         },
         "bayesaverage": {
-          "value": "7.32975"
+          "value": "7.32983"
         },
         "stddev": {
-          "value": "1.3127"
+          "value": "1.31266"
         },
         "median": {
           "value": "0"
@@ -8122,15 +8122,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "221",
-              "bayesaverage": "7.32975"
+              "bayesaverage": "7.32983"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "167",
-              "bayesaverage": "7.35953"
+              "value": "168",
+              "bayesaverage": "7.35944"
             }
           ]
         }
@@ -8184,20 +8184,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "6903",
+      "numowned": "6915",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "2318"
+          "value": "2323"
         },
         "average": {
-          "value": "7.13935"
+          "value": "7.13969"
         },
         "bayesaverage": {
-          "value": "6.28088"
+          "value": "6.28164"
         },
         "stddev": {
-          "value": "1.2407"
+          "value": "1.24004"
         },
         "median": {
           "value": "0"
@@ -8210,7 +8210,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1925",
-              "bayesaverage": "6.28088"
+              "bayesaverage": "6.28164"
             },
             {
               "type": "family",
@@ -8218,7 +8218,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "560",
-              "bayesaverage": "6.41529"
+              "bayesaverage": "6.41591"
             }
           ]
         }
@@ -8275,20 +8275,20 @@
       "minplaytime": "10",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "1206",
+      "numowned": "1210",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "965"
+          "value": "967"
         },
         "average": {
-          "value": "6.79451"
+          "value": "6.79287"
         },
         "bayesaverage": {
-          "value": "5.86748"
+          "value": "5.86756"
         },
         "stddev": {
-          "value": "1.39375"
+          "value": "1.39352"
         },
         "median": {
           "value": "0"
@@ -8299,8 +8299,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "4130",
-            "bayesaverage": "5.86748"
+            "value": "4131",
+            "bayesaverage": "5.86756"
           }
         }
       }
@@ -8351,20 +8351,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "1161",
+      "numowned": "1162",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "504"
+          "value": "505"
         },
         "average": {
-          "value": "6.44528"
+          "value": "6.44539"
         },
         "bayesaverage": {
-          "value": "5.65437"
+          "value": "5.65468"
         },
         "stddev": {
-          "value": "1.49393"
+          "value": "1.49245"
         },
         "median": {
           "value": "0"
@@ -8375,8 +8375,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "7349",
-            "bayesaverage": "5.65437"
+            "value": "7342",
+            "bayesaverage": "5.65468"
           }
         }
       }
@@ -8426,20 +8426,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "14861",
+      "numowned": "14867",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "10118"
+          "value": "10124"
         },
         "average": {
-          "value": "7.25387"
+          "value": "7.25358"
         },
         "bayesaverage": {
-          "value": "6.89059"
+          "value": "6.89048"
         },
         "stddev": {
-          "value": "1.19078"
+          "value": "1.19055"
         },
         "median": {
           "value": "0"
@@ -8452,7 +8452,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "629",
-              "bayesaverage": "6.89059"
+              "bayesaverage": "6.89048"
             },
             {
               "type": "family",
@@ -8460,7 +8460,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "23",
-              "bayesaverage": "7.07134"
+              "bayesaverage": "7.07103"
             },
             {
               "type": "family",
@@ -8468,7 +8468,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "151",
-              "bayesaverage": "6.97462"
+              "bayesaverage": "6.97445"
             }
           ]
         }
@@ -8494,7 +8494,7 @@
       "Abstract Strategy",
       "Puzzle"
     ],
-    "weight": "1.8803",
+    "weight": "1.8807",
     "type": "boardgame",
     "lastplay": "2026-02-22"
   },
@@ -8522,7 +8522,7 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "3282",
+      "numowned": "3283",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -8547,7 +8547,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1999",
+              "value": "2000",
               "bayesaverage": "6.26092"
             },
             {
@@ -8563,7 +8563,7 @@
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "619",
+              "value": "618",
               "bayesaverage": "6.3701"
             }
           ]
@@ -8612,20 +8612,20 @@
       "minplaytime": "90",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "43015",
+      "numowned": "43024",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "35486"
+          "value": "35496"
         },
         "average": {
-          "value": "8.04712"
+          "value": "8.04732"
         },
         "bayesaverage": {
-          "value": "7.85868"
+          "value": "7.8589"
         },
         "stddev": {
-          "value": "1.1718"
+          "value": "1.17178"
         },
         "median": {
           "value": "0"
@@ -8638,7 +8638,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "36",
-              "bayesaverage": "7.85868"
+              "bayesaverage": "7.8589"
             },
             {
               "type": "family",
@@ -8646,7 +8646,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "33",
-              "bayesaverage": "7.8857"
+              "bayesaverage": "7.88587"
             }
           ]
         }
@@ -8704,20 +8704,20 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "2581",
+      "numowned": "2588",
       "rating": {
         "value": "6",
         "usersrated": {
-          "value": "924"
+          "value": "925"
         },
         "average": {
-          "value": "6.0627"
+          "value": "6.05939"
         },
         "bayesaverage": {
-          "value": "5.6301"
+          "value": "5.62926"
         },
         "stddev": {
-          "value": "1.5765"
+          "value": "1.57886"
         },
         "median": {
           "value": "0"
@@ -8729,16 +8729,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "8075",
-              "bayesaverage": "5.6301"
+              "value": "8103",
+              "bayesaverage": "5.62926"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "2208",
-              "bayesaverage": "5.65912"
+              "value": "2210",
+              "bayesaverage": "5.65799"
             }
           ]
         }
@@ -8787,20 +8787,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "225382",
+      "numowned": "225431",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "134816"
+          "value": "134826"
         },
         "average": {
-          "value": "7.51406"
+          "value": "7.514"
         },
         "bayesaverage": {
-          "value": "7.40476"
+          "value": "7.4047"
         },
         "stddev": {
-          "value": "1.3396"
+          "value": "1.33955"
         },
         "median": {
           "value": "0"
@@ -8813,7 +8813,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "171",
-              "bayesaverage": "7.40476"
+              "bayesaverage": "7.4047"
             },
             {
               "type": "family",
@@ -8821,7 +8821,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "177",
-              "bayesaverage": "7.33086"
+              "bayesaverage": "7.33084"
             },
             {
               "type": "family",
@@ -8829,7 +8829,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "37",
-              "bayesaverage": "7.38973"
+              "bayesaverage": "7.38969"
             }
           ]
         }
@@ -8891,20 +8891,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "89232",
+      "numowned": "89246",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "57291"
+          "value": "57306"
         },
         "average": {
-          "value": "8.5036"
+          "value": "8.5033"
         },
         "bayesaverage": {
-          "value": "8.34738"
+          "value": "8.34726"
         },
         "stddev": {
-          "value": "1.608"
+          "value": "1.6084"
         },
         "median": {
           "value": "0"
@@ -8917,7 +8917,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "3",
-              "bayesaverage": "8.34738"
+              "bayesaverage": "8.34726"
             },
             {
               "type": "family",
@@ -8925,7 +8925,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "1",
-              "bayesaverage": "8.3552"
+              "bayesaverage": "8.35502"
             },
             {
               "type": "family",
@@ -8933,7 +8933,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "3",
-              "bayesaverage": "8.33609"
+              "bayesaverage": "8.33596"
             }
           ]
         }
@@ -8992,20 +8992,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "3859",
+      "numowned": "3865",
       "rating": {
         "value": "6",
         "usersrated": {
-          "value": "2140"
+          "value": "2142"
         },
         "average": {
-          "value": "6.6562"
+          "value": "6.65661"
         },
         "bayesaverage": {
-          "value": "6.04543"
+          "value": "6.04592"
         },
         "stddev": {
-          "value": "1.30181"
+          "value": "1.30128"
         },
         "median": {
           "value": "0"
@@ -9017,8 +9017,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2930",
-              "bayesaverage": "6.04543"
+              "value": "2929",
+              "bayesaverage": "6.04592"
             },
             {
               "type": "family",
@@ -9026,7 +9026,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "934",
-              "bayesaverage": "6.15337"
+              "bayesaverage": "6.1539"
             }
           ]
         }
@@ -9075,7 +9075,7 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "597",
+      "numowned": "599",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -9146,20 +9146,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "22754",
+      "numowned": "22771",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "12782"
+          "value": "12795"
         },
         "average": {
-          "value": "6.59386"
+          "value": "6.59336"
         },
         "bayesaverage": {
-          "value": "6.39121"
+          "value": "6.39062"
         },
         "stddev": {
-          "value": "1.28306"
+          "value": "1.284"
         },
         "median": {
           "value": "0"
@@ -9171,16 +9171,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1600",
-              "bayesaverage": "6.39121"
+              "value": "1606",
+              "bayesaverage": "6.39062"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "542",
-              "bayesaverage": "6.43333"
+              "value": "544",
+              "bayesaverage": "6.43266"
             }
           ]
         }
@@ -9231,7 +9231,7 @@
       "minplaytime": "10",
       "maxplaytime": "10",
       "playingtime": "10",
-      "numowned": "1345",
+      "numowned": "1346",
       "rating": {
         "value": "6",
         "usersrated": {
@@ -9314,20 +9314,20 @@
       "minplaytime": "90",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "84916",
+      "numowned": "84922",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "74176"
+          "value": "74183"
         },
         "average": {
-          "value": "7.89909"
+          "value": "7.89905"
         },
         "bayesaverage": {
-          "value": "7.75371"
+          "value": "7.7537"
         },
         "stddev": {
-          "value": "1.38984"
+          "value": "1.3898"
         },
         "median": {
           "value": "0"
@@ -9340,7 +9340,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "55",
-              "bayesaverage": "7.75371"
+              "bayesaverage": "7.7537"
             },
             {
               "type": "family",
@@ -9348,7 +9348,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "55",
-              "bayesaverage": "7.7424"
+              "bayesaverage": "7.74236"
             }
           ]
         }
@@ -9402,20 +9402,20 @@
       "minplaytime": "45",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "93556",
+      "numowned": "93600",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "58854"
+          "value": "58879"
         },
         "average": {
-          "value": "7.80488"
+          "value": "7.80498"
         },
         "bayesaverage": {
-          "value": "7.66842"
+          "value": "7.66854"
         },
         "stddev": {
-          "value": "1.2528"
+          "value": "1.25278"
         },
         "median": {
           "value": "0"
@@ -9428,15 +9428,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "78",
-              "bayesaverage": "7.66842"
+              "bayesaverage": "7.66854"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "12",
-              "bayesaverage": "7.69207"
+              "value": "13",
+              "bayesaverage": "7.6922"
             }
           ]
         }
@@ -9494,20 +9494,20 @@
       "minplaytime": "45",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "16356",
+      "numowned": "16369",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "8796"
+          "value": "8804"
         },
         "average": {
-          "value": "7.49847"
+          "value": "7.49788"
         },
         "bayesaverage": {
-          "value": "7.05898"
+          "value": "7.05874"
         },
         "stddev": {
-          "value": "1.31752"
+          "value": "1.3174"
         },
         "median": {
           "value": "0"
@@ -9519,8 +9519,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "436",
-              "bayesaverage": "7.05898"
+              "value": "438",
+              "bayesaverage": "7.05874"
             },
             {
               "type": "family",
@@ -9528,7 +9528,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "17",
-              "bayesaverage": "7.27652"
+              "bayesaverage": "7.2761"
             }
           ]
         }
@@ -9581,20 +9581,20 @@
       "minplaytime": "40",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "21538",
+      "numowned": "21540",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "11045"
+          "value": "11047"
         },
         "average": {
-          "value": "7.35761"
+          "value": "7.35755"
         },
         "bayesaverage": {
-          "value": "6.95621"
+          "value": "6.95614"
         },
         "stddev": {
-          "value": "1.24111"
+          "value": "1.24108"
         },
         "median": {
           "value": "0"
@@ -9607,7 +9607,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "552",
-              "bayesaverage": "6.95621"
+              "bayesaverage": "6.95614"
             },
             {
               "type": "family",
@@ -9615,7 +9615,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "145",
-              "bayesaverage": "7.05477"
+              "bayesaverage": "7.05465"
             },
             {
               "type": "family",
@@ -9623,7 +9623,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "407",
-              "bayesaverage": "6.97124"
+              "bayesaverage": "6.97115"
             }
           ]
         }
@@ -9678,20 +9678,20 @@
       "minplaytime": "5",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "22024",
+      "numowned": "22033",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "12242"
+          "value": "12246"
         },
         "average": {
-          "value": "6.88569"
+          "value": "6.88562"
         },
         "bayesaverage": {
-          "value": "6.62882"
+          "value": "6.62883"
         },
         "stddev": {
-          "value": "1.20639"
+          "value": "1.20622"
         },
         "median": {
           "value": "0"
@@ -9704,7 +9704,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1039",
-              "bayesaverage": "6.62882"
+              "bayesaverage": "6.62883"
             },
             {
               "type": "family",
@@ -9712,7 +9712,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "22",
-              "bayesaverage": "6.77371"
+              "bayesaverage": "6.77369"
             },
             {
               "type": "family",
@@ -9720,7 +9720,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "317",
-              "bayesaverage": "6.67965"
+              "bayesaverage": "6.67962"
             }
           ]
         }
@@ -9776,20 +9776,20 @@
       "minplaytime": "20",
       "maxplaytime": "40",
       "playingtime": "40",
-      "numowned": "4172",
+      "numowned": "4185",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "3030"
+          "value": "3046"
         },
         "average": {
-          "value": "7.41341"
+          "value": "7.41331"
         },
         "bayesaverage": {
-          "value": "6.57615"
+          "value": "6.578"
         },
         "stddev": {
-          "value": "1.2259"
+          "value": "1.22709"
         },
         "median": {
           "value": "0"
@@ -9801,16 +9801,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1151",
-              "bayesaverage": "6.57615"
+              "value": "1147",
+              "bayesaverage": "6.578"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "642",
-              "bayesaverage": "6.71951"
+              "value": "641",
+              "bayesaverage": "6.72069"
             }
           ]
         }
@@ -9863,20 +9863,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "49494",
+      "numowned": "49517",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "21876"
+          "value": "21887"
         },
         "average": {
-          "value": "6.52098"
+          "value": "6.52131"
         },
         "bayesaverage": {
-          "value": "6.33288"
+          "value": "6.33326"
         },
         "stddev": {
-          "value": "1.45348"
+          "value": "1.45331"
         },
         "median": {
           "value": "0"
@@ -9889,7 +9889,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1757",
-              "bayesaverage": "6.33288"
+              "bayesaverage": "6.33326"
             },
             {
               "type": "family",
@@ -9897,7 +9897,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "671",
-              "bayesaverage": "6.33258"
+              "bayesaverage": "6.33291"
             }
           ]
         }
@@ -9947,20 +9947,20 @@
       "minplaytime": "115",
       "maxplaytime": "115",
       "playingtime": "115",
-      "numowned": "128104",
+      "numowned": "128145",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "93035"
+          "value": "93071"
         },
         "average": {
-          "value": "8.10216"
+          "value": "8.10179"
         },
         "bayesaverage": {
-          "value": "7.94647"
+          "value": "7.9461"
         },
         "stddev": {
-          "value": "1.45749"
+          "value": "1.45767"
         },
         "median": {
           "value": "0"
@@ -9973,7 +9973,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "26",
-              "bayesaverage": "7.94647"
+              "bayesaverage": "7.9461"
             },
             {
               "type": "family",
@@ -9981,7 +9981,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "27",
-              "bayesaverage": "7.91836"
+              "bayesaverage": "7.91793"
             }
           ]
         }
@@ -10046,20 +10046,20 @@
       "minplaytime": "90",
       "maxplaytime": "115",
       "playingtime": "115",
-      "numowned": "17195",
+      "numowned": "17200",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "3475"
         },
         "average": {
-          "value": "8.10231"
+          "value": "8.10245"
         },
         "bayesaverage": {
-          "value": "6.98614"
+          "value": "6.9866"
         },
         "stddev": {
-          "value": "1.42126"
+          "value": "1.42138"
         },
         "median": {
           "value": "0"
@@ -10072,7 +10072,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.98614"
+              "bayesaverage": "6.9866"
             },
             {
               "type": "family",
@@ -10080,7 +10080,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.16801"
+              "bayesaverage": "7.16852"
             }
           ]
         }
@@ -10132,14 +10132,14 @@
       "minplaytime": "90",
       "maxplaytime": "140",
       "playingtime": "140",
-      "numowned": "45159",
+      "numowned": "45170",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "12490"
         },
         "average": {
-          "value": "8.26847"
+          "value": "8.26835"
         },
         "bayesaverage": {
           "value": "7.77094"
@@ -10215,17 +10215,17 @@
       "minplaytime": "75",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "31799",
+      "numowned": "31804",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "8255"
+          "value": "8256"
         },
         "average": {
-          "value": "8.69435"
+          "value": "8.69391"
         },
         "bayesaverage": {
-          "value": "7.92745"
+          "value": "7.92725"
         },
         "stddev": {
           "value": "1.30054"
@@ -10241,7 +10241,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.92745"
+              "bayesaverage": "7.92725"
             },
             {
               "type": "family",
@@ -10249,7 +10249,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.07221"
+              "bayesaverage": "8.07197"
             }
           ]
         }
@@ -10306,20 +10306,20 @@
       "minplaytime": "70",
       "maxplaytime": "140",
       "playingtime": "140",
-      "numowned": "34069",
+      "numowned": "34078",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "7860"
         },
         "average": {
-          "value": "7.76456"
+          "value": "7.76437"
         },
         "bayesaverage": {
-          "value": "7.17747"
+          "value": "7.17761"
         },
         "stddev": {
-          "value": "1.38769"
+          "value": "1.38749"
         },
         "median": {
           "value": "0"
@@ -10332,7 +10332,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.17747"
+              "bayesaverage": "7.17761"
             },
             {
               "type": "family",
@@ -10340,7 +10340,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.27165"
+              "bayesaverage": "7.27179"
             }
           ]
         }
@@ -10390,20 +10390,20 @@
       "minplaytime": "40",
       "maxplaytime": "160",
       "playingtime": "160",
-      "numowned": "30111",
+      "numowned": "30180",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "19046"
+          "value": "19093"
         },
         "average": {
-          "value": "8.41784"
+          "value": "8.41774"
         },
         "bayesaverage": {
-          "value": "8.02213"
+          "value": "8.02259"
         },
         "stddev": {
-          "value": "1.27124"
+          "value": "1.271"
         },
         "median": {
           "value": "0"
@@ -10416,7 +10416,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "16",
-              "bayesaverage": "8.02213"
+              "bayesaverage": "8.02259"
             },
             {
               "type": "family",
@@ -10424,7 +10424,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "13",
-              "bayesaverage": "8.07848"
+              "bayesaverage": "8.0788"
             }
           ]
         }
@@ -10478,20 +10478,20 @@
       "minplaytime": "15",
       "maxplaytime": "45",
       "playingtime": "45",
-      "numowned": "46846",
+      "numowned": "46872",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "28382"
+          "value": "28386"
         },
         "average": {
-          "value": "7.17237"
+          "value": "7.17241"
         },
         "bayesaverage": {
-          "value": "7.01043"
+          "value": "7.01059"
         },
         "stddev": {
-          "value": "1.40154"
+          "value": "1.40104"
         },
         "median": {
           "value": "0"
@@ -10504,7 +10504,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "489",
-              "bayesaverage": "7.01043"
+              "bayesaverage": "7.01059"
             },
             {
               "type": "family",
@@ -10512,7 +10512,7 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "36",
-              "bayesaverage": "7.0324"
+              "bayesaverage": "7.03261"
             }
           ]
         }
@@ -10566,20 +10566,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "33119",
+      "numowned": "33154",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "15445"
+          "value": "15453"
         },
         "average": {
-          "value": "7.52776"
+          "value": "7.52742"
         },
         "bayesaverage": {
-          "value": "7.20981"
+          "value": "7.2098"
         },
         "stddev": {
-          "value": "1.3444"
+          "value": "1.3441"
         },
         "median": {
           "value": "0"
@@ -10592,7 +10592,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "295",
-              "bayesaverage": "7.20981"
+              "bayesaverage": "7.2098"
             },
             {
               "type": "family",
@@ -10600,7 +10600,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "58",
-              "bayesaverage": "7.27287"
+              "bayesaverage": "7.27282"
             }
           ]
         }
@@ -10725,20 +10725,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "64297",
+      "numowned": "64380",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "31195"
+          "value": "31255"
         },
         "average": {
-          "value": "8.12129"
+          "value": "8.12175"
         },
         "bayesaverage": {
-          "value": "7.88512"
+          "value": "7.88551"
         },
         "stddev": {
-          "value": "1.15461"
+          "value": "1.15438"
         },
         "median": {
           "value": "0"
@@ -10751,7 +10751,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "33",
-              "bayesaverage": "7.88512"
+              "bayesaverage": "7.88551"
             },
             {
               "type": "family",
@@ -10759,7 +10759,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "14",
-              "bayesaverage": "7.88248"
+              "bayesaverage": "7.88258"
             },
             {
               "type": "family",
@@ -10767,7 +10767,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "3",
-              "bayesaverage": "7.92537"
+              "bayesaverage": "7.92562"
             }
           ]
         }
@@ -10822,7 +10822,7 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "11164",
+      "numowned": "11184",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -10980,20 +10980,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "97275",
+      "numowned": "97331",
       "rating": {
         "value": "9",
         "usersrated": {
-          "value": "62755"
+          "value": "62780"
         },
         "average": {
-          "value": "8.34074"
+          "value": "8.34087"
         },
         "bayesaverage": {
-          "value": "8.14217"
+          "value": "8.14223"
         },
         "stddev": {
-          "value": "1.52083"
+          "value": "1.5205"
         },
         "median": {
           "value": "0"
@@ -11006,7 +11006,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "11",
-              "bayesaverage": "8.14217"
+              "bayesaverage": "8.14223"
             },
             {
               "type": "family",
@@ -11014,7 +11014,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "10",
-              "bayesaverage": "8.12092"
+              "bayesaverage": "8.12086"
             }
           ]
         }
@@ -11076,20 +11076,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "30790",
+      "numowned": "30798",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "7771"
+          "value": "7774"
         },
         "average": {
-          "value": "8.98147"
+          "value": "8.9811"
         },
         "bayesaverage": {
-          "value": "8.11586"
+          "value": "8.11583"
         },
         "stddev": {
-          "value": "1.08673"
+          "value": "1.08681"
         },
         "median": {
           "value": "0"
@@ -11102,7 +11102,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.11586"
+              "bayesaverage": "8.11583"
             },
             {
               "type": "family",
@@ -11110,7 +11110,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.2693"
+              "bayesaverage": "8.26933"
             }
           ]
         }
@@ -11165,20 +11165,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "9191",
+      "numowned": "9192",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "1716"
         },
         "average": {
-          "value": "8.98674"
+          "value": "8.98558"
         },
         "bayesaverage": {
-          "value": "6.89622"
+          "value": "6.89569"
         },
         "stddev": {
-          "value": "1.07423"
+          "value": "1.07422"
         },
         "median": {
           "value": "0"
@@ -11191,7 +11191,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.89622"
+              "bayesaverage": "6.89569"
             },
             {
               "type": "family",
@@ -11199,7 +11199,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.12065"
+              "bayesaverage": "7.12095"
             }
           ]
         }
@@ -11253,20 +11253,20 @@
       "minplaytime": "90",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "24302",
+      "numowned": "24308",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6178"
+          "value": "6182"
         },
         "average": {
-          "value": "9.32794"
+          "value": "9.32749"
         },
         "bayesaverage": {
-          "value": "8.19335"
+          "value": "8.19358"
         },
         "stddev": {
-          "value": "0.958345"
+          "value": "0.958513"
         },
         "median": {
           "value": "0"
@@ -11279,7 +11279,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.19335"
+              "bayesaverage": "8.19358"
             },
             {
               "type": "family",
@@ -11287,7 +11287,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "8.39511"
+              "bayesaverage": "8.39501"
             }
           ]
         }
@@ -11344,20 +11344,20 @@
       "minplaytime": "90",
       "maxplaytime": "180",
       "playingtime": "180",
-      "numowned": "10744",
+      "numowned": "10754",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2042"
+          "value": "2044"
         },
         "average": {
-          "value": "9.32407"
+          "value": "9.32375"
         },
         "bayesaverage": {
-          "value": "7.20924"
+          "value": "7.20968"
         },
         "stddev": {
-          "value": "1.09367"
+          "value": "1.09318"
         },
         "median": {
           "value": "0"
@@ -11370,7 +11370,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.20924"
+              "bayesaverage": "7.20968"
             },
             {
               "type": "family",
@@ -11378,7 +11378,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.68675"
+              "bayesaverage": "7.68732"
             },
             {
               "type": "family",
@@ -11386,7 +11386,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "7.48231"
+              "bayesaverage": "7.48357"
             }
           ]
         }
@@ -11447,20 +11447,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "137986",
+      "numowned": "138038",
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "89889"
+          "value": "89920"
         },
         "average": {
-          "value": "7.42034"
+          "value": "7.42037"
         },
         "bayesaverage": {
-          "value": "7.29264"
+          "value": "7.29263"
         },
         "stddev": {
-          "value": "1.2879"
+          "value": "1.28771"
         },
         "median": {
           "value": "0"
@@ -11473,15 +11473,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "243",
-              "bayesaverage": "7.29264"
+              "bayesaverage": "7.29263"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "55",
-              "bayesaverage": "7.29123"
+              "value": "56",
+              "bayesaverage": "7.29122"
             }
           ]
         }
@@ -11533,20 +11533,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "37666",
+      "numowned": "37690",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "19067"
+          "value": "19090"
         },
         "average": {
-          "value": "7.87844"
+          "value": "7.87833"
         },
         "bayesaverage": {
-          "value": "7.55733"
+          "value": "7.55726"
         },
         "stddev": {
-          "value": "1.13241"
+          "value": "1.13225"
         },
         "median": {
           "value": "0"
@@ -11559,7 +11559,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "112",
-              "bayesaverage": "7.55733"
+              "bayesaverage": "7.55726"
             },
             {
               "type": "family",
@@ -11567,7 +11567,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "98",
-              "bayesaverage": "7.5753"
+              "bayesaverage": "7.5751"
             },
             {
               "type": "family",
@@ -11575,7 +11575,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "16",
-              "bayesaverage": "7.62274"
+              "bayesaverage": "7.62266"
             }
           ]
         }
@@ -11628,7 +11628,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "18785",
+      "numowned": "18791",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -11712,20 +11712,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "12726",
+      "numowned": "12731",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "4965"
+          "value": "4971"
         },
         "average": {
-          "value": "7.51961"
+          "value": "7.51908"
         },
         "bayesaverage": {
-          "value": "6.8097"
+          "value": "6.81029"
         },
         "stddev": {
-          "value": "1.16059"
+          "value": "1.16416"
         },
         "median": {
           "value": "0"
@@ -11738,7 +11738,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "742",
-              "bayesaverage": "6.8097"
+              "bayesaverage": "6.81029"
             },
             {
               "type": "family",
@@ -11746,7 +11746,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "477",
-              "bayesaverage": "6.89933"
+              "bayesaverage": "6.89999"
             }
           ]
         }
@@ -11805,16 +11805,16 @@
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "929"
+          "value": "930"
         },
         "average": {
-          "value": "7.43709"
+          "value": "7.43984"
         },
         "bayesaverage": {
-          "value": "6.04511"
+          "value": "6.04636"
         },
         "stddev": {
-          "value": "1.32023"
+          "value": "1.32219"
         },
         "median": {
           "value": "0"
@@ -11826,16 +11826,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2931",
-              "bayesaverage": "6.04511"
+              "value": "2925",
+              "bayesaverage": "6.04636"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "1313",
-              "bayesaverage": "6.19777"
+              "value": "1312",
+              "bayesaverage": "6.19934"
             }
           ]
         }
@@ -11894,20 +11894,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "5801",
+      "numowned": "5813",
       "rating": {
         "value": "N/A",
         "usersrated": {
           "value": "3995"
         },
         "average": {
-          "value": "7.04212"
+          "value": "7.04237"
         },
         "bayesaverage": {
-          "value": "6.47222"
+          "value": "6.47238"
         },
         "stddev": {
-          "value": "1.33761"
+          "value": "1.3377"
         },
         "median": {
           "value": "0"
@@ -11919,8 +11919,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1381",
-              "bayesaverage": "6.47222"
+              "value": "1383",
+              "bayesaverage": "6.47238"
             },
             {
               "type": "family",
@@ -11928,7 +11928,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "783",
-              "bayesaverage": "6.59226"
+              "bayesaverage": "6.59244"
             }
           ]
         }
@@ -11977,7 +11977,7 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "523",
+      "numowned": "524",
       "rating": {
         "value": "7.5",
         "usersrated": {
@@ -12001,7 +12001,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "8000",
+            "value": "8006",
             "bayesaverage": "5.63236"
           }
         }
@@ -12050,20 +12050,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "12829",
+      "numowned": "12831",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "5178"
+          "value": "5179"
         },
         "average": {
-          "value": "7.42407"
+          "value": "7.42391"
         },
         "bayesaverage": {
-          "value": "6.77943"
+          "value": "6.77951"
         },
         "stddev": {
-          "value": "1.34456"
+          "value": "1.34463"
         },
         "median": {
           "value": "0"
@@ -12075,8 +12075,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "782",
-              "bayesaverage": "6.77943"
+              "value": "783",
+              "bayesaverage": "6.77951"
             },
             {
               "type": "family",
@@ -12084,7 +12084,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "171",
-              "bayesaverage": "6.98455"
+              "bayesaverage": "6.98467"
             }
           ]
         }
@@ -12132,20 +12132,20 @@
       "minplaytime": "30",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "83965",
+      "numowned": "83992",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "69352"
+          "value": "69376"
         },
         "average": {
-          "value": "8.16049"
+          "value": "8.16034"
         },
         "bayesaverage": {
-          "value": "8.03073"
+          "value": "8.03071"
         },
         "stddev": {
-          "value": "1.25491"
+          "value": "1.25518"
         },
         "median": {
           "value": "0"
@@ -12158,7 +12158,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "15",
-              "bayesaverage": "8.03073"
+              "bayesaverage": "8.03071"
             },
             {
               "type": "family",
@@ -12166,7 +12166,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "16",
-              "bayesaverage": "8.03053"
+              "bayesaverage": "8.0305"
             }
           ]
         }
@@ -12226,20 +12226,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "51064",
+      "numowned": "51096",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "25332"
+          "value": "25351"
         },
         "average": {
-          "value": "8.05116"
+          "value": "8.05092"
         },
         "bayesaverage": {
-          "value": "7.80831"
+          "value": "7.80809"
         },
         "stddev": {
-          "value": "1.31814"
+          "value": "1.31835"
         },
         "median": {
           "value": "0"
@@ -12252,7 +12252,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "43",
-              "bayesaverage": "7.80831"
+              "bayesaverage": "7.80809"
             },
             {
               "type": "family",
@@ -12260,7 +12260,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "4",
-              "bayesaverage": "7.86611"
+              "bayesaverage": "7.86588"
             }
           ]
         }
@@ -12314,20 +12314,20 @@
       "minplaytime": "60",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "3088",
+      "numowned": "3109",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1606"
+          "value": "1618"
         },
         "average": {
-          "value": "7.89947"
+          "value": "7.89521"
         },
         "bayesaverage": {
-          "value": "6.44101"
+          "value": "6.44368"
         },
         "stddev": {
-          "value": "1.12328"
+          "value": "1.12472"
         },
         "median": {
           "value": "0"
@@ -12339,16 +12339,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1470",
-              "bayesaverage": "6.44101"
+              "value": "1458",
+              "bayesaverage": "6.44368"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "728",
-              "bayesaverage": "6.64357"
+              "value": "724",
+              "bayesaverage": "6.646"
             }
           ]
         }
@@ -12398,20 +12398,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "40399",
+      "numowned": "40496",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "19368"
+          "value": "19404"
         },
         "average": {
-          "value": "8.35805"
+          "value": "8.35848"
         },
         "bayesaverage": {
-          "value": "7.97625"
+          "value": "7.97687"
         },
         "stddev": {
-          "value": "1.11444"
+          "value": "1.11401"
         },
         "median": {
           "value": "0"
@@ -12424,7 +12424,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "19",
-              "bayesaverage": "7.97625"
+              "bayesaverage": "7.97687"
             },
             {
               "type": "family",
@@ -12432,7 +12432,7 @@
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
               "value": "20",
-              "bayesaverage": "8.00366"
+              "bayesaverage": "8.00424"
             },
             {
               "type": "family",
@@ -12440,7 +12440,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "1",
-              "bayesaverage": "8.04734"
+              "bayesaverage": "8.0478"
             }
           ]
         }
@@ -12507,20 +12507,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "7450",
+      "numowned": "7489",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "809"
+          "value": "814"
         },
         "average": {
-          "value": "8.16173"
+          "value": "8.16319"
         },
         "bayesaverage": {
-          "value": "6.13789"
+          "value": "6.14107"
         },
         "stddev": {
-          "value": "1.2304"
+          "value": "1.22936"
         },
         "median": {
           "value": "0"
@@ -12532,7 +12532,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "6.13789"
+            "bayesaverage": "6.14107"
           }
         }
       }
@@ -12596,20 +12596,20 @@
       "minplaytime": "60",
       "maxplaytime": "150",
       "playingtime": "150",
-      "numowned": "17167",
+      "numowned": "17283",
       "rating": {
         "value": "8.5",
         "usersrated": {
-          "value": "8321"
+          "value": "8383"
         },
         "average": {
-          "value": "8.32366"
+          "value": "8.32605"
         },
         "bayesaverage": {
-          "value": "7.58863"
+          "value": "7.59341"
         },
         "stddev": {
-          "value": "1.32219"
+          "value": "1.32066"
         },
         "median": {
           "value": "0"
@@ -12621,8 +12621,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "103",
-              "bayesaverage": "7.58863"
+              "value": "100",
+              "bayesaverage": "7.59341"
             },
             {
               "type": "family",
@@ -12630,7 +12630,7 @@
               "name": "thematic",
               "friendlyname": "Thematic Rank",
               "value": "23",
-              "bayesaverage": "7.76854"
+              "bayesaverage": "7.77109"
             }
           ]
         }
@@ -12685,20 +12685,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "69259",
+      "numowned": "69300",
       "rating": {
         "value": "6.5",
         "usersrated": {
-          "value": "37186"
+          "value": "37198"
         },
         "average": {
-          "value": "6.7172"
+          "value": "6.71681"
         },
         "bayesaverage": {
-          "value": "6.5939"
+          "value": "6.59355"
         },
         "stddev": {
-          "value": "1.59916"
+          "value": "1.59917"
         },
         "median": {
           "value": "0"
@@ -12711,7 +12711,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1110",
-              "bayesaverage": "6.5939"
+              "bayesaverage": "6.59355"
             },
             {
               "type": "family",
@@ -12719,15 +12719,15 @@
               "name": "partygames",
               "friendlyname": "Party Game Rank",
               "value": "94",
-              "bayesaverage": "6.60564"
+              "bayesaverage": "6.60527"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "385",
-              "bayesaverage": "6.60069"
+              "value": "387",
+              "bayesaverage": "6.6003"
             }
           ]
         }
@@ -12777,20 +12777,20 @@
       "minplaytime": "60",
       "maxplaytime": "120",
       "playingtime": "120",
-      "numowned": "4607",
+      "numowned": "4628",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "2589"
+          "value": "2595"
         },
         "average": {
-          "value": "8.0754"
+          "value": "8.0743"
         },
         "bayesaverage": {
-          "value": "6.73526"
+          "value": "6.73569"
         },
         "stddev": {
-          "value": "1.72875"
+          "value": "1.72787"
         },
         "median": {
           "value": "0"
@@ -12802,16 +12802,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "846",
-              "bayesaverage": "6.73526"
+              "value": "847",
+              "bayesaverage": "6.73569"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "460",
-              "bayesaverage": "6.91496"
+              "value": "459",
+              "bayesaverage": "6.91524"
             }
           ]
         }
@@ -12862,20 +12862,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "53398",
+      "numowned": "53422",
       "rating": {
         "value": "9",
         "usersrated": {
-          "value": "32537"
+          "value": "32557"
         },
         "average": {
-          "value": "7.7169"
+          "value": "7.71717"
         },
         "bayesaverage": {
-          "value": "7.53535"
+          "value": "7.53564"
         },
         "stddev": {
-          "value": "1.09835"
+          "value": "1.09832"
         },
         "median": {
           "value": "0"
@@ -12888,7 +12888,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "122",
-              "bayesaverage": "7.53535"
+              "bayesaverage": "7.53564"
             },
             {
               "type": "family",
@@ -12896,7 +12896,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "19",
-              "bayesaverage": "7.57565"
+              "bayesaverage": "7.57593"
             }
           ]
         }
@@ -12957,20 +12957,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "2538",
+      "numowned": "2537",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "495"
+          "value": "494"
         },
         "average": {
-          "value": "8.07253"
+          "value": "8.07409"
         },
         "bayesaverage": {
-          "value": "5.93548"
+          "value": "5.93498"
         },
         "stddev": {
-          "value": "1.10017"
+          "value": "1.10074"
         },
         "median": {
           "value": "0"
@@ -12982,7 +12982,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.93548"
+            "bayesaverage": "5.93498"
           }
         }
       }
@@ -13040,20 +13040,20 @@
       "minplaytime": "60",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "1569",
+      "numowned": "1570",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "245"
+          "value": "246"
         },
         "average": {
-          "value": "7.69449"
+          "value": "7.70386"
         },
         "bayesaverage": {
-          "value": "5.69767"
+          "value": "5.69941"
         },
         "stddev": {
-          "value": "1.21454"
+          "value": "1.22091"
         },
         "median": {
           "value": "0"
@@ -13065,7 +13065,7 @@
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
             "value": "Not Ranked",
-            "bayesaverage": "5.69767"
+            "bayesaverage": "5.69941"
           }
         }
       }
@@ -13123,7 +13123,7 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "9443",
+      "numowned": "9445",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -13214,20 +13214,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "5913",
+      "numowned": "5916",
       "rating": {
         "value": "9",
         "usersrated": {
-          "value": "2177"
+          "value": "2181"
         },
         "average": {
-          "value": "7.64201"
+          "value": "7.64175"
         },
         "bayesaverage": {
-          "value": "6.51021"
+          "value": "6.51056"
         },
         "stddev": {
-          "value": "1.14322"
+          "value": "1.14319"
         },
         "median": {
           "value": "0"
@@ -13240,7 +13240,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "1299",
-              "bayesaverage": "6.51021"
+              "bayesaverage": "6.51056"
             },
             {
               "type": "family",
@@ -13248,7 +13248,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "298",
-              "bayesaverage": "6.70724"
+              "bayesaverage": "6.70749"
             }
           ]
         }
@@ -13302,7 +13302,7 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "5767",
+      "numowned": "5772",
       "rating": {
         "value": "7.5",
         "usersrated": {
@@ -13386,20 +13386,20 @@
       "minplaytime": "3",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "9529",
+      "numowned": "9537",
       "rating": {
         "value": "6.5",
         "usersrated": {
-          "value": "3037"
+          "value": "3039"
         },
         "average": {
           "value": "6.74991"
         },
         "bayesaverage": {
-          "value": "6.1607"
+          "value": "6.16093"
         },
         "stddev": {
-          "value": "1.24312"
+          "value": "1.24286"
         },
         "median": {
           "value": "0"
@@ -13411,8 +13411,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2366",
-              "bayesaverage": "6.1607"
+              "value": "2365",
+              "bayesaverage": "6.16093"
             },
             {
               "type": "family",
@@ -13420,7 +13420,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "776",
-              "bayesaverage": "6.24937"
+              "bayesaverage": "6.2496"
             }
           ]
         }
@@ -13470,20 +13470,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "617",
+      "numowned": "620",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "371"
+          "value": "373"
         },
         "average": {
-          "value": "6.48641"
+          "value": "6.48515"
         },
         "bayesaverage": {
-          "value": "5.58809"
+          "value": "5.58861"
         },
         "stddev": {
-          "value": "1.53627"
+          "value": "1.53235"
         },
         "median": {
           "value": "0"
@@ -13495,24 +13495,24 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "10028",
-              "bayesaverage": "5.58809"
+              "value": "9997",
+              "bayesaverage": "5.58861"
             },
             {
               "type": "family",
               "id": "4665",
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
-              "value": "173",
-              "bayesaverage": "5.95168"
+              "value": "172",
+              "bayesaverage": "5.95405"
             },
             {
               "type": "family",
               "id": "5498",
               "name": "partygames",
               "friendlyname": "Party Game Rank",
-              "value": "544",
-              "bayesaverage": "5.71688"
+              "value": "543",
+              "bayesaverage": "5.7181"
             }
           ]
         }
@@ -13566,16 +13566,16 @@
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "275"
+          "value": "278"
         },
         "average": {
-          "value": "7.49255"
+          "value": "7.49622"
         },
         "bayesaverage": {
-          "value": "5.6967"
+          "value": "5.69926"
         },
         "stddev": {
-          "value": "1.25334"
+          "value": "1.24874"
         },
         "median": {
           "value": "0"
@@ -13586,8 +13586,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "6338",
-            "bayesaverage": "5.6967"
+            "value": "6301",
+            "bayesaverage": "5.69926"
           }
         }
       }
@@ -13659,7 +13659,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3966",
+              "value": "3970",
               "bayesaverage": "5.88644"
             },
             {
@@ -13726,16 +13726,16 @@
       "rating": {
         "value": "7.5",
         "usersrated": {
-          "value": "2194"
+          "value": "2195"
         },
         "average": {
-          "value": "7.05821"
+          "value": "7.05818"
         },
         "bayesaverage": {
-          "value": "6.23952"
+          "value": "6.2397"
         },
         "stddev": {
-          "value": "1.42036"
+          "value": "1.42004"
         },
         "median": {
           "value": "0"
@@ -13747,8 +13747,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "2076",
-              "bayesaverage": "6.23952"
+              "value": "2075",
+              "bayesaverage": "6.2397"
             },
             {
               "type": "family",
@@ -13756,7 +13756,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "601",
-              "bayesaverage": "6.38704"
+              "bayesaverage": "6.38721"
             }
           ]
         }
@@ -13806,7 +13806,7 @@
       "minplaytime": "10",
       "maxplaytime": "10",
       "playingtime": "10",
-      "numowned": "1850",
+      "numowned": "1852",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -13831,7 +13831,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "10973",
+              "value": "10977",
               "bayesaverage": "5.57393"
             },
             {
@@ -13888,20 +13888,20 @@
       "minplaytime": "15",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "2395",
+      "numowned": "2396",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "1115"
+          "value": "1116"
         },
         "average": {
-          "value": "6.58568"
+          "value": "6.58605"
         },
         "bayesaverage": {
-          "value": "5.85212"
+          "value": "5.85246"
         },
         "stddev": {
-          "value": "1.25739"
+          "value": "1.25689"
         },
         "median": {
           "value": "0"
@@ -13913,16 +13913,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "4253",
-              "bayesaverage": "5.85212"
+              "value": "4251",
+              "bayesaverage": "5.85246"
             },
             {
               "type": "family",
               "id": "4665",
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
-              "value": "55",
-              "bayesaverage": "6.4626"
+              "value": "54",
+              "bayesaverage": "6.4632"
             }
           ]
         }
@@ -13997,7 +13997,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "3132",
+              "value": "3133",
               "bayesaverage": "6.00509"
             },
             {
@@ -14058,20 +14058,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "18214",
+      "numowned": "18226",
       "rating": {
         "value": "8",
         "usersrated": {
-          "value": "12414"
+          "value": "12419"
         },
         "average": {
-          "value": "7.82392"
+          "value": "7.82423"
         },
         "bayesaverage": {
-          "value": "7.39028"
+          "value": "7.39056"
         },
         "stddev": {
-          "value": "1.37329"
+          "value": "1.37314"
         },
         "median": {
           "value": "0"
@@ -14083,8 +14083,8 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "183",
-              "bayesaverage": "7.39028"
+              "value": "181",
+              "bayesaverage": "7.39056"
             },
             {
               "type": "family",
@@ -14092,7 +14092,7 @@
               "name": "abstracts",
               "friendlyname": "Abstract Game Rank",
               "value": "5",
-              "bayesaverage": "7.44033"
+              "bayesaverage": "7.44062"
             }
           ]
         }
@@ -14149,20 +14149,20 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "6474",
+      "numowned": "6476",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "1336"
+          "value": "1337"
         },
         "average": {
-          "value": "8.2363"
+          "value": "8.23687"
         },
         "bayesaverage": {
-          "value": "6.46884"
+          "value": "6.46956"
         },
         "stddev": {
-          "value": "1.18145"
+          "value": "1.1812"
         },
         "median": {
           "value": "0"
@@ -14175,7 +14175,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "Not Ranked",
-              "bayesaverage": "6.46884"
+              "bayesaverage": "6.46956"
             },
             {
               "type": "family",
@@ -14236,7 +14236,7 @@
       "minplaytime": "30",
       "maxplaytime": "60",
       "playingtime": "60",
-      "numowned": "5103",
+      "numowned": "5106",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -14324,20 +14324,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "5076",
+      "numowned": "5077",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2849"
+          "value": "2850"
         },
         "average": {
-          "value": "6.48615"
+          "value": "6.48633"
         },
         "bayesaverage": {
-          "value": "6.02348"
+          "value": "6.02367"
         },
         "stddev": {
-          "value": "1.34099"
+          "value": "1.34079"
         },
         "median": {
           "value": "0"
@@ -14350,15 +14350,15 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "3038",
-              "bayesaverage": "6.02348"
+              "bayesaverage": "6.02367"
             },
             {
               "type": "family",
               "id": "5499",
               "name": "familygames",
               "friendlyname": "Family Game Rank",
-              "value": "1003",
-              "bayesaverage": "6.11479"
+              "value": "1004",
+              "bayesaverage": "6.115"
             }
           ]
         }
@@ -14407,20 +14407,20 @@
       "minplaytime": "15",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3829",
+      "numowned": "3835",
       "rating": {
         "value": "7",
         "usersrated": {
-          "value": "2082"
+          "value": "2084"
         },
         "average": {
-          "value": "7.17171"
+          "value": "7.17189"
         },
         "bayesaverage": {
-          "value": "6.25586"
+          "value": "6.25638"
         },
         "stddev": {
-          "value": "1.29873"
+          "value": "1.29865"
         },
         "median": {
           "value": "0"
@@ -14433,7 +14433,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "2011",
-              "bayesaverage": "6.25586"
+              "bayesaverage": "6.25638"
             },
             {
               "type": "family",
@@ -14441,7 +14441,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "588",
-              "bayesaverage": "6.39735"
+              "bayesaverage": "6.39772"
             }
           ]
         }
@@ -14513,7 +14513,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "22861",
+            "value": "22873",
             "bayesaverage": "5.50915"
           }
         }
@@ -14566,20 +14566,20 @@
       "minplaytime": "20",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "684",
+      "numowned": "689",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "308"
+          "value": "309"
         },
         "average": {
-          "value": "6.37045"
+          "value": "6.36764"
         },
         "bayesaverage": {
-          "value": "5.60047"
+          "value": "5.60083"
         },
         "stddev": {
-          "value": "1.23699"
+          "value": "1.23729"
         },
         "median": {
           "value": "0"
@@ -14590,8 +14590,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "9351",
-            "bayesaverage": "5.60047"
+            "value": "9339",
+            "bayesaverage": "5.60083"
           }
         }
       }
@@ -14663,7 +14663,7 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "10793",
+              "value": "10799",
               "bayesaverage": "5.57619"
             },
             {
@@ -14721,20 +14721,20 @@
       "minplaytime": "15",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "13309",
+      "numowned": "13314",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "6186"
+          "value": "6188"
         },
         "average": {
-          "value": "7.56493"
+          "value": "7.56489"
         },
         "bayesaverage": {
-          "value": "6.93837"
+          "value": "6.93849"
         },
         "stddev": {
-          "value": "1.30497"
+          "value": "1.30478"
         },
         "median": {
           "value": "0"
@@ -14747,7 +14747,7 @@
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
               "value": "576",
-              "bayesaverage": "6.93837"
+              "bayesaverage": "6.93849"
             },
             {
               "type": "family",
@@ -14755,7 +14755,7 @@
               "name": "childrensgames",
               "friendlyname": "Children's Game Rank",
               "value": "1",
-              "bayesaverage": "7.48462"
+              "bayesaverage": "7.4848"
             },
             {
               "type": "family",
@@ -14763,7 +14763,7 @@
               "name": "familygames",
               "friendlyname": "Family Game Rank",
               "value": "118",
-              "bayesaverage": "7.05585"
+              "bayesaverage": "7.05597"
             }
           ]
         }
@@ -14840,7 +14840,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "19986",
+            "value": "19991",
             "bayesaverage": "5.51773"
           }
         }
@@ -14894,20 +14894,20 @@
       "minplaytime": "15",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "54",
+      "numowned": "55",
       "rating": {
         "value": "N/A",
         "usersrated": {
-          "value": "42"
+          "value": "44"
         },
         "average": {
-          "value": "7.49881"
+          "value": "7.52159"
         },
         "bayesaverage": {
-          "value": "5.53485"
+          "value": "5.53701"
         },
         "stddev": {
-          "value": "1.21521"
+          "value": "1.21077"
         },
         "median": {
           "value": "0"
@@ -14918,8 +14918,8 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "15517",
-            "bayesaverage": "5.53485"
+            "value": "15141",
+            "bayesaverage": "5.53701"
           }
         }
       }
@@ -15055,7 +15055,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "29191",
+            "value": "29204",
             "bayesaverage": "5.47464"
           }
         }
@@ -15182,7 +15182,7 @@
       "minplaytime": "10",
       "maxplaytime": "20",
       "playingtime": "20",
-      "numowned": "315",
+      "numowned": "317",
       "rating": {
         "value": "7",
         "usersrated": {
@@ -15206,7 +15206,7 @@
             "id": "1",
             "name": "boardgame",
             "friendlyname": "Board Game Rank",
-            "value": "10101",
+            "value": "10104",
             "bayesaverage": "5.58701"
           }
         }
@@ -15254,20 +15254,20 @@
       "minplaytime": "30",
       "maxplaytime": "30",
       "playingtime": "30",
-      "numowned": "3678",
+      "numowned": "3688",
       "rating": {
         "value": "7.5",
         "usersrated": {
           "value": "1712"
         },
         "average": {
-          "value": "7.92898"
+          "value": "7.93132"
         },
         "bayesaverage": {
-          "value": "6.48466"
+          "value": "6.4857"
         },
         "stddev": {
-          "value": "1.17308"
+          "value": "1.16923"
         },
         "median": {
           "value": "0"
@@ -15279,16 +15279,16 @@
               "id": "1",
               "name": "boardgame",
               "friendlyname": "Board Game Rank",
-              "value": "1358",
-              "bayesaverage": "6.48466"
+              "value": "1357",
+              "bayesaverage": "6.4857"
             },
             {
               "type": "family",
               "id": "5497",
               "name": "strategygames",
               "friendlyname": "Strategy Game Rank",
-              "value": "718",
-              "bayesaverage": "6.64982"
+              "value": "717",
+              "bayesaverage": "6.65115"
             }
           ]
         }
