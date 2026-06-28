@@ -499,6 +499,78 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "453162",
+    "subtype": "boardgame",
+    "collid": "146884773",
+    "name": {
+      "sortindex": "1",
+      "value": "Amanite"
+    },
+    "yearpublished": {
+      "value": "2025"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/N11FtTMUMN1FEsRZ2QABMg__original/img/RFUCht89oLicyJzBwCNN_eJOA8w=/0x0/filters:format(png)/pic9075748.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/N11FtTMUMN1FEsRZ2QABMg__small/img/r6p9jqegdM0mOO3GQfmIETT-Q_0=/fit-in/200x150/filters:strip_icc()/pic9075748.png"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "30",
+      "maxplaytime": "30",
+      "playingtime": "30",
+      "numowned": "257",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "168"
+        },
+        "average": {
+          "value": "7.41548"
+        },
+        "bayesaverage": {
+          "value": "5.61793"
+        },
+        "stddev": {
+          "value": "1.09287"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": {
+            "type": "subtype",
+            "id": "1",
+            "name": "boardgame",
+            "friendlyname": "Board Game Rank",
+            "value": "8602",
+            "bayesaverage": "5.61793"
+          }
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Thanos Vasof"
+    ],
+    "mechanics": [
+      "Deduction",
+      "I Cut, You Choose",
+      "Set Collection"
+    ],
+    "categories": [
+      "Deduction"
+    ],
+    "weight": "1.8333",
+    "type": "boardgame"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "338093",
     "subtype": "boardgame",
     "collid": "138313880",
@@ -5920,7 +5992,7 @@
       "minplaytime": "60",
       "maxplaytime": "90",
       "playingtime": "90",
-      "numowned": "472",
+      "numowned": "473",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -7766,7 +7838,7 @@
       "minplaytime": "10",
       "maxplaytime": "15",
       "playingtime": "15",
-      "numowned": "231",
+      "numowned": "230",
       "rating": {
         "value": "N/A",
         "usersrated": {
@@ -7931,7 +8003,7 @@
       "playingtime": "20",
       "numowned": "11689",
       "rating": {
-        "value": "N/A",
+        "value": "7.5",
         "usersrated": {
           "value": "6345"
         },
