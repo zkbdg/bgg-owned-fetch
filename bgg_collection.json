@@ -79,9 +79,10 @@
       "Card Game",
       "Fantasy"
     ],
-    "weight": "1.6769",
+    "weight": "1.6571",
     "type": "boardgame",
-    "lastplay": "2026-01-15"
+    "lastplay": "2026-01-15",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -154,7 +155,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2025-07-13"
+    "lastplay": "2025-07-13",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -236,9 +238,10 @@
       "Card Game",
       "Farming"
     ],
-    "weight": "1.2452",
+    "weight": "1.2342",
     "type": "boardgame",
-    "lastplay": "2025-11-19"
+    "lastplay": "2025-11-19",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -329,8 +332,9 @@
       "Economic",
       "Territory Building"
     ],
-    "weight": "2.4885",
-    "type": "boardgame"
+    "weight": "2.4883",
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -423,9 +427,10 @@
       "Fighting",
       "Science Fiction"
     ],
-    "weight": "2.8019",
+    "weight": "2.8025",
     "type": "boardgame",
-    "lastplay": "2026-03-16"
+    "lastplay": "2026-03-16",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -495,7 +500,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-06-24"
+    "lastplay": "2026-06-24",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -567,7 +573,8 @@
       "Deduction"
     ],
     "weight": "1.8333",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -654,7 +661,8 @@
       "Mythology"
     ],
     "weight": "2.697",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -750,9 +758,10 @@
       "Economic",
       "Medieval"
     ],
-    "weight": "2.7627",
+    "weight": "2.7644",
     "type": "boardgame",
-    "lastplay": "2026-04-02"
+    "lastplay": "2026-04-02",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -837,8 +846,9 @@
       "Expansion for Base-game",
       "Medieval"
     ],
-    "weight": "2.8514",
-    "type": "boardgameexpansion"
+    "weight": "2.8533",
+    "type": "boardgameexpansion",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -914,7 +924,8 @@
       "Medieval"
     ],
     "weight": "3.3143",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -1006,8 +1017,9 @@
       "Space Exploration",
       "Wargame"
     ],
-    "weight": "3.4444",
-    "type": "boardgame"
+    "weight": "3.4442",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -1101,7 +1113,8 @@
       "Wargame"
     ],
     "weight": "3.2632",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -1193,8 +1206,9 @@
       "Negotiation",
       "Science Fiction"
     ],
-    "weight": "4.5311",
-    "type": "boardgameexpansion"
+    "weight": "4.5389",
+    "type": "boardgameexpansion",
+    "minage": "0"
   },
   {
     "objecttype": "thing",
@@ -1292,7 +1306,8 @@
     ],
     "weight": "1.7719",
     "type": "boardgame",
-    "lastplay": "2026-07-04"
+    "lastplay": "2026-07-04",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -1373,9 +1388,10 @@
       "Abstract Strategy",
       "Puzzle"
     ],
-    "weight": "1.6538",
+    "weight": "1.6667",
     "type": "boardgameexpansion",
-    "lastplay": "2026-04-01"
+    "lastplay": "2026-04-01",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -1458,9 +1474,10 @@
       "Card Game",
       "Print & Play"
     ],
-    "weight": "1.1307",
+    "weight": "1.1281",
     "type": "boardgame",
-    "lastplay": "2026-06-18"
+    "lastplay": "2026-06-18",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -1551,8 +1568,9 @@
       "Environmental",
       "Industry / Manufacturing"
     ],
-    "weight": "4.1137",
-    "type": "boardgame"
+    "weight": "4.1141",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -1634,9 +1652,10 @@
       "Ancient",
       "Card Game"
     ],
-    "weight": "1.8881",
+    "weight": "1.8882",
     "type": "boardgame",
-    "lastplay": "2026-03-04"
+    "lastplay": "2026-03-04",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -1713,7 +1732,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -1789,7 +1809,8 @@
     ],
     "weight": "0",
     "type": "boardgame",
-    "lastplay": "2025-11-15"
+    "lastplay": "2025-11-15",
+    "minage": "7"
   },
   {
     "objecttype": "thing",
@@ -1870,7 +1891,8 @@
       "Bluffing"
     ],
     "weight": "1.0938",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -1956,9 +1978,10 @@
     "categories": [
       "Deduction"
     ],
-    "weight": "1.9971",
+    "weight": "2",
     "type": "boardgame",
-    "lastplay": "2026-06-10"
+    "lastplay": "2026-06-10",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -2057,8 +2080,9 @@
       "Trains",
       "Transportation"
     ],
-    "weight": "3.8625",
-    "type": "boardgame"
+    "weight": "3.8611",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -2142,7 +2166,8 @@
       "Economic"
     ],
     "weight": "3.5836",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -2236,9 +2261,10 @@
       "Dice",
       "Racing"
     ],
-    "weight": "1.5131",
+    "weight": "1.5089",
     "type": "boardgame",
-    "lastplay": "2026-01-30"
+    "lastplay": "2026-01-30",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -2310,7 +2336,8 @@
     ],
     "weight": "0",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -2397,8 +2424,9 @@
       "Nautical",
       "Pirates"
     ],
-    "weight": "1.2095",
-    "type": "boardgame"
+    "weight": "1.2085",
+    "type": "boardgame",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -2484,9 +2512,10 @@
       "Medieval",
       "Territory Building"
     ],
-    "weight": "1.8854",
+    "weight": "1.8845",
     "type": "boardgame",
-    "lastplay": "2026-05-22"
+    "lastplay": "2026-05-22",
+    "minage": "7"
   },
   {
     "objecttype": "thing",
@@ -2581,7 +2610,8 @@
     ],
     "weight": "1.9934",
     "type": "boardgameexpansion",
-    "lastplay": "2026-05-22"
+    "lastplay": "2026-05-22",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -2666,7 +2696,8 @@
     ],
     "weight": "1.9265",
     "type": "boardgameexpansion",
-    "lastplay": "2026-05-11"
+    "lastplay": "2026-05-11",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -2760,9 +2791,10 @@
       "Animals",
       "Environmental"
     ],
-    "weight": "1.8424",
+    "weight": "1.8421",
     "type": "boardgame",
-    "lastplay": "2026-07-02"
+    "lastplay": "2026-07-02",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -2856,8 +2888,9 @@
       "Environmental",
       "Puzzle"
     ],
-    "weight": "2.2405",
-    "type": "boardgameexpansion"
+    "weight": "2.2375",
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -2941,8 +2974,9 @@
       "Puzzle",
       "Territory Building"
     ],
-    "weight": "2",
-    "type": "boardgame"
+    "weight": "1.96",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -2970,7 +3004,7 @@
       "playingtime": "25",
       "numowned": "25550",
       "rating": {
-        "value": "N/A",
+        "value": "7.5",
         "usersrated": {
           "value": "15053"
         },
@@ -3028,9 +3062,10 @@
       "Card Game",
       "Medieval"
     ],
-    "weight": "1.7361",
+    "weight": "1.7377",
     "type": "boardgame",
-    "lastplay": "2026-07-03"
+    "lastplay": "2026-07-03",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -3108,7 +3143,8 @@
       "Medieval"
     ],
     "weight": "1.8235",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -3209,9 +3245,10 @@
       "Economic",
       "Negotiation"
     ],
-    "weight": "2.2828",
+    "weight": "2.2813",
     "type": "boardgame",
-    "lastplay": "2026-05-18"
+    "lastplay": "2026-05-18",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -3293,9 +3330,10 @@
       "Economic",
       "Pirates"
     ],
-    "weight": "1.3333",
+    "weight": "1.3226",
     "type": "boardgame",
-    "lastplay": "2025-09-23"
+    "lastplay": "2025-09-23",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -3373,8 +3411,9 @@
       "Environmental",
       "Territory Building"
     ],
-    "weight": "2.2",
-    "type": "boardgame"
+    "weight": "2.2353",
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -3470,9 +3509,10 @@
       "Economic",
       "Fantasy"
     ],
-    "weight": "1.7168",
+    "weight": "1.7103",
     "type": "boardgame",
-    "lastplay": "2025-07-18"
+    "lastplay": "2025-07-18",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -3546,7 +3586,8 @@
     ],
     "weight": "1.125",
     "type": "boardgame",
-    "lastplay": "2026-06-13"
+    "lastplay": "2026-06-13",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -3639,7 +3680,8 @@
       "Fantasy"
     ],
     "weight": "2.3333",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -3729,11 +3771,13 @@
     ],
     "categories": [
       "Adventure",
+      "Exploration",
       "Fantasy"
     ],
-    "weight": "2.4783",
+    "weight": "2.4873",
     "type": "boardgame",
-    "lastplay": "2026-01-01"
+    "lastplay": "2026-01-01",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -3814,9 +3858,10 @@
     "categories": [
       "Economic"
     ],
-    "weight": "1.7917",
+    "weight": "1.7862",
     "type": "boardgame",
-    "lastplay": "2026-05-05"
+    "lastplay": "2026-05-05",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -3888,7 +3933,8 @@
     ],
     "weight": "2",
     "type": "boardgameexpansion",
-    "lastplay": "2026-04-11"
+    "lastplay": "2026-04-11",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -3959,7 +4005,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-05-30"
+    "lastplay": "2026-05-30",
+    "minage": "5"
   },
   {
     "objecttype": "thing",
@@ -4034,7 +4081,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -4123,7 +4171,8 @@
     ],
     "weight": "1.8347",
     "type": "boardgame",
-    "lastplay": "2026-01-07"
+    "lastplay": "2026-01-07",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -4217,8 +4266,9 @@
       "Economic",
       "Nautical"
     ],
-    "weight": "2.9864",
-    "type": "boardgame"
+    "weight": "2.9871",
+    "type": "boardgame",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -4296,8 +4346,9 @@
       "Industry / Manufacturing",
       "Transportation"
     ],
-    "weight": "2.7692",
-    "type": "boardgame"
+    "weight": "2.9",
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -4384,9 +4435,10 @@
       "Party Game",
       "Political"
     ],
-    "weight": "1.4153",
+    "weight": "1.4149",
     "type": "boardgame",
-    "lastplay": "2019-01-07"
+    "lastplay": "2019-01-07",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -4470,7 +4522,8 @@
     ],
     "weight": "1.1783",
     "type": "boardgame",
-    "lastplay": "2026-06-01"
+    "lastplay": "2026-06-01",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -4562,9 +4615,10 @@
     "categories": [
       "Deduction"
     ],
-    "weight": "2.2557",
+    "weight": "2.255",
     "type": "boardgame",
-    "lastplay": "2026-05-03"
+    "lastplay": "2026-05-03",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -4645,9 +4699,10 @@
       "Humor",
       "Number"
     ],
-    "weight": "1.3976",
+    "weight": "1.4048",
     "type": "boardgame",
-    "lastplay": "2025-07-13"
+    "lastplay": "2025-07-13",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -4722,9 +4777,10 @@
       "Nautical",
       "Party Game"
     ],
-    "weight": "1.0952",
+    "weight": "1.0909",
     "type": "boardgame",
-    "lastplay": "2025-11-02"
+    "lastplay": "2025-11-02",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -4805,9 +4861,10 @@
     "categories": [
       "Territory Building"
     ],
-    "weight": "2.087",
+    "weight": "2.0909",
     "type": "boardgame",
-    "lastplay": "2026-07-03"
+    "lastplay": "2026-07-03",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -4899,9 +4956,10 @@
       "Card Game",
       "Exploration"
     ],
-    "weight": "1.1141",
+    "weight": "1.1132",
     "type": "boardgame",
-    "lastplay": "2025-11-28"
+    "lastplay": "2025-11-28",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -4998,7 +5056,8 @@
     ],
     "weight": "2.0667",
     "type": "boardgame",
-    "lastplay": "2026-06-26"
+    "lastplay": "2026-06-26",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -5086,9 +5145,10 @@
       "Prehistoric",
       "Science Fiction"
     ],
-    "weight": "1.2423",
+    "weight": "1.2417",
     "type": "boardgame",
-    "lastplay": "2026-04-30"
+    "lastplay": "2026-04-30",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -5174,8 +5234,9 @@
       "Fantasy",
       "Territory Building"
     ],
-    "weight": "1.0625",
-    "type": "boardgame"
+    "weight": "1.0588",
+    "type": "boardgame",
+    "minage": "5"
   },
   {
     "objecttype": "thing",
@@ -5259,9 +5320,10 @@
       "Children's Game",
       "Fantasy"
     ],
-    "weight": "1.0484",
+    "weight": "1.0469",
     "type": "boardgame",
-    "lastplay": "2026-05-21"
+    "lastplay": "2026-05-21",
+    "minage": "5"
   },
   {
     "objecttype": "thing",
@@ -5357,9 +5419,10 @@
       "Political",
       "Science Fiction"
     ],
-    "weight": "3.0773",
+    "weight": "3.0777",
     "type": "boardgame",
-    "lastplay": "2026-01-27"
+    "lastplay": "2026-01-27",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -5448,8 +5511,9 @@
       "Political",
       "Science Fiction"
     ],
-    "weight": "3.6667",
-    "type": "boardgameexpansion"
+    "weight": "3.625",
+    "type": "boardgameexpansion",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -5510,7 +5574,8 @@
       "Expansion for Base-game"
     ],
     "weight": "0",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "0"
   },
   {
     "objecttype": "thing",
@@ -5600,8 +5665,9 @@
       "Political",
       "Science Fiction"
     ],
-    "weight": "3.3265",
-    "type": "boardgameexpansion"
+    "weight": "3.3232",
+    "type": "boardgameexpansion",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -5690,9 +5756,10 @@
       "Political",
       "Science Fiction"
     ],
-    "weight": "3.235",
+    "weight": "3.2299",
     "type": "boardgameexpansion",
-    "lastplay": "2026-01-27"
+    "lastplay": "2026-01-27",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -5786,8 +5853,9 @@
       "Novel-based",
       "Science Fiction"
     ],
-    "weight": "3.5261",
-    "type": "boardgame"
+    "weight": "3.526",
+    "type": "boardgame",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -5872,9 +5940,10 @@
       "Card Game",
       "Fantasy"
     ],
-    "weight": "2.4545",
+    "weight": "2.4359",
     "type": "boardgame",
-    "lastplay": "2026-02-21"
+    "lastplay": "2026-02-21",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -5969,7 +6038,8 @@
     ],
     "weight": "2.0811",
     "type": "boardgame",
-    "lastplay": "2026-02-21"
+    "lastplay": "2026-02-21",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -6055,7 +6125,8 @@
     ],
     "weight": "3.3043",
     "type": "boardgame",
-    "lastplay": "2026-01-04"
+    "lastplay": "2026-01-04",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -6130,7 +6201,8 @@
       "City Building"
     ],
     "weight": "0",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -6224,8 +6296,9 @@
       "City Building",
       "Fantasy"
     ],
-    "weight": "2.8608",
-    "type": "boardgame"
+    "weight": "2.8625",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -6291,7 +6364,8 @@
     "categories": [],
     "weight": "0",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -6380,9 +6454,10 @@
       "Fantasy",
       "Puzzle"
     ],
-    "weight": "1.9387",
+    "weight": "1.9353",
     "type": "boardgame",
-    "lastplay": "2026-05-21"
+    "lastplay": "2026-05-21",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -6458,9 +6533,10 @@
       "Card Game",
       "Fantasy"
     ],
-    "weight": "1.9091",
+    "weight": "1.913",
     "type": "boardgameexpansion",
-    "lastplay": "2026-05-21"
+    "lastplay": "2026-05-21",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -6554,9 +6630,10 @@
       "Card Game",
       "Educational"
     ],
-    "weight": "2.3254",
+    "weight": "2.3118",
     "type": "boardgame",
-    "lastplay": "2026-01-12"
+    "lastplay": "2026-01-12",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -6650,9 +6727,10 @@
       "Number",
       "Party Game"
     ],
-    "weight": "1.0319",
+    "weight": "1.0315",
     "type": "boardgame",
-    "lastplay": "2026-07-03"
+    "lastplay": "2026-07-03",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -6736,7 +6814,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-01-18"
+    "lastplay": "2026-01-18",
+    "minage": "4"
   },
   {
     "objecttype": "thing",
@@ -6824,9 +6903,10 @@
       "Economic",
       "Farming"
     ],
-    "weight": "2.3862",
+    "weight": "2.3702",
     "type": "boardgame",
-    "lastplay": "2026-05-14"
+    "lastplay": "2026-05-14",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -6900,9 +6980,10 @@
       "Farming",
       "Puzzle"
     ],
-    "weight": "1.5714",
+    "weight": "1.625",
     "type": "boardgame",
-    "lastplay": "2026-05-31"
+    "lastplay": "2026-05-31",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -6975,7 +7056,8 @@
     ],
     "weight": "0",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -7068,7 +7150,8 @@
     ],
     "weight": "1.13",
     "type": "boardgame",
-    "lastplay": "2026-07-04"
+    "lastplay": "2026-07-04",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -7160,7 +7243,8 @@
       "Real-time"
     ],
     "weight": "1.1739",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -7253,9 +7337,10 @@
       "Fantasy",
       "Horror"
     ],
-    "weight": "1.626",
+    "weight": "1.6212",
     "type": "boardgame",
-    "lastplay": "2026-02-01"
+    "lastplay": "2026-02-01",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -7326,9 +7411,10 @@
     "categories": [
       "Card Game"
     ],
-    "weight": "1.0909",
+    "weight": "1.0667",
     "type": "boardgame",
-    "lastplay": "2026-02-21"
+    "lastplay": "2026-02-21",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -7394,7 +7480,101 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-01-13"
+    "lastplay": "2026-01-13",
+    "minage": "0"
+  },
+  {
+    "objecttype": "thing",
+    "objectid": "246192",
+    "subtype": "boardgame",
+    "collid": "147077335",
+    "name": {
+      "sortindex": "1",
+      "value": "Gizmos"
+    },
+    "yearpublished": {
+      "value": "2018"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__original/img/_S-XINN0voB1OzExPPgePrOWurM=/0x0/filters:format(png)/pic4169718.png"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__small/img/e-UqOrMfsLCh2T_igK3wkoFrOu8=/fit-in/200x150/filters:strip_icc()/pic4169718.png"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "4",
+      "minplaytime": "40",
+      "maxplaytime": "50",
+      "playingtime": "50",
+      "numowned": "18991",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "14949"
+        },
+        "average": {
+          "value": "7.36208"
+        },
+        "bayesaverage": {
+          "value": "7.07503"
+        },
+        "stddev": {
+          "value": "1.17063"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "418",
+              "bayesaverage": "7.07503"
+            },
+            {
+              "type": "family",
+              "id": "5497",
+              "name": "strategygames",
+              "friendlyname": "Strategy Game Rank",
+              "value": "308",
+              "bayesaverage": "7.11948"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "91",
+              "bayesaverage": "7.13906"
+            }
+          ]
+        }
+      }
+    },
+    "status": "wishlist",
+    "numplays": {
+      "value": "0"
+    },
+    "designers": [
+      "Phil Walker-Harding"
+    ],
+    "mechanics": [
+      "Action Queue",
+      "Contracts",
+      "Open Drafting",
+      "Race"
+    ],
+    "categories": [
+      "Card Game",
+      "Science Fiction"
+    ],
+    "weight": "2.0557",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -7492,7 +7672,8 @@
     ],
     "weight": "1.3191",
     "type": "boardgame",
-    "lastplay": "2025-09-23"
+    "lastplay": "2025-09-23",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -7574,9 +7755,10 @@
     "categories": [
       "Deduction"
     ],
-    "weight": "1.2941",
+    "weight": "1.2917",
     "type": "boardgame",
-    "lastplay": "2026-07-04"
+    "lastplay": "2026-07-04",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -7664,7 +7846,8 @@
     ],
     "weight": "2.6302",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -7761,9 +7944,10 @@
       "Environmental",
       "Puzzle"
     ],
-    "weight": "2.0116",
+    "weight": "2.0085",
     "type": "boardgame",
-    "lastplay": "2026-05-31"
+    "lastplay": "2026-05-31",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -7828,8 +8012,9 @@
     "categories": [
       "Expansion for Base-game"
     ],
-    "weight": "0",
-    "type": "boardgameexpansion"
+    "weight": "3",
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -7920,8 +8105,9 @@
       "Racing",
       "Sports"
     ],
-    "weight": "2.2007",
-    "type": "boardgame"
+    "weight": "2.201",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -7993,7 +8179,8 @@
     ],
     "weight": "1.125",
     "type": "boardgame",
-    "lastplay": "2026-02-08"
+    "lastplay": "2026-02-08",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -8072,7 +8259,8 @@
     ],
     "weight": "1.25",
     "type": "boardgame",
-    "lastplay": "2025-07-13"
+    "lastplay": "2025-07-13",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -8155,8 +8343,9 @@
       "Print & Play",
       "Trivia"
     ],
-    "weight": "1.0199",
-    "type": "boardgame"
+    "weight": "1.0189",
+    "type": "boardgame",
+    "minage": "16"
   },
   {
     "objecttype": "thing",
@@ -8239,7 +8428,8 @@
     ],
     "weight": "1.1982",
     "type": "boardgame",
-    "lastplay": "2026-07-04"
+    "lastplay": "2026-07-04",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -8330,9 +8520,10 @@
       "Animals",
       "Children's Game"
     ],
-    "weight": "1.057",
+    "weight": "1.0564",
     "type": "boardgame",
-    "lastplay": "2026-02-28"
+    "lastplay": "2026-02-28",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -8408,7 +8599,8 @@
     ],
     "weight": "2",
     "type": "boardgame",
-    "lastplay": "2026-06-15"
+    "lastplay": "2026-06-15",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -8496,8 +8688,9 @@
       "Party Game",
       "Word Game"
     ],
-    "weight": "1.1096",
-    "type": "boardgame"
+    "weight": "1.1081",
+    "type": "boardgame",
+    "minage": "9"
   },
   {
     "objecttype": "thing",
@@ -8571,7 +8764,8 @@
       "Party Game"
     ],
     "weight": "1.1429",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "9"
   },
   {
     "objecttype": "thing",
@@ -8660,8 +8854,9 @@
     "categories": [
       "Economic"
     ],
-    "weight": "2.5837",
-    "type": "boardgame"
+    "weight": "2.5844",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -8747,7 +8942,8 @@
       "Territory Building"
     ],
     "weight": "1.2395",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -8833,7 +9029,8 @@
     ],
     "weight": "1.9054",
     "type": "boardgame",
-    "lastplay": "2026-06-27"
+    "lastplay": "2026-06-27",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -8918,7 +9115,8 @@
     ],
     "weight": "1.9231",
     "type": "boardgame",
-    "lastplay": "2026-06-30"
+    "lastplay": "2026-06-30",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -9006,7 +9204,8 @@
     "categories": [],
     "weight": "1.9167",
     "type": "boardgame",
-    "lastplay": "2026-06-02"
+    "lastplay": "2026-06-02",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -9093,9 +9292,10 @@
       "Animals",
       "Puzzle"
     ],
-    "weight": "2.8561",
+    "weight": "2.8639",
     "type": "boardgame",
-    "lastplay": "2026-02-14"
+    "lastplay": "2026-02-14",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -9174,7 +9374,8 @@
     ],
     "weight": "3",
     "type": "boardgameexpansion",
-    "lastplay": "2026-02-14"
+    "lastplay": "2026-02-14",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -9260,9 +9461,10 @@
       "Exploration",
       "Number"
     ],
-    "weight": "1.4746",
+    "weight": "1.474",
     "type": "boardgame",
-    "lastplay": "2026-06-28"
+    "lastplay": "2026-06-28",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -9343,7 +9545,8 @@
     ],
     "weight": "1.3333",
     "type": "boardgameexpansion",
-    "lastplay": "2026-06-28"
+    "lastplay": "2026-06-28",
+    "minage": "0"
   },
   {
     "objecttype": "thing",
@@ -9439,9 +9642,10 @@
       "Exploration",
       "Fantasy"
     ],
-    "weight": "2.9319",
+    "weight": "2.933",
     "type": "boardgame",
-    "lastplay": "2026-02-10"
+    "lastplay": "2026-02-10",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -9529,9 +9733,10 @@
       "Exploration",
       "Travel"
     ],
-    "weight": "3.104",
+    "weight": "3.1159",
     "type": "boardgameexpansion",
-    "lastplay": "2026-02-10"
+    "lastplay": "2026-02-10",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -9621,9 +9826,10 @@
       "Exploration",
       "Travel"
     ],
-    "weight": "3.2222",
+    "weight": "3.2027",
     "type": "boardgameexpansion",
-    "lastplay": "2026-02-10"
+    "lastplay": "2026-02-10",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -9699,9 +9905,10 @@
       "Adventure",
       "Exploration"
     ],
-    "weight": "3.4516",
+    "weight": "3.3143",
     "type": "boardgameexpansion",
-    "lastplay": "2025-11-30"
+    "lastplay": "2025-11-30",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -9796,9 +10003,10 @@
       "Deduction",
       "Renaissance"
     ],
-    "weight": "1.1199",
+    "weight": "1.1191",
     "type": "boardgame",
-    "lastplay": "2026-05-30"
+    "lastplay": "2026-05-30",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -9882,7 +10090,8 @@
       "Dice"
     ],
     "weight": "1.5195",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -9966,7 +10175,8 @@
       "Expansion for Base-game"
     ],
     "weight": "1.6667",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -10040,7 +10250,8 @@
       "Expansion for Base-game"
     ],
     "weight": "1.7627",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -10141,7 +10352,8 @@
     ],
     "weight": "1.7494",
     "type": "boardgame",
-    "lastplay": "2026-02-22"
+    "lastplay": "2026-02-22",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -10223,7 +10435,8 @@
     ],
     "weight": "1.3333",
     "type": "boardgame",
-    "lastplay": "2026-03-28"
+    "lastplay": "2026-03-28",
+    "minage": "5"
   },
   {
     "objecttype": "thing",
@@ -10310,8 +10523,9 @@
       "Card Game",
       "Economic"
     ],
-    "weight": "2.2783",
-    "type": "boardgame"
+    "weight": "2.2772",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -10400,9 +10614,10 @@
       "Animals",
       "Children's Game"
     ],
-    "weight": "2.0164",
+    "weight": "2",
     "type": "boardgame",
-    "lastplay": "2026-05-24"
+    "lastplay": "2026-05-24",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -10487,7 +10702,8 @@
       "Science Fiction"
     ],
     "weight": "2.1186",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -10553,10 +10769,13 @@
     "mechanics": [
       "Tile Placement"
     ],
-    "categories": [],
-    "weight": "1.5",
+    "categories": [
+      "Fantasy"
+    ],
+    "weight": "1.5714",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -10630,7 +10849,8 @@
       "Game System"
     ],
     "weight": "2",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -10706,7 +10926,8 @@
     ],
     "weight": "1.1818",
     "type": "boardgame",
-    "lastplay": "2026-06-16"
+    "lastplay": "2026-06-16",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -10781,7 +11002,8 @@
     ],
     "weight": "1.0833",
     "type": "boardgame",
-    "lastplay": "2026-02-21"
+    "lastplay": "2026-02-21",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -10875,9 +11097,10 @@
       "Abstract Strategy",
       "Puzzle"
     ],
-    "weight": "1.8807",
+    "weight": "1.8815",
     "type": "boardgame",
-    "lastplay": "2026-05-11"
+    "lastplay": "2026-05-11",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -10968,7 +11191,8 @@
       "Puzzle"
     ],
     "weight": "1.9268",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -11058,7 +11282,8 @@
       "American West"
     ],
     "weight": "2.1478",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -11149,8 +11374,9 @@
       "Religious",
       "Travel"
     ],
-    "weight": "3.0116",
-    "type": "boardgame"
+    "weight": "3.0124",
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -11233,7 +11459,8 @@
     ],
     "weight": "1.05",
     "type": "boardgame",
-    "lastplay": "2026-05-05"
+    "lastplay": "2026-05-05",
+    "minage": "5"
   },
   {
     "objecttype": "thing",
@@ -11335,9 +11562,10 @@
       "Medical",
       "Travel"
     ],
-    "weight": "2.3942",
+    "weight": "2.3939",
     "type": "boardgame",
-    "lastplay": "2025-11-02"
+    "lastplay": "2025-11-02",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -11436,9 +11664,10 @@
       "Environmental",
       "Medical"
     ],
-    "weight": "2.8278",
+    "weight": "2.828",
     "type": "boardgame",
-    "lastplay": "2025-08-10"
+    "lastplay": "2025-08-10",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -11521,7 +11750,8 @@
     ],
     "weight": "1.1132",
     "type": "boardgame",
-    "lastplay": "2026-01-02"
+    "lastplay": "2026-01-02",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -11593,7 +11823,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-05-13"
+    "lastplay": "2026-05-13",
+    "minage": "7"
   },
   {
     "objecttype": "thing",
@@ -11676,9 +11907,10 @@
       "Animals",
       "Dice"
     ],
-    "weight": "1.155",
+    "weight": "1.1553",
     "type": "boardgame",
-    "lastplay": "2026-06-13"
+    "lastplay": "2026-06-13",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -11761,7 +11993,8 @@
     ],
     "weight": "1.0345",
     "type": "boardgame",
-    "lastplay": "2026-04-17"
+    "lastplay": "2026-04-17",
+    "minage": "5"
   },
   {
     "objecttype": "thing",
@@ -11848,9 +12081,10 @@
       "Economic",
       "Farming"
     ],
-    "weight": "3.2665",
+    "weight": "3.2662",
     "type": "boardgame",
-    "lastplay": "2019-01-07"
+    "lastplay": "2019-01-07",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -11941,8 +12175,9 @@
       "Fantasy",
       "Medieval"
     ],
-    "weight": "1.9412",
-    "type": "boardgame"
+    "weight": "1.9418",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -12028,8 +12263,9 @@
       "Ancient",
       "Mythology"
     ],
-    "weight": "2.3051",
-    "type": "boardgame"
+    "weight": "2.3045",
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -12115,8 +12351,9 @@
       "Real-time",
       "Sports"
     ],
-    "weight": "1.3333",
-    "type": "boardgame"
+    "weight": "1.3382",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -12210,8 +12447,9 @@
       "Farming",
       "Science Fiction"
     ],
-    "weight": "2.0049",
-    "type": "boardgame"
+    "weight": "2.0048",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -12306,9 +12544,10 @@
       "Horror",
       "Novel-based"
     ],
-    "weight": "2.1688",
+    "weight": "2.1681",
     "type": "boardgame",
-    "lastplay": "2025-07-18"
+    "lastplay": "2025-07-18",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -12406,7 +12645,8 @@
     ],
     "weight": "1.0202",
     "type": "boardgame",
-    "lastplay": "2026-03-07"
+    "lastplay": "2026-03-07",
+    "minage": "5"
   },
   {
     "objecttype": "thing",
@@ -12493,8 +12733,9 @@
       "Puzzle",
       "Real-time"
     ],
-    "weight": "2.3741",
-    "type": "boardgame"
+    "weight": "2.3734",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -12579,9 +12820,10 @@
       "Medieval",
       "Territory Building"
     ],
-    "weight": "1.8293",
+    "weight": "1.8214",
     "type": "boardgame",
-    "lastplay": "2026-05-06"
+    "lastplay": "2026-05-06",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -12663,9 +12905,10 @@
       "Card Game",
       "Number"
     ],
-    "weight": "1.7092",
+    "weight": "1.7047",
     "type": "boardgame",
-    "lastplay": "2026-06-29"
+    "lastplay": "2026-06-29",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -12766,7 +13009,8 @@
     ],
     "weight": "1.317",
     "type": "boardgame",
-    "lastplay": "2019-01-15"
+    "lastplay": "2019-01-15",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -12864,8 +13108,9 @@
       "Science Fiction",
       "Territory Building"
     ],
-    "weight": "3.4526",
-    "type": "boardgame"
+    "weight": "3.4522",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -12950,8 +13195,9 @@
       "Fighting",
       "Territory Building"
     ],
-    "weight": "2.7143",
-    "type": "boardgameexpansion"
+    "weight": "2.8125",
+    "type": "boardgameexpansion",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -13033,8 +13279,9 @@
       "Expansion for Base-game",
       "Territory Building"
     ],
-    "weight": "3.4425",
-    "type": "boardgameexpansion"
+    "weight": "3.4489",
+    "type": "boardgameexpansion",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -13124,8 +13371,9 @@
       "Science Fiction",
       "Territory Building"
     ],
-    "weight": "3.4248",
-    "type": "boardgameexpansion"
+    "weight": "3.4211",
+    "type": "boardgameexpansion",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -13208,8 +13456,9 @@
       "Expansion for Base-game",
       "Transportation"
     ],
-    "weight": "3.4105",
-    "type": "boardgameexpansion"
+    "weight": "3.4227",
+    "type": "boardgameexpansion",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -13298,7 +13547,8 @@
       "Fantasy"
     ],
     "weight": "2.7849",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -13385,8 +13635,9 @@
       "Science Fiction",
       "Space Exploration"
     ],
-    "weight": "3.83",
-    "type": "boardgame"
+    "weight": "3.8296",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -13472,9 +13723,10 @@
       "Card Game",
       "Party Game"
     ],
-    "weight": "1.1144",
+    "weight": "1.1129",
     "type": "boardgame",
-    "lastplay": "2025-06-07"
+    "lastplay": "2025-06-07",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -13559,9 +13811,10 @@
       "Nautical",
       "Pirates"
     ],
-    "weight": "1.7331",
+    "weight": "1.7262",
     "type": "boardgame",
-    "lastplay": "2026-05-13"
+    "lastplay": "2026-05-13",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -13633,7 +13886,8 @@
       "Puzzle"
     ],
     "weight": "0",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "15"
   },
   {
     "objecttype": "thing",
@@ -13728,9 +13982,10 @@
       "Aviation / Flight",
       "Dice"
     ],
-    "weight": "2.0383",
+    "weight": "2.0444",
     "type": "boardgame",
-    "lastplay": "2026-06-05"
+    "lastplay": "2026-06-05",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -13815,7 +14070,8 @@
       "Aviation / Flight"
     ],
     "weight": "2.25",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -13888,7 +14144,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-06-29"
+    "lastplay": "2026-06-29",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -13982,9 +14239,10 @@
       "Mythology",
       "Territory Building"
     ],
-    "weight": "4.0735",
+    "weight": "4.0736",
     "type": "boardgame",
-    "lastplay": "2026-03-25"
+    "lastplay": "2026-03-25",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -14071,9 +14329,10 @@
       "Fighting",
       "Mythology"
     ],
-    "weight": "4.2298",
+    "weight": "4.2329",
     "type": "boardgameexpansion",
-    "lastplay": "2026-03-23"
+    "lastplay": "2026-03-23",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -14159,9 +14418,10 @@
       "Mythology",
       "Territory Building"
     ],
-    "weight": "4.5455",
+    "weight": "4.5217",
     "type": "boardgameexpansion",
-    "lastplay": "2026-03-23"
+    "lastplay": "2026-03-23",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -14250,9 +14510,10 @@
       "Mythology",
       "Territory Building"
     ],
-    "weight": "4.5246",
+    "weight": "4.5225",
     "type": "boardgameexpansion",
-    "lastplay": "2026-03-23"
+    "lastplay": "2026-03-23",
+    "minage": "13"
   },
   {
     "objecttype": "thing",
@@ -14354,8 +14615,9 @@
       "Mythology",
       "Territory Building"
     ],
-    "weight": "4.4571",
-    "type": "boardgameexpansion"
+    "weight": "4.4384",
+    "type": "boardgameexpansion",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -14439,9 +14701,10 @@
       "Economic",
       "Renaissance"
     ],
-    "weight": "1.7757",
+    "weight": "1.774",
     "type": "boardgame",
-    "lastplay": "2026-05-18"
+    "lastplay": "2026-05-18",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -14534,9 +14797,10 @@
       "Economic",
       "Renaissance"
     ],
-    "weight": "2.0263",
+    "weight": "2.0283",
     "type": "boardgame",
-    "lastplay": "2026-05-08"
+    "lastplay": "2026-05-08",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -14613,7 +14877,8 @@
       "Renaissance"
     ],
     "weight": "0",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -14697,7 +14962,8 @@
       "Renaissance"
     ],
     "weight": "2.1538",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -14784,9 +15050,10 @@
       "Movies / TV / Radio theme",
       "Science Fiction"
     ],
-    "weight": "2.1579",
+    "weight": "2.163",
     "type": "boardgame",
-    "lastplay": "2025-08-10"
+    "lastplay": "2025-08-10",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -14877,9 +15144,10 @@
       "Trains",
       "Transportation"
     ],
-    "weight": "2.3023",
+    "weight": "2.2955",
     "type": "boardgame",
-    "lastplay": "2026-01-19"
+    "lastplay": "2026-01-19",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -14962,7 +15230,8 @@
     ],
     "weight": "1.8969",
     "type": "boardgame",
-    "lastplay": "2025-07-13"
+    "lastplay": "2025-07-13",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -15035,7 +15304,8 @@
     ],
     "weight": "1.6667",
     "type": "boardgame",
-    "lastplay": "2026-06-01"
+    "lastplay": "2026-06-01",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -15063,7 +15333,7 @@
       "playingtime": "20",
       "numowned": "493",
       "rating": {
-        "value": "N/A",
+        "value": "7",
         "usersrated": {
           "value": "182"
         },
@@ -15108,7 +15378,8 @@
     ],
     "weight": "1.5",
     "type": "boardgame",
-    "lastplay": "2026-07-04"
+    "lastplay": "2026-07-04",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -15201,9 +15472,10 @@
       "Fantasy",
       "Territory Building"
     ],
-    "weight": "3.9725",
+    "weight": "3.9722",
     "type": "boardgame",
-    "lastplay": "2019-01-08"
+    "lastplay": "2019-01-08",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -15285,7 +15557,8 @@
       "Medieval"
     ],
     "weight": "1.8287",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -15378,8 +15651,9 @@
       "Medieval",
       "Territory Building"
     ],
-    "weight": "2.9706",
-    "type": "boardgame"
+    "weight": "2.9703",
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -15466,8 +15740,9 @@
       "Mythology",
       "Nautical"
     ],
-    "weight": "2.05",
-    "type": "boardgame"
+    "weight": "2.0494",
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -15550,8 +15825,9 @@
       "Dice",
       "Fantasy"
     ],
-    "weight": "3.0667",
-    "type": "boardgame"
+    "weight": "3.1273",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -15651,9 +15927,10 @@
       "Fantasy",
       "Novel-based"
     ],
-    "weight": "2.069",
+    "weight": "2.0728",
     "type": "boardgame",
-    "lastplay": "2026-06-21"
+    "lastplay": "2026-06-21",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -15741,9 +16018,10 @@
       "Fantasy",
       "Novel-based"
     ],
-    "weight": "1.8125",
+    "weight": "1.8235",
     "type": "boardgameexpansion",
-    "lastplay": "2026-06-21"
+    "lastplay": "2026-06-21",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -15830,9 +16108,10 @@
       "Fantasy",
       "Novel-based"
     ],
-    "weight": "3.0635",
+    "weight": "3.0959",
     "type": "boardgame",
-    "lastplay": "2025-11-09"
+    "lastplay": "2025-11-09",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -15924,7 +16203,8 @@
     ],
     "weight": "1.0741",
     "type": "boardgame",
-    "lastplay": "2025-07-18"
+    "lastplay": "2025-07-18",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -16008,8 +16288,9 @@
       "Fantasy",
       "Medieval"
     ],
-    "weight": "3.6667",
-    "type": "boardgame"
+    "weight": "3.6837",
+    "type": "boardgame",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -16102,9 +16383,10 @@
       "Exploration",
       "Racing"
     ],
-    "weight": "1.9413",
+    "weight": "1.9421",
     "type": "boardgame",
-    "lastplay": "2026-02-11"
+    "lastplay": "2026-02-11",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -16187,7 +16469,8 @@
       "Racing"
     ],
     "weight": "2.2",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -16270,7 +16553,8 @@
       "Racing"
     ],
     "weight": "2.4286",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -16361,7 +16645,8 @@
       "Expansion for Base-game"
     ],
     "weight": "2",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -16447,9 +16732,10 @@
       "Adventure",
       "Exploration"
     ],
-    "weight": "2.025",
+    "weight": "2.0476",
     "type": "boardgame",
-    "lastplay": "2026-06-13"
+    "lastplay": "2026-06-13",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -16533,7 +16819,8 @@
     ],
     "weight": "1.6538",
     "type": "boardgame",
-    "lastplay": "2026-04-18"
+    "lastplay": "2026-04-18",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -16617,7 +16904,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-01-01"
+    "lastplay": "2026-01-01",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -16709,7 +16997,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-03-13"
+    "lastplay": "2026-03-13",
+    "minage": "4"
   },
   {
     "objecttype": "thing",
@@ -16779,9 +17068,10 @@
     "categories": [
       "Racing"
     ],
-    "weight": "1.25",
+    "weight": "1.3333",
     "type": "boardgame",
-    "lastplay": "2026-06-25"
+    "lastplay": "2026-06-25",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -16863,9 +17153,10 @@
     "categories": [
       "City Building"
     ],
-    "weight": "1.8481",
+    "weight": "1.8415",
     "type": "boardgame",
-    "lastplay": "2026-06-27"
+    "lastplay": "2026-06-27",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -16948,8 +17239,9 @@
     "categories": [
       "Wargame"
     ],
-    "weight": "1.473",
-    "type": "boardgame"
+    "weight": "1.481",
+    "type": "boardgame",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -17035,9 +17327,10 @@
       "Puzzle",
       "Real-time"
     ],
-    "weight": "1.1",
+    "weight": "1.0952",
     "type": "boardgame",
-    "lastplay": "2026-05-30"
+    "lastplay": "2026-05-30",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -17121,7 +17414,8 @@
     ],
     "weight": "1.9118",
     "type": "boardgame",
-    "lastplay": "2026-06-28"
+    "lastplay": "2026-06-28",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -17203,7 +17497,8 @@
     ],
     "weight": "1.2647",
     "type": "boardgame",
-    "lastplay": "2026-03-07"
+    "lastplay": "2026-03-07",
+    "minage": "3"
   },
   {
     "objecttype": "thing",
@@ -17287,7 +17582,8 @@
     ],
     "weight": "1.3462",
     "type": "boardgame",
-    "lastplay": "2026-05-04"
+    "lastplay": "2026-05-04",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -17361,7 +17657,8 @@
     ],
     "weight": "1.1667",
     "type": "boardgame",
-    "lastplay": "2026-05-28"
+    "lastplay": "2026-05-28",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -17447,7 +17744,8 @@
     ],
     "weight": "1.0826",
     "type": "boardgame",
-    "lastplay": "2026-03-15"
+    "lastplay": "2026-03-15",
+    "minage": "4"
   },
   {
     "objecttype": "thing",
@@ -17537,8 +17835,9 @@
       "Medieval",
       "Wargame"
     ],
-    "weight": "2.3194",
-    "type": "boardgame"
+    "weight": "2.3172",
+    "type": "boardgame",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -17625,7 +17924,8 @@
       "Wargame"
     ],
     "weight": "2.3333",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -17713,7 +18013,8 @@
       "Wargame"
     ],
     "weight": "2.3684",
-    "type": "boardgameexpansion"
+    "type": "boardgameexpansion",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -17795,9 +18096,10 @@
       "Animals",
       "Card Game"
     ],
-    "weight": "1.1629",
+    "weight": "1.1622",
     "type": "boardgame",
-    "lastplay": "2026-01-01"
+    "lastplay": "2026-01-01",
+    "minage": "7"
   },
   {
     "objecttype": "thing",
@@ -17878,9 +18180,10 @@
     "categories": [
       "Fantasy"
     ],
-    "weight": "1.8148",
+    "weight": "1.8",
     "type": "boardgame",
-    "lastplay": "2026-01-26"
+    "lastplay": "2026-01-26",
+    "minage": "14"
   },
   {
     "objecttype": "thing",
@@ -17957,7 +18260,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2026-05-06"
+    "lastplay": "2026-05-06",
+    "minage": "4"
   },
   {
     "objecttype": "thing",
@@ -18029,7 +18333,8 @@
     ],
     "weight": "1",
     "type": "boardgame",
-    "lastplay": "2025-07-13"
+    "lastplay": "2025-07-13",
+    "minage": "7"
   },
   {
     "objecttype": "thing",
@@ -18112,7 +18417,8 @@
     ],
     "weight": "1.025",
     "type": "boardgame",
-    "lastplay": "2026-03-14"
+    "lastplay": "2026-03-14",
+    "minage": "6"
   },
   {
     "objecttype": "thing",
@@ -18206,8 +18512,9 @@
       "Horror",
       "Zombies"
     ],
-    "weight": "1.3774",
-    "type": "boardgame"
+    "weight": "1.3727",
+    "type": "boardgame",
+    "minage": "7"
   },
   {
     "objecttype": "thing",
@@ -18285,7 +18592,8 @@
     ],
     "weight": "1.6667",
     "type": "boardgame",
-    "lastplay": "2025-07-13"
+    "lastplay": "2025-07-13",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -18356,7 +18664,8 @@
     ],
     "weight": "1.5",
     "type": "boardgame",
-    "lastplay": "2026-02-21"
+    "lastplay": "2026-02-21",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -18422,7 +18731,8 @@
     ],
     "weight": "0",
     "type": "boardgameexpansion",
-    "lastplay": "2026-04-06"
+    "lastplay": "2026-04-06",
+    "minage": "12"
   },
   {
     "objecttype": "thing",
@@ -18496,7 +18806,8 @@
       "Party Game"
     ],
     "weight": "1",
-    "type": "boardgame"
+    "type": "boardgame",
+    "minage": "10"
   },
   {
     "objecttype": "thing",
@@ -18573,7 +18884,8 @@
     ],
     "weight": "0",
     "type": "boardgame",
-    "lastplay": "2025-07-13"
+    "lastplay": "2025-07-13",
+    "minage": "7"
   },
   {
     "objecttype": "thing",
@@ -18645,7 +18957,8 @@
     ],
     "weight": "1.2857",
     "type": "boardgame",
-    "lastplay": "2026-05-25"
+    "lastplay": "2026-05-25",
+    "minage": "8"
   },
   {
     "objecttype": "thing",
@@ -18732,6 +19045,7 @@
     ],
     "weight": "1.8367",
     "type": "boardgame",
-    "lastplay": "2026-05-03"
+    "lastplay": "2026-05-03",
+    "minage": "10"
   }
 ]
