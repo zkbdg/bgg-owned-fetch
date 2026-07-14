@@ -9043,6 +9043,98 @@
   },
   {
     "objecttype": "thing",
+    "objectid": "70323",
+    "subtype": "boardgame",
+    "collid": "147375112",
+    "name": {
+      "sortindex": "1",
+      "value": "King of Tokyo"
+    },
+    "yearpublished": {
+      "value": "2011"
+    },
+    "image": {
+      "value": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__original/img/hSvWgiRYJCTTuoLOWTW3c8sYtl8=/0x0/filters:format(jpeg)/pic3043734.jpg"
+    },
+    "thumbnail": {
+      "value": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__small/img/OfgWmkGJj5BgOO0zFHEtP5CHfbU=/fit-in/200x150/filters:strip_icc()/pic3043734.jpg"
+    },
+    "stats": {
+      "minplayers": "2",
+      "maxplayers": "6",
+      "minplaytime": "30",
+      "maxplaytime": "30",
+      "playingtime": "30",
+      "numowned": "112517",
+      "rating": {
+        "value": "N/A",
+        "usersrated": {
+          "value": "76183"
+        },
+        "average": {
+          "value": "7.11259"
+        },
+        "bayesaverage": {
+          "value": "7.00692"
+        },
+        "stddev": {
+          "value": "1.33063"
+        },
+        "median": {
+          "value": "0"
+        },
+        "ranks": {
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "498",
+              "bayesaverage": "7.00692"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "138",
+              "bayesaverage": "6.99725"
+            }
+          ]
+        }
+      }
+    },
+    "status": "played(not owned)",
+    "numplays": {
+      "value": "1"
+    },
+    "designers": [
+      "Richard Garfield"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Die Icon Resolution",
+      "King of the Hill",
+      "Open Drafting",
+      "Player Elimination",
+      "Push Your Luck",
+      "Re-rolling and Locking",
+      "Take That"
+    ],
+    "categories": [
+      "Dice",
+      "Fighting",
+      "Movies / TV / Radio theme",
+      "Science Fiction"
+    ],
+    "weight": "1.4844",
+    "type": "boardgame",
+    "minage": "8",
+    "lastplay": "2026-07-14"
+  },
+  {
+    "objecttype": "thing",
     "objectid": "204583",
     "subtype": "boardgame",
     "collid": "146901881",
