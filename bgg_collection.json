@@ -3237,7 +3237,7 @@
       "playingtime": "25",
       "numowned": "4538",
       "rating": {
-        "value": "N/A",
+        "value": "7.5",
         "usersrated": {
           "value": "747"
         },
@@ -20115,7 +20115,7 @@
       "playingtime": "30",
       "numowned": "808",
       "rating": {
-        "value": "N/A",
+        "value": "7",
         "usersrated": {
           "value": "406"
         },
@@ -21431,55 +21431,65 @@
   },
   {
     "objecttype": "thing",
-    "objectid": "102792",
+    "objectid": "651",
     "subtype": "boardgame",
-    "collid": "148211258",
+    "collid": "148268679",
     "name": {
       "sortindex": "1",
-      "value": "Zero"
+      "value": "Zero Down"
     },
     "yearpublished": {
-      "value": "2011"
+      "value": "1998"
     },
     "image": {
-      "value": "https://cf.geekdo-images.com/l3BwCtwlvT67saFF3L8Z5w__original/img/o4FKTEAR7hE-BwMBfp1BDecoIGc=/0x0/filters:format(jpeg)/pic1038768.jpg"
+      "value": "https://cf.geekdo-images.com/3dI-B_5E8kTEIAXkx-Tp5A__original/img/K55SAxrC02fqez9DtUIFSyDFDbQ=/0x0/filters:format(jpeg)/pic5371819.jpg"
     },
     "thumbnail": {
-      "value": "https://cf.geekdo-images.com/l3BwCtwlvT67saFF3L8Z5w__small/img/jnqkM5z8Hk2h4kSAO8Gv-KCpOcc=/fit-in/200x150/filters:strip_icc()/pic1038768.jpg"
+      "value": "https://cf.geekdo-images.com/3dI-B_5E8kTEIAXkx-Tp5A__small/img/pNUkHoVdohY3PpqmO19geuCfrko=/fit-in/200x150/filters:strip_icc()/pic5371819.jpg"
     },
     "stats": {
       "minplayers": "2",
-      "maxplayers": "6",
+      "maxplayers": "5",
       "minplaytime": "20",
-      "maxplaytime": "30",
-      "playingtime": "30",
-      "numowned": "697",
+      "maxplaytime": "20",
+      "playingtime": "20",
+      "numowned": "1901",
       "rating": {
-        "value": "7.5",
+        "value": "N/A",
         "usersrated": {
-          "value": "257"
+          "value": "1066"
         },
         "average": {
-          "value": "5.7404"
+          "value": "6.48364"
         },
         "bayesaverage": {
-          "value": "5.52272"
+          "value": "5.79457"
         },
         "stddev": {
-          "value": "1.7301"
+          "value": "1.30315"
         },
         "median": {
           "value": "0"
         },
         "ranks": {
-          "rank": {
-            "type": "subtype",
-            "id": "1",
-            "name": "boardgame",
-            "friendlyname": "Board Game Rank",
-            "value": "18769",
-            "bayesaverage": "5.52272"
-          }
+          "rank": [
+            {
+              "type": "subtype",
+              "id": "1",
+              "name": "boardgame",
+              "friendlyname": "Board Game Rank",
+              "value": "4903",
+              "bayesaverage": "5.79457"
+            },
+            {
+              "type": "family",
+              "id": "5499",
+              "name": "familygames",
+              "friendlyname": "Family Game Rank",
+              "value": "1535",
+              "bayesaverage": "5.87358"
+            }
+          ]
         }
       }
     },
@@ -21487,15 +21497,19 @@
     "numplays": {
       "value": "1"
     },
-    "designers": [],
-    "mechanics": [],
-    "categories": [
-      "Party Game",
-      "Trivia"
+    "designers": [
+      "Reiner Knizia"
     ],
-    "weight": "1.25",
+    "mechanics": [
+      "Open Drafting",
+      "Set Collection"
+    ],
+    "categories": [
+      "Card Game"
+    ],
+    "weight": "1.2241",
     "type": "boardgame",
-    "minage": "12",
+    "minage": "8",
     "lastplay": "2026-08-06"
   },
   {
